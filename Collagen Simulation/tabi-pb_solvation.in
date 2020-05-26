@@ -1,0 +1,19 @@
+read
+    mol pqr a8xkwvtnow.pqr
+end
+elec name collagen-solvated
+	type tabi
+    mac 0.8
+    mol 1
+    outdata 0
+    pdie 2.0
+    sdens 10.00
+    sdie 78.54
+    srad 1.40
+    temp 298.15
+    tree_n0 500
+    tree_order 3
+
+end
+print elecEnergy 1 end
+quit

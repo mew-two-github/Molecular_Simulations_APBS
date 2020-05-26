@@ -1,0 +1,49 @@
+read
+    mol pqr a8xkwvtnow.pqr
+end
+elec name collagen-solvated
+    mg-auto
+    dime 97 97 97
+    cglen 58.6690 44.1918 60.7274
+    fglen 54.5112 44.1918 55.7220
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    lpbe
+    bcfl sdh
+    pdie 2.0000
+    sdie 78.5400
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+    write pot dx a8xkwvtnow.pqr
+end
+elec name collagen-ref
+    mg-auto
+    dime 97 97 97
+    cglen 58.6690 44.1918 60.7274
+    fglen 54.5112 44.1918 55.7220
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    lpbe
+    bcfl sdh
+    pdie 2.0000
+    sdie 1
+    srfm smol
+    chgm spl2
+    srad 0
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+    write pot dx a8xkwvtnow.pqr
+end
+
+print elecEnergy collagen-solvated - collagen-ref end
+quit
