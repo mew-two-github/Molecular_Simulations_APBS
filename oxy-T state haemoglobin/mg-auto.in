@@ -9,7 +9,7 @@ elec name solvated
     cgcent mol 1
     fgcent mol 1
     mol 1
-    lpbe
+    npbe
     bcfl mdh
     pdie 2.0000
     sdie 78.5400
@@ -30,7 +30,7 @@ elec name ref
     cgcent mol 1
     fgcent mol 1
     mol 1
-    lpbe
+    npbe
     bcfl mdh
     pdie 2.0000
     sdie 1.0
