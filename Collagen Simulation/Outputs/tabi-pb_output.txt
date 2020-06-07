@@ -1,0 +1,27 @@
+IN WATER
+
+Solvation energy = -2379.174784 kJ/mol
+Free energy = -37113.908413 kJ/mol
+
+The max and min potential and normal derivatives on elements area:
+potential 20.670578 -30.850200
+norm derv 355.729653 -836.103513
+
+The max and min potential and normal derivatives on vertices area:
+potential 20.295420 -26.567982
+norm derv 341.924586 -756.016923
+
+IN VACUUM
+
+Solvation energy = 1344.871035 kJ/mol
+Free energy = -33389.862594 kJ/mol
+
+The max and min potential and normal derivatives on elements area:
+potential 710.505568 -704.579887
+norm derv 188.114358 -311.806801
+
+The max and min potential and normal derivatives on vertices area:
+potential 703.948926 -673.176689
+norm derv 183.442310 -305.961574
+
+Therefore, solvation energy = -3724.045784 kJ/mol

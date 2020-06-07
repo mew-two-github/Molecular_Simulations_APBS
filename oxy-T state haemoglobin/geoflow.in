@@ -1,0 +1,20 @@
+read
+    mol pqr zocwsbandp.pqr
+end
+elec 
+    geoflow-auto
+    grid 0.25 0.25 0.25
+    bcfl mdh
+    bconc 0.03346
+    etol 0.00001
+    pdie 2.000
+    sdie 78.5400
+    gamma 0.0001
+    lpbe
+    mol 1
+    press  0.008
+    vdwdisp 0
+
+end
+
+quit
