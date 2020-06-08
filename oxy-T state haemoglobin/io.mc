@@ -2483,3 +2483,19 @@ NOsh_setupCalc:  Mapping ELEC statement 1 (2) to calculation 1 (2)
 Vnm_tstart: starting timer 27 (Setup timer)..
 Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 0.000000e+00
 Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 1.245281e+04
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 0.000000e+00
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 0.000000e+00
+Vnm_tstart: starting timer 27 (Setup timer)..
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 0.000000e+00
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 1.284274e+03
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 0.000000e+00
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 5.000000e-03
+printEnergy:  Performing global reduction (sum)
+Vcom_reduce:  Not compiled with MPI, doing simple copy.
+Vnm_tstop: stopping timer 26 (APBS WALL CLOCK).  CPU TIME = 1.373732e+04

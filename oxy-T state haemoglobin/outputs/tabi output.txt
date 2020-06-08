@@ -1,0 +1,57 @@
+----------------------------------------
+CALCULATION #1 (solvated): BOUNDARY ELEMENT
+
+
+Solvation energy = -11023.130011 kJ/mol
+Free energy = -286748.623162 kJ/mol
+
+The max and min potential and normal derivatives on elements area:
+potential 51.980404 -19.831077
+norm derv 409.912104 -966.286086
+
+The max and min potential and normal derivatives on vertices area:
+potential 45.930790 -18.413820
+norm derv 385.306209 -833.253092
+
+
+
+Returning to APBS caller...
+
+Solvation energy and Coulombic energy in kJ/mol...
+
+  Global net ELEC energy = -1.102313001090E+04
+  Global net COULOMBIC energy = -2.757254931512E+05
+
+  Calculating forces...
+----------------------------------------
+CALCULATION #2 (free): BOUNDARY ELEMENT
+
+
+Solvation energy = 5726.353239 kJ/mol
+Free energy = -269999.139912 kJ/mol
+
+The max and min potential and normal derivatives on elements area:
+potential 893.973348 -539.690744
+norm derv 176.602665 -306.643951
+
+The max and min potential and normal derivatives on vertices area:
+potential 886.900340 -537.147093
+norm derv 174.777124 -290.123553
+
+Returning to APBS caller...
+
+Solvation energy and Coulombic energy in kJ/mol...
+
+  Global net ELEC energy = 5.726353239043E+03
+  Global net COULOMBIC energy = -2.757254931512E+05
+
+
+
+Returning to APBS caller...
+
+Solvation energy and Coulombic energy in kJ/mol...
+
+  Global net ELEC energy = 5.726353239043E+03
+  Global net COULOMBIC energy = -2.757254931512E+05
+
+Free energy change = -1.102313001090E+04 -  5.726353239043E+03 = -1.6749483249943‬E+04
