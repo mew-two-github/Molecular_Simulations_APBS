@@ -1,0 +1,27 @@
+read
+    mol pdb PAA_isotactic.pdb
+end
+elec 
+    mg-auto
+    dime 161 161 193
+    cglen 101.5597 115.2260 121.2389
+    fglen 79.7410 87.7800 91.3170
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    lpbe
+    bcfl sdh
+    pdie 2.0000
+    sdie 78.5400
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+    write pot dx zocwsbandp.pqr
+end
+print elecEnergy 1 end
+quit
