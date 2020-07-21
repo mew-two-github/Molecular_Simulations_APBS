@@ -1,0 +1,22 @@
+read
+    parm flat dat_file.dat
+    mol pdb PAA_isotactic.pdb
+end
+elec
+    geoflow
+    grid 0.25 0.25 0.25
+    bcfl mdh
+    bconc 0.03346
+    etol 0.000001
+    pdie 2.000
+    sdie 78.5400
+    gamma 0.0001
+    npbe
+    ion charge 1 conc 0.282  radius 2.27
+    mol 1
+    press  0.008
+    vdwdisp 1
+
+end
+
+quit
