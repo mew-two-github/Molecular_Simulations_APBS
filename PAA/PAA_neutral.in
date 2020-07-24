@@ -1,9 +1,6 @@
 read
     parm flat PAA_neutral.dat
     mol pdb PAA-ISO.pdb
-    parm flat dat_file.dat
-    mol pdb PAA_isotactic.pdb
-    
 end
 elec name 1
     mg-auto
@@ -33,7 +30,7 @@ elec name 2
     fglen 79.7410 87.7800 91.3170
     cgcent mol 1
     fgcent mol 1
-    mol 2
+    mol 1
     lpbe
     bcfl sdh
     pdie 2.0000
