@@ -4,14 +4,13 @@ read
 end
 elec name 1
     mg-auto
+    npbe
     dime 97 97 97
     cglen 100 100 100
     fglen 65 65 40
     cgcent mol 1
     fgcent mol 1
     mol 1
-    npbe
-    ion charge 1 conc 0.282  radius 2.27
     bcfl sdh
     pdie 2.0000
     sdie 78.5400
@@ -22,6 +21,8 @@ elec name 1
     swin 0.30
     temp 298.15
     calcenergy total
+    ion charge 1 conc 0  radius 2.27
     calcforce no
 end
+print elecEnergy 1 end
 quit
