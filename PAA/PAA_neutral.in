@@ -1,6 +1,6 @@
 read
     parm flat PAA_neutral.dat
-    mol pdb PAA-ISO.pdb
+    mol pdb PAA_iso_COOH.pdb
 end
 elec name 1
     mg-auto

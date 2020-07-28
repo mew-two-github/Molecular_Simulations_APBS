@@ -1,9 +1,7 @@
 read
-    parm flat PAA_neutral.dat
-    mol pdb PAA-ISO.pdb
-    parm flat dat_file.dat
-    mol pdb PAA_isotactic.pdb
-    
+    parm flat all.dat
+    mol pdb PAA_iso_COOH.pdb
+    mol pdb PAA_isotactic_ion.pdb
 end
 elec name 1
     mg-auto
@@ -37,7 +35,7 @@ elec name 2
     lpbe
     bcfl sdh
     pdie 2.0000
-    sdie 1.00
+    sdie 78.54
     srfm smol
     chgm spl2
     sdens 10.00

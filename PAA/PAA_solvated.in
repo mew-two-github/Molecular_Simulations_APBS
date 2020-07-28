@@ -1,6 +1,6 @@
 read
-    parm flat dat_file.dat
-    mol pdb PAA_isotactic.pdb
+    parm flat all.dat
+    mol pdb pdb_withions.pdb
 end
 elec name 1
     mg-auto
@@ -21,7 +21,6 @@ elec name 1
     swin 0.30
     temp 298.15
     calcenergy total
-    ion charge 1 conc 0  radius 2.27
     calcforce no
 end
 print elecEnergy 1 end
