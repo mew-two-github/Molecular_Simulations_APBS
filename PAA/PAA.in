@@ -3,7 +3,7 @@ read
     mol pdb PAA_iso_COOH.pdb
     mol pdb PAA_isotactic_ion.pdb
 end
-elec name 1
+elec name ion_solv
     mg-auto
     dime 161 161 193
     cglen 101.5597 115.2260 121.2389
@@ -15,27 +15,6 @@ elec name 1
     bcfl sdh
     pdie 2.0000
     sdie 78.5400
-    srfm spl2
-    chgm spl2
-    sdens 10.00
-    srad 1.40
-    swin 0.30
-    temp 298.15
-    calcenergy total
-    calcforce no
-end
-elec name 2
-    mg-auto
-    dime 161 161 193
-    cglen 101.5597 115.2260 121.2389
-    fglen 79.7410 87.7800 91.3170
-    cgcent mol 1
-    fgcent mol 1
-    mol 2
-    lpbe
-    bcfl sdh
-    pdie 2.0000
-    sdie 78.54
     srfm smol
     chgm spl2
     sdens 10.00
@@ -45,5 +24,77 @@ elec name 2
     calcenergy total
     calcforce no
 end
-print elecEnergy 1 - 2 end
+elec name ion_ref
+    mg-auto
+    dime 161 161 193
+    cglen 101.5597 115.2260 121.2389
+    fglen 79.7410 87.7800 91.3170
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    lpbe
+    bcfl sdh
+    pdie 2.0000
+    sdie 1.00
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+end
+elec name undissc_solv
+    mg-auto
+    dime 161 161 193
+    cglen 101.5597 115.2260 121.2389
+    fglen 79.7410 87.7800 91.3170
+    cgcent mol 2
+    fgcent mol 2
+    mol 2
+    lpbe
+    bcfl sdh
+    pdie 2.0000
+    sdie 78.54
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 0.0
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+end
+elec name undissc_ref
+    mg-auto
+    dime 161 161 193
+    cglen 101.5597 115.2260 121.2389
+    fglen 79.7410 87.7800 91.3170
+    cgcent mol 2
+    fgcent mol 2
+    mol 2
+    lpbe
+    bcfl sdh
+    pdie 2.0000
+    sdie 1.00
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 0.0
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+end
+# PAA Ion hydration energy
+print elecEnergy ion_solv - ion_ref end
+
+# PAA hydration energy
+print elecEnergy undissc_solv - undissc_ref end
+
+# Ionisation + Solvation
+print elecEnergy ion_solv - undissc_ref end
+# Only the polar component of solvation
+print elecEnergy ion_solv - ion_ref - undissc_solv + undissc_ref end
 quit
