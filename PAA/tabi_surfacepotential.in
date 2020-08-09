@@ -18,5 +18,4 @@ elec
     tree_order 3
 end
 write pot dx surface_potential_with_Na_ions
-
 quit

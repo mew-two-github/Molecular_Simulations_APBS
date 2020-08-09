@@ -1,6 +1,7 @@
 read
     parm flat all.dat
     mol pdb PAA_iso_COOH.pdb
+    mol pdb pdb_withions.pdb
 end
 elec 
     name solvated
@@ -8,7 +9,7 @@ elec
     mac 0.8
     mol 1
     mesh ses
-    outdata 1
+    outdata 0
     pdie 2.0
     sdens 10.00
     sdie 78.54
@@ -16,6 +17,23 @@ elec
     temp 298.15
     tree_n0 500
     tree_order 3
+    calcenergy total
 end
-
+elec 
+    name undis
+    tabi
+    mac 0.8
+    mol 2
+    mesh ses
+    outdata 0
+    pdie 2.0
+    sdens 10.00
+    sdie 78.54
+    srad 1.40
+    temp 298.15
+    tree_n0 500
+    tree_order 3
+    calcenergy total  
+end
+print elecEnergy solvated - undis end
 quit
