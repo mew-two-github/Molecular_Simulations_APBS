@@ -1,0 +1,22 @@
+read
+    parm flat all.dat
+    mol pdb pdb_withions.pdb
+end
+elec 
+    name solvated
+    tabi
+    mac 0.8
+    mol 1
+    mesh ses
+    outdata 1
+    pdie 2.0
+    sdens 10.00
+    sdie 78.54
+    srad 1.40
+    temp 298.15
+    tree_n0 500
+    tree_order 3
+end
+write pot dx surface_potential_with_Na_ions
+
+quit

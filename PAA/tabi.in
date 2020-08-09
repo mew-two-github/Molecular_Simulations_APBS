@@ -1,12 +1,13 @@
 read
-    parm flat dat_file.dat
-    mol pdb PAA_isotactic.pdb
+    parm flat all.dat
+    mol pdb PAA_iso_COOH.pdb
 end
 elec 
     name solvated
     tabi
     mac 0.8
     mol 1
+    mesh ses
     outdata 1
     pdie 2.0
     sdens 10.00
@@ -15,8 +16,6 @@ elec
     temp 298.15
     tree_n0 500
     tree_order 3
-    calcenergy total
 end
 
-print elecEnergy solvated end
 quit

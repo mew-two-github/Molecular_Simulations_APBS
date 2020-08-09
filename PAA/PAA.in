@@ -1,18 +1,18 @@
 read
     parm flat all.dat
+    mol pdb pdb_withions.pdb
     mol pdb PAA_iso_COOH.pdb
-    mol pdb PAA_isotactic_ion.pdb
 end
 elec name ion_solv
     mg-auto
-    dime 161 161 193
-    cglen 101.5597 115.2260 121.2389
-    fglen 79.7410 87.7800 91.3170
+    dime 161 161 161
+    cglen 150 150 150
+    fglen 75 75 75
     cgcent mol 1
     fgcent mol 1
     mol 1
     lpbe
-    bcfl sdh
+    bcfl mdh
     pdie 2.0000
     sdie 78.5400
     srfm smol
@@ -26,14 +26,14 @@ elec name ion_solv
 end
 elec name ion_ref
     mg-auto
-    dime 161 161 193
-    cglen 101.5597 115.2260 121.2389
-    fglen 79.7410 87.7800 91.3170
+    dime 161 161 161
+    cglen 150 150 150
+    fglen 75 75 75
     cgcent mol 1
     fgcent mol 1
     mol 1
     lpbe
-    bcfl sdh
+    bcfl mdh
     pdie 2.0000
     sdie 1.00
     srfm smol
@@ -47,14 +47,14 @@ elec name ion_ref
 end
 elec name undissc_solv
     mg-auto
-    dime 161 161 193
-    cglen 101.5597 115.2260 121.2389
-    fglen 79.7410 87.7800 91.3170
+    dime 161 161 161
+    cglen 150 150 150
+    fglen 75 75 75
     cgcent mol 2
     fgcent mol 2
     mol 2
     lpbe
-    bcfl sdh
+    bcfl mdh
     pdie 2.0000
     sdie 78.54
     srfm smol
@@ -68,14 +68,14 @@ elec name undissc_solv
 end
 elec name undissc_ref
     mg-auto
-    dime 161 161 193
-    cglen 101.5597 115.2260 121.2389
-    fglen 79.7410 87.7800 91.3170
+    dime 161 161 161
+    cglen 150 150 150
+    fglen 75 75 75
     cgcent mol 2
     fgcent mol 2
     mol 2
     lpbe
-    bcfl sdh
+    bcfl mdh
     pdie 2.0000
     sdie 1.00
     srfm smol
