@@ -1,0 +1,27 @@
+read
+    parm flat all.dat
+    mol pdb PAA_iso_COOH.pdb
+end
+elec name ion_solv
+    mg-auto
+    dime 161 161 161
+    cglen 150 150 150
+    fglen 75 75 75
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    npbe
+    bcfl mdh
+    pdie 2.0000
+    sdie 78.5400
+    srfm spl2
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce total
+end
+print elecForce ion_solv end
+quit
