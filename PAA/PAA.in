@@ -11,7 +11,7 @@ elec name ion_solv
     cgcent mol 1
     fgcent mol 1
     mol 1
-    lpbe
+    npbe
     bcfl mdh
     pdie 2.0000
     sdie 78.5400
@@ -32,7 +32,7 @@ elec name ion_ref
     cgcent mol 1
     fgcent mol 1
     mol 1
-    lpbe
+    npbe
     bcfl mdh
     pdie 2.0000
     sdie 1.00
@@ -53,7 +53,7 @@ elec name undissc_solv
     cgcent mol 2
     fgcent mol 2
     mol 2
-    lpbe
+    npbe
     bcfl mdh
     pdie 2.0000
     sdie 78.54
@@ -74,7 +74,7 @@ elec name undissc_ref
     cgcent mol 2
     fgcent mol 2
     mol 2
-    lpbe
+    npbe
     bcfl mdh
     pdie 2.0000
     sdie 1.00
