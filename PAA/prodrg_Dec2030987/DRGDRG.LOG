@@ -1,0 +1,150 @@
+ PROGRAM : PRODRG
+ CONVERTS PDB TO TOPOLOGY BUILDING BLOCK!!!!
+  
+ WRITTEN BY D.M.F. VAN AALTEN AND A. SCHUETTELKOPF 1993-2008
+ 
+ CALLED WITH THE FOLLOWING ARGUMENTS
+
+  1: in.pdb                                                                          
+  2: /home/pi/prodrg/bin/prodrg.param                                                
+  3: VAC EM CGRP NOITER
+
+
+ CONNECTION TABLE
+
+          10  ATOMS
+    1  CHK  +        3    4    5    2    3    4
+    2  HHK  ,        0    1    1
+    3  HHL  ,        0    1    1
+    4  HHM  ,        0    1    1
+    5  CHL  +        3    4    1    8    6    7
+    6  HHN  ,        0    1    5
+    7  HHO  ,        0    1    5
+    8  OHQ  ,        3    2    5    9
+    9  OHR  ,        3    2    8   10
+   10  HHR  ,        0    1    9
+
+    1  HHK  ,        0    1    2
+    2  CHK  -        3    4    1    3    4    5
+    3  HHL  ,        0    1    2
+    4  HHM  ,        0    1    2
+    5  CHL  +        3    4    2    6    7    8
+    6  HHN  ,        0    1    5
+    7  HHO  ,        0    1    5
+    8  OHQ  ,        3    2    5    9
+    9  OHR  ,        3    2    8   10
+   10  HHR  ,        0    1    9
+
+
+ THE FINAL DRUG DESCRIPTOR
+
+9313 2-9322 1+7320 4,7311 0,1010 0,
+
+
+ ASSIGNED ATOM TYPES / CONNECTIVITY
+
+ N  NAME     FFTYPE GC    PDTYPE PC DESCRIPTION                    SP 5 6 NCON  CONNECTIONS
+  1 CHK         CH3 14       CH3 14 ALIPHATIC CH3-GROUP             3 F F  4    2   3   4   5
+  2 HHK          HC 16        HC 16 HYDROGEN BOUND TO CARBON        0 F F  1    1
+  3 HHL          HC 16        HC 16 HYDROGEN BOUND TO CARBON        0 F F  1    1
+  4 HHM          HC 16        HC 16 HYDROGEN BOUND TO CARBON        0 F F  1    1
+  5 CHL         CH2 13       CH2 13 ALIPHATIC CH2-GROUP             3 F F  4    1   6   7   8
+  6 HHN          HC 16        HC 16 HYDROGEN BOUND TO CARBON        0 F F  1    5
+  7 HHO          HC 16        HC 16 HYDROGEN BOUND TO CARBON        0 F F  1    5
+  8 OHQ          OA  3        OA  3 HYDROXYL OXYGEN                 3 F F  2    5   9
+  9 OHR          OA  3        OA  3 HYDROXYL OXYGEN                 3 F F  2    8  10
+ 10 HHR           H 17         H 17 HYDROGEN NOT BOUND TO CARBON    0 F F  1    9
+
+
+ MOLECULE INFO
+
+  MOL. FORMULA:  C2 H6 O2
+  MOL. MASS   :   62.07 U
+
+
+ TOPOLOGY WOES
+
+  - Undetermined angle  HHK  CHK  HHL [       HC-      CH3-       HC],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        85        HC-      CHx-       Cx     4
+    Picked type  85 with score  4.
+
+  - Undetermined angle  HHK  CHK  HHM [       HC-      CH3-       HC],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        85        HC-      CHx-       Cx     4
+    Picked type  85 with score  4.
+
+  - Undetermined angle  HHL  CHK  HHM [       HC-      CH3-       HC],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        85        HC-      CHx-       Cx     4
+    Picked type  85 with score  4.
+
+  - Undetermined angle  HHN  CHL  HHO [       HC-      CH2-       HC],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        85        HC-      CHx-       Cx     4
+    Picked type  85 with score  4.
+
+  - Undetermined angle  HHN  CHL  OHQ [       HC-      CH2-       OA],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        15        Cx-      CHx-       OA     4
+        85        HC-      CHx-       Cx     6
+    Picked type  85 with score  6.
+
+  - Undetermined angle  HHO  CHL  OHQ [       HC-      CH2-       OA],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        15        Cx-      CHx-       OA     4
+        85        HC-      CHx-       Cx     6
+    Picked type  85 with score  6.
+
+  - Undetermined angle  CHL  OHQ  OHR [      CH2-       OA-       OA],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        60         H-       OA-      CH2     4
+        66         P-       OA-      CH2     6
+    Picked type  66 with score  6.
+
+  - Undetermined angle  OHQ  OHR  HHR [       OA-       OA-        H],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        60         H-       OA-      CH2     6
+    Picked type  60 with score  6.
+
+  - Undetermined dihedral  CHL  OHQ  OHR  HHR [      CH2-       OA-       OA-        H],
+    finding best match:
+         1     X-        C-        C-    Y     0
+         2     X-      CR0-       OA-    Y     5
+        14     X-       OA-        P-    Y     6
+    Picked type  14 with score  6.
+
+
+ FEATURE/AFLAG LIST
+
+   256  F F F F F F F F F F  (           0          -1          -1  )
+    1f  F F F F F F F F F F
+    2f  F F F F F F F F F F
+    3f  F F F F F F F F F F
+    4f  F F F F F F F F F F
+    5f  F F F F F F F F F F
+    6f  F F F F F F F F F F
+    7f  F F F F F F F F F F
+    8f  F F F F F F F F F F
+    9f  F F F F F F F F F F
+   10f  F F F F F F F F F F
+   11f  F F F F F F F F F F
+   12f  F F F F F F F F F F
+   13f  F F F F F F F F F F
+   14f  F F F F F F F F F F
+   15f  F F F F F F F F F F
+   16f  F F F F F F F F F F
+   17f  F F F F F F F F F F
+   18f  T F F F T F F T T F
+
+
+ THANK YOU FOR USING PRODRG.....
+

@@ -1,0 +1,56 @@
+PRODRG> Parameter set 'pd/gromos96' (fftype=2).
+PRODRG> 
+PRODRG> 
+PRODRG> Starting up PRODRG version AA180301.0717
+PRODRG> PRODRG written/copyrighted by Daan van Aalten
+PRODRG> and Alexander Schuettelkopf
+PRODRG> 
+PRODRG> Questions/comments to dava@davapc1.bioch.dundee.ac.uk
+PRODRG> 
+PRODRG> When using this software in a publication, cite:
+PRODRG> A. W. Schuettelkopf and D. M. F. van Aalten (2004).
+PRODRG> PRODRG - a tool for high-throughput crystallography
+PRODRG> of protein-ligand complexes.
+PRODRG> Acta Crystallogr. D60, 1355--1363.
+PRODRG> 
+PRODRG> 
+PRODRG> PDB mode detected.
+PRODRG> WARNING: deleted hydrogen(s) from your input.
+PRODRG> WARNING: duplicate atom name C   .
+PRODRG> WARNING: duplicate atom name O   .
+PRODRG> WARNING: atoms with same name found. Auto-renaming.
+PRODRG> WARNING: more than one fragment.
+PRODRG> Molecule complexity index: 1.50.
+PRODRG>   6 hydrogen(s) added.
+PRODRG> Iterative charge generation disabled.
+PRODRG> Using charge groups.
+PRODRG> Net charge on molecule:   0.000
+PRODRG>   8 partial charges      8 ambiguous
+PRODRG>   9 bonds                0 ambiguous
+PRODRG>  14 bond angles          8 ambiguous
+PRODRG>   2 improper dihedrals   0 ambiguous
+PRODRG>   3 dihedrals            1 ambiguous
+PRODRG> Writing GROMACS topology.
+PRODRG> GROMACS topology quality on 0-10 scale:  5.2
+GENDRG> Best structure was iteration 4691 with   0.27256835
+PRODRG> Spawning GROMACS version 4.6.7...
+PRODRG> RMSD from GROMOS bond ideality (Angstrom) :   0.001
+PRODRG> RMSD from GROMOS angle ideality (degrees) :   1.997
+PRODRG> RMSD from GROMOS plane ideality (degrees) :   2.581
+PRODRG> Number of improper improper dihedrals     :       0
+PRODRG> RMSD from starting bonds (Angstrom)  :   0.205
+PRODRG> RMSD from starting angles (degrees)  :  49.189
+PRODRG> RMSD from starting planes (degrees)  :   0.000
+PRODRG> RMSD from starting coords (Angstrom) :   0.670
+PRODRG> Writing SHELX topology.
+PRODRG> Writing CNS topology.
+PRODRG> Writing REFMAC5 topology.
+PRODRG> Writing TNT topology.
+PRODRG> Writing HBPLUS dictionary.
+PRODRG> Writing O dictionary.
+PRODRG> Writing WHAT IF topology.
+PRODRG> Writing MOL2 topology.
+PRODRG> Writing Molfile.
+PRODRG> Writing PDBQ file.
+PRODRG> Writing GAMESS input.
+PRODRG> Normal program end.

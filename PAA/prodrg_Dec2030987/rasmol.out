@@ -1,0 +1,65 @@
+RasMol Molecular Renderer
+Roger Sayle, August 1995
+Copyright (C) Roger Sayle 1992-1999
+Version 2.7.5.2 May 2011
+Copyright (C) Herbert J. Bernstein 1998-2011
+*** See "help notice" for further notices ***
+[8-bit version]
+
+Display window disabled!
+Number of Groups ...... 0 (1)
+Number of Atoms ....... 0 (5)
+Number of Bonds ....... 4
+RasMol> background [255,255,255]
+RasMol> select *.C???
+2 atoms selected!
+RasMol> colour atom [128,128,128]
+RasMol> select not hydrogen
+4 atoms selected!
+RasMol> set fontsize 10
+RasMol> label %a
+RasMol> colour label red
+RasMol> select all
+5 atoms selected!
+RasMol> wireframe 0.15
+RasMol> zoom 150
+             ^
+Parameter value too large!
+RasMol> rotate y 3
+RasMol> write GIF ras100.gif
+RasMol> rotate y 3
+RasMol> write GIF ras101.gif
+RasMol> rotate y 3
+RasMol> write GIF ras102.gif
+RasMol> rotate y 3
+RasMol> write GIF ras103.gif
+RasMol> rotate y 3
+RasMol> write GIF ras104.gif
+RasMol> rotate y 3
+RasMol> write GIF ras105.gif
+RasMol> rotate y 3
+RasMol> write GIF ras106.gif
+RasMol> rotate y 3
+RasMol> write GIF ras107.gif
+RasMol> rotate y 3
+RasMol> write GIF ras108.gif
+RasMol> rotate y 3
+RasMol> write GIF ras109.gif
+RasMol> rotate y -3
+RasMol> write GIF ras110.gif
+RasMol> rotate y -3
+RasMol> write GIF ras111.gif
+RasMol> rotate y -3
+RasMol> write GIF ras112.gif
+RasMol> rotate y -3
+RasMol> write GIF ras113.gif
+RasMol> rotate y -3
+RasMol> write GIF ras114.gif
+RasMol> rotate y -3
+RasMol> write GIF ras115.gif
+RasMol> rotate y -3
+RasMol> write GIF ras116.gif
+RasMol> rotate y -3
+RasMol> write GIF ras117.gif
+RasMol> quit
+

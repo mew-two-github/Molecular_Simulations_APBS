@@ -1,0 +1,20 @@
+ $CONTRL
+   COORD=CART UNITS=ANGS
+   ICHARG=  0
+   SCFTYP=RHF RUNTYP=ENERGY
+ $END
+ $BASIS GBASIS=STO NGAUSS=3 NDFUNC=0 NPFUNC=0 $END
+ $DATA
+PRODRG output for UNL  
+C1
+CHK          6.0   238.650    21.670     9.430
+HHK          1.0   238.942    21.173    10.355
+HHL          1.0   239.200    22.606     9.331
+HHM          1.0   238.799    21.024     8.564
+CHL          6.0   237.150    21.960     9.460
+HHN          1.0   236.857    22.456     8.535
+HHO          1.0   236.963    22.553    10.355
+OHQ          8.0   236.430    20.730     9.590
+OHR          8.0   234.960    20.740     9.650
+HHR          1.0   234.660    20.820    10.600
+ $END

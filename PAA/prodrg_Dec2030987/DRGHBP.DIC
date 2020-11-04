@@ -1,0 +1,15 @@
+# PRODRG output for HBPLUS input
+-u DRG
+# ATOM NAMES
+-M DRG " CHK"
+-M DRG " CHL"
+-M DRG " OHQ"
+-M DRG " OHR"
+# BONDS
+-T DRG " CHK CHL:"
+-T DRG " CHL OHQ:"
+-T DRG " OHQ OHR:"
+# ACCEPTOR (-e) or DONOR (-E) types and number of H-bonds
+-e DRG " OHQ" 2
+-E DRG " OHR" 1
+-e DRG " OHR" 2

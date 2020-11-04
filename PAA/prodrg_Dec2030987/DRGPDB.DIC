@@ -1,0 +1,8 @@
+RESIDUE   UNL      5
+CONECT      CHK    1 CHL 
+CONECT      CHL    2 CHK  OHQ 
+CONECT      OHQ    2 CHL  OHR 
+CONECT      OHR    2 OHQ  HHR 
+CONECT      HHR    1 OHR 
+END
+HET    UNL              5
