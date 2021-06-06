@@ -10,12 +10,12 @@ the third C is the carboxyl carbon (CA)
 first oxygen is single bonded (O1)
 second oxygen is double bonded (O2)
 '''
-nRU = 40 # Number of repeat units
+nRU = 4 # Number of repeat units
 n_atoms  = 6 # Number of atoms per unit
 Tatms = nRU*n_atoms
 
-file_init = 'PAA40_emin.pdb'
-file_new = 'PAA40_renamed.pdb'
+file_init = 'trial2.pdb'
+file_new = 'lol.pdb'
 with open(file_init) as f:
     lines = f.readlines()[2:Tatms+2]
 with open(file_init) as f:
@@ -26,7 +26,7 @@ with open(file_init) as f:
 C_matrix = []
 for line in lines:
     C_matrix.append(line[31:55])
-print(C_matrix[2],C_matrix[0])
+#print(C_matrix[2],C_matrix[0])
 #print((C_matrix[0].split()))
 a = np.empty(shape=(Tatms,3))
 
@@ -37,7 +37,7 @@ for i in range(len(C_matrix)):
 fout = open(file_new,'w')
 AT = ['C1','C2','CA','O1','O2','HA']
 ET=['C','C','C','O','O','H']
-print(a[0][0])
+#print(a[0][0])
 fout.write('COMPND\n')
 fout.write('AUTHOR\n')
 for i in range(Tatms):
