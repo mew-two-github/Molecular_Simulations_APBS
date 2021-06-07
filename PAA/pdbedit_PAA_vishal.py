@@ -41,7 +41,12 @@ ET=['C','C','C','O','O','H']
 fout.write('COMPND\n')
 fout.write('AUTHOR\n')
 for i in range(Tatms):
-    fout.write('ATOM    %3d  %2s  PAAH  %3d    %8.3f%8.3f%8.3f  1.00  0.00           %s\n'%(i+1,AT[i%n_atoms],(i//n_atoms+1),a[i][0],a[i][1],a[i][2],ET[i%n_atoms]))
+    if i < 4:
+        fout.write('ATOM    %3d  %2s  PAHb  %3d    %8.3f%8.3f%8.3f  1.00  0.00           %s\n'%(i+1,AT[i%n_atoms],(i//n_atoms+1),a[i][0],a[i][1],a[i][2],ET[i%n_atoms]))
+    elif i >= Tatms-4:
+        fout.write('ATOM    %3d  %2s  PAHe  %3d    %8.3f%8.3f%8.3f  1.00  0.00           %s\n'%(i+1,AT[i%n_atoms],(i//n_atoms+1),a[i][0],a[i][1],a[i][2],ET[i%n_atoms]))
+    else:
+        fout.write('ATOM    %3d  %2s  PAAH  %3d    %8.3f%8.3f%8.3f  1.00  0.00           %s\n'%(i+1,AT[i%n_atoms],(i//n_atoms+1),a[i][0],a[i][1],a[i][2],ET[i%n_atoms])) 
 for i in range(len(end_lines)):
     fout.write(end_lines[i])
 fout.close()
