@@ -1,13 +1,13 @@
 read
     parm flat all.dat
-    mol pdb PAA40_ion_renamed.pdb
+    mol pdb PAA40_ion_rn_final.pdb
     mol pdb PAA40_isotact_rn2.pdb
 end
 elec name ion_solv
     mg-auto
     dime 161 161 161
-    cglen 150 150 150
-    fglen 75 75 75
+    cglen 180 180 180
+    fglen 90 90 90
     cgcent mol 1
     fgcent mol 1
     mol 1
@@ -27,8 +27,8 @@ end
 elec name ion_ref
     mg-auto
     dime 161 161 161
-    cglen 150 150 150
-    fglen 75 75 75
+    cglen 180 180 180
+    fglen 90 90 90
     cgcent mol 1
     fgcent mol 1
     mol 1
@@ -48,8 +48,8 @@ end
 elec name undissc_solv
     mg-auto
     dime 161 161 161
-    cglen 150 150 150
-    fglen 75 75 75
+    cglen 180 180 180
+    fglen 90 90 90
     cgcent mol 2
     fgcent mol 2
     mol 2
@@ -69,8 +69,8 @@ end
 elec name undissc_ref
     mg-auto
     dime 161 161 161
-    cglen 150 150 150
-    fglen 75 75 75
+    cglen 180 180 180
+    fglen 90 90 90
     cgcent mol 2
     fgcent mol 2
     mol 2
