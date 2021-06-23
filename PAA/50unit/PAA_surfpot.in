@@ -1,8 +1,7 @@
 read
     parm flat all.dat
-    mol pdb PAA40_isotact_rn2.pdb
-    mol pdb PAA40_ion_rn_final_no_Na.pdb
-    mol pdb PAA40_ion_rn_final.pdb
+    mol pdb PAA50_uncharged_rn.pdb
+    mol pdb PAA50_ion_rn.pdb
 end
 elec name mol_solv
     mg-auto
@@ -26,28 +25,6 @@ elec name mol_solv
     calcforce no
     write pot dx surfpot_PAAuncharged
 end
-elec name ion_solv_noNa
-    mg-auto
-    dime 161 161 161
-    cglen 180 180 180
-    fglen 90 90 90
-    cgcent mol 1
-    fgcent mol 1
-    mol 2
-    npbe
-    bcfl mdh
-    pdie 2.0000
-    sdie 78.5400
-    srfm smol
-    chgm spl2
-    sdens 10.00
-    srad 1.40
-    swin 0.30
-    temp 298.15
-    calcenergy total
-    calcforce no
-    write pot dx surfpot_PAAcharged_noNa
-end
 elec name ion_solv
     mg-auto
     dime 161 161 161
@@ -55,7 +32,7 @@ elec name ion_solv
     fglen 90 90 90
     cgcent mol 1
     fgcent mol 1
-    mol 3
+    mol 2
     npbe
     bcfl mdh
     pdie 2.0000
