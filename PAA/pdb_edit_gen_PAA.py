@@ -59,7 +59,7 @@ def main(nRU,file_init, file_new,ion):
             fout.write('ATOM    %3d  %3s  PDB  %3d    %8.3f%8.3f%8.3f  1.00  0.00           %s\n'%(i+1,AT[i%n_atoms],(i//n_atoms+1),a[i][0],a[i][1],a[i][2],ET[i%n_atoms]))
         fout.write('TER {}\n'.format(Tatms+1))
         for i in range(nRU):
-            coords = a[(i+1)*5-1]*0.975
+            coords = (a[(i+1)*5-1]+a[(i+1)*5-2])/2
             fout.write('HETATM {:3d} NA NA {:3d} {:8.3f} {:8.3f} {:8.3f} 1.00 0.00           NA+\n'.format(Tatms+i+2,(i//n_atoms+1),coords[0],coords[1],coords[2]))
     for i in range(len(end_lines)):
         fout.write(end_lines[i])
