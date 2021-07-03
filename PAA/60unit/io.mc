@@ -2802,3 +2802,812 @@ Vgrid_writeDX:  Opening virtual socket...
 Vgrid_writeDX:  Writing to virtual socket...
 Vgrid_writeDX:  Writing comments for ASC format.
 Vnm_tstop: stopping timer 26 (APBS WALL CLOCK).  CPU TIME = 3.157900e+01
+##############################################################################
+# MC-shell I/O capture file.
+# Creation Date and Time:  Sat Jul  3 22:32:25 2021
+
+##############################################################################
+Hello world from PE 0
+Vnm_tstart: starting timer 26 (APBS WALL CLOCK)..
+NOsh_parseInput:  Starting file parsing...
+NOsh: Parsing READ section
+NOsh: Storing molecule 0 path PAA60unit_uncharged_rn.pdb
+NOsh: Storing molecule 1 path PAA60unit_ion_rn.pdb
+NOsh: Done parsing READ section
+NOsh: Done parsing READ section (nmol=2, ndiel=0, nkappa=0, ncharge=0, npot=0)
+NOsh: Parsing ELEC section
+NOsh_parseMG: Parsing parameters for MG calculation
+NOsh_parseMG:  Parsing dime...
+PBEparm_parseToken:  trying dime...
+MGparm_parseToken:  trying dime...
+NOsh_parseMG:  Parsing cglen...
+PBEparm_parseToken:  trying cglen...
+MGparm_parseToken:  trying cglen...
+NOsh_parseMG:  Parsing fglen...
+PBEparm_parseToken:  trying fglen...
+MGparm_parseToken:  trying fglen...
+NOsh_parseMG:  Parsing cgcent...
+PBEparm_parseToken:  trying cgcent...
+MGparm_parseToken:  trying cgcent...
+NOsh_parseMG:  Parsing fgcent...
+PBEparm_parseToken:  trying fgcent...
+MGparm_parseToken:  trying fgcent...
+NOsh_parseMG:  Parsing mol...
+PBEparm_parseToken:  trying mol...
+NOsh_parseMG:  Parsing npbe...
+PBEparm_parseToken:  trying npbe...
+NOsh: parsed npbe
+NOsh_parseMG:  Parsing bcfl...
+PBEparm_parseToken:  trying bcfl...
+NOsh_parseMG:  Parsing pdie...
+PBEparm_parseToken:  trying pdie...
+NOsh_parseMG:  Parsing sdie...
+PBEparm_parseToken:  trying sdie...
+NOsh_parseMG:  Parsing srfm...
+PBEparm_parseToken:  trying srfm...
+NOsh_parseMG:  Parsing chgm...
+PBEparm_parseToken:  trying chgm...
+MGparm_parseToken:  trying chgm...
+NOsh_parseMG:  Parsing sdens...
+PBEparm_parseToken:  trying sdens...
+NOsh_parseMG:  Parsing srad...
+PBEparm_parseToken:  trying srad...
+NOsh_parseMG:  Parsing swin...
+PBEparm_parseToken:  trying swin...
+NOsh_parseMG:  Parsing temp...
+PBEparm_parseToken:  trying temp...
+NOsh_parseMG:  Parsing calcenergy...
+PBEparm_parseToken:  trying calcenergy...
+NOsh_parseMG:  Parsing calcforce...
+PBEparm_parseToken:  trying calcforce...
+NOsh_parseMG:  Parsing write...
+PBEparm_parseToken:  trying write...
+NOsh_parseMG:  Parsing end...
+MGparm_check:  checking MGparm object of type 1.
+NOsh:  nlev = 4, dime = (161, 161, 161)
+NOsh: Done parsing ELEC section (nelec = 1)
+NOsh: Parsing ELEC section
+NOsh_parseMG: Parsing parameters for MG calculation
+NOsh_parseMG:  Parsing dime...
+PBEparm_parseToken:  trying dime...
+MGparm_parseToken:  trying dime...
+NOsh_parseMG:  Parsing cglen...
+PBEparm_parseToken:  trying cglen...
+MGparm_parseToken:  trying cglen...
+NOsh_parseMG:  Parsing fglen...
+PBEparm_parseToken:  trying fglen...
+MGparm_parseToken:  trying fglen...
+NOsh_parseMG:  Parsing cgcent...
+PBEparm_parseToken:  trying cgcent...
+MGparm_parseToken:  trying cgcent...
+NOsh_parseMG:  Parsing fgcent...
+PBEparm_parseToken:  trying fgcent...
+MGparm_parseToken:  trying fgcent...
+NOsh_parseMG:  Parsing mol...
+PBEparm_parseToken:  trying mol...
+NOsh_parseMG:  Parsing npbe...
+PBEparm_parseToken:  trying npbe...
+NOsh: parsed npbe
+NOsh_parseMG:  Parsing bcfl...
+PBEparm_parseToken:  trying bcfl...
+NOsh_parseMG:  Parsing pdie...
+PBEparm_parseToken:  trying pdie...
+NOsh_parseMG:  Parsing sdie...
+PBEparm_parseToken:  trying sdie...
+NOsh_parseMG:  Parsing srfm...
+PBEparm_parseToken:  trying srfm...
+NOsh_parseMG:  Parsing chgm...
+PBEparm_parseToken:  trying chgm...
+MGparm_parseToken:  trying chgm...
+NOsh_parseMG:  Parsing sdens...
+PBEparm_parseToken:  trying sdens...
+NOsh_parseMG:  Parsing srad...
+PBEparm_parseToken:  trying srad...
+NOsh_parseMG:  Parsing swin...
+PBEparm_parseToken:  trying swin...
+NOsh_parseMG:  Parsing temp...
+PBEparm_parseToken:  trying temp...
+NOsh_parseMG:  Parsing calcenergy...
+PBEparm_parseToken:  trying calcenergy...
+NOsh_parseMG:  Parsing calcforce...
+PBEparm_parseToken:  trying calcforce...
+NOsh_parseMG:  Parsing write...
+PBEparm_parseToken:  trying write...
+NOsh_parseMG:  Parsing end...
+MGparm_check:  checking MGparm object of type 1.
+NOsh:  nlev = 4, dime = (161, 161, 161)
+NOsh: Done parsing ELEC section (nelec = 2)
+NOsh: Done parsing file (got QUIT)
+Valist_readPDB: Counted 360 atoms
+Valist_getStatistics:  Max atom coordinate:  (183.55, 4.49, -4.113)
+Valist_getStatistics:  Min atom coordinate:  (39.287, -9.015, -29.689)
+Valist_getStatistics:  Molecule center:  (111.419, -2.2625, -16.901)
+Valist_readPDB: Counted 360 atoms
+Valist_getStatistics:  Max atom coordinate:  (181.972, 4.432, -4.237)
+Valist_getStatistics:  Min atom coordinate:  (43.245, -7.8, -30.038)
+Valist_getStatistics:  Molecule center:  (112.609, -1.684, -17.1375)
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1855):  coarse grid center = 111.419 -2.2625 -16.901
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1860):  fine grid center = 111.419 -2.2625 -16.901
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1872):  Coarse grid spacing = 1.125, 1.125, 1.125
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1874):  Fine grid spacing = 0.5625, 0.5625, 0.5625
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1876):  Displacement between fine and coarse grids = 0, 0, 0
+NOsh:  2 levels of focusing with 0.5, 0.5, 0.5 reductions
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1970):  starting mesh repositioning.
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1972):  coarse mesh center = 111.419 -2.2625 -16.901
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1977):  coarse mesh upper corner = 201.418 87.7375 73.099
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1982):  coarse mesh lower corner = 21.4185 -92.2625 -106.901
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1987):  initial fine mesh upper corner = 156.418 42.7375 28.099
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1992):  initial fine mesh lower corner = 66.4185 -47.2625 -61.901
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2053):  final fine mesh upper corner = 156.418 42.7375 28.099
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2058):  final fine mesh lower corner = 66.4185 -47.2625 -61.901
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalc:  Mapping ELEC statement 0 (1) to calculation 1 (2)
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1855):  coarse grid center = 111.419 -2.2625 -16.901
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1860):  fine grid center = 111.419 -2.2625 -16.901
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1872):  Coarse grid spacing = 1.125, 1.125, 1.125
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1874):  Fine grid spacing = 0.5625, 0.5625, 0.5625
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1876):  Displacement between fine and coarse grids = 0, 0, 0
+NOsh:  2 levels of focusing with 0.5, 0.5, 0.5 reductions
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1970):  starting mesh repositioning.
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1972):  coarse mesh center = 111.419 -2.2625 -16.901
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1977):  coarse mesh upper corner = 201.418 87.7375 73.099
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1982):  coarse mesh lower corner = 21.4185 -92.2625 -106.901
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1987):  initial fine mesh upper corner = 156.418 42.7375 28.099
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1992):  initial fine mesh lower corner = 66.4185 -47.2625 -61.901
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2053):  final fine mesh upper corner = 156.418 42.7375 28.099
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2058):  final fine mesh lower corner = 66.4185 -47.2625 -61.901
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalc:  Mapping ELEC statement 1 (2) to calculation 3 (4)
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 73.1033
+Vpbe_ctor2:  solute dimensions = 144.263 x 13.8367 x 25.9077
+Vpbe_ctor2:  solute charge = 0
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 27 x 51 table
+Vclist_ctor2:  Using 75 x 27 x 51 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.9 max radius
+Vclist_setupGrid:  Grid lengths = (151.259, 20.501, 32.572)
+Vclist_setupGrid:  Grid lower corner = (35.789, -12.513, -33.187)
+Vclist_assignAtoms:  Have 104479 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 76.256
+Vacc_storeParms:  Using 730-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.011000
+Vpmg_fillco:  done filling coefficient arrays
+Vpmg_fillco:  filling boundary arrays
+Vpmg_fillco:  done filling boundary arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 8.960000e-01
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (161, 161, 161)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 9.400000e-02
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (081, 081, 081)
+Vbuildops: Galer: (041, 041, 041)
+Vbuildops: Galer: (021, 021, 021)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 3.600000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.774000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 351409.317360
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.873000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.497338e+04
+Vprtstp: contraction number = 2.497338e+04
+Vnewton: Attempting damping, relres = 0.063960
+Vnewton: Attempting damping, relres = 0.530496
+Vnewton: Damping accepted, relres = 0.063960
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.395972e-02
+Vprtstp: contraction number = 6.395972e-02
+Vnewton: Using errtol_s: 22476.042619
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.301000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.573445e+03
+Vprtstp: contraction number = 2.573445e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.590892e-03
+Vprtstp: contraction number = 1.030475e-01
+Vnewton: Using errtol_s: 2316.100708
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.659000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.877173e+02
+Vprtstp: contraction number = 2.877173e+02
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 7.368773e-04
+Vprtstp: contraction number = 1.118024e-01
+Vnewton: Using errtol_s: 258.945562
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.048000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.461044e+01
+Vprtstp: contraction number = 3.461044e+01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 8.864135e-05
+Vprtstp: contraction number = 1.202932e-01
+Vnewton: Using errtol_s: 31.149395
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.421000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.483387e+00
+Vprtstp: contraction number = 4.483387e+00
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 1.148247e-05
+Vprtstp: contraction number = 1.295386e-01
+Vnewton: Using errtol_s: 4.035049
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.783000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.216345e-01
+Vprtstp: contraction number = 6.216345e-01
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 1.592078e-06
+Vprtstp: contraction number = 1.386529e-01
+Vnewton: Using errtol_s: 0.386429
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.139000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.102649e-02
+Vprtstp: contraction number = 9.102649e-02
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 2.331294e-07
+Vprtstp: contraction number = 1.464309e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 2.725000e+00
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 3.216000e+00
+Vpmg_setPart:  lower corner = (21.4185, -92.2625, -106.901)
+Vpmg_setPart:  upper corner = (201.418, 87.7375, 73.099)
+Vpmg_setPart:  actual minima = (21.4185, -92.2625, -106.901)
+Vpmg_setPart:  actual maxima = (201.418, 87.7375, 73.099)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 1.327380060289E+02 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 7.000000e-03
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 1.000000e-03
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 73.1033
+Vpbe_ctor2:  solute dimensions = 144.263 x 13.8367 x 25.9077
+Vpbe_ctor2:  solute charge = 0
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 27 x 51 table
+Vclist_ctor2:  Using 75 x 27 x 51 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.9 max radius
+Vclist_setupGrid:  Grid lengths = (151.259, 20.501, 32.572)
+Vclist_setupGrid:  Grid lower corner = (35.789, -12.513, -33.187)
+Vclist_assignAtoms:  Have 104479 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 76.256
+Vacc_storeParms:  Using 730-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_ctor2:  Filling boundary with old solution!
+VPMG::focusFillBound -- New mesh mins = 66.4185, -47.2625, -61.901
+VPMG::focusFillBound -- New mesh maxs = 156.418, 42.7375, 28.099
+VPMG::focusFillBound -- Old mesh mins = 21.4185, -92.2625, -106.901
+VPMG::focusFillBound -- Old mesh maxs = 201.418, 87.7375, 73.099
+VPMG::extEnergy:  energy flag = 1
+Vpmg_setPart:  lower corner = (66.4185, -47.2625, -61.901)
+Vpmg_setPart:  upper corner = (156.418, 42.7375, 28.099)
+Vpmg_setPart:  actual minima = (21.4185, -92.2625, -106.901)
+Vpmg_setPart:  actual maxima = (201.418, 87.7375, 73.099)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+VPMG::extEnergy:   Finding extEnergy dimensions...
+VPMG::extEnergy    Disj part lower corner = (66.4185, -47.2625, -61.901)
+VPMG::extEnergy    Disj part upper corner = (156.418, 42.7375, 28.099)
+VPMG::extEnergy    Old lower corner = (21.4185, -92.2625, -106.901)
+VPMG::extEnergy    Old upper corner = (201.418, 87.7375, 73.099)
+Vpmg_qmEnergy:  Zero energy for zero ionic strength!
+VPMG::extEnergy: extQmEnergy = 0 kT
+Vpmg_qfEnergyVolume:  Calculating energy
+VPMG::extEnergy: extQfEnergy = 52.0137 kT
+VPMG::extEnergy: extDiEnergy = 25.7762 kT
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.010000
+Vpmg_fillco:  done filling coefficient arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 6.430000e-01
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (161, 161, 161)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 9.000000e-02
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (081, 081, 081)
+Vbuildops: Galer: (041, 041, 041)
+Vbuildops: Galer: (021, 021, 021)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 3.590000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.690000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 435576.716558
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.787000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.623191e+04
+Vprtstp: contraction number = 4.623191e+04
+Vnewton: Attempting damping, relres = 0.095526
+Vnewton: Attempting damping, relres = 0.546988
+Vnewton: Damping accepted, relres = 0.095526
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.552557e-02
+Vprtstp: contraction number = 9.552557e-02
+Vnewton: Using errtol_s: 41608.714942
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 6.200000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.744526e+03
+Vprtstp: contraction number = 4.744526e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.803264e-03
+Vprtstp: contraction number = 1.026245e-01
+Vnewton: Using errtol_s: 4270.073396
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 6.556000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.130281e+02
+Vprtstp: contraction number = 5.130281e+02
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.060032e-03
+Vprtstp: contraction number = 1.081305e-01
+Vnewton: Using errtol_s: 461.725246
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 6.958000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.760696e+01
+Vprtstp: contraction number = 5.760696e+01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.190290e-04
+Vprtstp: contraction number = 1.122881e-01
+Vnewton: Using errtol_s: 51.846268
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 7.433000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.675458e+00
+Vprtstp: contraction number = 6.675458e+00
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 1.379301e-05
+Vprtstp: contraction number = 1.158794e-01
+Vnewton: Using errtol_s: 6.007912
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 7.786000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.977534e-01
+Vprtstp: contraction number = 7.977534e-01
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 1.648339e-06
+Vprtstp: contraction number = 1.195054e-01
+Vnewton: Using errtol_s: 0.636411
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 8.141000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.843778e-02
+Vprtstp: contraction number = 9.843778e-02
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 2.033947e-07
+Vprtstp: contraction number = 1.233937e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 2.795000e+00
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 3.283000e+00
+Vpmg_setPart:  lower corner = (66.4185, -47.2625, -61.901)
+Vpmg_setPart:  upper corner = (156.418, 42.7375, 28.099)
+Vpmg_setPart:  actual minima = (66.4185, -47.2625, -61.901)
+Vpmg_setPart:  actual maxima = (156.418, 42.7375, 28.099)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 1.048768805615E+03 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 1.000000e-02
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 1.000000e-03
+Vgrid_writeDX:  Opening virtual socket...
+Vgrid_writeDX:  Writing to virtual socket...
+Vgrid_writeDX:  Writing comments for ASC format.
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 70.5732
+Vpbe_ctor2:  solute dimensions = 139.316 x 12.8215 x 26.5526
+Vpbe_ctor2:  solute charge = 1.35003e-13
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 25 x 53 table
+Vclist_ctor2:  Using 75 x 25 x 53 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.9 max radius
+Vclist_setupGrid:  Grid lengths = (145.723, 19.228, 32.797)
+Vclist_setupGrid:  Grid lower corner = (39.747, -11.298, -33.536)
+Vclist_assignAtoms:  Have 111464 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 76.256
+Vacc_storeParms:  Using 730-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.016000
+Vpmg_fillco:  done filling coefficient arrays
+Vpmg_fillco:  filling boundary arrays
+Vpmg_fillco:  done filling boundary arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 9.510000e-01
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (161, 161, 161)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 1.010000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (081, 081, 081)
+Vbuildops: Galer: (041, 041, 041)
+Vbuildops: Galer: (021, 021, 021)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 3.890000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.242200e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 551485.959173
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.252900e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.943464e+04
+Vprtstp: contraction number = 3.943464e+04
+Vnewton: Attempting damping, relres = 0.064356
+Vnewton: Attempting damping, relres = 0.527831
+Vnewton: Damping accepted, relres = 0.064356
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.435554e-02
+Vprtstp: contraction number = 6.435554e-02
+Vnewton: Using errtol_s: 35491.177927
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.294600e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.322799e+03
+Vprtstp: contraction number = 4.322799e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.054611e-03
+Vprtstp: contraction number = 1.096193e-01
+Vnewton: Using errtol_s: 3890.519112
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.332700e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.271994e+02
+Vprtstp: contraction number = 5.271994e+02
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 8.603655e-04
+Vprtstp: contraction number = 1.219579e-01
+Vnewton: Using errtol_s: 474.479488
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.378300e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.975112e+01
+Vprtstp: contraction number = 6.975112e+01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.138307e-04
+Vprtstp: contraction number = 1.323050e-01
+Vnewton: Using errtol_s: 62.776009
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.415400e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.919449e+00
+Vprtstp: contraction number = 9.919449e+00
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 1.618809e-05
+Vprtstp: contraction number = 1.422120e-01
+Vnewton: Using errtol_s: 8.927504
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.451800e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.498564e+00
+Vprtstp: contraction number = 1.498564e+00
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 2.445588e-06
+Vprtstp: contraction number = 1.510733e-01
+Vnewton: Using errtol_s: 1.348707
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.487700e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.376344e-01
+Vprtstp: contraction number = 2.376344e-01
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 3.878085e-07
+Vprtstp: contraction number = 1.585748e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 2.791000e+00
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 3.320000e+00
+Vpmg_setPart:  lower corner = (21.4185, -92.2625, -106.901)
+Vpmg_setPart:  upper corner = (201.418, 87.7375, 73.099)
+Vpmg_setPart:  actual minima = (21.4185, -92.2625, -106.901)
+Vpmg_setPart:  actual maxima = (201.418, 87.7375, 73.099)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 8.793412093849E+02 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 7.000000e-03
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 2.000000e-03
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 70.5732
+Vpbe_ctor2:  solute dimensions = 139.316 x 12.8215 x 26.5526
+Vpbe_ctor2:  solute charge = 1.35003e-13
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 25 x 53 table
+Vclist_ctor2:  Using 75 x 25 x 53 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.9 max radius
+Vclist_setupGrid:  Grid lengths = (145.723, 19.228, 32.797)
+Vclist_setupGrid:  Grid lower corner = (39.747, -11.298, -33.536)
+Vclist_assignAtoms:  Have 111464 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 76.256
+Vacc_storeParms:  Using 730-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_ctor2:  Filling boundary with old solution!
+VPMG::focusFillBound -- New mesh mins = 66.4185, -47.2625, -61.901
+VPMG::focusFillBound -- New mesh maxs = 156.418, 42.7375, 28.099
+VPMG::focusFillBound -- Old mesh mins = 21.4185, -92.2625, -106.901
+VPMG::focusFillBound -- Old mesh maxs = 201.418, 87.7375, 73.099
+VPMG::extEnergy:  energy flag = 1
+Vpmg_setPart:  lower corner = (66.4185, -47.2625, -61.901)
+Vpmg_setPart:  upper corner = (156.418, 42.7375, 28.099)
+Vpmg_setPart:  actual minima = (21.4185, -92.2625, -106.901)
+Vpmg_setPart:  actual maxima = (201.418, 87.7375, 73.099)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+VPMG::extEnergy:   Finding extEnergy dimensions...
+VPMG::extEnergy    Disj part lower corner = (66.4185, -47.2625, -61.901)
+VPMG::extEnergy    Disj part upper corner = (156.418, 42.7375, 28.099)
+VPMG::extEnergy    Old lower corner = (21.4185, -92.2625, -106.901)
+VPMG::extEnergy    Old upper corner = (201.418, 87.7375, 73.099)
+Vpmg_qmEnergy:  Zero energy for zero ionic strength!
+VPMG::extEnergy: extQmEnergy = 0 kT
+Vpmg_qfEnergyVolume:  Calculating energy
+VPMG::extEnergy: extQfEnergy = 331.163 kT
+VPMG::extEnergy: extDiEnergy = 163.449 kT
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.013000
+Vpmg_fillco:  done filling coefficient arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 6.770000e-01
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (161, 161, 161)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 1.260000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (081, 081, 081)
+Vbuildops: Galer: (041, 041, 041)
+Vbuildops: Galer: (021, 021, 021)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 3.960000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.651600e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 581780.453816
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.663100e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.794570e+04
+Vprtstp: contraction number = 6.794570e+04
+Vnewton: Attempting damping, relres = 0.105110
+Vnewton: Attempting damping, relres = 0.551090
+Vnewton: Damping accepted, relres = 0.105110
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.051103e-01
+Vprtstp: contraction number = 1.051103e-01
+Vnewton: Using errtol_s: 61151.130644
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.707300e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.218227e+03
+Vprtstp: contraction number = 7.218227e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.116642e-02
+Vprtstp: contraction number = 1.062352e-01
+Vnewton: Using errtol_s: 6496.404324
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.745200e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.095329e+02
+Vprtstp: contraction number = 8.095329e+02
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.252327e-03
+Vprtstp: contraction number = 1.121512e-01
+Vnewton: Using errtol_s: 728.579601
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.781300e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.507552e+01
+Vprtstp: contraction number = 9.507552e+01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.470795e-04
+Vprtstp: contraction number = 1.174449e-01
+Vnewton: Using errtol_s: 85.567970
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.817500e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.164929e+01
+Vprtstp: contraction number = 1.164929e+01
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 1.802116e-05
+Vprtstp: contraction number = 1.225266e-01
+Vnewton: Using errtol_s: 10.484357
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.856600e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.484647e+00
+Vprtstp: contraction number = 1.484647e+00
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 2.296713e-06
+Vprtstp: contraction number = 1.274454e-01
+Vnewton: Using errtol_s: 1.336183
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.894900e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.964421e-01
+Vprtstp: contraction number = 1.964421e-01
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 3.038911e-07
+Vprtstp: contraction number = 1.323157e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 2.779000e+00
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 3.342000e+00
+Vpmg_setPart:  lower corner = (66.4185, -47.2625, -61.901)
+Vpmg_setPart:  upper corner = (156.418, 42.7375, 28.099)
+Vpmg_setPart:  actual minima = (66.4185, -47.2625, -61.901)
+Vpmg_setPart:  actual maxima = (156.418, 42.7375, 28.099)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 6.002215901212E+03 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 8.000000e-03
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 1.000000e-03
+Vgrid_writeDX:  Opening virtual socket...
+Vgrid_writeDX:  Writing to virtual socket...
+Vgrid_writeDX:  Writing comments for ASC format.
+Vnm_tstop: stopping timer 26 (APBS WALL CLOCK).  CPU TIME = 2.176100e+01

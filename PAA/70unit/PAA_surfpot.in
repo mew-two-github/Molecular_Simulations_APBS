@@ -1,7 +1,7 @@
 read
     parm flat ../all.dat
-    mol pdb PAA70_ion_rn.pdb
     mol pdb PAA70_uncharged_rn.pdb
+    mol pdb PAA70_ion_rn.pdb
 end
 elec name mol_solv
     mg-auto
