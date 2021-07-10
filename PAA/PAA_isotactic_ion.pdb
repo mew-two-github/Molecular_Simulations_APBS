@@ -1,0 +1,304 @@
+CMPND
+Author
+ATOM      1  OFS PDB C   1     -56.470  44.200 -18.030  1.00 20.00           O1-  
+ATOM      2  CFR PDB C   1     -56.370  43.000 -18.350  1.00 20.00           C    
+ATOM      3  OFT PDB C   1     -56.360  42.550 -19.510  1.00 20.00           O1-  
+ATOM      4  CFQ PDB C   1     -56.230  41.990 -17.190  1.00 20.00           C    
+ATOM      5  CFP PDB C   1     -57.620  41.490 -16.790  1.00 20.00           C    
+ATOM      6  CFK PDB C   1     -55.320  40.780 -17.480  1.00 20.00           C    
+ATOM      7  CFL PDB C   1     -53.810  41.080 -17.440  1.00 20.00           C    
+ATOM      8  CFM PDB C   1     -53.450  42.110 -18.530  1.00 20.00           C    
+ATOM      9  OFO PDB C   1     -53.380  41.710 -19.710  1.00 20.00           O1-  
+ATOM     10  OFN PDB C   1     -53.360  43.290 -18.150  1.00 20.00           O1-  
+ATOM     11  CFF PDB C   1     -53.040  39.740 -17.590  1.00 20.00           C    
+ATOM     12  CFG PDB C   1     -51.510  39.810 -17.380  1.00 20.00           C    
+ATOM     13  CFH PDB C   1     -50.880  40.620 -18.520  1.00 20.00           C    
+ATOM     14  OFJ PDB C   1     -50.870  40.110 -19.670  1.00 20.00           O1-  
+ATOM     15  OFI PDB C   1     -50.520  41.780 -18.230  1.00 20.00           O1-  
+ATOM     16  CFA PDB C   1     -50.900  38.390 -17.320  1.00 20.00           C    
+ATOM     17  CFB PDB C   1     -49.470  38.280 -16.730  1.00 20.00           C    
+ATOM     18  CFC PDB C   1     -48.500  39.390 -17.150  1.00 20.00           C    
+ATOM     19  OFE PDB C   1     -48.300  39.540 -18.380  1.00 20.00           O1-  
+ATOM     20  OFD PDB C   1     -48.090  40.140 -16.240  1.00 20.00           O1-  
+ATOM     21  CEV PDB C   1     -48.920  36.840 -16.950  1.00 20.00           C    
+ATOM     22  CEW PDB C   1     -47.390  36.680 -16.900  1.00 20.00           C    
+ATOM     23  CEX PDB C   1     -46.850  36.900 -18.330  1.00 20.00           C    
+ATOM     24  OEZ PDB C   1     -47.150  36.070 -19.210  1.00 20.00           O1-  
+ATOM     25  OEY PDB C   1     -46.160  37.930 -18.500  1.00 20.00           O1-  
+ATOM     26  CEQ PDB C   1     -46.930  35.280 -16.430  1.00 20.00           C    
+ATOM     27  CER PDB C   1     -45.490  35.180 -15.850  1.00 20.00           C    
+ATOM     28  CES PDB C   1     -44.600  36.430 -16.040  1.00 20.00           C    
+ATOM     29  OEU PDB C   1     -44.160  36.640 -17.190  1.00 20.00           O1-  	
+ATOM     30  OET PDB C   1     -44.520  37.200 -15.060  1.00 20.00           O1-  
+ATOM     31  CEL PDB C   1     -44.840  33.830 -16.230  1.00 20.00           C    
+ATOM     32  CEM PDB C   1     -43.300  33.760 -16.130  1.00 20.00           C    
+ATOM     33  CEN PDB C   1     -42.710  34.150 -17.510  1.00 20.00           C    
+ATOM     34  OEP PDB C   1     -43.030  33.460 -18.500  1.00 20.00           O1-  
+ATOM     35  OEO PDB C   1     -41.950  35.140 -17.520  1.00 20.00           O1-  
+ATOM     36  CEG PDB C   1     -42.780  32.340 -15.810  1.00 20.00           C    
+ATOM     37  CEH PDB C   1     -41.460  32.270 -14.990  1.00 20.00           C    
+ATOM     38  CEI PDB C   1     -40.560  33.520 -15.010  1.00 20.00           C    
+ATOM     39  OEK PDB C   1     -40.040  33.840 -16.100  1.00 20.00           O1-  
+ATOM     40  OEJ PDB C   1     -40.500  34.170 -13.950  1.00 20.00           O1-  
+ATOM     41  CEB PDB C   1     -40.730  30.910 -15.220  1.00 20.00           C    
+ATOM     42  CEC PDB C   1     -39.240  30.960 -15.610  1.00 20.00           C    
+ATOM     43  CED PDB C   1     -39.120  31.280 -17.110  1.00 20.00           C    
+ATOM     44  OEF PDB C   1     -39.790  30.590 -17.910  1.00 20.00           O1-  
+ATOM     45  OEE PDB C   1     -38.300  32.160 -17.430  1.00 20.00           O1-  
+ATOM     46  CDW PDB C   1     -38.510  29.620 -15.340  1.00 20.00           C    
+ATOM     47  CDX PDB C   1     -37.010  29.730 -14.990  1.00 20.00           C    
+ATOM     48  CDY PDB C   1     -36.300  30.850 -15.780  1.00 20.00           C    
+ATOM     49  OEA PDB C   1     -36.030  30.620 -16.970  1.00 20.00           O1-  
+ATOM     50  ODZ PDB C   1     -36.150  31.930 -15.180  1.00 20.00           O1-  
+ATOM     51  CDR PDB C   1     -36.300  28.350 -15.130  1.00 20.00           C    
+ATOM     52  CDS PDB C   1     -34.820  28.260 -14.680  1.00 20.00           C    
+ATOM     53  CDT PDB C   1     -33.930  29.150 -15.560  1.00 20.00           C    
+ATOM     54  ODV PDB C   1     -33.780  28.830 -16.760  1.00 20.00           O1-  
+ATOM     55  ODU PDB C   1     -33.510  30.190 -15.010  1.00 20.00           O1-  
+ATOM     56  CDM PDB C   1     -34.290  26.800 -14.750  1.00 20.00           C    
+ATOM     57  CDN PDB C   1     -32.980  26.490 -13.980  1.00 20.00           C    
+ATOM     58  CDO PDB C   1     -31.850  27.540 -14.050  1.00 20.00           C    
+ATOM     59  ODQ PDB C   1     -31.480  27.910 -15.180  1.00 20.00           O1-  
+ATOM     60  ODP PDB C   1     -31.310  27.830 -12.970  1.00 20.00           O1-  
+ATOM     61  CDH PDB C   1     -32.500  25.050 -14.320  1.00 20.00           C    
+ATOM     62  CDI PDB C   1     -30.970  24.860 -14.490  1.00 20.00           C    
+ATOM     63  CDJ PDB C   1     -30.640  24.850 -16.000  1.00 20.00           C    
+ATOM     64  ODL PDB C   1     -31.020  23.860 -16.670  1.00 20.00           O1-  
+ATOM     65  ODK PDB C   1     -30.080  25.860 -16.450  1.00 20.00           O1-  
+ATOM     66  CDC PDB C   1     -30.420  23.590 -13.820  1.00 20.00           C    
+ATOM     67  CDD PDB C   1     -28.970  23.690 -13.270  1.00 20.00           C    
+ATOM     68  CDE PDB C   1     -28.330  25.090 -13.410  1.00 20.00           C    
+ATOM     69  ODG PDB C   1     -27.960  25.430 -14.560  1.00 20.00           O1-  
+ATOM     70  ODF PDB C   1     -28.360  25.820 -12.400  1.00 20.00           O1-  
+ATOM     71  CCX PDB C   1     -28.090  22.510 -13.760  1.00 20.00           C    
+ATOM     72  CCY PDB C   1     -26.590  22.580 -13.410  1.00 20.00           C    
+ATOM     73  CCZ PDB C   1     -25.900  23.520 -14.420  1.00 20.00           C    
+ATOM     74  ODB PDB C   1     -25.990  23.240 -15.630  1.00 20.00           O1-  
+ATOM     75  ODA PDB C   1     -25.290  24.480 -13.910  1.00 20.00           O1-  
+ATOM     76  CCS PDB C   1     -25.900  21.190 -13.470  1.00 20.00           C    
+ATOM     77  CCT PDB C   1     -24.510  21.080 -12.780  1.00 20.00           C    
+ATOM     78  CCU PDB C   1     -23.500  22.180 -13.140  1.00 20.00           C    
+ATOM     79  OCW PDB C   1     -23.330  22.430 -14.350  1.00 20.00           O1-  
+ATOM     80  OCV PDB C   1     -22.810  22.630 -12.200  1.00 20.00           O1-  
+ATOM     81  CCN PDB C   1     -23.930  19.640 -12.940  1.00 20.00           C    
+ATOM     82  CCO PDB C   1     -22.400  19.530 -13.180  1.00 20.00           C    
+ATOM     83  CCP PDB C   1     -22.140  19.720 -14.690  1.00 20.00           C    
+ATOM     84  OCR PDB C   1     -22.690  18.930 -15.480  1.00 20.00           O1-  
+ATOM     85  OCQ PDB C   1     -21.360  20.640 -14.990  1.00 20.00           O1-  
+ATOM     86  CCI PDB C   1     -21.780  18.180 -12.760  1.00 20.00           C    
+ATOM     87  CCJ PDB C   1     -20.280  18.240 -12.340  1.00 20.00           C    
+ATOM     88  CCK PDB C   1     -19.480  19.240 -13.190  1.00 20.00           C    
+ATOM     89  OCM PDB C   1     -19.260  18.930 -14.380  1.00 20.00           O1-  
+ATOM     90  OCL PDB C   1     -19.170  20.310 -12.630  1.00 20.00           O1-  
+ATOM     91  CCD PDB C   1     -19.620  16.840 -12.370  1.00 20.00           C    
+ATOM     92  CCE PDB C   1     -18.260  16.660 -11.650  1.00 20.00           C    
+ATOM     93  CCF PDB C   1     -17.210  17.770 -11.870  1.00 20.00           C    
+ATOM     94  OCH PDB C   1     -16.950  18.080 -13.050  1.00 20.00           O1-  
+ATOM     95  OCG PDB C   1     -16.640  18.190 -10.850  1.00 20.00           O1-  
+ATOM     96  CBY PDB C   1     -17.700  15.230 -11.910  1.00 20.00           C    
+ATOM     97  CBZ PDB C   1     -16.170  15.080 -11.940  1.00 20.00           C    
+ATOM     98  CCA PDB C   1     -15.700  15.220 -13.410  1.00 20.00           C    
+ATOM     99  OCC PDB C   1     -16.030  14.330 -14.220  1.00 20.00           O1-  
+ATOM    100  OCB PDB C   1     -15.060  16.250 -13.690  1.00 20.00           O1-  
+ATOM    101  CBT PDB C   1     -15.680  13.710 -11.410  1.00 20.00           C    
+ATOM    102  CBU PDB C   1     -14.220  13.670 -10.860  1.00 20.00           C    
+ATOM    103  CBV PDB C   1     -13.410  14.970 -11.000  1.00 20.00           C    
+ATOM    104  OBX PDB C   1     -13.010  15.270 -12.150  1.00 20.00           O1-  
+ATOM    105  OBW PDB C   1     -13.330  15.680  -9.980  1.00 20.00           O1-  
+ATOM    106  CBO PDB C   1     -13.500  12.370 -11.310  1.00 20.00           C    
+ATOM    107  CBP PDB C   1     -11.950  12.390 -11.260  1.00 20.00           C    
+ATOM    108  CBQ PDB C   1     -11.460  12.880 -12.640  1.00 20.00           C    
+ATOM    109  OBS PDB C   1     -11.780  12.220 -13.650  1.00 20.00           O1-  
+ATOM    110  OBR PDB C   1     -10.730  13.900 -12.630  1.00 20.00           O1-  
+ATOM    111  CBJ PDB C   1     -11.340  10.990 -11.020  1.00 20.00           C    
+ATOM    112  CBK PDB C   1      -9.920  10.960 -10.400  1.00 20.00           C    
+ATOM    113  CBL PDB C   1      -9.060  12.230 -10.610  1.00 20.00           C    
+ATOM    114  OBN PDB C   1      -8.640  12.440 -11.760  1.00 20.00           O1-  
+ATOM    115  OBM PDB C   1      -8.990  13.010  -9.640  1.00 20.00           O1-  
+ATOM    116  CBE PDB C   1      -9.210   9.610 -10.710  1.00 20.00           C    
+ATOM    117  CBF PDB C   1      -7.670   9.630 -10.870  1.00 20.00           C    
+ATOM    118  CBG PDB C   1      -7.350  10.020 -12.330  1.00 20.00           C    
+ATOM    119  OBI PDB C   1      -7.900   9.370 -13.250  1.00 20.00           O1-  
+ATOM    120  OBH PDB C   1      -6.470  10.890 -12.470  1.00 20.00           O1-  
+ATOM    121  CAZ PDB C   1      -7.050   8.240 -10.590  1.00 20.00           C    
+ATOM    122  CBA PDB C   1      -5.540   8.250 -10.220  1.00 20.00           C    
+ATOM    123  CBB PDB C   1      -4.700   9.020 -11.260  1.00 20.00           C    
+ATOM    124  OBD PDB C   1      -4.600   8.540 -12.400  1.00 20.00           O1-  
+ATOM    125  OBC PDB C   1      -4.240  10.110 -10.860  1.00 20.00           O1-  
+ATOM    126  CAU PDB C   1      -4.970   6.810 -10.090  1.00 20.00           C    
+ATOM    127  CAV PDB C   1      -3.640   6.650  -9.320  1.00 20.00           C    
+ATOM    128  CAW PDB C   1      -2.700   7.870  -9.260  1.00 20.00           C    
+ATOM    129  OAY PDB C   1      -2.140   8.210 -10.320  1.00 20.00           O1-  
+ATOM    130  OAX PDB C   1      -2.700   8.510  -8.190  1.00 20.00           O1-  
+ATOM    131  CAP PDB C   1      -2.960   5.300  -9.700  1.00 20.00           C    
+ATOM    132  CAQ PDB C   1      -1.430   5.330  -9.890  1.00 20.00           C    
+ATOM    133  CAR PDB C   1      -1.110   5.700 -11.350  1.00 20.00           C    
+ATOM    134  OAT PDB C   1      -1.660   5.040 -12.260  1.00 20.00           O1-  
+ATOM    135  OAS PDB C   1      -0.230   6.570 -11.520  1.00 20.00           O1-  
+ATOM    136  CAK PDB C   1      -0.790   3.950  -9.610  1.00 20.00           C    
+ATOM    137  CAL PDB C   1       0.670   3.980  -9.090  1.00 20.00           C    
+ATOM    138  CAM PDB C   1       1.520   5.110  -9.680  1.00 20.00           C    
+ATOM    139  OAO PDB C   1       1.950   4.960 -10.840  1.00 20.00           O1-  
+ATOM    140  OAN PDB C   1       1.630   6.140  -8.970  1.00 20.00           O1-  
+ATOM    141  CAF PDB C   1       1.290   2.580  -9.280  1.00 20.00           C    
+ATOM    142  CAG PDB C   1       2.720   2.380  -8.740  1.00 20.00           C    
+ATOM    143  CAH PDB C   1       3.760   3.000  -9.700  1.00 20.00           C    
+ATOM    144  OAJ PDB C   1       4.010   2.390 -10.770  1.00 20.00           O1-  
+ATOM    145  OAI PDB C   1       4.250   4.090  -9.350  1.00 20.00           O1-  
+ATOM    146  CAA PDB C   1       2.980   0.870  -8.560  1.00 20.00           C    
+ATOM    147  CAB PDB C   1       4.210   0.520  -7.710  1.00 20.00           C    
+ATOM    148  CAC PDB C   1       5.540   0.840  -8.390  1.00 20.00           C    
+ATOM    149  OAE PDB C   1       5.980  -0.000  -9.210  1.00 20.00           O1-  
+ATOM    150  OAD PDB C   1       6.050   1.950  -8.140  1.00 20.00           O1-  
+TER     151 
+CONECT    1    2
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5    6
+CONECT    5    4
+CONECT    6    4    7
+CONECT    7    6    8   11
+CONECT    8    7    9   10
+CONECT    9    8
+CONECT   10    8
+CONECT   11    7   12
+CONECT   12   11   13   16
+CONECT   13   12   14   15
+CONECT   14   13
+CONECT   15   13
+CONECT   16   12   17
+CONECT   17   16   18   21
+CONECT   18   17   19   20
+CONECT   19   18
+CONECT   20   18
+CONECT   21   17   22
+CONECT   22   21   23   26
+CONECT   23   22   24   25
+CONECT   24   23
+CONECT   25   23
+CONECT   26   22   27
+CONECT   27   26   28   31
+CONECT   28   27   29   30
+CONECT   29   28
+CONECT   30   28
+CONECT   31   27   32
+CONECT   32   31   33   36
+CONECT   33   32   34   35
+CONECT   34   33
+CONECT   35   33
+CONECT   36   32   37
+CONECT   37   36   38   41
+CONECT   38   37   39   40
+CONECT   39   38
+CONECT   40   38
+CONECT   41   37   42
+CONECT   42   41   43   46
+CONECT   43   42   44   45
+CONECT   44   43
+CONECT   45   43
+CONECT   46   42   47
+CONECT   47   46   48   51
+CONECT   48   47   49   50
+CONECT   49   48
+CONECT   50   48
+CONECT   51   47   52
+CONECT   52   51   53   56
+CONECT   53   52   54   55
+CONECT   54   53
+CONECT   55   53
+CONECT   56   52   57
+CONECT   57   56   58   61
+CONECT   58   57   59   60
+CONECT   59   58
+CONECT   60   58
+CONECT   61   57   62
+CONECT   62   61   63   66
+CONECT   63   62   64   65
+CONECT   64   63
+CONECT   65   63
+CONECT   66   62   67
+CONECT   67   66   68   71
+CONECT   68   67   69   70
+CONECT   69   68
+CONECT   70   68
+CONECT   71   67   72
+CONECT   72   71   73   76
+CONECT   73   72   74   75
+CONECT   74   73
+CONECT   75   73
+CONECT   76   72   77
+CONECT   77   76   78   81
+CONECT   78   77   79   80
+CONECT   79   78
+CONECT   80   78
+CONECT   81   77   82
+CONECT   82   81   83   86
+CONECT   83   82   84   85
+CONECT   84   83
+CONECT   85   83
+CONECT   86   82   87
+CONECT   87   86   88   91
+CONECT   88   87   89   90
+CONECT   89   88
+CONECT   90   88
+CONECT   91   87   92
+CONECT   92   91   93   96
+CONECT   93   92   94   95
+CONECT   94   93
+CONECT   95   93
+CONECT   96   92   97
+CONECT   97   96   98  101
+CONECT   98   97   99  100
+CONECT   99   98
+CONECT  100   98
+CONECT  101   97  102
+CONECT  102  101  103  106
+CONECT  103  102  104  105
+CONECT  104  103
+CONECT  105  103
+CONECT  106  102  107
+CONECT  107  106  108  111
+CONECT  108  107  109  110
+CONECT  109  108
+CONECT  110  108
+CONECT  111  107  112
+CONECT  112  111  113  116
+CONECT  113  112  114  115
+CONECT  114  113
+CONECT  115  113
+CONECT  116  112  117
+CONECT  117  116  118  121
+CONECT  118  117  119  120
+CONECT  119  118
+CONECT  120  118
+CONECT  121  117  122
+CONECT  122  121  123  126
+CONECT  123  122  124  125
+CONECT  124  123
+CONECT  125  123
+CONECT  126  122  127
+CONECT  127  126  128  131
+CONECT  128  127  129  130
+CONECT  129  128
+CONECT  130  128
+CONECT  131  127  132
+CONECT  132  131  133  136
+CONECT  133  132  134  135
+CONECT  134  133
+CONECT  135  133
+CONECT  136  132  137
+CONECT  137  136  138  141
+CONECT  138  137  139  140
+CONECT  139  138
+CONECT  140  138
+CONECT  141  137  142
+CONECT  142  141  143  146
+CONECT  143  142  144  145
+CONECT  144  143
+CONECT  145  143
+CONECT  146  142  147
+CONECT  147  146  148
+CONECT  148  147  149  150
+CONECT  149  148
+CONECT  150  148
+END

@@ -1,0 +1,100 @@
+read
+    parm flat ../all.dat
+    mol pdb PAA_Omid_ion.pdb
+    mol pdb PAA40_isotact_rn2.pdb
+end
+elec name ion_solv
+    mg-auto
+    dime 161 161 161
+    cglen 180 180 180
+    fglen 75 75 75
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    npbe
+    bcfl mdh
+    pdie 2.0000
+    sdie 78.5400
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+end
+elec name ion_ref
+    mg-auto
+    dime 161 161 161
+    cglen 180 180 180
+    fglen 75 75 75
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    npbe
+    bcfl mdh
+    pdie 2.0000
+    sdie 1.00
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+end
+elec name undissc_solv
+    mg-auto
+    dime 161 161 161
+    cglen 180 180 180
+    fglen 75 75 75
+    cgcent mol 2
+    fgcent mol 2
+    mol 2
+    npbe
+    bcfl mdh
+    pdie 2.0000
+    sdie 78.54
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 0.0
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+end
+elec name undissc_ref
+    mg-auto
+    dime 161 161 161
+    cglen 180 180 180
+    fglen 75 75 75
+    cgcent mol 2
+    fgcent mol 2
+    mol 2
+    npbe
+    bcfl mdh
+    pdie 2.0000
+    sdie 1.00
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 0.0
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+end
+# PAA Ion hydration energy
+print elecEnergy ion_solv - ion_ref end
+
+# PAA hydration energy
+print elecEnergy undissc_solv - undissc_ref end
+
+# Ionisation + Solvation
+print elecEnergy ion_solv - undissc_ref end
+# Only the polar component of solvation
+print elecEnergy ion_solv - ion_ref - undissc_solv + undissc_ref end
+quit

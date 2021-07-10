@@ -1,6 +1,6 @@
 read
     parm flat all.dat
-    mol pdb pdb_withions.pdb
+    mol pdb PAA_Omid_ion.pdb
     mol pdb PAA_iso_COOH.pdb
 end
 elec name ion_solv
