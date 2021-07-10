@@ -1,5 +1,5 @@
-Size,HydrationEnergy(in kJ/mol),Hyd2
-30,-30100,-29790.137
+Size,HydrationEnergy_kJperMol,Hyd2
+30,-29853.523,-25304.7703
 40,-32100,-27099.15
 50,-43537.3,-32838.6768
 60,-37961.97,-37961.97
