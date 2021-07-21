@@ -6,8 +6,8 @@ end
 elec name ion_solv
     mg-auto
     dime 161 161 161
-    cglen 150 150 150
-    fglen 85 85 85
+    cglen 108.239 75.140 20.400
+    fglen 83.670 64.200 20.400
     cgcent mol 1
     fgcent mol 1
     mol 1
@@ -27,8 +27,8 @@ end
 elec name ion_ref
     mg-auto
     dime 161 161 161
-    cglen 150 150 150
-    fglen 85 85 85
+    cglen 108.239 75.140 20.400
+    fglen 83.670 64.200 20.400
     cgcent mol 1
     fgcent mol 1
     mol 1
@@ -48,8 +48,8 @@ end
 elec name undissc_solv
     mg-auto
     dime 161 161 161
-    cglen 150 150 150
-    fglen 85 85 85
+    cglen 39.771 39.624 24.279
+    fglen 39.771 39.624 24.279
     cgcent mol 2
     fgcent mol 2
     mol 2
@@ -69,8 +69,8 @@ end
 elec name undissc_ref
     mg-auto
     dime 161 161 161
-    cglen 150 150 150
-    fglen 85 85 85
+    cglen 39.771 39.624 24.279
+    fglen 39.771 39.624 24.279
     cgcent mol 2
     fgcent mol 2
     mol 2
