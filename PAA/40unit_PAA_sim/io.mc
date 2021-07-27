@@ -17079,3 +17079,9017 @@ Vcom_reduce:  Not compiled with MPI, doing simple copy.
 printEnergy:  Performing global reduction (sum)
 Vcom_reduce:  Not compiled with MPI, doing simple copy.
 Vnm_tstop: stopping timer 26 (APBS WALL CLOCK).  CPU TIME = 5.887000e+01
+##############################################################################
+# MC-shell I/O capture file.
+# Creation Date and Time:  Wed Jul 21 13:54:00 2021
+
+##############################################################################
+Hello world from PE 0
+Vnm_tstart: starting timer 26 (APBS WALL CLOCK)..
+NOsh_parseInput:  Starting file parsing...
+NOsh: Parsing READ section
+NOsh: Storing molecule 0 path PAA_Omid_ion.pdb
+NOsh: Storing molecule 1 path PAA40_isotact_rn2.pdb
+NOsh: Done parsing READ section
+NOsh: Done parsing READ section (nmol=2, ndiel=0, nkappa=0, ncharge=0, npot=0)
+NOsh: Parsing ELEC section
+NOsh_parseMG: Parsing parameters for MG calculation
+NOsh_parseMG:  Parsing dime...
+PBEparm_parseToken:  trying dime...
+MGparm_parseToken:  trying dime...
+NOsh_parseMG:  Parsing cglen...
+PBEparm_parseToken:  trying cglen...
+MGparm_parseToken:  trying cglen...
+NOsh_parseMG:  Parsing fglen...
+PBEparm_parseToken:  trying fglen...
+MGparm_parseToken:  trying fglen...
+NOsh_parseMG:  Parsing cgcent...
+PBEparm_parseToken:  trying cgcent...
+MGparm_parseToken:  trying cgcent...
+NOsh_parseMG:  Parsing fgcent...
+PBEparm_parseToken:  trying fgcent...
+MGparm_parseToken:  trying fgcent...
+NOsh_parseMG:  Parsing mol...
+PBEparm_parseToken:  trying mol...
+NOsh_parseMG:  Parsing npbe...
+PBEparm_parseToken:  trying npbe...
+NOsh: parsed npbe
+NOsh_parseMG:  Parsing bcfl...
+PBEparm_parseToken:  trying bcfl...
+NOsh_parseMG:  Parsing pdie...
+PBEparm_parseToken:  trying pdie...
+NOsh_parseMG:  Parsing sdie...
+PBEparm_parseToken:  trying sdie...
+NOsh_parseMG:  Parsing srfm...
+PBEparm_parseToken:  trying srfm...
+NOsh_parseMG:  Parsing chgm...
+PBEparm_parseToken:  trying chgm...
+MGparm_parseToken:  trying chgm...
+NOsh_parseMG:  Parsing sdens...
+PBEparm_parseToken:  trying sdens...
+NOsh_parseMG:  Parsing srad...
+PBEparm_parseToken:  trying srad...
+NOsh_parseMG:  Parsing swin...
+PBEparm_parseToken:  trying swin...
+NOsh_parseMG:  Parsing temp...
+PBEparm_parseToken:  trying temp...
+NOsh_parseMG:  Parsing calcenergy...
+PBEparm_parseToken:  trying calcenergy...
+NOsh_parseMG:  Parsing calcforce...
+PBEparm_parseToken:  trying calcforce...
+NOsh_parseMG:  Parsing end...
+MGparm_check:  checking MGparm object of type 1.
+NOsh:  nlev = 4, dime = (161, 161, 161)
+NOsh: Done parsing ELEC section (nelec = 1)
+NOsh: Parsing ELEC section
+NOsh_parseMG: Parsing parameters for MG calculation
+NOsh_parseMG:  Parsing dime...
+PBEparm_parseToken:  trying dime...
+MGparm_parseToken:  trying dime...
+NOsh_parseMG:  Parsing cglen...
+PBEparm_parseToken:  trying cglen...
+MGparm_parseToken:  trying cglen...
+NOsh_parseMG:  Parsing fglen...
+PBEparm_parseToken:  trying fglen...
+MGparm_parseToken:  trying fglen...
+NOsh_parseMG:  Parsing cgcent...
+PBEparm_parseToken:  trying cgcent...
+MGparm_parseToken:  trying cgcent...
+NOsh_parseMG:  Parsing fgcent...
+PBEparm_parseToken:  trying fgcent...
+MGparm_parseToken:  trying fgcent...
+NOsh_parseMG:  Parsing mol...
+PBEparm_parseToken:  trying mol...
+NOsh_parseMG:  Parsing npbe...
+PBEparm_parseToken:  trying npbe...
+NOsh: parsed npbe
+NOsh_parseMG:  Parsing bcfl...
+PBEparm_parseToken:  trying bcfl...
+NOsh_parseMG:  Parsing pdie...
+PBEparm_parseToken:  trying pdie...
+NOsh_parseMG:  Parsing sdie...
+PBEparm_parseToken:  trying sdie...
+NOsh_parseMG:  Parsing srfm...
+PBEparm_parseToken:  trying srfm...
+NOsh_parseMG:  Parsing chgm...
+PBEparm_parseToken:  trying chgm...
+MGparm_parseToken:  trying chgm...
+NOsh_parseMG:  Parsing sdens...
+PBEparm_parseToken:  trying sdens...
+NOsh_parseMG:  Parsing srad...
+PBEparm_parseToken:  trying srad...
+NOsh_parseMG:  Parsing swin...
+PBEparm_parseToken:  trying swin...
+NOsh_parseMG:  Parsing temp...
+PBEparm_parseToken:  trying temp...
+NOsh_parseMG:  Parsing calcenergy...
+PBEparm_parseToken:  trying calcenergy...
+NOsh_parseMG:  Parsing calcforce...
+PBEparm_parseToken:  trying calcforce...
+NOsh_parseMG:  Parsing end...
+MGparm_check:  checking MGparm object of type 1.
+NOsh:  nlev = 4, dime = (161, 161, 161)
+NOsh: Done parsing ELEC section (nelec = 2)
+NOsh: Parsing ELEC section
+NOsh_parseMG: Parsing parameters for MG calculation
+NOsh_parseMG:  Parsing dime...
+PBEparm_parseToken:  trying dime...
+MGparm_parseToken:  trying dime...
+NOsh_parseMG:  Parsing cglen...
+PBEparm_parseToken:  trying cglen...
+MGparm_parseToken:  trying cglen...
+NOsh_parseMG:  Parsing fglen...
+PBEparm_parseToken:  trying fglen...
+MGparm_parseToken:  trying fglen...
+NOsh_parseMG:  Parsing cgcent...
+PBEparm_parseToken:  trying cgcent...
+MGparm_parseToken:  trying cgcent...
+NOsh_parseMG:  Parsing fgcent...
+PBEparm_parseToken:  trying fgcent...
+MGparm_parseToken:  trying fgcent...
+NOsh_parseMG:  Parsing mol...
+PBEparm_parseToken:  trying mol...
+NOsh_parseMG:  Parsing npbe...
+PBEparm_parseToken:  trying npbe...
+NOsh: parsed npbe
+NOsh_parseMG:  Parsing bcfl...
+PBEparm_parseToken:  trying bcfl...
+NOsh_parseMG:  Parsing pdie...
+PBEparm_parseToken:  trying pdie...
+NOsh_parseMG:  Parsing sdie...
+PBEparm_parseToken:  trying sdie...
+NOsh_parseMG:  Parsing srfm...
+PBEparm_parseToken:  trying srfm...
+NOsh_parseMG:  Parsing chgm...
+PBEparm_parseToken:  trying chgm...
+MGparm_parseToken:  trying chgm...
+NOsh_parseMG:  Parsing sdens...
+PBEparm_parseToken:  trying sdens...
+NOsh_parseMG:  Parsing srad...
+PBEparm_parseToken:  trying srad...
+NOsh_parseMG:  Parsing swin...
+PBEparm_parseToken:  trying swin...
+NOsh_parseMG:  Parsing temp...
+PBEparm_parseToken:  trying temp...
+NOsh_parseMG:  Parsing calcenergy...
+PBEparm_parseToken:  trying calcenergy...
+NOsh_parseMG:  Parsing calcforce...
+PBEparm_parseToken:  trying calcforce...
+NOsh_parseMG:  Parsing end...
+MGparm_check:  checking MGparm object of type 1.
+NOsh:  nlev = 4, dime = (161, 161, 161)
+NOsh: Done parsing ELEC section (nelec = 3)
+NOsh: Parsing ELEC section
+NOsh_parseMG: Parsing parameters for MG calculation
+NOsh_parseMG:  Parsing dime...
+PBEparm_parseToken:  trying dime...
+MGparm_parseToken:  trying dime...
+NOsh_parseMG:  Parsing cglen...
+PBEparm_parseToken:  trying cglen...
+MGparm_parseToken:  trying cglen...
+NOsh_parseMG:  Parsing fglen...
+PBEparm_parseToken:  trying fglen...
+MGparm_parseToken:  trying fglen...
+NOsh_parseMG:  Parsing cgcent...
+PBEparm_parseToken:  trying cgcent...
+MGparm_parseToken:  trying cgcent...
+NOsh_parseMG:  Parsing fgcent...
+PBEparm_parseToken:  trying fgcent...
+MGparm_parseToken:  trying fgcent...
+NOsh_parseMG:  Parsing mol...
+PBEparm_parseToken:  trying mol...
+NOsh_parseMG:  Parsing npbe...
+PBEparm_parseToken:  trying npbe...
+NOsh: parsed npbe
+NOsh_parseMG:  Parsing bcfl...
+PBEparm_parseToken:  trying bcfl...
+NOsh_parseMG:  Parsing pdie...
+PBEparm_parseToken:  trying pdie...
+NOsh_parseMG:  Parsing sdie...
+PBEparm_parseToken:  trying sdie...
+NOsh_parseMG:  Parsing srfm...
+PBEparm_parseToken:  trying srfm...
+NOsh_parseMG:  Parsing chgm...
+PBEparm_parseToken:  trying chgm...
+MGparm_parseToken:  trying chgm...
+NOsh_parseMG:  Parsing sdens...
+PBEparm_parseToken:  trying sdens...
+NOsh_parseMG:  Parsing srad...
+PBEparm_parseToken:  trying srad...
+NOsh_parseMG:  Parsing swin...
+PBEparm_parseToken:  trying swin...
+NOsh_parseMG:  Parsing temp...
+PBEparm_parseToken:  trying temp...
+NOsh_parseMG:  Parsing calcenergy...
+PBEparm_parseToken:  trying calcenergy...
+NOsh_parseMG:  Parsing calcforce...
+PBEparm_parseToken:  trying calcforce...
+NOsh_parseMG:  Parsing end...
+MGparm_check:  checking MGparm object of type 1.
+NOsh:  nlev = 4, dime = (161, 161, 161)
+NOsh: Done parsing ELEC section (nelec = 4)
+NOsh: Parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing file (got QUIT)
+Valist_readPDB: Counted 240 atoms
+Valist_getStatistics:  Max atom coordinate:  (110.11, 8.21, 4.507)
+Valist_getStatistics:  Min atom coordinate:  (-4.728, -5.723, -4.03)
+Valist_getStatistics:  Molecule center:  (52.691, 1.2435, 0.2385)
+Valist_readPDB: Counted 240 atoms
+Valist_getStatistics:  Max atom coordinate:  (97.729, 4.725, 64.404)
+Valist_getStatistics:  Min atom coordinate:  (11.617, -25.58, 7.894)
+Valist_getStatistics:  Molecule center:  (54.673, -10.4275, 36.149)
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1855):  coarse grid center = 52.691 1.2435 0.2385
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1860):  fine grid center = 52.691 1.2435 0.2385
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1872):  Coarse grid spacing = 1.22016, 0.148037, 0.0907063
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1874):  Fine grid spacing = 0.842737, 0.148037, 0.0907063
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1876):  Displacement between fine and coarse grids = 0, 0, 0
+NOsh:  2 levels of focusing with 0.69068, 1, 1 reductions
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1970):  starting mesh repositioning.
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1972):  coarse mesh center = 52.691 1.2435 0.2385
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1977):  coarse mesh upper corner = 150.303 13.0865 7.495
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1982):  coarse mesh lower corner = -44.9215 -10.5995 -7.018
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1987):  initial fine mesh upper corner = 120.11 13.0865 7.495
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1992):  initial fine mesh lower corner = -14.728 -10.5995 -7.018
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2053):  final fine mesh upper corner = 120.11 13.0865 7.495
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2058):  final fine mesh lower corner = -14.728 -10.5995 -7.018
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalc:  Mapping ELEC statement 0 (1) to calculation 1 (2)
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1855):  coarse grid center = 52.691 1.2435 0.2385
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1860):  fine grid center = 52.691 1.2435 0.2385
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1872):  Coarse grid spacing = 1.22016, 0.148037, 0.0907063
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1874):  Fine grid spacing = 0.842737, 0.148037, 0.0907063
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1876):  Displacement between fine and coarse grids = 0, 0, 0
+NOsh:  2 levels of focusing with 0.69068, 1, 1 reductions
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1970):  starting mesh repositioning.
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1972):  coarse mesh center = 52.691 1.2435 0.2385
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1977):  coarse mesh upper corner = 150.303 13.0865 7.495
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1982):  coarse mesh lower corner = -44.9215 -10.5995 -7.018
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1987):  initial fine mesh upper corner = 120.11 13.0865 7.495
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1992):  initial fine mesh lower corner = -14.728 -10.5995 -7.018
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2053):  final fine mesh upper corner = 120.11 13.0865 7.495
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2058):  final fine mesh lower corner = -14.728 -10.5995 -7.018
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalc:  Mapping ELEC statement 1 (2) to calculation 3 (4)
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1855):  coarse grid center = 54.673 -10.4275 36.149
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1860):  fine grid center = 54.673 -10.4275 36.149
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1872):  Coarse grid spacing = 0.914937, 0.321987, 0.600419
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1874):  Fine grid spacing = 0.6632, 0.314406, 0.478188
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1876):  Displacement between fine and coarse grids = 0, 0, 0
+NOsh:  2 levels of focusing with 0.724858, 0.976455, 0.796423 reductions
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1970):  starting mesh repositioning.
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1972):  coarse mesh center = 54.673 -10.4275 36.149
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1977):  coarse mesh upper corner = 127.868 15.3315 84.1825
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1982):  coarse mesh lower corner = -18.522 -36.1865 -11.8845
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1987):  initial fine mesh upper corner = 107.729 14.725 74.404
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1992):  initial fine mesh lower corner = 1.617 -35.58 -2.106
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2053):  final fine mesh upper corner = 107.729 14.725 74.404
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2058):  final fine mesh lower corner = 1.617 -35.58 -2.106
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalc:  Mapping ELEC statement 2 (3) to calculation 5 (6)
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1855):  coarse grid center = 54.673 -10.4275 36.149
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1860):  fine grid center = 54.673 -10.4275 36.149
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1872):  Coarse grid spacing = 0.914937, 0.321987, 0.600419
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1874):  Fine grid spacing = 0.6632, 0.314406, 0.478188
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1876):  Displacement between fine and coarse grids = 0, 0, 0
+NOsh:  2 levels of focusing with 0.724858, 0.976455, 0.796423 reductions
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1970):  starting mesh repositioning.
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1972):  coarse mesh center = 54.673 -10.4275 36.149
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1977):  coarse mesh upper corner = 127.868 15.3315 84.1825
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1982):  coarse mesh lower corner = -18.522 -36.1865 -11.8845
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1987):  initial fine mesh upper corner = 107.729 14.725 74.404
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1992):  initial fine mesh lower corner = 1.617 -35.58 -2.106
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2053):  final fine mesh upper corner = 107.729 14.725 74.404
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2058):  final fine mesh lower corner = 1.617 -35.58 -2.106
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalc:  Mapping ELEC statement 3 (4) to calculation 7 (8)
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 58.092
+Vpbe_ctor2:  solute dimensions = 115.427 x 14.5225 x 9.12648
+Vpbe_ctor2:  solute charge = -7.10543e-15
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 29 x 18 table
+Vclist_ctor2:  Using 75 x 29 x 18 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.9 max radius
+Vclist_setupGrid:  Grid lengths = (121.834, 20.929, 15.533)
+Vclist_setupGrid:  Grid lower corner = (-8.22601, -9.22101, -7.52801)
+Vclist_assignAtoms:  Have 64197 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 76.256
+Vacc_storeParms:  Using 730-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.008000
+Vpmg_fillco:  done filling coefficient arrays
+Vpmg_fillco:  filling boundary arrays
+Vpmg_fillco:  done filling boundary arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 1.092000e+00
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (161, 161, 161)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 1.050000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (081, 081, 081)
+Vbuildops: Galer: (041, 041, 041)
+Vbuildops: Galer: (021, 021, 021)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 3.930000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.160000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 886330.370034
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.284000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.112335e+06
+Vprtstp: contraction number = 1.112335e+06
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.509062e+05
+Vprtstp: contraction number = 7.649731e-01
+Vnewton: Attempting damping, relres = 0.864029
+Vnewton: Attempting damping, relres = 0.914562
+Vnewton: Damping accepted, relres = 0.864029
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.640295e-01
+Vprtstp: contraction number = 8.640295e-01
+Vnewton: Using errtol_s: 765815.553166
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.056000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.624155e+05
+Vprtstp: contraction number = 6.624155e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.726318e-01
+Vprtstp: contraction number = 7.784824e-01
+Vnewton: Using errtol_s: 596173.953809
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.513000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.440790e+05
+Vprtstp: contraction number = 5.440790e+05
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.524702e-01
+Vprtstp: contraction number = 8.213561e-01
+Vnewton: Using errtol_s: 489671.092690
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.921000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.659965e+05
+Vprtstp: contraction number = 4.659965e+05
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.731834e-01
+Vprtstp: contraction number = 8.564868e-01
+Vnewton: Using errtol_s: 419396.818816
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.582000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.053744e+05
+Vprtstp: contraction number = 4.053744e+05
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 4.116264e-01
+Vprtstp: contraction number = 8.699088e-01
+Vnewton: Using errtol_s: 364837.002903
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.156000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.591607e+05
+Vprtstp: contraction number = 3.591607e+05
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 3.646999e-01
+Vprtstp: contraction number = 8.859973e-01
+Vnewton: Using errtol_s: 323244.616518
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.822000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.213736e+05
+Vprtstp: contraction number = 3.213736e+05
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 3.263300e-01
+Vprtstp: contraction number = 8.947905e-01
+Vnewton: Using errtol_s: 289236.223691
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 6.360000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.905301e+05
+Vprtstp: contraction number = 2.905301e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.644367e+05
+Vprtstp: contraction number = 9.101870e-01
+Vprtstp: iteration = 8
+Vprtstp: relative residual = 2.685151e-01
+Vprtstp: contraction number = 8.228328e-01
+Vnewton: Using errtol_s: 237993.057913
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 7.373000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.422098e+05
+Vprtstp: contraction number = 2.422098e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.229251e+05
+Vprtstp: contraction number = 9.203802e-01
+Vprtstp: iteration = 9
+Vprtstp: relative residual = 2.263632e-01
+Vprtstp: contraction number = 8.430187e-01
+Vnewton: Using errtol_s: 200632.600913
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 8.370000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.060652e+05
+Vprtstp: contraction number = 2.060652e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.911638e+05
+Vprtstp: contraction number = 9.276860e-01
+Vprtstp: iteration = 10
+Vprtstp: relative residual = 1.941120e-01
+Vprtstp: contraction number = 8.575247e-01
+Vnewton: Using errtol_s: 172047.401106
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 9.384000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.779130e+05
+Vprtstp: contraction number = 1.779130e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.660498e+05
+Vprtstp: contraction number = 9.333200e-01
+Vprtstp: iteration = 11
+Vprtstp: relative residual = 1.686107e-01
+Vprtstp: contraction number = 8.686256e-01
+Vnewton: Using errtol_s: 149444.777409
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.050100e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.553698e+05
+Vprtstp: contraction number = 1.553698e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.457126e+05
+Vprtstp: contraction number = 9.378437e-01
+Vprtstp: iteration = 12
+Vprtstp: relative residual = 1.479599e-01
+Vprtstp: contraction number = 8.775237e-01
+Vnewton: Using errtol_s: 131141.332892
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.148200e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.369177e+05
+Vprtstp: contraction number = 1.369177e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.288971e+05
+Vprtstp: contraction number = 9.414199e-01
+Vprtstp: iteration = 13
+Vprtstp: relative residual = 1.308850e-01
+Vprtstp: contraction number = 8.845981e-01
+Vnewton: Using errtol_s: 116007.367794
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.244000e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.215356e+05
+Vprtstp: contraction number = 1.215356e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.147702e+05
+Vprtstp: contraction number = 9.443342e-01
+Vprtstp: iteration = 14
+Vprtstp: relative residual = 1.165403e-01
+Vprtstp: contraction number = 8.904021e-01
+Vnewton: Using errtol_s: 103293.209308
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.338300e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.085214e+05
+Vprtstp: contraction number = 1.085214e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.027484e+05
+Vprtstp: contraction number = 9.468030e-01
+Vprtstp: iteration = 15
+Vprtstp: relative residual = 1.043330e-01
+Vprtstp: contraction number = 8.952527e-01
+Vnewton: Using errtol_s: 92473.528306
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.437700e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.738733e+04
+Vprtstp: contraction number = 9.738733e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.240893e+04
+Vprtstp: contraction number = 9.488804e-01
+Vprtstp: iteration = 16
+Vprtstp: relative residual = 9.383413e-02
+Vprtstp: contraction number = 8.993713e-01
+Vnewton: Using errtol_s: 83168.038625
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.548000e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.776346e+04
+Vprtstp: contraction number = 8.776346e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.343319e+04
+Vprtstp: contraction number = 9.506598e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 7.937518e+04
+Vprtstp: contraction number = 9.513622e-01
+Vprtstp: iteration = 17
+Vprtstp: relative residual = 8.059936e-02
+Vprtstp: contraction number = 8.589557e-01
+Vnewton: Using errtol_s: 71437.663955
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.684300e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.557835e+04
+Vprtstp: contraction number = 7.557835e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.200870e+04
+Vprtstp: contraction number = 9.527689e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 6.866053e+04
+Vprtstp: contraction number = 9.535032e-01
+Vprtstp: iteration = 18
+Vprtstp: relative residual = 6.971946e-02
+Vprtstp: contraction number = 8.650125e-01
+Vnewton: Using errtol_s: 61794.474979
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.833400e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.550329e+04
+Vprtstp: contraction number = 6.550329e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.253479e+04
+Vprtstp: contraction number = 9.546816e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.972860e+04
+Vprtstp: contraction number = 9.551259e-01
+Vprtstp: iteration = 19
+Vprtstp: relative residual = 6.064978e-02
+Vprtstp: contraction number = 8.699117e-01
+Vnewton: Using errtol_s: 53755.739562
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.964100e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.708436e+04
+Vprtstp: contraction number = 5.708436e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.457816e+04
+Vprtstp: contraction number = 9.560966e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.221312e+04
+Vprtstp: contraction number = 9.566670e-01
+Vprtstp: iteration = 20
+Vprtstp: relative residual = 5.301839e-02
+Vprtstp: contraction number = 8.741729e-01
+Vnewton: Using errtol_s: 46991.812088
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.094300e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.996639e+04
+Vprtstp: contraction number = 4.996639e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.784302e+04
+Vprtstp: contraction number = 9.575041e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.582161e+04
+Vprtstp: contraction number = 9.577491e-01
+Vprtstp: iteration = 21
+Vprtstp: relative residual = 4.652831e-02
+Vprtstp: contraction number = 8.775880e-01
+Vnewton: Using errtol_s: 41239.451822
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.355500e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.390909e+04
+Vprtstp: contraction number = 4.390909e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.208471e+04
+Vprtstp: contraction number = 9.584510e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.035677e+04
+Vprtstp: contraction number = 9.589414e-01
+Vprtstp: iteration = 22
+Vprtstp: relative residual = 4.097918e-02
+Vprtstp: contraction number = 8.807366e-01
+Vnewton: Using errtol_s: 36321.094285
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.469600e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.870553e+04
+Vprtstp: contraction number = 3.870553e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.714063e+04
+Vprtstp: contraction number = 9.595690e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.564255e+04
+Vprtstp: contraction number = 9.596649e-01
+Vprtstp: iteration = 23
+Vprtstp: relative residual = 3.619226e-02
+Vprtstp: contraction number = 8.831865e-01
+Vnewton: Using errtol_s: 32078.299344
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.586100e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.422218e+04
+Vprtstp: contraction number = 3.422218e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.286037e+04
+Vprtstp: contraction number = 9.602066e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.156885e+04
+Vprtstp: contraction number = 9.606967e-01
+Vprtstp: iteration = 24
+Vprtstp: relative residual = 3.205572e-02
+Vprtstp: contraction number = 8.857066e-01
+Vnewton: Using errtol_s: 28411.961668
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.693700e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.032896e+04
+Vprtstp: contraction number = 3.032896e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.915226e+04
+Vprtstp: contraction number = 9.612023e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.802084e+04
+Vprtstp: contraction number = 9.611892e-01
+Vprtstp: iteration = 25
+Vprtstp: relative residual = 2.845300e-02
+Vprtstp: contraction number = 8.876105e-01
+Vnewton: Using errtol_s: 25218.756282
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.802100e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.694698e+04
+Vprtstp: contraction number = 2.694698e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.591302e+04
+Vprtstp: contraction number = 9.616300e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.493137e+04
+Vprtstp: contraction number = 9.621173e-01
+Vprtstp: iteration = 26
+Vprtstp: relative residual = 2.531588e-02
+Vprtstp: contraction number = 8.897437e-01
+Vnewton: Using errtol_s: 22438.230224
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.911300e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.398525e+04
+Vprtstp: contraction number = 2.398525e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.308692e+04
+Vprtstp: contraction number = 9.625462e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.221998e+04
+Vprtstp: contraction number = 9.624490e-01
+Vprtstp: iteration = 27
+Vprtstp: relative residual = 2.256267e-02
+Vprtstp: contraction number = 8.912459e-01
+Vnewton: Using errtol_s: 19997.981097
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.019700e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.139670e+04
+Vprtstp: contraction number = 2.139670e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.060122e+04
+Vprtstp: contraction number = 9.628224e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.984572e+04
+Vprtstp: contraction number = 9.633274e-01
+Vprtstp: iteration = 28
+Vprtstp: relative residual = 2.015180e-02
+Vprtstp: contraction number = 8.931477e-01
+Vnewton: Using errtol_s: 17861.149926
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.132800e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.911471e+04
+Vprtstp: contraction number = 1.911471e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.842045e+04
+Vprtstp: contraction number = 9.636793e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.774799e+04
+Vprtstp: contraction number = 9.634936e-01
+Vprtstp: iteration = 29
+Vprtstp: relative residual = 1.802171e-02
+Vprtstp: contraction number = 8.942980e-01
+Vnewton: Using errtol_s: 15973.190257
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.241700e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.710942e+04
+Vprtstp: contraction number = 1.710942e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.649029e+04
+Vprtstp: contraction number = 9.638135e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.590231e+04
+Vprtstp: contraction number = 9.643442e-01
+Vprtstp: iteration = 30
+Vprtstp: relative residual = 1.614757e-02
+Vprtstp: contraction number = 8.960063e-01
+Vnewton: Using errtol_s: 14312.079835
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.349000e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.533164e+04
+Vprtstp: contraction number = 1.533164e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.478971e+04
+Vprtstp: contraction number = 9.646526e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.426320e+04
+Vprtstp: contraction number = 9.644004e-01
+Vprtstp: iteration = 31
+Vprtstp: relative residual = 1.448318e-02
+Vprtstp: contraction number = 8.969263e-01
+Vnewton: Using errtol_s: 12836.881110
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.457900e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.376332e+04
+Vprtstp: contraction number = 1.376332e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.327715e+04
+Vprtstp: contraction number = 9.646764e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.281559e+04
+Vprtstp: contraction number = 9.652364e-01
+Vprtstp: iteration = 32
+Vprtstp: relative residual = 1.301324e-02
+Vprtstp: contraction number = 8.985071e-01
+Vnewton: Using errtol_s: 11534.029263
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.566500e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.236622e+04
+Vprtstp: contraction number = 1.236622e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.193965e+04
+Vprtstp: contraction number = 9.655058e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.152403e+04
+Vprtstp: contraction number = 9.651894e-01
+Vprtstp: iteration = 33
+Vprtstp: relative residual = 1.170176e-02
+Vprtstp: contraction number = 8.992195e-01
+Vnewton: Using errtol_s: 10371.624231
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.676200e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.112960e+04
+Vprtstp: contraction number = 1.112960e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.074491e+04
+Vprtstp: contraction number = 9.654347e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.037986e+04
+Vprtstp: contraction number = 9.660263e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.002350e+04
+Vprtstp: contraction number = 9.656680e-01
+Vprtstp: iteration = 34
+Vprtstp: relative residual = 1.017809e-02
+Vprtstp: contraction number = 8.697915e-01
+Vnewton: Using errtol_s: 9021.150106
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.817200e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.685381e+03
+Vprtstp: contraction number = 9.685381e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.355076e+03
+Vprtstp: contraction number = 9.658965e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 9.041736e+03
+Vprtstp: contraction number = 9.665060e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 8.735398e+03
+Vprtstp: contraction number = 9.661195e-01
+Vprtstp: iteration = 35
+Vprtstp: relative residual = 8.870121e-03
+Vprtstp: contraction number = 8.714918e-01
+Vnewton: Using errtol_s: 7861.858002
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.965700e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.444761e+03
+Vprtstp: contraction number = 8.444761e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.160427e+03
+Vprtstp: contraction number = 9.663301e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 7.890701e+03
+Vprtstp: contraction number = 9.669471e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 7.626657e+03
+Vprtstp: contraction number = 9.665373e-01
+Vprtstp: iteration = 36
+Vprtstp: relative residual = 7.744281e-03
+Vprtstp: contraction number = 8.730750e-01
+Vnewton: Using errtol_s: 6863.991312
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.105900e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.376164e+03
+Vprtstp: contraction number = 7.376164e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.130742e+03
+Vprtstp: contraction number = 9.667276e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 6.897950e+03
+Vprtstp: contraction number = 9.673539e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 6.669725e+03
+Vprtstp: contraction number = 9.669140e-01
+Vprtstp: iteration = 37
+Vprtstp: relative residual = 6.772590e-03
+Vprtstp: contraction number = 8.745279e-01
+Vnewton: Using errtol_s: 6002.752067
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.247200e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.453244e+03
+Vprtstp: contraction number = 6.453244e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.240896e+03
+Vprtstp: contraction number = 9.670943e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 6.039501e+03
+Vprtstp: contraction number = 9.677298e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 5.841817e+03
+Vprtstp: contraction number = 9.672681e-01
+Vprtstp: iteration = 38
+Vprtstp: relative residual = 5.931913e-03
+Vprtstp: contraction number = 8.758708e-01
+Vnewton: Using errtol_s: 5257.634990
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.389000e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.654344e+03
+Vprtstp: contraction number = 5.654344e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.470227e+03
+Vprtstp: contraction number = 9.674379e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.295633e+03
+Vprtstp: contraction number = 9.680829e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 5.124063e+03
+Vprtstp: contraction number = 9.676017e-01
+Vprtstp: iteration = 39
+Vprtstp: relative residual = 5.203090e-03
+Vprtstp: contraction number = 8.771352e-01
+Vnewton: Using errtol_s: 4611.656980
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.530800e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.961374e+03
+Vprtstp: contraction number = 4.961374e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.801430e+03
+Vprtstp: contraction number = 9.677622e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.649775e+03
+Vprtstp: contraction number = 9.684145e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.500606e+03
+Vprtstp: contraction number = 9.679191e-01
+Vprtstp: iteration = 40
+Vprtstp: relative residual = 4.570017e-03
+Vprtstp: contraction number = 8.783275e-01
+Vnewton: Using errtol_s: 4050.544951
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.678900e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.359185e+03
+Vprtstp: contraction number = 4.359185e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.220004e+03
+Vprtstp: contraction number = 9.680716e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.088027e+03
+Vprtstp: contraction number = 9.687260e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.958082e+03
+Vprtstp: contraction number = 9.682133e-01
+Vprtstp: iteration = 41
+Vprtstp: relative residual = 4.019127e-03
+Vprtstp: contraction number = 8.794555e-01
+Vnewton: Using errtol_s: 3562.274115
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.819100e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.834865e+03
+Vprtstp: contraction number = 3.834865e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.713495e+03
+Vprtstp: contraction number = 9.683509e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.598401e+03
+Vprtstp: contraction number = 9.690066e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.485008e+03
+Vprtstp: contraction number = 9.684878e-01
+Vprtstp: iteration = 42
+Vprtstp: relative residual = 3.538756e-03
+Vprtstp: contraction number = 8.804788e-01
+Vnewton: Using errtol_s: 3136.506907
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.962500e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.377459e+03
+Vprtstp: contraction number = 3.377459e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.271477e+03
+Vprtstp: contraction number = 9.686206e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.170940e+03
+Vprtstp: contraction number = 9.692687e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.071845e+03
+Vprtstp: contraction number = 9.687491e-01
+Vprtstp: iteration = 43
+Vprtstp: relative residual = 3.119222e-03
+Vprtstp: contraction number = 8.814458e-01
+Vnewton: Using errtol_s: 2764.660797
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.103800e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.977827e+03
+Vprtstp: contraction number = 2.977827e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.885160e+03
+Vprtstp: contraction number = 9.688809e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.797206e+03
+Vprtstp: contraction number = 9.695152e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.710509e+03
+Vprtstp: contraction number = 9.690058e-01
+Vprtstp: iteration = 44
+Vprtstp: relative residual = 2.752313e-03
+Vprtstp: contraction number = 8.823716e-01
+Vnewton: Using errtol_s: 2439.458161
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.253200e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.628194e+03
+Vprtstp: contraction number = 2.628194e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.547056e+03
+Vprtstp: contraction number = 9.691277e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.469990e+03
+Vprtstp: contraction number = 9.697431e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.394027e+03
+Vprtstp: contraction number = 9.692458e-01
+Vprtstp: iteration = 45
+Vprtstp: relative residual = 2.430950e-03
+Vprtstp: contraction number = 8.832390e-01
+Vnewton: Using errtol_s: 2154.624602
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.393400e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.321854e+03
+Vprtstp: contraction number = 2.321854e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.250714e+03
+Vprtstp: contraction number = 9.693609e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.183100e+03
+Vprtstp: contraction number = 9.699590e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.116451e+03
+Vprtstp: contraction number = 9.694701e-01
+Vprtstp: iteration = 46
+Vprtstp: relative residual = 2.149092e-03
+Vprtstp: contraction number = 8.840545e-01
+Vnewton: Using errtol_s: 1904.805579
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.534500e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.053091e+03
+Vprtstp: contraction number = 2.053091e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.990633e+03
+Vprtstp: contraction number = 9.695790e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.931238e+03
+Vprtstp: contraction number = 9.701627e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.872699e+03
+Vprtstp: contraction number = 9.696884e-01
+Vprtstp: iteration = 47
+Vprtstp: relative residual = 1.901582e-03
+Vprtstp: contraction number = 8.848302e-01
+Vnewton: Using errtol_s: 1685.429514
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.676700e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.817009e+03
+Vprtstp: contraction number = 1.817009e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.762123e+03
+Vprtstp: contraction number = 9.697933e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.709887e+03
+Vprtstp: contraction number = 9.703561e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.658411e+03
+Vprtstp: contraction number = 9.698948e-01
+Vprtstp: iteration = 48
+Vprtstp: relative residual = 1.683988e-03
+Vprtstp: contraction number = 8.855722e-01
+Vnewton: Using errtol_s: 1492.569505
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.817200e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.609403e+03
+Vprtstp: contraction number = 1.609403e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.561115e+03
+Vprtstp: contraction number = 9.699960e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.515126e+03
+Vprtstp: contraction number = 9.705407e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.469815e+03
+Vprtstp: contraction number = 9.700944e-01
+Vprtstp: iteration = 49
+Vprtstp: relative residual = 1.492483e-03
+Vprtstp: contraction number = 8.862793e-01
+Vnewton: Using errtol_s: 1322.833410
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.963300e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.426647e+03
+Vprtstp: contraction number = 1.426647e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.384121e+03
+Vprtstp: contraction number = 9.701916e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.343590e+03
+Vprtstp: contraction number = 9.707173e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.303666e+03
+Vprtstp: contraction number = 9.702853e-01
+Vprtstp: iteration = 50
+Vprtstp: relative residual = 1.323772e-03
+Vprtstp: contraction number = 8.869590e-01
+Vnewton: Using errtol_s: 1173.299049
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 6.106300e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.265600e+03
+Vprtstp: contraction number = 1.265600e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.228107e+03
+Vprtstp: contraction number = 9.703757e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.192351e+03
+Vprtstp: contraction number = 9.708852e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.157139e+03
+Vprtstp: contraction number = 9.704686e-01
+Vprtstp: iteration = 51
+Vprtstp: relative residual = 1.174986e-03
+Vprtstp: contraction number = 8.876044e-01
+Vnewton: Using errtol_s: 1041.425450
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 6.251900e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.123543e+03
+Vprtstp: contraction number = 1.123543e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.090462e+03
+Vprtstp: contraction number = 9.705564e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.058889e+03
+Vprtstp: contraction number = 9.710466e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.027805e+03
+Vprtstp: contraction number = 9.706443e-01
+Vprtstp: iteration = 52
+Vprtstp: relative residual = 1.043656e-03
+Vprtstp: contraction number = 8.882289e-01
+Vnewton: Using errtol_s: 925.024168
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 6.392700e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.981240e+02
+Vprtstp: contraction number = 9.981240e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.689071e+02
+Vprtstp: contraction number = 9.707281e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 9.409978e+02
+Vprtstp: contraction number = 9.711951e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 9.135297e+02
+Vprtstp: contraction number = 9.708097e-01
+Vprtstp: iteration = 53
+Vprtstp: relative residual = 9.276189e-04
+Vprtstp: contraction number = 8.888165e-01
+Vnewton: Using errtol_s: 822.176766
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 6.533400e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.872788e+02
+Vprtstp: contraction number = 8.872788e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.614483e+02
+Vprtstp: contraction number = 9.708880e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 8.367519e+02
+Vprtstp: contraction number = 9.713315e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 8.124574e+02
+Vprtstp: contraction number = 9.709656e-01
+Vprtstp: iteration = 54
+Vprtstp: relative residual = 8.249877e-04
+Vprtstp: contraction number = 8.893606e-01
+Vnewton: Using errtol_s: 731.211625
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 6.674800e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.892186e+02
+Vprtstp: contraction number = 7.892186e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.663638e+02
+Vprtstp: contraction number = 9.710413e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 7.444926e+02
+Vprtstp: contraction number = 9.714610e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 7.229871e+02
+Vprtstp: contraction number = 9.711139e-01
+Vprtstp: iteration = 55
+Vprtstp: relative residual = 7.341375e-04
+Vprtstp: contraction number = 8.898769e-01
+Vnewton: Using errtol_s: 650.688366
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 6.817100e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.023987e+02
+Vprtstp: contraction number = 7.023987e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.821581e+02
+Vprtstp: contraction number = 9.711836e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 6.627733e+02
+Vprtstp: contraction number = 9.715832e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 6.437210e+02
+Vprtstp: contraction number = 9.712536e-01
+Vprtstp: iteration = 56
+Vprtstp: relative residual = 6.536489e-04
+Vprtstp: contraction number = 8.903630e-01
+Vnewton: Using errtol_s: 579.348855
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 6.957600e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.254662e+02
+Vprtstp: contraction number = 6.254662e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.075288e+02
+Vprtstp: contraction number = 9.713216e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.903351e+02
+Vprtstp: contraction number = 9.716988e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 5.734443e+02
+Vprtstp: contraction number = 9.713879e-01
+Vprtstp: iteration = 57
+Vprtstp: relative residual = 5.822884e-04
+Vprtstp: contraction number = 8.908275e-01
+Vnewton: Using errtol_s: 516.099902
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 7.102000e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.572463e+02
+Vprtstp: contraction number = 5.572463e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.413377e+02
+Vprtstp: contraction number = 9.714514e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.260759e+02
+Vprtstp: contraction number = 9.718073e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 5.110899e+02
+Vprtstp: contraction number = 9.715136e-01
+Vprtstp: iteration = 58
+Vprtstp: relative residual = 5.189723e-04
+Vprtstp: contraction number = 8.912633e-01
+Vnewton: Using errtol_s: 459.980892
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 7.241400e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.967080e+02
+Vprtstp: contraction number = 4.967080e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.825884e+02
+Vprtstp: contraction number = 9.715736e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.690327e+02
+Vprtstp: contraction number = 9.719106e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.557279e+02
+Vprtstp: contraction number = 9.716335e-01
+Vprtstp: iteration = 59
+Vprtstp: relative residual = 4.627565e-04
+Vprtstp: contraction number = 8.916786e-01
+Vnewton: Using errtol_s: 410.155136
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 7.381600e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.429496e+02
+Vprtstp: contraction number = 4.429496e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.304108e+02
+Vprtstp: contraction number = 9.716925e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.183626e+02
+Vprtstp: contraction number = 9.720078e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.065435e+02
+Vprtstp: contraction number = 9.717492e-01
+Vprtstp: iteration = 60
+Vprtstp: relative residual = 4.128135e-04
+Vprtstp: contraction number = 8.920751e-01
+Vnewton: Using errtol_s: 365.889181
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 7.523100e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.951829e+02
+Vprtstp: contraction number = 3.951829e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.840411e+02
+Vprtstp: contraction number = 9.718058e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.733270e+02
+Vprtstp: contraction number = 9.721017e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.628216e+02
+Vprtstp: contraction number = 9.718602e-01
+Vprtstp: iteration = 61
+Vprtstp: relative residual = 3.684173e-04
+Vprtstp: contraction number = 8.924545e-01
+Vnewton: Using errtol_s: 326.539440
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 7.663900e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.527155e+02
+Vprtstp: contraction number = 3.527155e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.428082e+02
+Vprtstp: contraction number = 9.719114e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.332748e+02
+Vprtstp: contraction number = 9.721904e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.239306e+02
+Vprtstp: contraction number = 9.719626e-01
+Vprtstp: iteration = 62
+Vprtstp: relative residual = 3.289265e-04
+Vprtstp: contraction number = 8.928097e-01
+Vnewton: Using errtol_s: 291.537567
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 7.805100e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.149361e+02
+Vprtstp: contraction number = 3.149361e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.061217e+02
+Vprtstp: contraction number = 9.720121e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.976347e+02
+Vprtstp: contraction number = 9.722756e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.893193e+02
+Vprtstp: contraction number = 9.720618e-01
+Vprtstp: iteration = 63
+Vprtstp: relative residual = 2.937814e-04
+Vprtstp: contraction number = 8.931520e-01
+Vnewton: Using errtol_s: 260.387372
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 7.956500e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.813105e+02
+Vprtstp: contraction number = 2.813105e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.734650e+02
+Vprtstp: contraction number = 9.721112e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.659067e+02
+Vprtstp: contraction number = 9.723607e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.585034e+02
+Vprtstp: contraction number = 9.721585e-01
+Vprtstp: iteration = 64
+Vprtstp: relative residual = 2.624903e-04
+Vprtstp: contraction number = 8.934883e-01
+Vnewton: Using errtol_s: 232.653083
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 8.097300e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.513690e+02
+Vprtstp: contraction number = 2.513690e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.443821e+02
+Vprtstp: contraction number = 9.722046e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.376471e+02
+Vprtstp: contraction number = 9.724406e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.310522e+02
+Vprtstp: contraction number = 9.722493e-01
+Vprtstp: iteration = 65
+Vprtstp: relative residual = 2.346157e-04
+Vprtstp: contraction number = 8.938072e-01
+Vnewton: Using errtol_s: 207.946993
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 8.239100e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.246938e+02
+Vprtstp: contraction number = 2.246938e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.184682e+02
+Vprtstp: contraction number = 9.722930e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.124646e+02
+Vprtstp: contraction number = 9.725194e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.065869e+02
+Vprtstp: contraction number = 9.723358e-01
+Vprtstp: iteration = 66
+Vprtstp: relative residual = 2.097730e-04
+Vprtstp: contraction number = 8.941136e-01
+Vnewton: Using errtol_s: 185.928224
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 8.381300e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.009175e+02
+Vprtstp: contraction number = 2.009175e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.953676e+02
+Vprtstp: contraction number = 9.723772e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.900129e+02
+Vprtstp: contraction number = 9.725918e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.847718e+02
+Vprtstp: contraction number = 9.724173e-01
+Vprtstp: iteration = 67
+Vprtstp: relative residual = 1.876215e-04
+Vprtstp: contraction number = 8.944023e-01
+Vnewton: Using errtol_s: 166.294630
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 8.524900e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.797140e+02
+Vprtstp: contraction number = 1.797140e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.747638e+02
+Vprtstp: contraction number = 9.724553e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.699854e+02
+Vprtstp: contraction number = 9.726580e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.653095e+02
+Vprtstp: contraction number = 9.724922e-01
+Vprtstp: iteration = 68
+Vprtstp: relative residual = 1.678590e-04
+Vprtstp: contraction number = 8.946682e-01
+Vnewton: Using errtol_s: 148.778521
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 8.666000e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.607949e+02
+Vprtstp: contraction number = 1.607949e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.563777e+02
+Vprtstp: contraction number = 9.725291e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.521119e+02
+Vprtstp: contraction number = 9.727212e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.479386e+02
+Vprtstp: contraction number = 9.725643e-01
+Vprtstp: iteration = 69
+Vprtstp: relative residual = 1.502202e-04
+Vprtstp: contraction number = 8.949193e-01
+Vnewton: Using errtol_s: 133.144764
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 8.808400e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.439075e+02
+Vprtstp: contraction number = 1.439075e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.399643e+02
+Vprtstp: contraction number = 9.725988e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.361546e+02
+Vprtstp: contraction number = 9.727807e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.324283e+02
+Vprtstp: contraction number = 9.726324e-01
+Vprtstp: iteration = 70
+Vprtstp: relative residual = 1.344707e-04
+Vprtstp: contraction number = 8.951572e-01
+Vnewton: Using errtol_s: 119.185492
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 8.949700e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.288276e+02
+Vprtstp: contraction number = 1.288276e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.253062e+02
+Vprtstp: contraction number = 9.726657e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.219026e+02
+Vprtstp: contraction number = 9.728380e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.185744e+02
+Vprtstp: contraction number = 9.726979e-01
+Vprtstp: iteration = 71
+Vprtstp: relative residual = 1.204031e-04
+Vprtstp: contraction number = 8.953854e-01
+Vnewton: Using errtol_s: 106.716953
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 9.090900e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.153570e+02
+Vprtstp: contraction number = 1.153570e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.122110e+02
+Vprtstp: contraction number = 9.727288e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.091693e+02
+Vprtstp: contraction number = 9.728927e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.061955e+02
+Vprtstp: contraction number = 9.727597e-01
+Vprtstp: iteration = 72
+Vprtstp: relative residual = 1.078333e-04
+Vprtstp: contraction number = 8.956024e-01
+Vnewton: Using errtol_s: 95.575958
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 9.231700e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.033197e+02
+Vprtstp: contraction number = 1.033197e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.005083e+02
+Vprtstp: contraction number = 9.727892e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 9.778905e+01
+Vprtstp: contraction number = 9.729455e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 9.513095e+01
+Vprtstp: contraction number = 9.728180e-01
+Vprtstp: iteration = 73
+Vprtstp: relative residual = 9.659813e-05
+Vprtstp: contraction number = 8.958096e-01
+Vnewton: Using errtol_s: 85.617859
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 9.376100e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.255959e+01
+Vprtstp: contraction number = 9.255959e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.004621e+01
+Vprtstp: contraction number = 9.728458e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 8.761445e+01
+Vprtstp: contraction number = 9.729943e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 8.523780e+01
+Vprtstp: contraction number = 9.728738e-01
+Vprtstp: iteration = 74
+Vprtstp: relative residual = 8.655240e-05
+Vprtstp: contraction number = 8.960049e-01
+Vnewton: Using errtol_s: 76.714020
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 9.547500e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.293789e+01
+Vprtstp: contraction number = 8.293789e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.069033e+01
+Vprtstp: contraction number = 9.729006e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 7.851501e+01
+Vprtstp: contraction number = 9.730411e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 7.638932e+01
+Vprtstp: contraction number = 9.729264e-01
+Vprtstp: iteration = 75
+Vprtstp: relative residual = 7.756745e-05
+Vprtstp: contraction number = 8.961907e-01
+Vnewton: Using errtol_s: 68.750388
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 9.698800e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.433170e+01
+Vprtstp: contraction number = 7.433170e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.232119e+01
+Vprtstp: contraction number = 9.729523e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 7.037475e+01
+Vprtstp: contraction number = 9.730862e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 6.847300e+01
+Vprtstp: contraction number = 9.729768e-01
+Vprtstp: iteration = 76
+Vprtstp: relative residual = 6.952904e-05
+Vprtstp: contraction number = 8.963687e-01
+Vnewton: Using errtol_s: 61.625699
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 9.849000e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.663159e+01
+Vprtstp: contraction number = 6.663159e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.483262e+01
+Vprtstp: contraction number = 9.730011e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 6.309048e+01
+Vprtstp: contraction number = 9.731288e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 6.138858e+01
+Vprtstp: contraction number = 9.730244e-01
+Vprtstp: iteration = 77
+Vprtstp: relative residual = 6.233536e-05
+Vprtstp: contraction number = 8.965370e-01
+Vnewton: Using errtol_s: 55.249720
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.000320e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.974025e+01
+Vprtstp: contraction number = 5.974025e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.813013e+01
+Vprtstp: contraction number = 9.730480e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.657046e+01
+Vprtstp: contraction number = 9.731693e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 5.504704e+01
+Vprtstp: contraction number = 9.730703e-01
+Vprtstp: iteration = 78
+Vprtstp: relative residual = 5.589601e-05
+Vprtstp: contraction number = 8.966983e-01
+Vnewton: Using errtol_s: 49.542332
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.014400e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.357118e+01
+Vprtstp: contraction number = 5.357118e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.212970e+01
+Vprtstp: contraction number = 9.730922e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.073309e+01
+Vprtstp: contraction number = 9.732090e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.936909e+01
+Vprtstp: contraction number = 9.731141e-01
+Vprtstp: iteration = 79
+Vprtstp: relative residual = 5.013049e-05
+Vprtstp: contraction number = 8.968527e-01
+Vnewton: Using errtol_s: 44.432177
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.029190e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.804738e+01
+Vprtstp: contraction number = 4.804738e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.675663e+01
+Vprtstp: contraction number = 9.731358e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.550574e+01
+Vprtstp: contraction number = 9.732469e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.428420e+01
+Vprtstp: contraction number = 9.731565e-01
+Vprtstp: iteration = 80
+Vprtstp: relative residual = 4.496719e-05
+Vprtstp: contraction number = 8.970027e-01
+Vnewton: Using errtol_s: 39.855784
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.043990e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.310025e+01
+Vprtstp: contraction number = 4.310025e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.194416e+01
+Vprtstp: contraction number = 9.731768e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.082354e+01
+Vprtstp: contraction number = 9.732831e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.972934e+01
+Vprtstp: contraction number = 9.731969e-01
+Vprtstp: iteration = 81
+Vprtstp: relative residual = 4.034208e-05
+Vprtstp: contraction number = 8.971448e-01
+Vnewton: Using errtol_s: 35.756410
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.066580e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.866862e+01
+Vprtstp: contraction number = 3.866862e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.763294e+01
+Vprtstp: contraction number = 9.732163e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.662886e+01
+Vprtstp: contraction number = 9.733193e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.564851e+01
+Vprtstp: contraction number = 9.732355e-01
+Vprtstp: iteration = 82
+Vprtstp: relative residual = 3.619831e-05
+Vprtstp: contraction number = 8.972842e-01
+Vnewton: Using errtol_s: 32.083660
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.081320e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.469798e+01
+Vprtstp: contraction number = 3.469798e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.376996e+01
+Vprtstp: contraction number = 9.732545e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.287009e+01
+Vprtstp: contraction number = 9.733529e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.199158e+01
+Vprtstp: contraction number = 9.732733e-01
+Vprtstp: iteration = 83
+Vprtstp: relative residual = 3.248498e-05
+Vprtstp: contraction number = 8.974171e-01
+Vnewton: Using errtol_s: 28.792425
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.095910e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.113964e+01
+Vprtstp: contraction number = 3.113964e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.030793e+01
+Vprtstp: contraction number = 9.732910e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.950132e+01
+Vprtstp: contraction number = 9.733861e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.871390e+01
+Vprtstp: contraction number = 9.733090e-01
+Vprtstp: iteration = 84
+Vprtstp: relative residual = 2.915675e-05
+Vprtstp: contraction number = 8.975454e-01
+Vnewton: Using errtol_s: 25.842509
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.110310e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.795018e+01
+Vprtstp: contraction number = 2.795018e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.720464e+01
+Vprtstp: contraction number = 9.733264e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.648148e+01
+Vprtstp: contraction number = 9.734176e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.577558e+01
+Vprtstp: contraction number = 9.733435e-01
+Vprtstp: iteration = 85
+Vprtstp: relative residual = 2.617310e-05
+Vprtstp: contraction number = 8.976689e-01
+Vnewton: Using errtol_s: 23.198018
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.124720e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.509079e+01
+Vprtstp: contraction number = 2.509079e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.442238e+01
+Vprtstp: contraction number = 9.733602e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.377391e+01
+Vprtstp: contraction number = 9.734479e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.314096e+01
+Vprtstp: contraction number = 9.733762e-01
+Vprtstp: iteration = 86
+Vprtstp: relative residual = 2.349786e-05
+Vprtstp: contraction number = 8.977864e-01
+Vnewton: Using errtol_s: 20.826866
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.138690e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.252686e+01
+Vprtstp: contraction number = 2.252686e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.192748e+01
+Vprtstp: contraction number = 9.733925e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.134590e+01
+Vprtstp: contraction number = 9.734772e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.077828e+01
+Vprtstp: contraction number = 9.734084e-01
+Vprtstp: iteration = 87
+Vprtstp: relative residual = 2.109873e-05
+Vprtstp: contraction number = 8.979003e-01
+Vnewton: Using errtol_s: 18.700448
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.153220e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.022747e+01
+Vprtstp: contraction number = 2.022747e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.968990e+01
+Vprtstp: contraction number = 9.734240e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.916822e+01
+Vprtstp: contraction number = 9.735049e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.865910e+01
+Vprtstp: contraction number = 9.734394e-01
+Vprtstp: iteration = 88
+Vprtstp: relative residual = 1.894687e-05
+Vprtstp: contraction number = 8.980098e-01
+Vnewton: Using errtol_s: 16.793187
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.167320e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.816497e+01
+Vprtstp: contraction number = 1.816497e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.768277e+01
+Vprtstp: contraction number = 9.734542e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.721472e+01
+Vprtstp: contraction number = 9.735311e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.675800e+01
+Vprtstp: contraction number = 9.734691e-01
+Vprtstp: iteration = 89
+Vprtstp: relative residual = 1.701645e-05
+Vprtstp: contraction number = 8.981143e-01
+Vnewton: Using errtol_s: 15.082200
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.188180e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.631465e+01
+Vprtstp: contraction number = 1.631465e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.588204e+01
+Vprtstp: contraction number = 9.734834e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.546207e+01
+Vprtstp: contraction number = 9.735566e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.505228e+01
+Vprtstp: contraction number = 9.734975e-01
+Vprtstp: iteration = 90
+Vprtstp: relative residual = 1.528443e-05
+Vprtstp: contraction number = 8.982147e-01
+Vnewton: Using errtol_s: 13.547055
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.208910e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.465444e+01
+Vprtstp: contraction number = 1.465444e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.426626e+01
+Vprtstp: contraction number = 9.735114e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.388936e+01
+Vprtstp: contraction number = 9.735811e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.352165e+01
+Vprtstp: contraction number = 9.735252e-01
+Vprtstp: iteration = 91
+Vprtstp: relative residual = 1.373019e-05
+Vprtstp: contraction number = 8.983120e-01
+Vnewton: Using errtol_s: 12.169481
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.224770e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.316458e+01
+Vprtstp: contraction number = 1.316458e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.281624e+01
+Vprtstp: contraction number = 9.735390e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.247796e+01
+Vprtstp: contraction number = 9.736052e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.214794e+01
+Vprtstp: contraction number = 9.735523e-01
+Vprtstp: iteration = 92
+Vprtstp: relative residual = 1.233530e-05
+Vprtstp: contraction number = 8.984071e-01
+Vnewton: Using errtol_s: 10.933148
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.238340e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.182744e+01
+Vprtstp: contraction number = 1.182744e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.151478e+01
+Vprtstp: contraction number = 9.735652e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.121113e+01
+Vprtstp: contraction number = 9.736288e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.091490e+01
+Vprtstp: contraction number = 9.735776e-01
+Vprtstp: iteration = 93
+Vprtstp: relative residual = 1.108324e-05
+Vprtstp: contraction number = 8.984979e-01
+Vnewton: Using errtol_s: 9.823411
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.251660e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.062719e+01
+Vprtstp: contraction number = 1.062719e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.034653e+01
+Vprtstp: contraction number = 9.735903e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.007392e+01
+Vprtstp: contraction number = 9.736518e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 9.807994e+00
+Vprtstp: contraction number = 9.736030e-01
+Vprtstp: iteration = 94
+Vprtstp: relative residual = 9.959260e-06
+Vprtstp: contraction number = 8.985875e-01
+Vnewton: Using errtol_s: 8.827195
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.265190e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.549682e+00
+Vprtstp: contraction number = 9.549682e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.297715e+00
+Vprtstp: contraction number = 9.736151e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 9.052942e+00
+Vprtstp: contraction number = 9.736738e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 8.814190e+00
+Vprtstp: contraction number = 9.736272e-01
+Vprtstp: iteration = 95
+Vprtstp: relative residual = 8.950129e-06
+Vprtstp: contraction number = 8.986741e-01
+Vnewton: Using errtol_s: 7.932771
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.278650e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.582241e+00
+Vprtstp: contraction number = 8.582241e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.356006e+00
+Vprtstp: contraction number = 9.736392e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 8.136205e+00
+Vprtstp: contraction number = 9.736954e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 7.921822e+00
+Vprtstp: contraction number = 9.736508e-01
+Vprtstp: iteration = 96
+Vprtstp: relative residual = 8.043998e-06
+Vprtstp: contraction number = 8.987578e-01
+Vnewton: Using errtol_s: 7.129640
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.292630e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.713525e+00
+Vprtstp: contraction number = 7.713525e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.510366e+00
+Vprtstp: contraction number = 9.736619e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 7.312967e+00
+Vprtstp: contraction number = 9.737164e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 7.120439e+00
+Vprtstp: contraction number = 9.736731e-01
+Vprtstp: iteration = 97
+Vprtstp: relative residual = 7.230256e-06
+Vprtstp: contraction number = 8.988386e-01
+Vnewton: Using errtol_s: 6.408395
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.306010e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.933360e+00
+Vprtstp: contraction number = 6.933360e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.750903e+00
+Vprtstp: contraction number = 9.736842e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 6.573602e+00
+Vprtstp: contraction number = 9.737366e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 6.400681e+00
+Vprtstp: contraction number = 9.736947e-01
+Vprtstp: iteration = 98
+Vprtstp: relative residual = 6.499397e-06
+Vprtstp: contraction number = 8.989166e-01
+Vnewton: Using errtol_s: 5.760613
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.320000e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.232641e+00
+Vprtstp: contraction number = 6.232641e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.068755e+00
+Vprtstp: contraction number = 9.737052e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.909490e+00
+Vprtstp: contraction number = 9.737566e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 5.754161e+00
+Vprtstp: contraction number = 9.737153e-01
+Vprtstp: iteration = 99
+Vprtstp: relative residual = 5.842906e-06
+Vprtstp: contraction number = 8.989921e-01
+Vnewton: Using errtol_s: 5.178745
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.333340e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.603209e+00
+Vprtstp: contraction number = 5.603209e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.455987e+00
+Vprtstp: contraction number = 9.737255e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.312908e+00
+Vprtstp: contraction number = 9.737759e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 5.173368e+00
+Vprtstp: contraction number = 9.737355e-01
+Vprtstp: iteration = 100
+Vprtstp: relative residual = 5.253155e-06
+Vprtstp: contraction number = 8.990655e-01
+Vnewton: Using errtol_s: 4.656031
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.346620e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.037752e+00
+Vprtstp: contraction number = 5.037752e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.905487e+00
+Vprtstp: contraction number = 9.737453e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.776939e+00
+Vprtstp: contraction number = 9.737950e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.651569e+00
+Vprtstp: contraction number = 9.737551e-01
+Vprtstp: iteration = 101
+Vprtstp: relative residual = 4.723308e-06
+Vprtstp: contraction number = 8.991374e-01
+Vnewton: Using errtol_s: 4.186412
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.360680e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.529719e+00
+Vprtstp: contraction number = 4.529719e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.410877e+00
+Vprtstp: contraction number = 9.737641e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.295374e+00
+Vprtstp: contraction number = 9.738139e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.182721e+00
+Vprtstp: contraction number = 9.737734e-01
+Vprtstp: iteration = 102
+Vprtstp: relative residual = 4.247230e-06
+Vprtstp: contraction number = 8.992065e-01
+Vnewton: Using errtol_s: 3.764449
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.374040e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.073230e+00
+Vprtstp: contraction number = 4.073230e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.966439e+00
+Vprtstp: contraction number = 9.737824e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.862645e+00
+Vprtstp: contraction number = 9.738319e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.761410e+00
+Vprtstp: contraction number = 9.737912e-01
+Vprtstp: iteration = 103
+Vprtstp: relative residual = 3.819421e-06
+Vprtstp: contraction number = 8.992736e-01
+Vnewton: Using errtol_s: 3.385269
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.388990e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.663016e+00
+Vprtstp: contraction number = 3.663016e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.567045e+00
+Vprtstp: contraction number = 9.738000e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.473767e+00
+Vprtstp: contraction number = 9.738501e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.382784e+00
+Vprtstp: contraction number = 9.738086e-01
+Vprtstp: iteration = 104
+Vprtstp: relative residual = 3.434956e-06
+Vprtstp: contraction number = 8.993393e-01
+Vnewton: Using errtol_s: 3.044506
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.402340e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.294354e+00
+Vprtstp: contraction number = 3.294354e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.208098e+00
+Vprtstp: contraction number = 9.738171e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.124263e+00
+Vprtstp: contraction number = 9.738676e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.042487e+00
+Vprtstp: contraction number = 9.738257e-01
+Vprtstp: iteration = 105
+Vprtstp: relative residual = 3.089411e-06
+Vprtstp: contraction number = 8.994034e-01
+Vnewton: Using errtol_s: 2.738239
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.416180e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.963007e+00
+Vprtstp: contraction number = 2.963007e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.885476e+00
+Vprtstp: contraction number = 9.738338e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.810122e+00
+Vprtstp: contraction number = 9.738851e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.736615e+00
+Vprtstp: contraction number = 9.738420e-01
+Vprtstp: iteration = 106
+Vprtstp: relative residual = 2.778821e-06
+Vprtstp: contraction number = 8.994663e-01
+Vnewton: Using errtol_s: 2.462954
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.430200e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.665172e+00
+Vprtstp: contraction number = 2.665172e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.595478e+00
+Vprtstp: contraction number = 9.738500e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.527741e+00
+Vprtstp: contraction number = 9.739022e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.461661e+00
+Vprtstp: contraction number = 9.738580e-01
+Vprtstp: iteration = 107
+Vprtstp: relative residual = 2.499627e-06
+Vprtstp: contraction number = 8.995278e-01
+Vnewton: Using errtol_s: 2.215495
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.444330e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.397438e+00
+Vprtstp: contraction number = 2.397438e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.334783e+00
+Vprtstp: contraction number = 9.738658e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.273890e+00
+Vprtstp: contraction number = 9.739190e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.214481e+00
+Vprtstp: contraction number = 9.738733e-01
+Vprtstp: iteration = 108
+Vprtstp: relative residual = 2.248634e-06
+Vprtstp: contraction number = 8.995878e-01
+Vnewton: Using errtol_s: 1.993032
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.457780e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.156742e+00
+Vprtstp: contraction number = 2.156742e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.100410e+00
+Vprtstp: contraction number = 9.738807e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.045663e+00
+Vprtstp: contraction number = 9.739351e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.992247e+00
+Vprtstp: contraction number = 9.738881e-01
+Vprtstp: iteration = 109
+Vprtstp: relative residual = 2.022972e-06
+Vprtstp: contraction number = 8.996451e-01
+Vnewton: Using errtol_s: 1.793022
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.473730e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.940335e+00
+Vprtstp: contraction number = 1.940335e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.889684e+00
+Vprtstp: contraction number = 9.738955e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.840460e+00
+Vprtstp: contraction number = 9.739515e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.792429e+00
+Vprtstp: contraction number = 9.739028e-01
+Vprtstp: iteration = 110
+Vprtstp: relative residual = 1.820073e-06
+Vprtstp: contraction number = 8.997025e-01
+Vnewton: Using errtol_s: 1.613186
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.488900e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.745753e+00
+Vprtstp: contraction number = 1.745753e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.700207e+00
+Vprtstp: contraction number = 9.739102e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.655946e+00
+Vprtstp: contraction number = 9.739674e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.612755e+00
+Vprtstp: contraction number = 9.739177e-01
+Vprtstp: iteration = 111
+Vprtstp: relative residual = 1.637628e-06
+Vprtstp: contraction number = 8.997594e-01
+Vnewton: Using errtol_s: 1.451480
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.502910e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.570784e+00
+Vprtstp: contraction number = 1.570784e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.529825e+00
+Vprtstp: contraction number = 9.739248e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.490023e+00
+Vprtstp: contraction number = 9.739829e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.451181e+00
+Vprtstp: contraction number = 9.739316e-01
+Vprtstp: iteration = 112
+Vprtstp: relative residual = 1.473562e-06
+Vprtstp: contraction number = 8.998148e-01
+Vnewton: Using errtol_s: 1.306063
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.519160e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.413437e+00
+Vprtstp: contraction number = 1.413437e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.376600e+00
+Vprtstp: contraction number = 9.739377e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.340807e+00
+Vprtstp: contraction number = 9.739991e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.305871e+00
+Vprtstp: contraction number = 9.739440e-01
+Vprtstp: iteration = 113
+Vprtstp: relative residual = 1.326011e-06
+Vprtstp: contraction number = 8.998679e-01
+Vnewton: Using errtol_s: 1.175284
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.534390e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.271927e+00
+Vprtstp: contraction number = 1.271927e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.238794e+00
+Vprtstp: contraction number = 9.739503e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.206603e+00
+Vprtstp: contraction number = 9.740143e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.175179e+00
+Vprtstp: contraction number = 9.739565e-01
+Vprtstp: iteration = 114
+Vprtstp: relative residual = 1.193303e-06
+Vprtstp: contraction number = 8.999194e-01
+Vnewton: Using errtol_s: 1.057661
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.550400e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.144650e+00
+Vprtstp: contraction number = 1.144650e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.114846e+00
+Vprtstp: contraction number = 9.739624e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.085893e+00
+Vprtstp: contraction number = 9.740293e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.057625e+00
+Vprtstp: contraction number = 9.739686e-01
+Vprtstp: iteration = 115
+Vprtstp: relative residual = 1.073937e-06
+Vprtstp: contraction number = 8.999697e-01
+Vnewton: Using errtol_s: 0.951863
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.565520e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.030165e+00
+Vprtstp: contraction number = 1.030165e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.003355e+00
+Vprtstp: contraction number = 9.739746e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 9.773107e-01
+Vprtstp: contraction number = 9.740428e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 9.518814e-01
+Vprtstp: contraction number = 9.739802e-01
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 9.271794e-01
+Vprtstp: contraction number = 9.740493e-01
+Vprtstp: iteration = 116
+Vprtstp: relative residual = 9.414790e-07
+Vprtstp: contraction number = 8.766614e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 1.562630e+02
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 1.568060e+02
+Vpmg_setPart:  lower corner = (-44.9215, -10.5995, -7.018)
+Vpmg_setPart:  upper corner = (150.303, 13.0865, 7.495)
+Vpmg_setPart:  actual minima = (-44.9215, -10.5995, -7.018)
+Vpmg_setPart:  actual maxima = (150.304, 13.0865, 7.495)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 1.050386481894E+04 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 1.300000e-02
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 2.000000e-03
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 58.092
+Vpbe_ctor2:  solute dimensions = 115.427 x 14.5225 x 9.12648
+Vpbe_ctor2:  solute charge = -7.10543e-15
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 29 x 18 table
+Vclist_ctor2:  Using 75 x 29 x 18 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.9 max radius
+Vclist_setupGrid:  Grid lengths = (121.834, 20.929, 15.533)
+Vclist_setupGrid:  Grid lower corner = (-8.22601, -9.22101, -7.52801)
+Vclist_assignAtoms:  Have 64197 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 76.256
+Vacc_storeParms:  Using 730-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_ctor2:  Filling boundary with old solution!
+VPMG::focusFillBound -- New mesh mins = -14.728, -10.5995, -7.018
+VPMG::focusFillBound -- New mesh maxs = 120.11, 13.0865, 7.495
+VPMG::focusFillBound -- Old mesh mins = -44.9215, -10.5995, -7.018
+VPMG::focusFillBound -- Old mesh maxs = 150.304, 13.0865, 7.495
+VPMG::extEnergy:  energy flag = 1
+Vpmg_setPart:  lower corner = (-14.728, -10.5995, -7.018)
+Vpmg_setPart:  upper corner = (120.11, 13.0865, 7.495)
+Vpmg_setPart:  actual minima = (-44.9215, -10.5995, -7.018)
+Vpmg_setPart:  actual maxima = (150.304, 13.0865, 7.495)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+VPMG::extEnergy:   Finding extEnergy dimensions...
+VPMG::extEnergy    Disj part lower corner = (-14.728, -10.5995, -7.018)
+VPMG::extEnergy    Disj part upper corner = (120.11, 13.0865, 7.495)
+VPMG::extEnergy    Old lower corner = (-44.9215, -10.5995, -7.018)
+VPMG::extEnergy    Old upper corner = (150.304, 13.0865, 7.495)
+Vpmg_qmEnergy:  Zero energy for zero ionic strength!
+VPMG::extEnergy: extQmEnergy = 0 kT
+Vpmg_qfEnergyVolume:  Calculating energy
+VPMG::extEnergy: extQfEnergy = 0 kT
+VPMG::extEnergy: extDiEnergy = 3.49717e-05 kT
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.009000
+Vpmg_fillco:  done filling coefficient arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 1.323000e+00
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (161, 161, 161)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 1.060000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (081, 081, 081)
+Vbuildops: Galer: (041, 041, 041)
+Vbuildops: Galer: (021, 021, 021)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 4.090000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.603710e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 878909.814731
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.604830e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.189983e+06
+Vprtstp: contraction number = 1.189983e+06
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.718024e+05
+Vprtstp: contraction number = 7.326177e-01
+Vnewton: Attempting damping, relres = 0.892722
+Vnewton: Attempting damping, relres = 0.931459
+Vnewton: Damping accepted, relres = 0.892722
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.927221e-01
+Vprtstp: contraction number = 8.927221e-01
+Vnewton: Using errtol_s: 784622.180140
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.613970e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.602256e+05
+Vprtstp: contraction number = 6.602256e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.760683e-01
+Vprtstp: contraction number = 7.573111e-01
+Vnewton: Using errtol_s: 594203.071302
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.618900e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.317281e+05
+Vprtstp: contraction number = 5.317281e+05
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.444874e-01
+Vprtstp: contraction number = 8.053733e-01
+Vnewton: Using errtol_s: 478555.288286
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.625930e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.454514e+05
+Vprtstp: contraction number = 4.454514e+05
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.561403e-01
+Vprtstp: contraction number = 8.377427e-01
+Vnewton: Using errtol_s: 400906.218777
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.632870e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.805719e+05
+Vprtstp: contraction number = 3.805719e+05
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 3.897040e-01
+Vprtstp: contraction number = 8.543512e-01
+Vnewton: Using errtol_s: 342514.712213
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.637540e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.304785e+05
+Vprtstp: contraction number = 3.304785e+05
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 3.384086e-01
+Vprtstp: contraction number = 8.683733e-01
+Vnewton: Using errtol_s: 297430.614029
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.642310e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.900663e+05
+Vprtstp: contraction number = 2.900663e+05
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 2.970267e-01
+Vprtstp: contraction number = 8.777163e-01
+Vnewton: Using errtol_s: 261059.697453
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.646600e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.568633e+05
+Vprtstp: contraction number = 2.568633e+05
+Vprtstp: iteration = 8
+Vprtstp: relative residual = 2.630270e-01
+Vprtstp: contraction number = 8.855331e-01
+Vnewton: Using errtol_s: 231176.994891
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.651080e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.289385e+05
+Vprtstp: contraction number = 2.289385e+05
+Vprtstp: iteration = 9
+Vprtstp: relative residual = 2.344321e-01
+Vprtstp: contraction number = 8.912853e-01
+Vnewton: Using errtol_s: 206044.659682
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.656050e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.052045e+05
+Vprtstp: contraction number = 2.052045e+05
+Vprtstp: iteration = 10
+Vprtstp: relative residual = 2.101285e-01
+Vprtstp: contraction number = 8.963300e-01
+Vnewton: Using errtol_s: 184684.015390
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.660300e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.847361e+05
+Vprtstp: contraction number = 1.847361e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.669583e+05
+Vprtstp: contraction number = 9.037664e-01
+Vprtstp: iteration = 11
+Vprtstp: relative residual = 1.709646e-01
+Vprtstp: contraction number = 8.136191e-01
+Vnewton: Using errtol_s: 150262.439737
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.669010e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.513753e+05
+Vprtstp: contraction number = 1.513753e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.376568e+05
+Vprtstp: contraction number = 9.093744e-01
+Vprtstp: iteration = 12
+Vprtstp: relative residual = 1.409600e-01
+Vprtstp: contraction number = 8.244986e-01
+Vnewton: Using errtol_s: 123891.164405
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.676850e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.254927e+05
+Vprtstp: contraction number = 1.254927e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.146665e+05
+Vprtstp: contraction number = 9.137298e-01
+Vprtstp: iteration = 13
+Vprtstp: relative residual = 1.174180e-01
+Vprtstp: contraction number = 8.329877e-01
+Vnewton: Using errtol_s: 103199.815076
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.684480e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.049884e+05
+Vprtstp: contraction number = 1.049884e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.630789e+04
+Vprtstp: contraction number = 9.173190e-01
+Vprtstp: iteration = 14
+Vprtstp: relative residual = 9.861888e-02
+Vprtstp: contraction number = 8.398959e-01
+Vnewton: Using errtol_s: 86677.103301
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.693750e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.849392e+04
+Vprtstp: contraction number = 8.849392e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.144409e+04
+Vprtstp: contraction number = 9.203355e-01
+Vprtstp: iteration = 15
+Vprtstp: relative residual = 8.339841e-02
+Vprtstp: contraction number = 8.456638e-01
+Vnewton: Using errtol_s: 73299.684986
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.703900e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.505997e+04
+Vprtstp: contraction number = 7.505997e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.926880e+04
+Vprtstp: contraction number = 9.228461e-01
+Vprtstp: iteration = 16
+Vprtstp: relative residual = 7.093096e-02
+Vprtstp: contraction number = 8.505074e-01
+Vnewton: Using errtol_s: 62341.921287
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.715450e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.399597e+04
+Vprtstp: contraction number = 6.399597e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.919319e+04
+Vprtstp: contraction number = 9.249518e-01
+Vprtstp: iteration = 17
+Vprtstp: relative residual = 6.061358e-02
+Vprtstp: contraction number = 8.545433e-01
+Vnewton: Using errtol_s: 53273.870399
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.727630e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.480408e+04
+Vprtstp: contraction number = 5.480408e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.079349e+04
+Vprtstp: contraction number = 9.268194e-01
+Vprtstp: iteration = 18
+Vprtstp: relative residual = 5.201232e-02
+Vprtstp: contraction number = 8.580968e-01
+Vnewton: Using errtol_s: 45714.138929
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.739140e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.711582e+04
+Vprtstp: contraction number = 4.711582e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.374562e+04
+Vprtstp: contraction number = 9.284699e-01
+Vprtstp: iteration = 19
+Vprtstp: relative residual = 4.479533e-02
+Vprtstp: contraction number = 8.612446e-01
+Vnewton: Using errtol_s: 39371.053977
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.747520e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.064564e+04
+Vprtstp: contraction number = 4.064564e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.779655e+04
+Vprtstp: contraction number = 9.299042e-01
+Vprtstp: iteration = 20
+Vprtstp: relative residual = 3.870351e-02
+Vprtstp: contraction number = 8.640078e-01
+Vnewton: Using errtol_s: 34016.896265
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.755600e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.516881e+04
+Vprtstp: contraction number = 3.516881e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.274828e+04
+Vprtstp: contraction number = 9.311739e-01
+Vprtstp: iteration = 21
+Vprtstp: relative residual = 3.353410e-02
+Vprtstp: contraction number = 8.664356e-01
+Vnewton: Using errtol_s: 29473.450128
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.763880e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.051068e+04
+Vprtstp: contraction number = 3.051068e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.844489e+04
+Vprtstp: contraction number = 9.322930e-01
+Vprtstp: iteration = 22
+Vprtstp: relative residual = 2.912745e-02
+Vprtstp: contraction number = 8.685920e-01
+Vnewton: Using errtol_s: 25600.403953
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.771250e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.653173e+04
+Vprtstp: contraction number = 2.653173e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.476179e+04
+Vprtstp: contraction number = 9.332897e-01
+Vprtstp: iteration = 23
+Vprtstp: relative residual = 2.535597e-02
+Vprtstp: contraction number = 8.705179e-01
+Vnewton: Using errtol_s: 22285.610828
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.778540e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.311970e+04
+Vprtstp: contraction number = 2.311970e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.159813e+04
+Vprtstp: contraction number = 9.341874e-01
+Vprtstp: iteration = 24
+Vprtstp: relative residual = 2.211640e-02
+Vprtstp: contraction number = 8.722363e-01
+Vnewton: Using errtol_s: 19438.318081
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.785680e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.018443e+04
+Vprtstp: contraction number = 2.018443e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.887235e+04
+Vprtstp: contraction number = 9.349956e-01
+Vprtstp: iteration = 25
+Vprtstp: relative residual = 1.932521e-02
+Vprtstp: contraction number = 8.737955e-01
+Vnewton: Using errtol_s: 16985.114925
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.793150e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.765161e+04
+Vprtstp: contraction number = 1.765161e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.651721e+04
+Vprtstp: contraction number = 9.357338e-01
+Vprtstp: iteration = 26
+Vprtstp: relative residual = 1.691355e-02
+Vprtstp: contraction number = 8.752067e-01
+Vnewton: Using errtol_s: 14865.485865
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.801490e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.546047e+04
+Vprtstp: contraction number = 1.546047e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.447743e+04
+Vprtstp: contraction number = 9.364159e-01
+Vprtstp: iteration = 27
+Vprtstp: relative residual = 1.482483e-02
+Vprtstp: contraction number = 8.765061e-01
+Vnewton: Using errtol_s: 13029.689686
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.810500e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.356050e+04
+Vprtstp: contraction number = 1.356050e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.270663e+04
+Vprtstp: contraction number = 9.370322e-01
+Vprtstp: iteration = 28
+Vprtstp: relative residual = 1.301153e-02
+Vprtstp: contraction number = 8.776850e-01
+Vnewton: Using errtol_s: 11435.962674
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.817500e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.190942e+04
+Vprtstp: contraction number = 1.190942e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.116632e+04
+Vprtstp: contraction number = 9.376042e-01
+Vprtstp: iteration = 29
+Vprtstp: relative residual = 1.143427e-02
+Vprtstp: contraction number = 8.787794e-01
+Vnewton: Using errtol_s: 10049.688625
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.825350e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.047185e+04
+Vprtstp: contraction number = 1.047185e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.824009e+03
+Vprtstp: contraction number = 9.381352e-01
+Vprtstp: iteration = 30
+Vprtstp: relative residual = 1.005974e-02
+Vprtstp: contraction number = 8.797893e-01
+Vnewton: Using errtol_s: 8841.608333
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.833560e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.217950e+03
+Vprtstp: contraction number = 9.217950e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.652151e+03
+Vprtstp: contraction number = 9.386198e-01
+Vprtstp: iteration = 31
+Vprtstp: relative residual = 8.859766e-03
+Vprtstp: contraction number = 8.807148e-01
+Vnewton: Using errtol_s: 7786.935691
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.841430e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.122406e+03
+Vprtstp: contraction number = 8.122406e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.627501e+03
+Vprtstp: contraction number = 9.390692e-01
+Vprtstp: iteration = 32
+Vprtstp: relative residual = 7.810530e-03
+Vprtstp: contraction number = 8.815729e-01
+Vnewton: Using errtol_s: 6864.751137
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.848870e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.163765e+03
+Vprtstp: contraction number = 7.163765e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.730231e+03
+Vprtstp: contraction number = 9.394823e-01
+Vprtstp: iteration = 33
+Vprtstp: relative residual = 6.891728e-03
+Vprtstp: contraction number = 8.823637e-01
+Vnewton: Using errtol_s: 6057.207516
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.856110e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.323698e+03
+Vprtstp: contraction number = 6.323698e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.943390e+03
+Vprtstp: contraction number = 9.398600e-01
+Vprtstp: iteration = 34
+Vprtstp: relative residual = 6.086007e-03
+Vprtstp: contraction number = 8.830886e-01
+Vnewton: Using errtol_s: 5349.051096
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.863410e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.586533e+03
+Vprtstp: contraction number = 5.586533e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.252529e+03
+Vprtstp: contraction number = 9.402127e-01
+Vprtstp: iteration = 35
+Vprtstp: relative residual = 5.378568e-03
+Vprtstp: contraction number = 8.837598e-01
+Vnewton: Using errtol_s: 4727.276473
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.870650e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.938916e+03
+Vprtstp: contraction number = 4.938916e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.645262e+03
+Vprtstp: contraction number = 9.405427e-01
+Vprtstp: iteration = 36
+Vprtstp: relative residual = 4.756729e-03
+Vprtstp: contraction number = 8.843857e-01
+Vnewton: Using errtol_s: 4180.735742
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.877900e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.369412e+03
+Vprtstp: contraction number = 4.369412e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.111002e+03
+Vprtstp: contraction number = 9.408592e-01
+Vprtstp: iteration = 37
+Vprtstp: relative residual = 4.209649e-03
+Vprtstp: contraction number = 8.849881e-01
+Vnewton: Using errtol_s: 3699.901501
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.885270e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.868097e+03
+Vprtstp: contraction number = 3.868097e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.640448e+03
+Vprtstp: contraction number = 9.411471e-01
+Vprtstp: iteration = 38
+Vprtstp: relative residual = 3.727804e-03
+Vprtstp: contraction number = 8.855381e-01
+Vnewton: Using errtol_s: 3276.403627
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.892600e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.426352e+03
+Vprtstp: contraction number = 3.426352e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.225618e+03
+Vprtstp: contraction number = 9.414145e-01
+Vprtstp: iteration = 39
+Vprtstp: relative residual = 3.303019e-03
+Vprtstp: contraction number = 8.860496e-01
+Vnewton: Using errtol_s: 2903.056104
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.900100e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.036771e+03
+Vprtstp: contraction number = 3.036771e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.859648e+03
+Vprtstp: contraction number = 9.416738e-01
+Vprtstp: iteration = 40
+Vprtstp: relative residual = 2.928268e-03
+Vprtstp: contraction number = 8.865427e-01
+Vnewton: Using errtol_s: 2573.683168
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.907480e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.692934e+03
+Vprtstp: contraction number = 2.692934e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.536516e+03
+Vprtstp: contraction number = 9.419154e-01
+Vprtstp: iteration = 41
+Vprtstp: relative residual = 2.597382e-03
+Vprtstp: contraction number = 8.870029e-01
+Vnewton: Using errtol_s: 2282.864359
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.914730e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.389236e+03
+Vprtstp: contraction number = 2.389236e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.251005e+03
+Vprtstp: contraction number = 9.421442e-01
+Vprtstp: iteration = 42
+Vprtstp: relative residual = 2.305020e-03
+Vprtstp: contraction number = 8.874398e-01
+Vnewton: Using errtol_s: 2025.904591
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.922310e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.120805e+03
+Vprtstp: contraction number = 2.120805e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.998556e+03
+Vprtstp: contraction number = 9.423576e-01
+Vprtstp: iteration = 43
+Vprtstp: relative residual = 2.046513e-03
+Vprtstp: contraction number = 8.878506e-01
+Vnewton: Using errtol_s: 1798.700655
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.929540e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.883369e+03
+Vprtstp: contraction number = 1.883369e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.775187e+03
+Vprtstp: contraction number = 9.425593e-01
+Vprtstp: iteration = 44
+Vprtstp: relative residual = 1.817784e-03
+Vprtstp: contraction number = 8.882348e-01
+Vnewton: Using errtol_s: 1597.668599
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.936800e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.673222e+03
+Vprtstp: contraction number = 1.673222e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.577429e+03
+Vprtstp: contraction number = 9.427496e-01
+Vprtstp: iteration = 45
+Vprtstp: relative residual = 1.615281e-03
+Vprtstp: contraction number = 8.885987e-01
+Vnewton: Using errtol_s: 1419.686180
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.944090e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.487117e+03
+Vprtstp: contraction number = 1.487117e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.402246e+03
+Vprtstp: contraction number = 9.429294e-01
+Vprtstp: iteration = 46
+Vprtstp: relative residual = 1.435894e-03
+Vprtstp: contraction number = 8.889439e-01
+Vnewton: Using errtol_s: 1262.021439
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.951300e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.322208e+03
+Vprtstp: contraction number = 1.322208e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.246969e+03
+Vprtstp: contraction number = 9.430961e-01
+Vprtstp: iteration = 47
+Vprtstp: relative residual = 1.276891e-03
+Vprtstp: contraction number = 8.892654e-01
+Vnewton: Using errtol_s: 1122.272045
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.958520e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.175994e+03
+Vprtstp: contraction number = 1.175994e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.109258e+03
+Vprtstp: contraction number = 9.432512e-01
+Vprtstp: iteration = 48
+Vprtstp: relative residual = 1.135876e-03
+Vprtstp: contraction number = 8.895636e-01
+Vnewton: Using errtol_s: 998.332334
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.965770e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.046290e+03
+Vprtstp: contraction number = 1.046290e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.870678e+02
+Vprtstp: contraction number = 9.433976e-01
+Vprtstp: iteration = 49
+Vprtstp: relative residual = 1.010753e-03
+Vprtstp: contraction number = 8.898450e-01
+Vnewton: Using errtol_s: 888.361030
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.973000e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.311762e+02
+Vprtstp: contraction number = 9.311762e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.785978e+02
+Vprtstp: contraction number = 9.435355e-01
+Vprtstp: iteration = 50
+Vprtstp: relative residual = 8.996805e-04
+Vprtstp: contraction number = 8.901089e-01
+Vnewton: Using errtol_s: 790.738026
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.980270e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.289665e+02
+Vprtstp: contraction number = 8.289665e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.822663e+02
+Vprtstp: contraction number = 9.436646e-01
+Vprtstp: iteration = 51
+Vprtstp: relative residual = 8.010374e-04
+Vprtstp: contraction number = 8.903576e-01
+Vnewton: Using errtol_s: 704.039639
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.987620e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.381752e+02
+Vprtstp: contraction number = 7.381752e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.966800e+02
+Vprtstp: contraction number = 9.437869e-01
+Vprtstp: iteration = 52
+Vprtstp: relative residual = 7.133975e-04
+Vprtstp: contraction number = 8.905920e-01
+Vnewton: Using errtol_s: 627.012044
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.995530e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.574960e+02
+Vprtstp: contraction number = 6.574960e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.206135e+02
+Vprtstp: contraction number = 9.439047e-01
+Vprtstp: iteration = 53
+Vprtstp: relative residual = 6.355057e-04
+Vprtstp: contraction number = 8.908157e-01
+Vnewton: Using errtol_s: 558.552183
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.002830e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.857800e+02
+Vprtstp: contraction number = 5.857800e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.529865e+02
+Vprtstp: contraction number = 9.440174e-01
+Vprtstp: iteration = 54
+Vprtstp: relative residual = 5.662559e-04
+Vprtstp: contraction number = 8.910320e-01
+Vnewton: Using errtol_s: 497.687894
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.010310e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.220102e+02
+Vprtstp: contraction number = 5.220102e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.928433e+02
+Vprtstp: contraction number = 9.441258e-01
+Vprtstp: iteration = 55
+Vprtstp: relative residual = 5.046695e-04
+Vprtstp: contraction number = 8.912392e-01
+Vnewton: Using errtol_s: 443.558947
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.017810e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.652885e+02
+Vprtstp: contraction number = 4.652885e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.393394e+02
+Vprtstp: contraction number = 9.442302e-01
+Vprtstp: iteration = 56
+Vprtstp: relative residual = 4.498818e-04
+Vprtstp: contraction number = 8.914384e-01
+Vnewton: Using errtol_s: 395.405492
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.025170e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.148217e+02
+Vprtstp: contraction number = 4.148217e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.917285e+02
+Vprtstp: contraction number = 9.443300e-01
+Vprtstp: iteration = 57
+Vprtstp: relative residual = 4.011284e-04
+Vprtstp: contraction number = 8.916307e-01
+Vnewton: Using errtol_s: 352.555680
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.032230e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.699070e+02
+Vprtstp: contraction number = 3.699070e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.493495e+02
+Vprtstp: contraction number = 9.444254e-01
+Vprtstp: iteration = 58
+Vprtstp: relative residual = 3.577325e-04
+Vprtstp: contraction number = 8.918153e-01
+Vnewton: Using errtol_s: 314.414566
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.039410e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.299216e+02
+Vprtstp: contraction number = 3.299216e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.116165e+02
+Vprtstp: contraction number = 9.445167e-01
+Vprtstp: iteration = 59
+Vprtstp: relative residual = 3.190940e-04
+Vprtstp: contraction number = 8.919906e-01
+Vnewton: Using errtol_s: 280.454834
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.046600e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.943160e+02
+Vprtstp: contraction number = 2.943160e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.780122e+02
+Vprtstp: contraction number = 9.446046e-01
+Vprtstp: iteration = 60
+Vprtstp: relative residual = 2.846833e-04
+Vprtstp: contraction number = 8.921614e-01
+Vnewton: Using errtol_s: 250.210989
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.053930e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.626018e+02
+Vprtstp: contraction number = 2.626018e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.480765e+02
+Vprtstp: contraction number = 9.446873e-01
+Vprtstp: iteration = 61
+Vprtstp: relative residual = 2.540293e-04
+Vprtstp: contraction number = 8.923225e-01
+Vnewton: Using errtol_s: 223.268888
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.061900e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.343466e+02
+Vprtstp: contraction number = 2.343466e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.214031e+02
+Vprtstp: contraction number = 9.447675e-01
+Vprtstp: iteration = 62
+Vprtstp: relative residual = 2.267158e-04
+Vprtstp: contraction number = 8.924789e-01
+Vnewton: Using errtol_s: 199.262765
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.069140e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.091671e+02
+Vprtstp: contraction number = 2.091671e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.976305e+02
+Vprtstp: contraction number = 9.448447e-01
+Vprtstp: iteration = 63
+Vprtstp: relative residual = 2.023728e-04
+Vprtstp: contraction number = 8.926274e-01
+Vnewton: Using errtol_s: 177.867411
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.076720e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.867238e+02
+Vprtstp: contraction number = 1.867238e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.764389e+02
+Vprtstp: contraction number = 9.449188e-01
+Vprtstp: iteration = 64
+Vprtstp: relative residual = 1.806727e-04
+Vprtstp: contraction number = 8.927716e-01
+Vnewton: Using errtol_s: 158.794971
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.084230e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.667149e+02
+Vprtstp: contraction number = 1.667149e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.575439e+02
+Vprtstp: contraction number = 9.449894e-01
+Vprtstp: iteration = 65
+Vprtstp: relative residual = 1.613243e-04
+Vprtstp: contraction number = 8.929091e-01
+Vnewton: Using errtol_s: 141.789470
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.091400e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.488726e+02
+Vprtstp: contraction number = 1.488726e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.406933e+02
+Vprtstp: contraction number = 9.450582e-01
+Vprtstp: iteration = 66
+Vprtstp: relative residual = 1.440693e-04
+Vprtstp: contraction number = 8.930419e-01
+Vnewton: Using errtol_s: 126.623940
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.098570e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.329592e+02
+Vprtstp: contraction number = 1.329592e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.256632e+02
+Vprtstp: contraction number = 9.451257e-01
+Vprtstp: iteration = 67
+Vprtstp: relative residual = 1.286786e-04
+Vprtstp: contraction number = 8.931712e-01
+Vnewton: Using errtol_s: 113.096853
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.105810e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.187639e+02
+Vprtstp: contraction number = 1.187639e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.122545e+02
+Vprtstp: contraction number = 9.451905e-01
+Vprtstp: iteration = 68
+Vprtstp: relative residual = 1.149482e-04
+Vprtstp: contraction number = 8.932970e-01
+Vnewton: Using errtol_s: 101.029077
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.113080e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.060988e+02
+Vprtstp: contraction number = 1.060988e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.002902e+02
+Vprtstp: contraction number = 9.452531e-01
+Vprtstp: iteration = 69
+Vprtstp: relative residual = 1.026967e-04
+Vprtstp: contraction number = 8.934179e-01
+Vnewton: Using errtol_s: 90.261181
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.120310e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.479685e+01
+Vprtstp: contraction number = 9.479685e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.961279e+01
+Vprtstp: contraction number = 9.453141e-01
+Vprtstp: iteration = 70
+Vprtstp: relative residual = 9.176313e-05
+Vprtstp: contraction number = 8.935349e-01
+Vnewton: Using errtol_s: 80.651514
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.127590e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.470983e+01
+Vprtstp: contraction number = 8.470983e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.008249e+01
+Vprtstp: contraction number = 9.453742e-01
+Vprtstp: iteration = 71
+Vprtstp: relative residual = 8.200414e-05
+Vprtstp: contraction number = 8.936502e-01
+Vnewton: Using errtol_s: 72.074240
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.134920e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.570577e+01
+Vprtstp: contraction number = 7.570577e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.157464e+01
+Vprtstp: contraction number = 9.454318e-01
+Vprtstp: iteration = 72
+Vprtstp: relative residual = 7.329214e-05
+Vprtstp: contraction number = 8.937615e-01
+Vnewton: Using errtol_s: 64.417178
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.142140e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.766707e+01
+Vprtstp: contraction number = 6.766707e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.397847e+01
+Vprtstp: contraction number = 9.454889e-01
+Vprtstp: iteration = 73
+Vprtstp: relative residual = 6.551368e-05
+Vprtstp: contraction number = 8.938706e-01
+Vnewton: Using errtol_s: 57.580619
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.150650e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.048930e+01
+Vprtstp: contraction number = 6.048930e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.719533e+01
+Vprtstp: contraction number = 9.455445e-01
+Vprtstp: iteration = 74
+Vprtstp: relative residual = 5.856778e-05
+Vprtstp: contraction number = 8.939778e-01
+Vnewton: Using errtol_s: 51.475793
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.159220e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.407931e+01
+Vprtstp: contraction number = 5.407931e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.113740e+01
+Vprtstp: contraction number = 9.456000e-01
+Vprtstp: iteration = 75
+Vprtstp: relative residual = 5.236449e-05
+Vprtstp: contraction number = 8.940836e-01
+Vnewton: Using errtol_s: 46.023660
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.168460e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.835435e+01
+Vprtstp: contraction number = 4.835435e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.572649e+01
+Vprtstp: contraction number = 9.456542e-01
+Vprtstp: iteration = 76
+Vprtstp: relative residual = 4.682374e-05
+Vprtstp: contraction number = 8.941888e-01
+Vnewton: Using errtol_s: 41.153842
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.176080e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.324038e+01
+Vprtstp: contraction number = 4.324038e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.089267e+01
+Vprtstp: contraction number = 9.457056e-01
+Vprtstp: iteration = 77
+Vprtstp: relative residual = 4.187392e-05
+Vprtstp: contraction number = 8.942884e-01
+Vnewton: Using errtol_s: 36.803402
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.183630e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.867150e+01
+Vprtstp: contraction number = 3.867150e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.657373e+01
+Vprtstp: contraction number = 9.457540e-01
+Vprtstp: iteration = 78
+Vprtstp: relative residual = 3.745134e-05
+Vprtstp: contraction number = 8.943835e-01
+Vnewton: Using errtol_s: 32.916355
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.190860e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.458894e+01
+Vprtstp: contraction number = 3.458894e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.271424e+01
+Vprtstp: contraction number = 9.458007e-01
+Vprtstp: iteration = 79
+Vprtstp: relative residual = 3.349925e-05
+Vprtstp: contraction number = 8.944738e-01
+Vnewton: Using errtol_s: 29.442817
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.200440e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.094047e+01
+Vprtstp: contraction number = 3.094047e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.926493e+01
+Vprtstp: contraction number = 9.458464e-01
+Vprtstp: iteration = 80
+Vprtstp: relative residual = 2.996717e-05
+Vprtstp: contraction number = 8.945625e-01
+Vnewton: Using errtol_s: 26.338439
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.207910e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.767953e+01
+Vprtstp: contraction number = 2.767953e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.618183e+01
+Vprtstp: contraction number = 9.458912e-01
+Vprtstp: iteration = 81
+Vprtstp: relative residual = 2.681008e-05
+Vprtstp: contraction number = 8.946485e-01
+Vnewton: Using errtol_s: 23.563646
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.215980e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.476467e+01
+Vprtstp: contraction number = 2.476467e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.342580e+01
+Vprtstp: contraction number = 9.459363e-01
+Vprtstp: iteration = 82
+Vprtstp: relative residual = 2.398792e-05
+Vprtstp: contraction number = 8.947350e-01
+Vnewton: Using errtol_s: 21.083220
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.224710e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.215888e+01
+Vprtstp: contraction number = 2.215888e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.096186e+01
+Vprtstp: contraction number = 9.459801e-01
+Vprtstp: iteration = 83
+Vprtstp: relative residual = 2.146486e-05
+Vprtstp: contraction number = 8.948193e-01
+Vnewton: Using errtol_s: 18.865673
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.232230e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.982912e+01
+Vprtstp: contraction number = 1.982912e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.875878e+01
+Vprtstp: contraction number = 9.460218e-01
+Vprtstp: iteration = 84
+Vprtstp: relative residual = 1.920891e-05
+Vprtstp: contraction number = 8.949004e-01
+Vnewton: Using errtol_s: 16.882899
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.239530e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.774588e+01
+Vprtstp: contraction number = 1.774588e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.678870e+01
+Vprtstp: contraction number = 9.460621e-01
+Vprtstp: iteration = 85
+Vprtstp: relative residual = 1.719156e-05
+Vprtstp: contraction number = 8.949786e-01
+Vnewton: Using errtol_s: 15.109833
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.249510e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.588287e+01
+Vprtstp: contraction number = 1.588287e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.502681e+01
+Vprtstp: contraction number = 9.461018e-01
+Vprtstp: iteration = 86
+Vprtstp: relative residual = 1.538739e-05
+Vprtstp: contraction number = 8.950547e-01
+Vnewton: Using errtol_s: 13.524127
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.258710e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.421664e+01
+Vprtstp: contraction number = 1.421664e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.345092e+01
+Vprtstp: contraction number = 9.461393e-01
+Vprtstp: iteration = 87
+Vprtstp: relative residual = 1.377369e-05
+Vprtstp: contraction number = 8.951282e-01
+Vnewton: Using errtol_s: 12.105828
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.267090e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.272622e+01
+Vprtstp: contraction number = 1.272622e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.204124e+01
+Vprtstp: contraction number = 9.461757e-01
+Vprtstp: iteration = 88
+Vprtstp: relative residual = 1.233018e-05
+Vprtstp: contraction number = 8.951983e-01
+Vnewton: Using errtol_s: 10.837116
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.275700e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.139294e+01
+Vprtstp: contraction number = 1.139294e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.078012e+01
+Vprtstp: contraction number = 9.462110e-01
+Vprtstp: iteration = 89
+Vprtstp: relative residual = 1.103880e-05
+Vprtstp: contraction number = 8.952667e-01
+Vnewton: Using errtol_s: 9.702109
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.283800e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.020010e+01
+Vprtstp: contraction number = 1.020010e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.651806e+00
+Vprtstp: contraction number = 9.462458e-01
+Vprtstp: iteration = 90
+Vprtstp: relative residual = 9.883409e-06
+Vprtstp: contraction number = 8.953337e-01
+Vnewton: Using errtol_s: 8.686625
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.292920e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.132836e+00
+Vprtstp: contraction number = 9.132836e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.642210e+00
+Vprtstp: contraction number = 9.462789e-01
+Vprtstp: iteration = 91
+Vprtstp: relative residual = 8.849587e-06
+Vprtstp: contraction number = 8.953983e-01
+Vnewton: Using errtol_s: 7.777989
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.303030e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.177824e+00
+Vprtstp: contraction number = 8.177824e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.738775e+00
+Vprtstp: contraction number = 9.463122e-01
+Vprtstp: iteration = 92
+Vprtstp: relative residual = 7.924473e-06
+Vprtstp: contraction number = 8.954624e-01
+Vnewton: Using errtol_s: 6.964897
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.310310e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.323198e+00
+Vprtstp: contraction number = 7.323198e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.930264e+00
+Vprtstp: contraction number = 9.463439e-01
+Vprtstp: iteration = 93
+Vprtstp: relative residual = 7.096561e-06
+Vprtstp: contraction number = 8.955247e-01
+Vnewton: Using errtol_s: 6.237237
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.318060e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.558331e+00
+Vprtstp: contraction number = 6.558331e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.206644e+00
+Vprtstp: contraction number = 9.463755e-01
+Vprtstp: iteration = 94
+Vprtstp: relative residual = 6.355577e-06
+Vprtstp: contraction number = 8.955855e-01
+Vnewton: Using errtol_s: 5.585979
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.326220e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.873743e+00
+Vprtstp: contraction number = 5.873743e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.558948e+00
+Vprtstp: contraction number = 9.464063e-01
+Vprtstp: iteration = 95
+Vprtstp: relative residual = 5.692339e-06
+Vprtstp: contraction number = 8.956447e-01
+Vnewton: Using errtol_s: 5.003053
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.334980e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.260963e+00
+Vprtstp: contraction number = 5.260963e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.979163e+00
+Vprtstp: contraction number = 9.464357e-01
+Vprtstp: iteration = 96
+Vprtstp: relative residual = 5.098643e-06
+Vprtstp: contraction number = 8.957025e-01
+Vnewton: Using errtol_s: 4.481247
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.343120e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.712402e+00
+Vprtstp: contraction number = 4.712402e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.460120e+00
+Vprtstp: contraction number = 9.464642e-01
+Vprtstp: iteration = 97
+Vprtstp: relative residual = 4.567144e-06
+Vprtstp: contraction number = 8.957568e-01
+Vnewton: Using errtol_s: 4.014108
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.350530e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.221301e+00
+Vprtstp: contraction number = 4.221301e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.995433e+00
+Vprtstp: contraction number = 9.464933e-01
+Vprtstp: iteration = 98
+Vprtstp: relative residual = 4.091307e-06
+Vprtstp: contraction number = 8.958129e-01
+Vnewton: Using errtol_s: 3.595889
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.357870e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.781609e+00
+Vprtstp: contraction number = 3.781609e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.579372e+00
+Vprtstp: contraction number = 9.465207e-01
+Vprtstp: iteration = 99
+Vprtstp: relative residual = 3.665262e-06
+Vprtstp: contraction number = 8.958658e-01
+Vnewton: Using errtol_s: 3.221434
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.365270e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.387914e+00
+Vprtstp: contraction number = 3.387914e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.206824e+00
+Vprtstp: contraction number = 9.465482e-01
+Vprtstp: iteration = 100
+Vprtstp: relative residual = 3.283775e-06
+Vprtstp: contraction number = 8.959182e-01
+Vnewton: Using errtol_s: 2.886142
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.372830e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.035382e+00
+Vprtstp: contraction number = 3.035382e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.873220e+00
+Vprtstp: contraction number = 9.465758e-01
+Vprtstp: iteration = 101
+Vprtstp: relative residual = 2.942165e-06
+Vprtstp: contraction number = 8.959704e-01
+Vnewton: Using errtol_s: 2.585898
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.380090e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.719691e+00
+Vprtstp: contraction number = 2.719691e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.574465e+00
+Vprtstp: contraction number = 9.466023e-01
+Vprtstp: iteration = 102
+Vprtstp: relative residual = 2.636242e-06
+Vprtstp: contraction number = 8.960211e-01
+Vnewton: Using errtol_s: 2.317019
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.387580e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.436968e+00
+Vprtstp: contraction number = 2.436968e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.306904e+00
+Vprtstp: contraction number = 9.466289e-01
+Vprtstp: iteration = 103
+Vprtstp: relative residual = 2.362260e-06
+Vprtstp: contraction number = 8.960712e-01
+Vnewton: Using errtol_s: 2.076214
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.395040e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.183757e+00
+Vprtstp: contraction number = 2.183757e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.067264e+00
+Vprtstp: contraction number = 9.466548e-01
+Vprtstp: iteration = 104
+Vprtstp: relative residual = 2.116869e-06
+Vprtstp: contraction number = 8.961203e-01
+Vnewton: Using errtol_s: 1.860537
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.402720e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.956961e+00
+Vprtstp: contraction number = 1.956961e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.852616e+00
+Vprtstp: contraction number = 9.466801e-01
+Vprtstp: iteration = 105
+Vprtstp: relative residual = 1.897071e-06
+Vprtstp: contraction number = 8.961682e-01
+Vnewton: Using errtol_s: 1.667354
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.410050e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.753812e+00
+Vprtstp: contraction number = 1.753812e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.660342e+00
+Vprtstp: contraction number = 9.467050e-01
+Vprtstp: iteration = 106
+Vprtstp: relative residual = 1.700184e-06
+Vprtstp: contraction number = 8.962150e-01
+Vnewton: Using errtol_s: 1.494308
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.417470e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.571833e+00
+Vprtstp: contraction number = 1.571833e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.488100e+00
+Vprtstp: contraction number = 9.467289e-01
+Vprtstp: iteration = 107
+Vprtstp: relative residual = 1.523808e-06
+Vprtstp: contraction number = 8.962610e-01
+Vnewton: Using errtol_s: 1.339290
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.425270e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.408808e+00
+Vprtstp: contraction number = 1.408808e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.333793e+00
+Vprtstp: contraction number = 9.467528e-01
+Vprtstp: iteration = 108
+Vprtstp: relative residual = 1.365799e-06
+Vprtstp: contraction number = 8.963062e-01
+Vnewton: Using errtol_s: 1.200414
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.432470e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.262756e+00
+Vprtstp: contraction number = 1.262756e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.195547e+00
+Vprtstp: contraction number = 9.467760e-01
+Vprtstp: iteration = 109
+Vprtstp: relative residual = 1.224235e-06
+Vprtstp: contraction number = 8.963512e-01
+Vnewton: Using errtol_s: 1.075992
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.439830e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.131900e+00
+Vprtstp: contraction number = 1.131900e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.071681e+00
+Vprtstp: contraction number = 9.467979e-01
+Vprtstp: iteration = 110
+Vprtstp: relative residual = 1.097397e-06
+Vprtstp: contraction number = 8.963935e-01
+Vnewton: Using errtol_s: 0.964513
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.447270e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.014652e+00
+Vprtstp: contraction number = 1.014652e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.606926e-01
+Vprtstp: contraction number = 9.468202e-01
+Vprtstp: iteration = 111
+Vprtstp: relative residual = 9.837452e-07
+Vprtstp: contraction number = 8.964354e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 8.503700e+01
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 8.559700e+01
+Vpmg_setPart:  lower corner = (-14.728, -10.5995, -7.018)
+Vpmg_setPart:  upper corner = (120.11, 13.0865, 7.495)
+Vpmg_setPart:  actual minima = (-14.728, -10.5995, -7.018)
+Vpmg_setPart:  actual maxima = (120.11, 13.0865, 7.495)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 1.954511967041E+04 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 1.200000e-02
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 1.000000e-03
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 58.092
+Vpbe_ctor2:  solute dimensions = 115.427 x 14.5225 x 9.12648
+Vpbe_ctor2:  solute charge = -7.10543e-15
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 29 x 18 table
+Vclist_ctor2:  Using 75 x 29 x 18 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.9 max radius
+Vclist_setupGrid:  Grid lengths = (121.834, 20.929, 15.533)
+Vclist_setupGrid:  Grid lower corner = (-8.22601, -9.22101, -7.52801)
+Vclist_assignAtoms:  Have 64197 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 76.256
+Vacc_storeParms:  Using 730-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.009000
+Vpmg_fillco:  done filling coefficient arrays
+Vpmg_fillco:  filling boundary arrays
+Vpmg_fillco:  done filling boundary arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 1.161000e+00
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (161, 161, 161)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 9.800000e-02
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (081, 081, 081)
+Vbuildops: Galer: (041, 041, 041)
+Vbuildops: Galer: (021, 021, 021)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 4.380000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.472150e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 886330.370034
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.473250e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.768384e+05
+Vprtstp: contraction number = 6.768384e+05
+Vnewton: Attempting damping, relres = 0.687277
+Vnewton: Attempting damping, relres = 0.828963
+Vnewton: Damping accepted, relres = 0.687277
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.872771e-01
+Vprtstp: contraction number = 6.872771e-01
+Vnewton: Using errtol_s: 609154.545794
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.477770e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.241045e+05
+Vprtstp: contraction number = 5.241045e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.321876e-01
+Vprtstp: contraction number = 7.743422e-01
+Vnewton: Using errtol_s: 471694.052581
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.482150e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.180613e+05
+Vprtstp: contraction number = 4.180613e+05
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.245090e-01
+Vprtstp: contraction number = 7.976679e-01
+Vnewton: Using errtol_s: 376255.192196
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.486970e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.583842e+05
+Vprtstp: contraction number = 3.583842e+05
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.639114e-01
+Vprtstp: contraction number = 8.572526e-01
+Vnewton: Using errtol_s: 322545.752588
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.491210e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.156823e+05
+Vprtstp: contraction number = 3.156823e+05
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 3.205510e-01
+Vprtstp: contraction number = 8.808488e-01
+Vnewton: Using errtol_s: 284114.045918
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.495420e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.820369e+05
+Vprtstp: contraction number = 2.820369e+05
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 2.863867e-01
+Vprtstp: contraction number = 8.934202e-01
+Vnewton: Using errtol_s: 253833.218876
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.499520e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.549653e+05
+Vprtstp: contraction number = 2.549653e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.320934e+05
+Vprtstp: contraction number = 9.102940e-01
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 2.356729e-01
+Vprtstp: contraction number = 8.229185e-01
+Vnewton: Using errtol_s: 208884.041018
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.507020e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.127103e+05
+Vprtstp: contraction number = 2.127103e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.958447e+05
+Vprtstp: contraction number = 9.207107e-01
+Vprtstp: iteration = 8
+Vprtstp: relative residual = 1.988651e-01
+Vprtstp: contraction number = 8.438184e-01
+Vnewton: Using errtol_s: 176260.198751
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.514470e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.811047e+05
+Vprtstp: contraction number = 1.811047e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.680498e+05
+Vprtstp: contraction number = 9.279151e-01
+Vprtstp: iteration = 9
+Vprtstp: relative residual = 1.706416e-01
+Vprtstp: contraction number = 8.580771e-01
+Vnewton: Using errtol_s: 151244.834477
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.521680e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.564040e+05
+Vprtstp: contraction number = 1.564040e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.459655e+05
+Vprtstp: contraction number = 9.332598e-01
+Vprtstp: iteration = 10
+Vprtstp: relative residual = 1.482167e-01
+Vprtstp: contraction number = 8.685850e-01
+Vnewton: Using errtol_s: 131368.987086
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.529010e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.365247e+05
+Vprtstp: contraction number = 1.365247e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.279819e+05
+Vprtstp: contraction number = 9.374267e-01
+Vprtstp: iteration = 11
+Vprtstp: relative residual = 1.299557e-01
+Vprtstp: contraction number = 8.767951e-01
+Vnewton: Using errtol_s: 115183.681247
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.536020e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.201708e+05
+Vprtstp: contraction number = 1.201708e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.130523e+05
+Vprtstp: contraction number = 9.407637e-01
+Vprtstp: iteration = 12
+Vprtstp: relative residual = 1.147959e-01
+Vprtstp: contraction number = 8.833463e-01
+Vnewton: Using errtol_s: 101747.073767
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.543190e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.064885e+05
+Vprtstp: contraction number = 1.064885e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.004741e+05
+Vprtstp: contraction number = 9.435208e-01
+Vprtstp: iteration = 13
+Vprtstp: relative residual = 1.020237e-01
+Vprtstp: contraction number = 8.887403e-01
+Vnewton: Using errtol_s: 90426.723717
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.550820e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.489513e+04
+Vprtstp: contraction number = 9.489513e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.975583e+04
+Vprtstp: contraction number = 9.458424e-01
+Vprtstp: iteration = 14
+Vprtstp: relative residual = 9.114011e-02
+Vprtstp: contraction number = 8.933227e-01
+Vnewton: Using errtol_s: 80780.248920
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.558320e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.495484e+04
+Vprtstp: contraction number = 8.495484e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.051802e+04
+Vprtstp: contraction number = 9.477744e-01
+Vprtstp: iteration = 15
+Vprtstp: relative residual = 8.175983e-02
+Vprtstp: contraction number = 8.970784e-01
+Vnewton: Using errtol_s: 72466.216431
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.565500e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.635334e+04
+Vprtstp: contraction number = 7.635334e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.249057e+04
+Vprtstp: contraction number = 9.494093e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 6.885405e+04
+Vprtstp: contraction number = 9.498346e-01
+Vprtstp: iteration = 16
+Vprtstp: relative residual = 6.991597e-02
+Vprtstp: contraction number = 8.551385e-01
+Vnewton: Using errtol_s: 61968.649220
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.576490e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.547072e+04
+Vprtstp: contraction number = 6.547072e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.227495e+04
+Vprtstp: contraction number = 9.511878e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.929355e+04
+Vprtstp: contraction number = 9.521253e-01
+Vprtstp: iteration = 17
+Vprtstp: relative residual = 6.020802e-02
+Vprtstp: contraction number = 8.611483e-01
+Vnewton: Using errtol_s: 53364.199122
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.587310e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.647143e+04
+Vprtstp: contraction number = 5.647143e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.383155e+04
+Vprtstp: contraction number = 9.532528e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.132815e+04
+Vprtstp: contraction number = 9.534958e-01
+Vprtstp: iteration = 18
+Vprtstp: relative residual = 5.211977e-02
+Vprtstp: contraction number = 8.656616e-01
+Vnewton: Using errtol_s: 46195.337828
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.597660e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.898084e+04
+Vprtstp: contraction number = 4.898084e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.675058e+04
+Vprtstp: contraction number = 9.544665e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.465600e+04
+Vprtstp: contraction number = 9.551967e-01
+Vprtstp: iteration = 19
+Vprtstp: relative residual = 4.534471e-02
+Vprtstp: contraction number = 8.700098e-01
+Vnewton: Using errtol_s: 40190.396627
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.608080e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.266263e+04
+Vprtstp: contraction number = 4.266263e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.078690e+04
+Vprtstp: contraction number = 9.560334e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.900039e+04
+Vprtstp: contraction number = 9.561988e-01
+Vprtstp: iteration = 20
+Vprtstp: relative residual = 3.960188e-02
+Vprtstp: contraction number = 8.733516e-01
+Vnewton: Using errtol_s: 35100.346960
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.618710e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.731614e+04
+Vprtstp: contraction number = 3.731614e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.571053e+04
+Vprtstp: contraction number = 9.569728e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.419464e+04
+Vprtstp: contraction number = 9.575505e-01
+Vprtstp: iteration = 21
+Vprtstp: relative residual = 3.472202e-02
+Vprtstp: contraction number = 8.767770e-01
+Vnewton: Using errtol_s: 30775.177537
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.629430e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.274782e+04
+Vprtstp: contraction number = 3.274782e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.138009e+04
+Vprtstp: contraction number = 9.582346e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.007364e+04
+Vprtstp: contraction number = 9.583671e-01
+Vprtstp: iteration = 22
+Vprtstp: relative residual = 3.053746e-02
+Vprtstp: contraction number = 8.794841e-01
+Vnewton: Using errtol_s: 27066.280275
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.640350e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.883709e+04
+Vprtstp: contraction number = 2.883709e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.765473e+04
+Vprtstp: contraction number = 9.589986e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.653409e+04
+Vprtstp: contraction number = 9.594773e-01
+Vprtstp: iteration = 23
+Vprtstp: relative residual = 2.694332e-02
+Vprtstp: contraction number = 8.823037e-01
+Vnewton: Using errtol_s: 23880.678780
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.650570e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.546160e+04
+Vprtstp: contraction number = 2.546160e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.444460e+04
+Vprtstp: contraction number = 9.600573e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.347006e+04
+Vprtstp: contraction number = 9.601327e-01
+Vprtstp: iteration = 24
+Vprtstp: relative residual = 2.383203e-02
+Vprtstp: contraction number = 8.845248e-01
+Vnewton: Using errtol_s: 21123.053497
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.661990e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.254527e+04
+Vprtstp: contraction number = 2.254527e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.165809e+04
+Vprtstp: contraction number = 9.606492e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.081583e+04
+Vprtstp: contraction number = 9.611111e-01
+Vprtstp: iteration = 25
+Vprtstp: relative residual = 2.113687e-02
+Vprtstp: contraction number = 8.869101e-01
+Vnewton: Using errtol_s: 18734.249379
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.672670e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.000667e+04
+Vprtstp: contraction number = 2.000667e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.923810e+04
+Vprtstp: contraction number = 9.615843e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.849912e+04
+Vprtstp: contraction number = 9.615878e-01
+Vprtstp: iteration = 26
+Vprtstp: relative residual = 1.878442e-02
+Vprtstp: contraction number = 8.887042e-01
+Vnewton: Using errtol_s: 16649.205715
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.683210e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.779699e+04
+Vprtstp: contraction number = 1.779699e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.712114e+04
+Vprtstp: contraction number = 9.620244e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.647886e+04
+Vprtstp: contraction number = 9.624864e-01
+Vprtstp: iteration = 27
+Vprtstp: relative residual = 1.673301e-02
+Vprtstp: contraction number = 8.907917e-01
+Vnewton: Using errtol_s: 14830.974730
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.694060e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.586002e+04
+Vprtstp: contraction number = 1.586002e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.527166e+04
+Vprtstp: contraction number = 9.629028e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.470414e+04
+Vprtstp: contraction number = 9.628383e-01
+Vprtstp: iteration = 28
+Vprtstp: relative residual = 1.493092e-02
+Vprtstp: contraction number = 8.923031e-01
+Vnewton: Using errtol_s: 13233.725163
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.704710e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.416432e+04
+Vprtstp: contraction number = 1.416432e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.364325e+04
+Vprtstp: contraction number = 9.632126e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.314746e+04
+Vprtstp: contraction number = 9.636607e-01
+Vprtstp: iteration = 29
+Vprtstp: relative residual = 1.335023e-02
+Vprtstp: contraction number = 8.941334e-01
+Vnewton: Using errtol_s: 11832.715314
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.714930e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.266850e+04
+Vprtstp: contraction number = 1.266850e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.221255e+04
+Vprtstp: contraction number = 9.640090e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.177179e+04
+Vprtstp: contraction number = 9.639091e-01
+Vprtstp: iteration = 30
+Vprtstp: relative residual = 1.195334e-02
+Vprtstp: contraction number = 8.953660e-01
+Vnewton: Using errtol_s: 10594.611381
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.726060e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.135197e+04
+Vprtstp: contraction number = 1.135197e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.094589e+04
+Vprtstp: contraction number = 9.642278e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.055901e+04
+Vprtstp: contraction number = 9.646552e-01
+Vprtstp: iteration = 31
+Vprtstp: relative residual = 1.072186e-02
+Vprtstp: contraction number = 8.969754e-01
+Vnewton: Using errtol_s: 9503.106051
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.736660e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.018450e+04
+Vprtstp: contraction number = 1.018450e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.827635e+03
+Vprtstp: contraction number = 9.649596e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 9.481887e+03
+Vprtstp: contraction number = 9.648188e-01
+Vprtstp: iteration = 32
+Vprtstp: relative residual = 9.628123e-03
+Vprtstp: contraction number = 8.979904e-01
+Vnewton: Using errtol_s: 8533.697927
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.747770e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.152392e+03
+Vprtstp: contraction number = 9.152392e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.832935e+03
+Vprtstp: contraction number = 9.650958e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 8.528451e+03
+Vprtstp: contraction number = 9.655285e-01
+Vprtstp: iteration = 33
+Vprtstp: relative residual = 8.659983e-03
+Vprtstp: contraction number = 8.994466e-01
+Vnewton: Using errtol_s: 7675.605587
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.758390e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.232978e+03
+Vprtstp: contraction number = 8.232978e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.951348e+03
+Vprtstp: contraction number = 9.657925e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 7.677801e+03
+Vprtstp: contraction number = 9.655975e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 7.417131e+03
+Vprtstp: contraction number = 9.660488e-01
+Vprtstp: iteration = 34
+Vprtstp: relative residual = 7.531524e-03
+Vprtstp: contraction number = 8.696927e-01
+Vnewton: Using errtol_s: 6675.418168
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.772300e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.163696e+03
+Vprtstp: contraction number = 7.163696e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.922217e+03
+Vprtstp: contraction number = 9.662913e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 6.687210e+03
+Vprtstp: contraction number = 9.660503e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 6.463321e+03
+Vprtstp: contraction number = 9.665198e-01
+Vprtstp: iteration = 35
+Vprtstp: relative residual = 6.563003e-03
+Vprtstp: contraction number = 8.714045e-01
+Vnewton: Using errtol_s: 5816.989135
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.785860e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.245254e+03
+Vprtstp: contraction number = 6.245254e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.037491e+03
+Vprtstp: contraction number = 9.667326e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.834969e+03
+Vprtstp: contraction number = 9.664559e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 5.642076e+03
+Vprtstp: contraction number = 9.669420e-01
+Vprtstp: iteration = 36
+Vprtstp: relative residual = 5.729093e-03
+Vprtstp: contraction number = 8.729376e-01
+Vnewton: Using errtol_s: 5077.868696
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.799490e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.453908e+03
+Vprtstp: contraction number = 5.453908e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.274719e+03
+Vprtstp: contraction number = 9.671448e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.099763e+03
+Vprtstp: contraction number = 9.668312e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.933172e+03
+Vprtstp: contraction number = 9.673336e-01
+Vprtstp: iteration = 37
+Vprtstp: relative residual = 5.009255e-03
+Vprtstp: contraction number = 8.743539e-01
+Vnewton: Using errtol_s: 4439.854532
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.813700e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.770402e+03
+Vprtstp: contraction number = 4.770402e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.615432e+03
+Vprtstp: contraction number = 9.675142e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.463923e+03
+Vprtstp: contraction number = 9.671734e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.319672e+03
+Vprtstp: contraction number = 9.676852e-01
+Vprtstp: iteration = 38
+Vprtstp: relative residual = 4.386293e-03
+Vprtstp: contraction number = 8.756379e-01
+Vnewton: Using errtol_s: 3887.704845
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.827470e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.178579e+03
+Vprtstp: contraction number = 4.178579e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.044239e+03
+Vprtstp: contraction number = 9.678503e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.912774e+03
+Vprtstp: contraction number = 9.674933e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.787597e+03
+Vprtstp: contraction number = 9.680081e-01
+Vprtstp: iteration = 39
+Vprtstp: relative residual = 3.846012e-03
+Vprtstp: contraction number = 8.768252e-01
+Vnewton: Using errtol_s: 3408.837485
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.841130e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.665040e+03
+Vprtstp: contraction number = 3.665040e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.548319e+03
+Vprtstp: contraction number = 9.681528e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.434021e+03
+Vprtstp: contraction number = 9.677881e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.325144e+03
+Vprtstp: contraction number = 9.682948e-01
+Vprtstp: iteration = 40
+Vprtstp: relative residual = 3.376427e-03
+Vprtstp: contraction number = 8.779034e-01
+Vnewton: Using errtol_s: 2992.629937
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.854860e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.218506e+03
+Vprtstp: contraction number = 3.218506e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.116902e+03
+Vprtstp: contraction number = 9.684313e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.017367e+03
+Vprtstp: contraction number = 9.680658e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.922508e+03
+Vprtstp: contraction number = 9.685626e-01
+Vprtstp: iteration = 41
+Vprtstp: relative residual = 2.967581e-03
+Vprtstp: contraction number = 8.789117e-01
+Vnewton: Using errtol_s: 2630.257439
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.869010e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.829557e+03
+Vprtstp: contraction number = 2.829557e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.740951e+03
+Vprtstp: contraction number = 9.686854e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.654121e+03
+Vprtstp: contraction number = 9.683214e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.571329e+03
+Vprtstp: contraction number = 9.688063e-01
+Vprtstp: iteration = 42
+Vprtstp: relative residual = 2.610986e-03
+Vprtstp: contraction number = 8.798365e-01
+Vnewton: Using errtol_s: 2314.196409
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.883880e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.490194e+03
+Vprtstp: contraction number = 2.490194e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.412806e+03
+Vprtstp: contraction number = 9.689228e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.336961e+03
+Vprtstp: contraction number = 9.685658e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.264594e+03
+Vprtstp: contraction number = 9.690336e-01
+Vprtstp: iteration = 43
+Vprtstp: relative residual = 2.299520e-03
+Vprtstp: contraction number = 8.807095e-01
+Vnewton: Using errtol_s: 2038.134688
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.900560e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.193669e+03
+Vprtstp: contraction number = 2.193669e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.125973e+03
+Vprtstp: contraction number = 9.691404e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.059627e+03
+Vprtstp: contraction number = 9.687926e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.996281e+03
+Vprtstp: contraction number = 9.692442e-01
+Vprtstp: iteration = 44
+Vprtstp: relative residual = 2.027069e-03
+Vprtstp: contraction number = 8.815183e-01
+Vnewton: Using errtol_s: 1796.653069
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.918040e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.934200e+03
+Vprtstp: contraction number = 1.934200e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.874906e+03
+Vprtstp: contraction number = 9.693443e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.816801e+03
+Vprtstp: contraction number = 9.690089e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.761282e+03
+Vprtstp: contraction number = 9.694417e-01
+Vprtstp: iteration = 45
+Vprtstp: relative residual = 1.788446e-03
+Vprtstp: contraction number = 8.822817e-01
+Vnewton: Using errtol_s: 1585.154075
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.934970e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.706883e+03
+Vprtstp: contraction number = 1.706883e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.654885e+03
+Vprtstp: contraction number = 9.695364e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.603938e+03
+Vprtstp: contraction number = 9.692139e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.555222e+03
+Vprtstp: contraction number = 9.696272e-01
+Vprtstp: iteration = 46
+Vprtstp: relative residual = 1.579208e-03
+Vprtstp: contraction number = 8.830055e-01
+Vnewton: Using errtol_s: 1399.699784
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.951450e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.507492e+03
+Vprtstp: contraction number = 1.507492e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.461839e+03
+Vprtstp: contraction number = 9.697163e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.417115e+03
+Vprtstp: contraction number = 9.694054e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.374322e+03
+Vprtstp: contraction number = 9.698027e-01
+Vprtstp: iteration = 47
+Vprtstp: relative residual = 1.395518e-03
+Vprtstp: contraction number = 8.836821e-01
+Vnewton: Using errtol_s: 1236.889613
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.967420e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.332400e+03
+Vprtstp: contraction number = 1.332400e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.292271e+03
+Vprtstp: contraction number = 9.698823e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.252968e+03
+Vprtstp: contraction number = 9.695862e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.215331e+03
+Vprtstp: contraction number = 9.699614e-01
+Vprtstp: iteration = 48
+Vprtstp: relative residual = 1.234075e-03
+Vprtstp: contraction number = 8.843132e-01
+Vnewton: Using errtol_s: 1093.797800
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.983640e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.178477e+03
+Vprtstp: contraction number = 1.178477e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.143172e+03
+Vprtstp: contraction number = 9.700418e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.108607e+03
+Vprtstp: contraction number = 9.697645e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.075485e+03
+Vprtstp: contraction number = 9.701226e-01
+Vprtstp: iteration = 49
+Vprtstp: relative residual = 1.092072e-03
+Vprtstp: contraction number = 8.849317e-01
+Vnewton: Using errtol_s: 967.936381
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.999040e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.043062e+03
+Vprtstp: contraction number = 1.043062e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.011985e+03
+Vprtstp: contraction number = 9.702055e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 9.815638e+02
+Vprtstp: contraction number = 9.699394e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 9.523969e+02
+Vprtstp: contraction number = 9.702853e-01
+Vprtstp: iteration = 50
+Vprtstp: relative residual = 9.670854e-04
+Vprtstp: contraction number = 8.855512e-01
+Vnewton: Using errtol_s: 857.157202
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.012600e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.238434e+02
+Vprtstp: contraction number = 9.238434e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.964516e+02
+Vprtstp: contraction number = 9.703501e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 8.696412e+02
+Vprtstp: contraction number = 9.700928e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 8.439083e+02
+Vprtstp: contraction number = 9.704098e-01
+Vprtstp: iteration = 51
+Vprtstp: relative residual = 8.569237e-04
+Vprtstp: contraction number = 8.860889e-01
+Vnewton: Using errtol_s: 759.517485
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.026350e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.187268e+02
+Vprtstp: contraction number = 8.187268e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.945464e+02
+Vprtstp: contraction number = 9.704659e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 7.708909e+02
+Vprtstp: contraction number = 9.702276e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 7.481648e+02
+Vprtstp: contraction number = 9.705198e-01
+Vprtstp: iteration = 52
+Vprtstp: relative residual = 7.597036e-04
+Vprtstp: contraction number = 8.865475e-01
+Vnewton: Using errtol_s: 673.348356
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.040250e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.259403e+02
+Vprtstp: contraction number = 7.259403e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.045764e+02
+Vprtstp: contraction number = 9.705707e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 6.836921e+02
+Vprtstp: contraction number = 9.703590e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 6.636063e+02
+Vprtstp: contraction number = 9.706217e-01
+Vprtstp: iteration = 53
+Vprtstp: relative residual = 6.738410e-04
+Vprtstp: contraction number = 8.869788e-01
+Vnewton: Using errtol_s: 597.245701
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.054460e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.439784e+02
+Vprtstp: contraction number = 6.439784e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.250899e+02
+Vprtstp: contraction number = 9.706690e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 6.066385e+02
+Vprtstp: contraction number = 9.704821e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 5.888719e+02
+Vprtstp: contraction number = 9.707130e-01
+Vprtstp: iteration = 54
+Vprtstp: relative residual = 5.979539e-04
+Vprtstp: contraction number = 8.873814e-01
+Vnewton: Using errtol_s: 529.984700
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.068080e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.715240e+02
+Vprtstp: contraction number = 5.715240e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.548113e+02
+Vprtstp: contraction number = 9.707576e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.384986e+02
+Vprtstp: contraction number = 9.705978e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 5.227746e+02
+Vprtstp: contraction number = 9.708003e-01
+Vprtstp: iteration = 55
+Vprtstp: relative residual = 5.308372e-04
+Vprtstp: contraction number = 8.877561e-01
+Vnewton: Using errtol_s: 470.497128
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.082360e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.074336e+02
+Vprtstp: contraction number = 5.074336e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.926381e+02
+Vprtstp: contraction number = 9.708425e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.782089e+02
+Vprtstp: contraction number = 9.707104e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.642843e+02
+Vprtstp: contraction number = 9.708816e-01
+Vprtstp: iteration = 56
+Vprtstp: relative residual = 4.714448e-04
+Vprtstp: contraction number = 8.881156e-01
+Vnewton: Using errtol_s: 417.855845
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.096590e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.507094e+02
+Vprtstp: contraction number = 4.507094e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.376028e+02
+Vprtstp: contraction number = 9.709200e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.248307e+02
+Vprtstp: contraction number = 9.708135e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.124929e+02
+Vprtstp: contraction number = 9.709585e-01
+Vprtstp: iteration = 57
+Vprtstp: relative residual = 4.188547e-04
+Vprtstp: contraction number = 8.884491e-01
+Vnewton: Using errtol_s: 371.243648
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.110640e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.004747e+02
+Vprtstp: contraction number = 4.004747e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.888586e+02
+Vprtstp: contraction number = 9.709940e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.775482e+02
+Vprtstp: contraction number = 9.709139e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.666107e+02
+Vprtstp: contraction number = 9.710302e-01
+Vprtstp: iteration = 58
+Vprtstp: relative residual = 3.722649e-04
+Vprtstp: contraction number = 8.887685e-01
+Vnewton: Using errtol_s: 329.949650
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.124350e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.559652e+02
+Vprtstp: contraction number = 3.559652e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.456656e+02
+Vprtstp: contraction number = 9.710659e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.356441e+02
+Vprtstp: contraction number = 9.710082e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.259437e+02
+Vprtstp: contraction number = 9.710991e-01
+Vprtstp: iteration = 59
+Vprtstp: relative residual = 3.309707e-04
+Vprtstp: contraction number = 8.890731e-01
+Vnewton: Using errtol_s: 293.349344
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.138020e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.165088e+02
+Vprtstp: contraction number = 3.165088e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.073718e+02
+Vprtstp: contraction number = 9.711317e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.984878e+02
+Vprtstp: contraction number = 9.710969e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.898802e+02
+Vprtstp: contraction number = 9.711626e-01
+Vprtstp: iteration = 60
+Vprtstp: relative residual = 2.943509e-04
+Vprtstp: contraction number = 8.893565e-01
+Vnewton: Using errtol_s: 260.892139
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.151430e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.815139e+02
+Vprtstp: contraction number = 2.815139e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.734044e+02
+Vprtstp: contraction number = 9.711935e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.655249e+02
+Vprtstp: contraction number = 9.711799e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.578842e+02
+Vprtstp: contraction number = 9.712242e-01
+Vprtstp: iteration = 61
+Vprtstp: relative residual = 2.618615e-04
+Vprtstp: contraction number = 8.896236e-01
+Vnewton: Using errtol_s: 232.095791
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.165140e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.504629e+02
+Vprtstp: contraction number = 2.504629e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.432632e+02
+Vprtstp: contraction number = 9.712547e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.362726e+02
+Vprtstp: contraction number = 9.712631e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.294877e+02
+Vprtstp: contraction number = 9.712837e-01
+Vprtstp: iteration = 62
+Vprtstp: relative residual = 2.330271e-04
+Vprtstp: contraction number = 8.898867e-01
+Vnewton: Using errtol_s: 206.538969
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.179070e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.229018e+02
+Vprtstp: contraction number = 2.229018e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.165072e+02
+Vprtstp: contraction number = 9.713119e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.103021e+02
+Vprtstp: contraction number = 9.713399e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.042745e+02
+Vprtstp: contraction number = 9.713385e-01
+Vprtstp: iteration = 63
+Vprtstp: relative residual = 2.074250e-04
+Vprtstp: contraction number = 8.901326e-01
+Vnewton: Using errtol_s: 183.847063
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.193510e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.984275e+02
+Vprtstp: contraction number = 1.984275e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.927455e+02
+Vprtstp: contraction number = 9.713647e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.872356e+02
+Vprtstp: contraction number = 9.714139e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.818788e+02
+Vprtstp: contraction number = 9.713899e-01
+Vprtstp: iteration = 64
+Vprtstp: relative residual = 1.846838e-04
+Vprtstp: contraction number = 8.903645e-01
+Vnewton: Using errtol_s: 163.690894
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.217280e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.766861e+02
+Vprtstp: contraction number = 1.766861e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.716353e+02
+Vprtstp: contraction number = 9.714136e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.667409e+02
+Vprtstp: contraction number = 9.714840e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.619784e+02
+Vprtstp: contraction number = 9.714376e-01
+Vprtstp: iteration = 65
+Vprtstp: relative residual = 1.644765e-04
+Vprtstp: contraction number = 8.905844e-01
+Vnewton: Using errtol_s: 145.780559
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.230250e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.573647e+02
+Vprtstp: contraction number = 1.573647e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.528736e+02
+Vprtstp: contraction number = 9.714610e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.485242e+02
+Vprtstp: contraction number = 9.715487e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.442889e+02
+Vprtstp: contraction number = 9.714841e-01
+Vprtstp: iteration = 66
+Vprtstp: relative residual = 1.465142e-04
+Vprtstp: contraction number = 8.907908e-01
+Vnewton: Using errtol_s: 129.859983
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.243450e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.401883e+02
+Vprtstp: contraction number = 1.401883e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.361940e+02
+Vprtstp: contraction number = 9.715072e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.323277e+02
+Vprtstp: contraction number = 9.716121e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.285602e+02
+Vprtstp: contraction number = 9.715289e-01
+Vprtstp: iteration = 67
+Vprtstp: relative residual = 1.305429e-04
+Vprtstp: contraction number = 8.909918e-01
+Vnewton: Using errtol_s: 115.704179
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.257420e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.249144e+02
+Vprtstp: contraction number = 1.249144e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.213606e+02
+Vprtstp: contraction number = 9.715501e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.179225e+02
+Vprtstp: contraction number = 9.716705e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.145700e+02
+Vprtstp: contraction number = 9.715703e-01
+Vprtstp: iteration = 68
+Vprtstp: relative residual = 1.163370e-04
+Vprtstp: contraction number = 8.911782e-01
+Vnewton: Using errtol_s: 103.113040
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.271000e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.113275e+02
+Vprtstp: contraction number = 1.113275e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.081648e+02
+Vprtstp: contraction number = 9.715909e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.051066e+02
+Vprtstp: contraction number = 9.717265e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.021227e+02
+Vprtstp: contraction number = 9.716108e-01
+Vprtstp: iteration = 69
+Vprtstp: relative residual = 1.036977e-04
+Vprtstp: contraction number = 8.913563e-01
+Vnewton: Using errtol_s: 91.910456
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.284820e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.923819e+01
+Vprtstp: contraction number = 9.923819e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.642286e+01
+Vprtstp: contraction number = 9.716306e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 9.370189e+01
+Vprtstp: contraction number = 9.717808e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 9.104540e+01
+Vprtstp: contraction number = 9.716495e-01
+Vprtstp: iteration = 70
+Vprtstp: relative residual = 9.244956e-05
+Vprtstp: contraction number = 8.915292e-01
+Vnewton: Using errtol_s: 81.940857
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.298510e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.847845e+01
+Vprtstp: contraction number = 8.847845e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.597172e+01
+Vprtstp: contraction number = 9.716685e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 8.354997e+01
+Vprtstp: contraction number = 9.718308e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 8.118447e+01
+Vprtstp: contraction number = 9.716876e-01
+Vprtstp: iteration = 71
+Vprtstp: relative residual = 8.243656e-05
+Vprtstp: contraction number = 8.916922e-01
+Vnewton: Using errtol_s: 73.066025
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.312570e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.889959e+01
+Vprtstp: contraction number = 7.889959e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.666719e+01
+Vprtstp: contraction number = 9.717058e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 7.451126e+01
+Vprtstp: contraction number = 9.718794e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 7.240447e+01
+Vprtstp: contraction number = 9.717252e-01
+Vprtstp: iteration = 72
+Vprtstp: relative residual = 7.352115e-05
+Vprtstp: contraction number = 8.918512e-01
+Vnewton: Using errtol_s: 65.164025
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.327040e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.037005e+01
+Vprtstp: contraction number = 7.037005e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.838160e+01
+Vprtstp: contraction number = 9.717429e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 6.646172e+01
+Vprtstp: contraction number = 9.719241e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 6.458486e+01
+Vprtstp: contraction number = 9.717603e-01
+Vprtstp: iteration = 73
+Vprtstp: relative residual = 6.558094e-05
+Vprtstp: contraction number = 8.920010e-01
+Vnewton: Using errtol_s: 58.126374
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.341060e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.277296e+01
+Vprtstp: contraction number = 6.277296e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.100134e+01
+Vprtstp: contraction number = 9.717774e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.929130e+01
+Vprtstp: contraction number = 9.719671e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 5.761901e+01
+Vprtstp: contraction number = 9.717953e-01
+Vprtstp: iteration = 74
+Vprtstp: relative residual = 5.850765e-05
+Vprtstp: contraction number = 8.921442e-01
+Vnewton: Using errtol_s: 51.857105
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.355020e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.600502e+01
+Vprtstp: contraction number = 5.600502e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.442632e+01
+Vprtstp: contraction number = 9.718115e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.290289e+01
+Vprtstp: contraction number = 9.720093e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 5.141248e+01
+Vprtstp: contraction number = 9.718274e-01
+Vprtstp: iteration = 75
+Vprtstp: relative residual = 5.220540e-05
+Vprtstp: contraction number = 8.922833e-01
+Vnewton: Using errtol_s: 46.271229
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.368680e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.997446e+01
+Vprtstp: contraction number = 4.997446e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.856737e+01
+Vprtstp: contraction number = 9.718438e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.720989e+01
+Vprtstp: contraction number = 9.720497e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.588141e+01
+Vprtstp: contraction number = 9.718599e-01
+Vprtstp: iteration = 76
+Vprtstp: relative residual = 4.658902e-05
+Vprtstp: contraction number = 8.924177e-01
+Vnewton: Using errtol_s: 41.293265
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.382870e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.459989e+01
+Vprtstp: contraction number = 4.459989e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.334556e+01
+Vprtstp: contraction number = 9.718759e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.213569e+01
+Vprtstp: contraction number = 9.720878e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.095134e+01
+Vprtstp: contraction number = 9.718918e-01
+Vprtstp: iteration = 77
+Vprtstp: relative residual = 4.158292e-05
+Vprtstp: contraction number = 8.925475e-01
+Vnewton: Using errtol_s: 36.856202
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.397430e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.980904e+01
+Vprtstp: contraction number = 3.980904e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.869069e+01
+Vprtstp: contraction number = 9.719071e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.761213e+01
+Vprtstp: contraction number = 9.721236e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.655605e+01
+Vprtstp: contraction number = 9.719218e-01
+Vprtstp: iteration = 78
+Vprtstp: relative residual = 3.711984e-05
+Vprtstp: contraction number = 8.926705e-01
+Vnewton: Using errtol_s: 32.900445
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.412270e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.553764e+01
+Vprtstp: contraction number = 3.553764e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.454035e+01
+Vprtstp: contraction number = 9.719370e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.357871e+01
+Vprtstp: contraction number = 9.721589e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.263687e+01
+Vprtstp: contraction number = 9.719512e-01
+Vprtstp: iteration = 79
+Vprtstp: relative residual = 3.314022e-05
+Vprtstp: contraction number = 8.927898e-01
+Vnewton: Using errtol_s: 29.373181
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.426860e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.172877e+01
+Vprtstp: contraction number = 3.172877e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.083926e+01
+Vprtstp: contraction number = 9.719651e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.998169e+01
+Vprtstp: contraction number = 9.721923e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.914159e+01
+Vprtstp: contraction number = 9.719793e-01
+Vprtstp: iteration = 80
+Vprtstp: relative residual = 2.959103e-05
+Vprtstp: contraction number = 8.929039e-01
+Vnewton: Using errtol_s: 26.227427
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.442180e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.833170e+01
+Vprtstp: contraction number = 2.833170e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.753822e+01
+Vprtstp: contraction number = 9.719934e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.677333e+01
+Vprtstp: contraction number = 9.722241e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.602387e+01
+Vprtstp: contraction number = 9.720074e-01
+Vprtstp: iteration = 81
+Vprtstp: relative residual = 2.642523e-05
+Vprtstp: contraction number = 8.930149e-01
+Vnewton: Using errtol_s: 23.421482
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.456390e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.530145e+01
+Vprtstp: contraction number = 2.530145e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.459353e+01
+Vprtstp: contraction number = 9.720206e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.391119e+01
+Vprtstp: contraction number = 9.722554e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.324248e+01
+Vprtstp: contraction number = 9.720334e-01
+Vprtstp: iteration = 82
+Vprtstp: relative residual = 2.360094e-05
+Vprtstp: contraction number = 8.931215e-01
+Vnewton: Using errtol_s: 20.918230
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.470420e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.259796e+01
+Vprtstp: contraction number = 2.259796e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.196627e+01
+Vprtstp: contraction number = 9.720465e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.135746e+01
+Vprtstp: contraction number = 9.722845e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.076071e+01
+Vprtstp: contraction number = 9.720588e-01
+Vprtstp: iteration = 83
+Vprtstp: relative residual = 2.108090e-05
+Vprtstp: contraction number = 8.932227e-01
+Vnewton: Using errtol_s: 18.684638
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.484390e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.018562e+01
+Vprtstp: contraction number = 2.018562e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.962186e+01
+Vprtstp: contraction number = 9.720713e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.907860e+01
+Vprtstp: contraction number = 9.723135e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.854599e+01
+Vprtstp: contraction number = 9.720836e-01
+Vprtstp: iteration = 84
+Vprtstp: relative residual = 1.883202e-05
+Vprtstp: contraction number = 8.933218e-01
+Vnewton: Using errtol_s: 16.691395
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.498940e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.803279e+01
+Vprtstp: contraction number = 1.803279e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.752960e+01
+Vprtstp: contraction number = 9.720963e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.704477e+01
+Vprtstp: contraction number = 9.723418e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.656936e+01
+Vprtstp: contraction number = 9.721086e-01
+Vprtstp: iteration = 85
+Vprtstp: relative residual = 1.682491e-05
+Vprtstp: contraction number = 8.934201e-01
+Vnewton: Using errtol_s: 14.912428
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.513000e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.611131e+01
+Vprtstp: contraction number = 1.611131e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.566213e+01
+Vprtstp: contraction number = 9.721207e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.522937e+01
+Vprtstp: contraction number = 9.723686e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.480497e+01
+Vprtstp: contraction number = 9.721333e-01
+Vprtstp: iteration = 86
+Vprtstp: relative residual = 1.503331e-05
+Vprtstp: contraction number = 8.935150e-01
+Vnewton: Using errtol_s: 13.324477
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.527030e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.439609e+01
+Vprtstp: contraction number = 1.439609e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.399509e+01
+Vprtstp: contraction number = 9.721451e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.360875e+01
+Vprtstp: contraction number = 9.723948e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.322985e+01
+Vprtstp: contraction number = 9.721575e-01
+Vprtstp: iteration = 87
+Vprtstp: relative residual = 1.343389e-05
+Vprtstp: contraction number = 8.936083e-01
+Vnewton: Using errtol_s: 11.906863
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.541190e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.286481e+01
+Vprtstp: contraction number = 1.286481e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.250677e+01
+Vprtstp: contraction number = 9.721696e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.216184e+01
+Vprtstp: contraction number = 9.724201e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.182352e+01
+Vprtstp: contraction number = 9.721821e-01
+Vprtstp: iteration = 88
+Vprtstp: relative residual = 1.200587e-05
+Vprtstp: contraction number = 8.937005e-01
+Vnewton: Using errtol_s: 10.641169
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.554780e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.149757e+01
+Vprtstp: contraction number = 1.149757e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.117787e+01
+Vprtstp: contraction number = 9.721941e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.086984e+01
+Vprtstp: contraction number = 9.724435e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.056773e+01
+Vprtstp: contraction number = 9.722059e-01
+Vprtstp: iteration = 89
+Vprtstp: relative residual = 1.073071e-05
+Vprtstp: contraction number = 8.937885e-01
+Vnewton: Using errtol_s: 9.510954
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.569830e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.027664e+01
+Vprtstp: contraction number = 1.027664e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.991131e+00
+Vprtstp: contraction number = 9.722176e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 9.716043e+00
+Vprtstp: contraction number = 9.724668e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 9.446216e+00
+Vprtstp: contraction number = 9.722287e-01
+Vprtstp: iteration = 90
+Vprtstp: relative residual = 9.591903e-06
+Vprtstp: contraction number = 8.938740e-01
+Vnewton: Using errtol_s: 8.501595
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.583140e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.186244e+00
+Vprtstp: contraction number = 9.186244e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.931227e+00
+Vprtstp: contraction number = 9.722393e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 8.685528e+00
+Vprtstp: contraction number = 9.724900e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 8.444507e+00
+Vprtstp: contraction number = 9.722502e-01
+Vprtstp: iteration = 91
+Vprtstp: relative residual = 8.574744e-06
+Vprtstp: contraction number = 8.939565e-01
+Vnewton: Using errtol_s: 7.600056
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.597240e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.212295e+00
+Vprtstp: contraction number = 8.212295e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.984494e+00
+Vprtstp: contraction number = 9.722609e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 7.765018e+00
+Vprtstp: contraction number = 9.725122e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 7.549705e+00
+Vprtstp: contraction number = 9.722713e-01
+Vprtstp: iteration = 92
+Vprtstp: relative residual = 7.666142e-06
+Vprtstp: contraction number = 8.940374e-01
+Vnewton: Using errtol_s: 6.794734
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.611300e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.342261e+00
+Vprtstp: contraction number = 7.342261e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.138744e+00
+Vprtstp: contraction number = 9.722815e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 6.942665e+00
+Vprtstp: contraction number = 9.725331e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 6.750290e+00
+Vprtstp: contraction number = 9.722909e-01
+Vprtstp: iteration = 93
+Vprtstp: relative residual = 6.854398e-06
+Vprtstp: contraction number = 8.941131e-01
+Vnewton: Using errtol_s: 6.075261
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.625170e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.564949e+00
+Vprtstp: contraction number = 6.564949e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.383099e+00
+Vprtstp: contraction number = 9.722999e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 6.207900e+00
+Vprtstp: contraction number = 9.725527e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 6.035995e+00
+Vprtstp: contraction number = 9.723087e-01
+Vprtstp: iteration = 94
+Vprtstp: relative residual = 6.129087e-06
+Vprtstp: contraction number = 8.941832e-01
+Vnewton: Using errtol_s: 5.432396
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.638860e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.870381e+00
+Vprtstp: contraction number = 5.870381e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.707874e+00
+Vprtstp: contraction number = 9.723174e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 5.551314e+00
+Vprtstp: contraction number = 9.725713e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 5.397692e+00
+Vprtstp: contraction number = 9.723269e-01
+Vprtstp: iteration = 95
+Vprtstp: relative residual = 5.480939e-06
+Vprtstp: contraction number = 8.942505e-01
+Vnewton: Using errtol_s: 4.857923
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.652570e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.249690e+00
+Vprtstp: contraction number = 5.249690e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.104462e+00
+Vprtstp: contraction number = 9.723361e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.964546e+00
+Vprtstp: contraction number = 9.725894e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.827248e+00
+Vprtstp: contraction number = 9.723443e-01
+Vprtstp: iteration = 96
+Vprtstp: relative residual = 4.901698e-06
+Vprtstp: contraction number = 8.943171e-01
+Vnewton: Using errtol_s: 4.344523
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.666690e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.694974e+00
+Vprtstp: contraction number = 4.694974e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.565168e+00
+Vprtstp: contraction number = 9.723521e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.440116e+00
+Vprtstp: contraction number = 9.726075e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.317391e+00
+Vprtstp: contraction number = 9.723600e-01
+Vprtstp: iteration = 97
+Vprtstp: relative residual = 4.383977e-06
+Vprtstp: contraction number = 8.943794e-01
+Vnewton: Using errtol_s: 3.885652
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.681010e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.199165e+00
+Vprtstp: contraction number = 4.199165e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.083132e+00
+Vprtstp: contraction number = 9.723676e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.971357e+00
+Vprtstp: contraction number = 9.726251e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.861650e+00
+Vprtstp: contraction number = 9.723756e-01
+Vprtstp: iteration = 98
+Vprtstp: relative residual = 3.921207e-06
+Vprtstp: contraction number = 8.944406e-01
+Vnewton: Using errtol_s: 3.475485
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.694230e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.755969e+00
+Vprtstp: contraction number = 3.755969e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.652241e+00
+Vprtstp: contraction number = 9.723832e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.552322e+00
+Vprtstp: contraction number = 9.726417e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.454245e+00
+Vprtstp: contraction number = 9.723908e-01
+Vprtstp: iteration = 99
+Vprtstp: relative residual = 3.507519e-06
+Vprtstp: contraction number = 8.944999e-01
+Vnewton: Using errtol_s: 3.108821
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.708270e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.359772e+00
+Vprtstp: contraction number = 3.359772e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.267037e+00
+Vprtstp: contraction number = 9.723987e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.177709e+00
+Vprtstp: contraction number = 9.726578e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.090026e+00
+Vprtstp: contraction number = 9.724067e-01
+Vprtstp: iteration = 100
+Vprtstp: relative residual = 3.137683e-06
+Vprtstp: contraction number = 8.945589e-01
+Vnewton: Using errtol_s: 2.781023
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.722140e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.005563e+00
+Vprtstp: contraction number = 3.005563e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.922654e+00
+Vprtstp: contraction number = 9.724150e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.842788e+00
+Vprtstp: contraction number = 9.726734e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.764393e+00
+Vprtstp: contraction number = 9.724233e-01
+Vprtstp: iteration = 101
+Vprtstp: relative residual = 2.807028e-06
+Vprtstp: contraction number = 8.946182e-01
+Vnewton: Using errtol_s: 2.487954
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.735790e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.688871e+00
+Vprtstp: contraction number = 2.688871e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.614744e+00
+Vprtstp: contraction number = 9.724317e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.543330e+00
+Vprtstp: contraction number = 9.726880e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.473235e+00
+Vprtstp: contraction number = 9.724395e-01
+Vprtstp: iteration = 102
+Vprtstp: relative residual = 2.511379e-06
+Vprtstp: contraction number = 8.946753e-01
+Vnewton: Using errtol_s: 2.225911
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.749160e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.405705e+00
+Vprtstp: contraction number = 2.405705e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.339422e+00
+Vprtstp: contraction number = 9.724476e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.275563e+00
+Vprtstp: contraction number = 9.727033e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 2.212884e+00
+Vprtstp: contraction number = 9.724556e-01
+Vprtstp: iteration = 103
+Vprtstp: relative residual = 2.247013e-06
+Vprtstp: contraction number = 8.947328e-01
+Vnewton: Using errtol_s: 1.991596
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.763380e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.152496e+00
+Vprtstp: contraction number = 2.152496e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.093223e+00
+Vprtstp: contraction number = 9.724634e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.036116e+00
+Vprtstp: contraction number = 9.727179e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.980065e+00
+Vprtstp: contraction number = 9.724716e-01
+Vprtstp: iteration = 104
+Vprtstp: relative residual = 2.010603e-06
+Vprtstp: contraction number = 8.947892e-01
+Vnewton: Using errtol_s: 1.782058
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.777660e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.926059e+00
+Vprtstp: contraction number = 1.926059e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.873053e+00
+Vprtstp: contraction number = 9.724799e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.821980e+00
+Vprtstp: contraction number = 9.727324e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.771853e+00
+Vprtstp: contraction number = 9.724876e-01
+Vprtstp: iteration = 105
+Vprtstp: relative residual = 1.799180e-06
+Vprtstp: contraction number = 8.948459e-01
+Vnewton: Using errtol_s: 1.594668
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.791530e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.723552e+00
+Vprtstp: contraction number = 1.723552e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.676146e+00
+Vprtstp: contraction number = 9.724952e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.630466e+00
+Vprtstp: contraction number = 9.727469e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.585633e+00
+Vprtstp: contraction number = 9.725031e-01
+Vprtstp: iteration = 106
+Vprtstp: relative residual = 1.610088e-06
+Vprtstp: contraction number = 8.949009e-01
+Vnewton: Using errtol_s: 1.427069
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.805430e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.542431e+00
+Vprtstp: contraction number = 1.542431e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.500031e+00
+Vprtstp: contraction number = 9.725112e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.459172e+00
+Vprtstp: contraction number = 9.727611e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.419073e+00
+Vprtstp: contraction number = 9.725194e-01
+Vprtstp: iteration = 107
+Vprtstp: relative residual = 1.440959e-06
+Vprtstp: contraction number = 8.949570e-01
+Vnewton: Using errtol_s: 1.277166
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.819250e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.380430e+00
+Vprtstp: contraction number = 1.380430e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.342506e+00
+Vprtstp: contraction number = 9.725275e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.305957e+00
+Vprtstp: contraction number = 9.727757e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.270089e+00
+Vprtstp: contraction number = 9.725355e-01
+Vprtstp: iteration = 108
+Vprtstp: relative residual = 1.289678e-06
+Vprtstp: contraction number = 8.950134e-01
+Vnewton: Using errtol_s: 1.143081
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.833150e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.235521e+00
+Vprtstp: contraction number = 1.235521e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.201597e+00
+Vprtstp: contraction number = 9.725433e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.168901e+00
+Vprtstp: contraction number = 9.727894e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.136816e+00
+Vprtstp: contraction number = 9.725510e-01
+Vprtstp: iteration = 109
+Vprtstp: relative residual = 1.154349e-06
+Vprtstp: contraction number = 8.950676e-01
+Vnewton: Using errtol_s: 1.023134
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.847060e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.105890e+00
+Vprtstp: contraction number = 1.105890e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.075543e+00
+Vprtstp: contraction number = 9.725586e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.046292e+00
+Vprtstp: contraction number = 9.728029e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.017588e+00
+Vprtstp: contraction number = 9.725663e-01
+Vprtstp: iteration = 110
+Vprtstp: relative residual = 1.033282e-06
+Vprtstp: contraction number = 8.951211e-01
+Vnewton: Using errtol_s: 0.915829
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.861380e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.899194e-01
+Vprtstp: contraction number = 9.899194e-01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.627697e-01
+Vprtstp: contraction number = 9.725738e-01
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 9.365985e-01
+Vprtstp: contraction number = 9.728167e-01
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 9.109181e-01
+Vprtstp: contraction number = 9.725812e-01
+Vprtstp: iteration = 111
+Vprtstp: relative residual = 9.249669e-07
+Vprtstp: contraction number = 8.951738e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 1.402700e+02
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 1.408480e+02
+Vpmg_setPart:  lower corner = (-44.9215, -10.5995, -7.018)
+Vpmg_setPart:  upper corner = (150.303, 13.0865, 7.495)
+Vpmg_setPart:  actual minima = (-44.9215, -10.5995, -7.018)
+Vpmg_setPart:  actual maxima = (150.304, 13.0865, 7.495)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 7.576252511481E+04 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 1.200000e-02
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 0.000000e+00
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 58.092
+Vpbe_ctor2:  solute dimensions = 115.427 x 14.5225 x 9.12648
+Vpbe_ctor2:  solute charge = -7.10543e-15
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 29 x 18 table
+Vclist_ctor2:  Using 75 x 29 x 18 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.9 max radius
+Vclist_setupGrid:  Grid lengths = (121.834, 20.929, 15.533)
+Vclist_setupGrid:  Grid lower corner = (-8.22601, -9.22101, -7.52801)
+Vclist_assignAtoms:  Have 64197 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 76.256
+Vacc_storeParms:  Using 730-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_ctor2:  Filling boundary with old solution!
+VPMG::focusFillBound -- New mesh mins = -14.728, -10.5995, -7.018
+VPMG::focusFillBound -- New mesh maxs = 120.11, 13.0865, 7.495
+VPMG::focusFillBound -- Old mesh mins = -44.9215, -10.5995, -7.018
+VPMG::focusFillBound -- Old mesh maxs = 150.304, 13.0865, 7.495
+VPMG::extEnergy:  energy flag = 1
+Vpmg_setPart:  lower corner = (-14.728, -10.5995, -7.018)
+Vpmg_setPart:  upper corner = (120.11, 13.0865, 7.495)
+Vpmg_setPart:  actual minima = (-44.9215, -10.5995, -7.018)
+Vpmg_setPart:  actual maxima = (150.304, 13.0865, 7.495)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+VPMG::extEnergy:   Finding extEnergy dimensions...
+VPMG::extEnergy    Disj part lower corner = (-14.728, -10.5995, -7.018)
+VPMG::extEnergy    Disj part upper corner = (120.11, 13.0865, 7.495)
+VPMG::extEnergy    Old lower corner = (-44.9215, -10.5995, -7.018)
+VPMG::extEnergy    Old upper corner = (150.304, 13.0865, 7.495)
+Vpmg_qmEnergy:  Zero energy for zero ionic strength!
+VPMG::extEnergy: extQmEnergy = 0 kT
+Vpmg_qfEnergyVolume:  Calculating energy
+VPMG::extEnergy: extQfEnergy = 0 kT
+VPMG::extEnergy: extDiEnergy = 0.00316534 kT
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.009000
+Vpmg_fillco:  done filling coefficient arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 1.214000e+00
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (161, 161, 161)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 1.050000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (081, 081, 081)
+Vbuildops: Galer: (041, 041, 041)
+Vbuildops: Galer: (021, 021, 021)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 3.860000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.893000e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 879137.800810
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.894110e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.149804e+05
+Vprtstp: contraction number = 7.149804e+05
+Vnewton: Attempting damping, relres = 0.731947
+Vnewton: Attempting damping, relres = 0.852598
+Vnewton: Damping accepted, relres = 0.731947
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.319471e-01
+Vprtstp: contraction number = 7.319471e-01
+Vnewton: Using errtol_s: 643482.393792
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.899120e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.413777e+05
+Vprtstp: contraction number = 5.413777e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.542247e-01
+Vprtstp: contraction number = 7.571923e-01
+Vnewton: Using errtol_s: 487239.914261
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.903540e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.314143e+05
+Vprtstp: contraction number = 4.314143e+05
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 4.416519e-01
+Vprtstp: contraction number = 7.968824e-01
+Vnewton: Using errtol_s: 388272.914648
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.907680e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.657877e+05
+Vprtstp: contraction number = 3.657877e+05
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 3.744679e-01
+Vprtstp: contraction number = 8.478802e-01
+Vnewton: Using errtol_s: 329208.913313
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.911960e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.192501e+05
+Vprtstp: contraction number = 3.192501e+05
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 3.268260e-01
+Vprtstp: contraction number = 8.727743e-01
+Vnewton: Using errtol_s: 287325.092219
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.916170e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.818629e+05
+Vprtstp: contraction number = 2.818629e+05
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 2.885516e-01
+Vprtstp: contraction number = 8.828906e-01
+Vnewton: Using errtol_s: 253676.617141
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.920560e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.515029e+05
+Vprtstp: contraction number = 2.515029e+05
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 2.574712e-01
+Vprtstp: contraction number = 8.922881e-01
+Vnewton: Using errtol_s: 226352.620772
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.924800e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.257386e+05
+Vprtstp: contraction number = 2.257386e+05
+Vprtstp: iteration = 8
+Vprtstp: relative residual = 2.310955e-01
+Vprtstp: contraction number = 8.975587e-01
+Vnewton: Using errtol_s: 203164.759529
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.929040e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.037472e+05
+Vprtstp: contraction number = 2.037472e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.845526e+05
+Vprtstp: contraction number = 9.057920e-01
+Vprtstp: iteration = 9
+Vprtstp: relative residual = 1.889321e-01
+Vprtstp: contraction number = 8.175499e-01
+Vnewton: Using errtol_s: 166097.322093
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.936150e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.677666e+05
+Vprtstp: contraction number = 1.677666e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.528805e+05
+Vprtstp: contraction number = 9.112690e-01
+Vprtstp: iteration = 10
+Vprtstp: relative residual = 1.565084e-01
+Vprtstp: contraction number = 8.283844e-01
+Vnewton: Using errtol_s: 137592.425771
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.943440e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.396663e+05
+Vprtstp: contraction number = 1.396663e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.278341e+05
+Vprtstp: contraction number = 9.152823e-01
+Vprtstp: iteration = 11
+Vprtstp: relative residual = 1.308677e-01
+Vprtstp: contraction number = 8.361704e-01
+Vnewton: Using errtol_s: 115050.711463
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.951380e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.172262e+05
+Vprtstp: contraction number = 1.172262e+05
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.076628e+05
+Vprtstp: contraction number = 9.184195e-01
+Vprtstp: iteration = 12
+Vprtstp: relative residual = 1.102177e-01
+Vprtstp: contraction number = 8.422073e-01
+Vnewton: Using errtol_s: 96896.545809
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.958810e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.903239e+04
+Vprtstp: contraction number = 9.903239e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.121067e+04
+Vprtstp: contraction number = 9.210185e-01
+Vprtstp: iteration = 13
+Vprtstp: relative residual = 9.337512e-02
+Vprtstp: contraction number = 8.471881e-01
+Vnewton: Using errtol_s: 82089.598862
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.966470e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.411691e+04
+Vprtstp: contraction number = 8.411691e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.766001e+04
+Vprtstp: contraction number = 9.232390e-01
+Vprtstp: iteration = 14
+Vprtstp: relative residual = 7.950291e-02
+Vprtstp: contraction number = 8.514357e-01
+Vnewton: Using errtol_s: 69894.012872
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.973570e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.178208e+04
+Vprtstp: contraction number = 7.178208e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.641162e+04
+Vprtstp: contraction number = 9.251840e-01
+Vprtstp: iteration = 15
+Vprtstp: relative residual = 6.798759e-02
+Vprtstp: contraction number = 8.551585e-01
+Vnewton: Using errtol_s: 59770.462007
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.980970e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.150642e+04
+Vprtstp: contraction number = 6.150642e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.701085e+04
+Vprtstp: contraction number = 9.269090e-01
+Vprtstp: iteration = 16
+Vprtstp: relative residual = 5.836374e-02
+Vprtstp: contraction number = 8.584469e-01
+Vnewton: Using errtol_s: 51309.769100
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.988090e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.289248e+04
+Vprtstp: contraction number = 5.289248e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.910731e+04
+Vprtstp: contraction number = 9.284364e-01
+Vprtstp: iteration = 17
+Vprtstp: relative residual = 5.027264e-02
+Vprtstp: contraction number = 8.613677e-01
+Vnewton: Using errtol_s: 44196.577629
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.995360e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.563188e+04
+Vprtstp: contraction number = 4.563188e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.242984e+04
+Vprtstp: contraction number = 9.298289e-01
+Vprtstp: iteration = 18
+Vprtstp: relative residual = 4.343671e-02
+Vprtstp: contraction number = 8.640229e-01
+Vnewton: Using errtol_s: 38186.856393
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.002550e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.948261e+04
+Vprtstp: contraction number = 3.948261e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.676173e+04
+Vprtstp: contraction number = 9.310865e-01
+Vprtstp: iteration = 19
+Vprtstp: relative residual = 3.763409e-02
+Vprtstp: contraction number = 8.664121e-01
+Vnewton: Using errtol_s: 33085.554087
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.010490e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.425207e+04
+Vprtstp: contraction number = 3.425207e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.193031e+04
+Vprtstp: contraction number = 9.322155e-01
+Vprtstp: iteration = 20
+Vprtstp: relative residual = 3.268802e-02
+Vprtstp: contraction number = 8.685748e-01
+Vnewton: Using errtol_s: 28737.278184
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.017640e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.978462e+04
+Vprtstp: contraction number = 2.978462e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.779623e+04
+Vprtstp: contraction number = 9.332411e-01
+Vprtstp: iteration = 21
+Vprtstp: relative residual = 2.845584e-02
+Vprtstp: contraction number = 8.705280e-01
+Vnewton: Using errtol_s: 25016.604738
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.025390e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.595546e+04
+Vprtstp: contraction number = 2.595546e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.424698e+04
+Vprtstp: contraction number = 9.341764e-01
+Vprtstp: iteration = 22
+Vprtstp: relative residual = 2.482237e-02
+Vprtstp: contraction number = 8.723119e-01
+Vnewton: Using errtol_s: 21822.282029
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.032810e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.266279e+04
+Vprtstp: contraction number = 2.266279e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.119048e+04
+Vprtstp: contraction number = 9.350341e-01
+Vprtstp: iteration = 23
+Vprtstp: relative residual = 2.169334e-02
+Vprtstp: contraction number = 8.739431e-01
+Vnewton: Using errtol_s: 19071.431816
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.040300e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.982331e+04
+Vprtstp: contraction number = 1.982331e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.855134e+04
+Vprtstp: contraction number = 9.358343e-01
+Vprtstp: iteration = 24
+Vprtstp: relative residual = 1.899156e-02
+Vprtstp: contraction number = 8.754562e-01
+Vnewton: Using errtol_s: 16696.202440
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.047630e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.736839e+04
+Vprtstp: contraction number = 1.736839e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.626660e+04
+Vprtstp: contraction number = 9.365637e-01
+Vprtstp: iteration = 25
+Vprtstp: relative residual = 1.665261e-02
+Vprtstp: contraction number = 8.768427e-01
+Vnewton: Using errtol_s: 14639.943313
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.055160e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.524061e+04
+Vprtstp: contraction number = 1.524061e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.428404e+04
+Vprtstp: contraction number = 9.372358e-01
+Vprtstp: iteration = 26
+Vprtstp: relative residual = 1.462301e-02
+Vprtstp: contraction number = 8.781207e-01
+Vnewton: Using errtol_s: 12855.636929
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.062370e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.339234e+04
+Vprtstp: contraction number = 1.339234e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.256024e+04
+Vprtstp: contraction number = 9.378674e-01
+Vprtstp: iteration = 27
+Vprtstp: relative residual = 1.285830e-02
+Vprtstp: contraction number = 8.793200e-01
+Vnewton: Using errtol_s: 11304.218114
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.069660e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.178368e+04
+Vprtstp: contraction number = 1.178368e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.105833e+04
+Vprtstp: contraction number = 9.384448e-01
+Vprtstp: iteration = 28
+Vprtstp: relative residual = 1.132075e-02
+Vprtstp: contraction number = 8.804232e-01
+Vnewton: Using errtol_s: 9952.495973
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.077140e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.038080e+04
+Vprtstp: contraction number = 1.038080e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.747291e+03
+Vprtstp: contraction number = 9.389734e-01
+Vprtstp: iteration = 29
+Vprtstp: relative residual = 9.978597e-03
+Vprtstp: contraction number = 8.814434e-01
+Vnewton: Using errtol_s: 8772.561804
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.084750e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.155165e+03
+Vprtstp: contraction number = 9.155165e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.600951e+03
+Vprtstp: contraction number = 9.394644e-01
+Vprtstp: iteration = 30
+Vprtstp: relative residual = 8.805054e-03
+Vprtstp: contraction number = 8.823940e-01
+Vnewton: Using errtol_s: 7740.855841
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.092330e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.082693e+03
+Vprtstp: contraction number = 8.082693e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.597096e+03
+Vprtstp: contraction number = 9.399213e-01
+Vprtstp: iteration = 31
+Vprtstp: relative residual = 7.777377e-03
+Vprtstp: contraction number = 8.832856e-01
+Vnewton: Using errtol_s: 6837.386407
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.099670e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.142871e+03
+Vprtstp: contraction number = 7.142871e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.716757e+03
+Vprtstp: contraction number = 9.403441e-01
+Vprtstp: iteration = 32
+Vprtstp: relative residual = 6.876147e-03
+Vprtstp: contraction number = 8.841216e-01
+Vnewton: Using errtol_s: 6045.081084
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.107460e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.318096e+03
+Vprtstp: contraction number = 6.318096e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.943674e+03
+Vprtstp: contraction number = 9.407382e-01
+Vprtstp: iteration = 33
+Vprtstp: relative residual = 6.084719e-03
+Vprtstp: contraction number = 8.849023e-01
+Vnewton: Using errtol_s: 5349.306417
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.114790e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.593294e+03
+Vprtstp: contraction number = 5.593294e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.263883e+03
+Vprtstp: contraction number = 9.411062e-01
+Vprtstp: iteration = 34
+Vprtstp: relative residual = 5.388797e-03
+Vprtstp: contraction number = 8.856279e-01
+Vnewton: Using errtol_s: 4737.494795
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.122190e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.955526e+03
+Vprtstp: contraction number = 4.955526e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.665345e+03
+Vprtstp: contraction number = 9.414428e-01
+Vprtstp: iteration = 35
+Vprtstp: relative residual = 4.776055e-03
+Vprtstp: contraction number = 8.862934e-01
+Vnewton: Using errtol_s: 4198.810232
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.129420e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.393616e+03
+Vprtstp: contraction number = 4.393616e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.137728e+03
+Vprtstp: contraction number = 9.417590e-01
+Vprtstp: iteration = 36
+Vprtstp: relative residual = 4.235917e-03
+Vprtstp: contraction number = 8.869072e-01
+Vnewton: Using errtol_s: 3723.954898
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.137500e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.898048e+03
+Vprtstp: contraction number = 3.898048e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.672175e+03
+Vprtstp: contraction number = 9.420548e-01
+Vprtstp: iteration = 37
+Vprtstp: relative residual = 3.759316e-03
+Vprtstp: contraction number = 8.874858e-01
+Vnewton: Using errtol_s: 3304.957213
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.144940e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.460549e+03
+Vprtstp: contraction number = 3.460549e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.260981e+03
+Vprtstp: contraction number = 9.423307e-01
+Vprtstp: iteration = 38
+Vprtstp: relative residual = 3.338365e-03
+Vprtstp: contraction number = 8.880245e-01
+Vnewton: Using errtol_s: 2934.882906
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.152720e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.073936e+03
+Vprtstp: contraction number = 3.073936e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.897450e+03
+Vprtstp: contraction number = 9.425865e-01
+Vprtstp: iteration = 39
+Vprtstp: relative residual = 2.966207e-03
+Vprtstp: contraction number = 8.885210e-01
+Vnewton: Using errtol_s: 2607.705126
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.159970e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.731997e+03
+Vprtstp: contraction number = 2.731997e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.575805e+03
+Vprtstp: contraction number = 9.428284e-01
+Vprtstp: iteration = 40
+Vprtstp: relative residual = 2.636929e-03
+Vprtstp: contraction number = 8.889902e-01
+Vnewton: Using errtol_s: 2318.224350
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.167760e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.429345e+03
+Vprtstp: contraction number = 2.429345e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.291014e+03
+Vprtstp: contraction number = 9.430585e-01
+Vprtstp: iteration = 41
+Vprtstp: relative residual = 2.345380e-03
+Vprtstp: contraction number = 8.894362e-01
+Vnewton: Using errtol_s: 2061.912620
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.175380e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.161258e+03
+Vprtstp: contraction number = 2.161258e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.038653e+03
+Vprtstp: contraction number = 9.432713e-01
+Vprtstp: iteration = 42
+Vprtstp: relative residual = 2.087031e-03
+Vprtstp: contraction number = 8.898474e-01
+Vnewton: Using errtol_s: 1834.787504
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.182710e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.923623e+03
+Vprtstp: contraction number = 1.923623e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.814889e+03
+Vprtstp: contraction number = 9.434740e-01
+Vprtstp: iteration = 43
+Vprtstp: relative residual = 1.857956e-03
+Vprtstp: contraction number = 8.902391e-01
+Vnewton: Using errtol_s: 1633.399665
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.190250e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.712852e+03
+Vprtstp: contraction number = 1.712852e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.616357e+03
+Vprtstp: contraction number = 9.436644e-01
+Vprtstp: iteration = 44
+Vprtstp: relative residual = 1.654714e-03
+Vprtstp: contraction number = 8.906097e-01
+Vnewton: Using errtol_s: 1454.721540
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.197770e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.525787e+03
+Vprtstp: contraction number = 1.525787e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.440110e+03
+Vprtstp: contraction number = 9.438473e-01
+Vprtstp: iteration = 45
+Vprtstp: relative residual = 1.474285e-03
+Vprtstp: contraction number = 8.909604e-01
+Vnewton: Using errtol_s: 1296.099254
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.205820e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.359673e+03
+Vprtstp: contraction number = 1.359673e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.283556e+03
+Vprtstp: contraction number = 9.440179e-01
+Vprtstp: iteration = 46
+Vprtstp: relative residual = 1.314015e-03
+Vprtstp: contraction number = 8.912899e-01
+Vnewton: Using errtol_s: 1155.200160
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.213340e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.212078e+03
+Vprtstp: contraction number = 1.212078e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.144423e+03
+Vprtstp: contraction number = 9.441824e-01
+Vprtstp: iteration = 47
+Vprtstp: relative residual = 1.171581e-03
+Vprtstp: contraction number = 8.916038e-01
+Vnewton: Using errtol_s: 1029.980811
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.220770e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.080881e+03
+Vprtstp: contraction number = 1.080881e+03
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.020719e+03
+Vprtstp: contraction number = 9.443395e-01
+Vprtstp: iteration = 48
+Vprtstp: relative residual = 1.044941e-03
+Vprtstp: contraction number = 8.919068e-01
+Vnewton: Using errtol_s: 918.646918
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.228440e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.642024e+02
+Vprtstp: contraction number = 9.642024e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.106800e+02
+Vprtstp: contraction number = 9.444904e-01
+Vprtstp: iteration = 49
+Vprtstp: relative residual = 9.322907e-04
+Vprtstp: contraction number = 8.921948e-01
+Vnewton: Using errtol_s: 819.611972
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.235690e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.603891e+02
+Vprtstp: contraction number = 8.603891e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.127548e+02
+Vprtstp: contraction number = 9.446363e-01
+Vprtstp: iteration = 50
+Vprtstp: relative residual = 8.320417e-04
+Vprtstp: contraction number = 8.924703e-01
+Vnewton: Using errtol_s: 731.479316
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.243280e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.679879e+02
+Vprtstp: contraction number = 7.679879e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.255757e+02
+Vprtstp: contraction number = 9.447749e-01
+Vprtstp: iteration = 51
+Vprtstp: relative residual = 7.427938e-04
+Vprtstp: contraction number = 8.927362e-01
+Vnewton: Using errtol_s: 653.018085
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.250770e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.857060e+02
+Vprtstp: contraction number = 6.857060e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.479289e+02
+Vprtstp: contraction number = 9.449076e-01
+Vprtstp: iteration = 52
+Vprtstp: relative residual = 6.633044e-04
+Vprtstp: contraction number = 8.929860e-01
+Vnewton: Using errtol_s: 583.135985
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.258430e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.124075e+02
+Vprtstp: contraction number = 6.124075e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.787454e+02
+Vprtstp: contraction number = 9.450331e-01
+Vprtstp: iteration = 53
+Vprtstp: relative residual = 5.924791e-04
+Vprtstp: contraction number = 8.932236e-01
+Vnewton: Using errtol_s: 520.870816
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.266340e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.470874e+02
+Vprtstp: contraction number = 5.470874e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.170799e+02
+Vprtstp: contraction number = 9.451505e-01
+Vprtstp: iteration = 54
+Vprtstp: relative residual = 5.293503e-04
+Vprtstp: contraction number = 8.934497e-01
+Vnewton: Using errtol_s: 465.371895
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.273790e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.888554e+02
+Vprtstp: contraction number = 4.888554e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.620986e+02
+Vprtstp: contraction number = 9.452666e-01
+Vprtstp: iteration = 55
+Vprtstp: relative residual = 4.730644e-04
+Vprtstp: contraction number = 8.936697e-01
+Vnewton: Using errtol_s: 415.888761
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.281140e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.369260e+02
+Vprtstp: contraction number = 4.369260e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.130582e+02
+Vprtstp: contraction number = 9.453734e-01
+Vprtstp: iteration = 56
+Vprtstp: relative residual = 4.228602e-04
+Vprtstp: contraction number = 8.938746e-01
+Vnewton: Using errtol_s: 371.752404
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.288620e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.906009e+02
+Vprtstp: contraction number = 3.906009e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.693043e+02
+Vprtstp: contraction number = 9.454773e-01
+Vprtstp: iteration = 57
+Vprtstp: relative residual = 3.780680e-04
+Vprtstp: contraction number = 8.940732e-01
+Vnewton: Using errtol_s: 332.373848
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.296410e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.492633e+02
+Vprtstp: contraction number = 3.492633e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.302556e+02
+Vprtstp: contraction number = 9.455776e-01
+Vprtstp: iteration = 58
+Vprtstp: relative residual = 3.380927e-04
+Vprtstp: contraction number = 8.942642e-01
+Vnewton: Using errtol_s: 297.230043
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.303920e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.123656e+02
+Vprtstp: contraction number = 3.123656e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.953952e+02
+Vprtstp: contraction number = 9.456716e-01
+Vprtstp: iteration = 59
+Vprtstp: relative residual = 3.024051e-04
+Vprtstp: contraction number = 8.944443e-01
+Vnewton: Using errtol_s: 265.855724
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.311540e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.794202e+02
+Vprtstp: contraction number = 2.794202e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.642650e+02
+Vprtstp: contraction number = 9.457617e-01
+Vprtstp: iteration = 60
+Vprtstp: relative residual = 2.705360e-04
+Vprtstp: contraction number = 8.946148e-01
+Vnewton: Using errtol_s: 237.838457
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.318720e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.499970e+02
+Vprtstp: contraction number = 2.499970e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.364592e+02
+Vprtstp: contraction number = 9.458481e-01
+Vprtstp: iteration = 61
+Vprtstp: relative residual = 2.420704e-04
+Vprtstp: contraction number = 8.947807e-01
+Vnewton: Using errtol_s: 212.813258
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.326090e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.237119e+02
+Vprtstp: contraction number = 2.237119e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.116164e+02
+Vprtstp: contraction number = 9.459330e-01
+Vprtstp: iteration = 62
+Vprtstp: relative residual = 2.166382e-04
+Vprtstp: contraction number = 8.949386e-01
+Vnewton: Using errtol_s: 190.454803
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.333380e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.002251e+02
+Vprtstp: contraction number = 2.002251e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.894155e+02
+Vprtstp: contraction number = 9.460125e-01
+Vprtstp: iteration = 63
+Vprtstp: relative residual = 1.939104e-04
+Vprtstp: contraction number = 8.950887e-01
+Vnewton: Using errtol_s: 170.473938
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.340680e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.792337e+02
+Vprtstp: contraction number = 1.792337e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.695711e+02
+Vprtstp: contraction number = 9.460896e-01
+Vprtstp: iteration = 64
+Vprtstp: relative residual = 1.735951e-04
+Vprtstp: contraction number = 8.952336e-01
+Vnewton: Using errtol_s: 152.613991
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.348180e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.604684e+02
+Vprtstp: contraction number = 1.604684e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.518295e+02
+Vprtstp: contraction number = 9.461642e-01
+Vprtstp: iteration = 65
+Vprtstp: relative residual = 1.554324e-04
+Vprtstp: contraction number = 8.953736e-01
+Vnewton: Using errtol_s: 136.646540
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.355830e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.436899e+02
+Vprtstp: contraction number = 1.436899e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.359647e+02
+Vprtstp: contraction number = 9.462369e-01
+Vprtstp: iteration = 66
+Vprtstp: relative residual = 1.391912e-04
+Vprtstp: contraction number = 8.955090e-01
+Vnewton: Using errtol_s: 122.368208
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.363500e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.286845e+02
+Vprtstp: contraction number = 1.286845e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.217748e+02
+Vprtstp: contraction number = 9.463055e-01
+Vprtstp: iteration = 67
+Vprtstp: relative residual = 1.246646e-04
+Vprtstp: contraction number = 8.956358e-01
+Vnewton: Using errtol_s: 109.597352
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.370970e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.152623e+02
+Vprtstp: contraction number = 1.152623e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.090812e+02
+Vprtstp: contraction number = 9.463738e-01
+Vprtstp: iteration = 68
+Vprtstp: relative residual = 1.116697e-04
+Vprtstp: contraction number = 8.957615e-01
+Vnewton: Using errtol_s: 98.173093
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.378290e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.032542e+02
+Vprtstp: contraction number = 1.032542e+02
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.772372e+01
+Vprtstp: contraction number = 9.464378e-01
+Vprtstp: iteration = 69
+Vprtstp: relative residual = 1.000427e-04
+Vprtstp: contraction number = 8.958804e-01
+Vnewton: Using errtol_s: 87.951348
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.385740e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.250928e+01
+Vprtstp: contraction number = 9.250928e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.756007e+01
+Vprtstp: contraction number = 9.465004e-01
+Vprtstp: iteration = 70
+Vprtstp: relative residual = 8.963790e-05
+Vprtstp: contraction number = 8.959961e-01
+Vnewton: Using errtol_s: 78.804064
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.392840e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.289298e+01
+Vprtstp: contraction number = 8.289298e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.846342e+01
+Vprtstp: contraction number = 9.465629e-01
+Vprtstp: iteration = 71
+Vprtstp: relative residual = 8.032538e-05
+Vprtstp: contraction number = 8.961096e-01
+Vnewton: Using errtol_s: 70.617081
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.400230e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.428563e+01
+Vprtstp: contraction number = 7.428563e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.032042e+01
+Vprtstp: contraction number = 9.466221e-01
+Vprtstp: iteration = 72
+Vprtstp: relative residual = 7.198914e-05
+Vprtstp: contraction number = 8.962191e-01
+Vnewton: Using errtol_s: 63.288378
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.407460e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.657991e+01
+Vprtstp: contraction number = 6.657991e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.302987e+01
+Vprtstp: contraction number = 9.466800e-01
+Vprtstp: iteration = 73
+Vprtstp: relative residual = 6.452558e-05
+Vprtstp: contraction number = 8.963238e-01
+Vnewton: Using errtol_s: 56.726881
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.415130e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.968056e+01
+Vprtstp: contraction number = 5.968056e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.650178e+01
+Vprtstp: contraction number = 9.467368e-01
+Vprtstp: iteration = 74
+Vprtstp: relative residual = 5.784259e-05
+Vprtstp: contraction number = 8.964287e-01
+Vnewton: Using errtol_s: 50.851604
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.422790e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.350215e+01
+Vprtstp: contraction number = 5.350215e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.065536e+01
+Vprtstp: contraction number = 9.467911e-01
+Vprtstp: iteration = 75
+Vprtstp: relative residual = 5.185743e-05
+Vprtstp: contraction number = 8.965268e-01
+Vnewton: Using errtol_s: 45.589826
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.429890e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.796855e+01
+Vprtstp: contraction number = 4.796855e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.541876e+01
+Vprtstp: contraction number = 9.468444e-01
+Vprtstp: iteration = 76
+Vprtstp: relative residual = 4.649656e-05
+Vprtstp: contraction number = 8.966229e-01
+Vnewton: Using errtol_s: 40.876880
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.437060e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.301185e+01
+Vprtstp: contraction number = 4.301185e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.072775e+01
+Vprtstp: contraction number = 9.468960e-01
+Vprtstp: iteration = 77
+Vprtstp: relative residual = 4.169423e-05
+Vprtstp: contraction number = 8.967165e-01
+Vnewton: Using errtol_s: 36.654973
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.444410e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.857129e+01
+Vprtstp: contraction number = 3.857129e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.652490e+01
+Vprtstp: contraction number = 9.469451e-01
+Vprtstp: iteration = 78
+Vprtstp: relative residual = 3.739164e-05
+Vprtstp: contraction number = 8.968062e-01
+Vnewton: Using errtol_s: 32.872406
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.452110e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.459253e+01
+Vprtstp: contraction number = 3.459253e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.275893e+01
+Vprtstp: contraction number = 9.469942e-01
+Vprtstp: iteration = 79
+Vprtstp: relative residual = 3.353631e-05
+Vprtstp: contraction number = 8.968931e-01
+Vnewton: Using errtol_s: 29.483035
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.459240e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.102719e+01
+Vprtstp: contraction number = 3.102719e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.938399e+01
+Vprtstp: contraction number = 9.470401e-01
+Vprtstp: iteration = 80
+Vprtstp: relative residual = 3.008128e-05
+Vprtstp: contraction number = 8.969766e-01
+Vnewton: Using errtol_s: 26.445591
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.466260e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.783186e+01
+Vprtstp: contraction number = 2.783186e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.635912e+01
+Vprtstp: contraction number = 9.470843e-01
+Vprtstp: iteration = 81
+Vprtstp: relative residual = 2.698463e-05
+Vprtstp: contraction number = 8.970573e-01
+Vnewton: Using errtol_s: 23.723210
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.473710e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.496786e+01
+Vprtstp: contraction number = 2.496786e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.364777e+01
+Vprtstp: contraction number = 9.471287e-01
+Vprtstp: iteration = 82
+Vprtstp: relative residual = 2.420894e-05
+Vprtstp: contraction number = 8.971382e-01
+Vnewton: Using errtol_s: 21.282997
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.481290e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.240053e+01
+Vprtstp: contraction number = 2.240053e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.121714e+01
+Vprtstp: contraction number = 9.471712e-01
+Vprtstp: iteration = 83
+Vprtstp: relative residual = 2.172063e-05
+Vprtstp: contraction number = 8.972150e-01
+Vnewton: Using errtol_s: 19.095424
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.488700e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.009888e+01
+Vprtstp: contraction number = 2.009888e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.903789e+01
+Vprtstp: contraction number = 9.472117e-01
+Vprtstp: iteration = 84
+Vprtstp: relative residual = 1.948967e-05
+Vprtstp: contraction number = 8.972885e-01
+Vnewton: Using errtol_s: 17.134105
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.495920e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.803521e+01
+Vprtstp: contraction number = 1.803521e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.708389e+01
+Vprtstp: contraction number = 9.472518e-01
+Vprtstp: iteration = 85
+Vprtstp: relative residual = 1.748929e-05
+Vprtstp: contraction number = 8.973622e-01
+Vnewton: Using errtol_s: 15.375498
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.503130e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.618472e+01
+Vprtstp: contraction number = 1.618472e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.533161e+01
+Vprtstp: contraction number = 9.472895e-01
+Vprtstp: iteration = 86
+Vprtstp: relative residual = 1.569543e-05
+Vprtstp: contraction number = 8.974311e-01
+Vnewton: Using errtol_s: 13.798450
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.510280e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.452521e+01
+Vprtstp: contraction number = 1.452521e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.376012e+01
+Vprtstp: contraction number = 9.473271e-01
+Vprtstp: iteration = 87
+Vprtstp: relative residual = 1.408665e-05
+Vprtstp: contraction number = 8.975001e-01
+Vnewton: Using errtol_s: 12.384110
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.518350e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.303684e+01
+Vprtstp: contraction number = 1.303684e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.235061e+01
+Vprtstp: contraction number = 9.473623e-01
+Vprtstp: iteration = 88
+Vprtstp: relative residual = 1.264369e-05
+Vprtstp: contraction number = 8.975654e-01
+Vnewton: Using errtol_s: 11.115548
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.525870e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.170183e+01
+Vprtstp: contraction number = 1.170183e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.108627e+01
+Vprtstp: contraction number = 9.473966e-01
+Vprtstp: iteration = 89
+Vprtstp: relative residual = 1.134935e-05
+Vprtstp: contraction number = 8.976295e-01
+Vnewton: Using errtol_s: 9.977644
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.533060e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.050427e+01
+Vprtstp: contraction number = 1.050427e+01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.952073e+00
+Vprtstp: contraction number = 9.474311e-01
+Vprtstp: iteration = 90
+Vprtstp: relative residual = 1.018824e-05
+Vprtstp: contraction number = 8.976934e-01
+Vnewton: Using errtol_s: 8.956866
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.540540e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.429922e+00
+Vprtstp: contraction number = 9.429922e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.934506e+00
+Vprtstp: contraction number = 9.474635e-01
+Vprtstp: iteration = 91
+Vprtstp: relative residual = 9.146525e-06
+Vprtstp: contraction number = 8.977533e-01
+Vnewton: Using errtol_s: 8.041056
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.548150e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.466008e+00
+Vprtstp: contraction number = 8.466008e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 8.021507e+00
+Vprtstp: contraction number = 9.474958e-01
+Vprtstp: iteration = 92
+Vprtstp: relative residual = 8.211860e-06
+Vprtstp: contraction number = 8.978120e-01
+Vnewton: Using errtol_s: 7.219356
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.557010e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.601132e+00
+Vprtstp: contraction number = 7.601132e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.202286e+00
+Vprtstp: contraction number = 9.475281e-01
+Vprtstp: iteration = 93
+Vprtstp: relative residual = 7.373199e-06
+Vprtstp: contraction number = 8.978720e-01
+Vnewton: Using errtol_s: 6.482058
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.566030e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.825046e+00
+Vprtstp: contraction number = 6.825046e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.467130e+00
+Vprtstp: contraction number = 9.475583e-01
+Vprtstp: iteration = 94
+Vprtstp: relative residual = 6.620596e-06
+Vprtstp: contraction number = 8.979273e-01
+Vnewton: Using errtol_s: 5.820417
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.573310e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.128583e+00
+Vprtstp: contraction number = 6.128583e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.807384e+00
+Vprtstp: contraction number = 9.475901e-01
+Vprtstp: iteration = 95
+Vprtstp: relative residual = 5.945195e-06
+Vprtstp: contraction number = 8.979849e-01
+Vnewton: Using errtol_s: 5.226646
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.580530e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.503532e+00
+Vprtstp: contraction number = 5.503532e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 5.215260e+00
+Vprtstp: contraction number = 9.476205e-01
+Vprtstp: iteration = 96
+Vprtstp: relative residual = 5.339020e-06
+Vprtstp: contraction number = 8.980394e-01
+Vnewton: Using errtol_s: 4.693734
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.588030e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.942530e+00
+Vprtstp: contraction number = 4.942530e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.683790e+00
+Vprtstp: contraction number = 9.476504e-01
+Vprtstp: iteration = 97
+Vprtstp: relative residual = 4.794938e-06
+Vprtstp: contraction number = 8.980933e-01
+Vnewton: Using errtol_s: 4.215411
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.595470e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.438977e+00
+Vprtstp: contraction number = 4.438977e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.206726e+00
+Vprtstp: contraction number = 9.476790e-01
+Vprtstp: iteration = 98
+Vprtstp: relative residual = 4.306553e-06
+Vprtstp: contraction number = 8.981456e-01
+Vnewton: Using errtol_s: 3.786053
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.602910e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.986953e+00
+Vprtstp: contraction number = 3.986953e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.778467e+00
+Vprtstp: contraction number = 9.477079e-01
+Vprtstp: iteration = 99
+Vprtstp: relative residual = 3.868131e-06
+Vprtstp: contraction number = 8.981967e-01
+Vnewton: Using errtol_s: 3.400620
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.610830e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.581163e+00
+Vprtstp: contraction number = 3.581163e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.393996e+00
+Vprtstp: contraction number = 9.477356e-01
+Vprtstp: iteration = 100
+Vprtstp: relative residual = 3.474537e-06
+Vprtstp: contraction number = 8.982468e-01
+Vnewton: Using errtol_s: 3.054596
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.618430e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.216851e+00
+Vprtstp: contraction number = 3.216851e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 3.048810e+00
+Vprtstp: contraction number = 9.477624e-01
+Vprtstp: iteration = 101
+Vprtstp: relative residual = 3.121159e-06
+Vprtstp: contraction number = 8.982951e-01
+Vnewton: Using errtol_s: 2.743929
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.625880e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.889752e+00
+Vprtstp: contraction number = 2.889752e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.738876e+00
+Vprtstp: contraction number = 9.477894e-01
+Vprtstp: iteration = 102
+Vprtstp: relative residual = 2.803870e-06
+Vprtstp: contraction number = 8.983427e-01
+Vnewton: Using errtol_s: 2.464989
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.633090e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.596049e+00
+Vprtstp: contraction number = 2.596049e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.460576e+00
+Vprtstp: contraction number = 9.478157e-01
+Vprtstp: iteration = 103
+Vprtstp: relative residual = 2.518966e-06
+Vprtstp: contraction number = 8.983888e-01
+Vnewton: Using errtol_s: 2.214518
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.640480e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.332316e+00
+Vprtstp: contraction number = 2.332316e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 2.210668e+00
+Vprtstp: contraction number = 9.478424e-01
+Vprtstp: iteration = 104
+Vprtstp: relative residual = 2.263128e-06
+Vprtstp: contraction number = 8.984353e-01
+Vnewton: Using errtol_s: 1.989601
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.647820e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.095483e+00
+Vprtstp: contraction number = 2.095483e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.986239e+00
+Vprtstp: contraction number = 9.478670e-01
+Vprtstp: iteration = 105
+Vprtstp: relative residual = 2.033373e-06
+Vprtstp: contraction number = 8.984791e-01
+Vnewton: Using errtol_s: 1.787615
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.655450e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.882789e+00
+Vprtstp: contraction number = 1.882789e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.784678e+00
+Vprtstp: contraction number = 9.478908e-01
+Vprtstp: iteration = 106
+Vprtstp: relative residual = 1.827029e-06
+Vprtstp: contraction number = 8.985215e-01
+Vnewton: Using errtol_s: 1.606211
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.662700e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.691764e+00
+Vprtstp: contraction number = 1.691764e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.603648e+00
+Vprtstp: contraction number = 9.479148e-01
+Vprtstp: iteration = 107
+Vprtstp: relative residual = 1.641703e-06
+Vprtstp: contraction number = 8.985641e-01
+Vnewton: Using errtol_s: 1.443283
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.670120e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.520191e+00
+Vprtstp: contraction number = 1.520191e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.441047e+00
+Vprtstp: contraction number = 9.479378e-01
+Vprtstp: iteration = 108
+Vprtstp: relative residual = 1.475243e-06
+Vprtstp: contraction number = 8.986053e-01
+Vnewton: Using errtol_s: 1.296942
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.677480e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.366080e+00
+Vprtstp: contraction number = 1.366080e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.294990e+00
+Vprtstp: contraction number = 9.479602e-01
+Vprtstp: iteration = 109
+Vprtstp: relative residual = 1.325720e-06
+Vprtstp: contraction number = 8.986454e-01
+Vnewton: Using errtol_s: 1.165491
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.684870e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.227648e+00
+Vprtstp: contraction number = 1.227648e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.163789e+00
+Vprtstp: contraction number = 9.479828e-01
+Vprtstp: iteration = 110
+Vprtstp: relative residual = 1.191406e-06
+Vprtstp: contraction number = 8.986858e-01
+Vnewton: Using errtol_s: 1.047410
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.692050e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.103292e+00
+Vprtstp: contraction number = 1.103292e+00
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.045925e+00
+Vprtstp: contraction number = 9.480039e-01
+Vprtstp: iteration = 111
+Vprtstp: relative residual = 1.070745e-06
+Vprtstp: contraction number = 8.987239e-01
+Vnewton: Using errtol_s: 0.941333
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.699300e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.915747e-01
+Vprtstp: contraction number = 9.915747e-01
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 9.400390e-01
+Vprtstp: contraction number = 9.480264e-01
+Vprtstp: iteration = 112
+Vprtstp: relative residual = 9.623464e-07
+Vprtstp: contraction number = 8.987633e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 8.135500e+01
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 8.189000e+01
+Vpmg_setPart:  lower corner = (-14.728, -10.5995, -7.018)
+Vpmg_setPart:  upper corner = (120.11, 13.0865, 7.495)
+Vpmg_setPart:  actual minima = (-14.728, -10.5995, -7.018)
+Vpmg_setPart:  actual maxima = (120.11, 13.0865, 7.495)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 9.948949939711E+04 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 1.100000e-02
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 1.000000e-03
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 52.8572
+Vpbe_ctor2:  solute dimensions = 86.112 x 30.6367 x 56.51
+Vpbe_ctor2:  solute charge = 0
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 61 x 75 table
+Vclist_ctor2:  Using 75 x 61 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 0.5 max radius
+Vclist_setupGrid:  Grid lengths = (89.132, 33.325, 59.53)
+Vclist_setupGrid:  Grid lower corner = (10.107, -27.09, 6.38399)
+Vclist_assignAtoms:  Have 17215 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 14.2099
+Vacc_storeParms:  Using 154-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.001000
+Vpmg_fillco:  done filling coefficient arrays
+Vpmg_fillco:  filling boundary arrays
+Vpmg_fillco:  done filling boundary arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 7.530000e-01
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (161, 161, 161)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 9.800000e-02
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (081, 081, 081)
+Vbuildops: Galer: (041, 041, 041)
+Vbuildops: Galer: (021, 021, 021)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 3.690000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.719850e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 441428.486269
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.720920e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.002395e+05
+Vprtstp: contraction number = 1.002395e+05
+Vnewton: Attempting damping, relres = 0.204372
+Vnewton: Attempting damping, relres = 0.593902
+Vnewton: Damping accepted, relres = 0.204372
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.043719e-01
+Vprtstp: contraction number = 2.043719e-01
+Vnewton: Using errtol_s: 90215.565761
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.725540e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.468720e+04
+Vprtstp: contraction number = 3.468720e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 7.072149e-02
+Vprtstp: contraction number = 3.460432e-01
+Vnewton: Using errtol_s: 31218.479497
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.729530e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.480072e+04
+Vprtstp: contraction number = 1.480072e+04
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 3.017624e-02
+Vprtstp: contraction number = 4.266912e-01
+Vnewton: Using errtol_s: 13320.650332
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.733960e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.970178e+03
+Vprtstp: contraction number = 6.970178e+03
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.421105e-02
+Vprtstp: contraction number = 4.709350e-01
+Vnewton: Using errtol_s: 6273.160286
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.738410e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.477169e+03
+Vprtstp: contraction number = 3.477169e+03
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 7.089375e-03
+Vprtstp: contraction number = 4.988637e-01
+Vnewton: Using errtol_s: 3129.452128
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.742630e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.797975e+03
+Vprtstp: contraction number = 1.797975e+03
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 3.665775e-03
+Vprtstp: contraction number = 5.170802e-01
+Vnewton: Using errtol_s: 1618.177576
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.746720e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.513204e+02
+Vprtstp: contraction number = 9.513204e+02
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 1.939586e-03
+Vprtstp: contraction number = 5.291066e-01
+Vnewton: Using errtol_s: 856.188399
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.750640e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.109379e+02
+Vprtstp: contraction number = 5.109379e+02
+Vprtstp: iteration = 8
+Vprtstp: relative residual = 1.041718e-03
+Vprtstp: contraction number = 5.370828e-01
+Vnewton: Using errtol_s: 459.844101
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.754740e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.773195e+02
+Vprtstp: contraction number = 2.773195e+02
+Vprtstp: iteration = 9
+Vprtstp: relative residual = 5.654089e-04
+Vprtstp: contraction number = 5.427656e-01
+Vnewton: Using errtol_s: 249.587577
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.758760e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.516809e+02
+Vprtstp: contraction number = 1.516809e+02
+Vprtstp: iteration = 10
+Vprtstp: relative residual = 3.092524e-04
+Vprtstp: contraction number = 5.469536e-01
+Vnewton: Using errtol_s: 136.512829
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.762790e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.344795e+01
+Vprtstp: contraction number = 8.344795e+01
+Vprtstp: iteration = 11
+Vprtstp: relative residual = 1.701366e-04
+Vprtstp: contraction number = 5.501546e-01
+Vnewton: Using errtol_s: 75.103155
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.767760e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.612547e+01
+Vprtstp: contraction number = 4.612547e+01
+Vprtstp: iteration = 12
+Vprtstp: relative residual = 9.404225e-05
+Vprtstp: contraction number = 5.527454e-01
+Vnewton: Using errtol_s: 41.512927
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.772240e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.558873e+01
+Vprtstp: contraction number = 2.558873e+01
+Vprtstp: iteration = 13
+Vprtstp: relative residual = 5.217122e-05
+Vprtstp: contraction number = 5.547636e-01
+Vnewton: Using errtol_s: 23.029861
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.776560e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.424029e+01
+Vprtstp: contraction number = 1.424029e+01
+Vprtstp: iteration = 14
+Vprtstp: relative residual = 2.903360e-05
+Vprtstp: contraction number = 5.565061e-01
+Vnewton: Using errtol_s: 12.816258
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.780770e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.945482e+00
+Vprtstp: contraction number = 7.945482e+00
+Vprtstp: iteration = 15
+Vprtstp: relative residual = 1.619953e-05
+Vprtstp: contraction number = 5.579580e-01
+Vnewton: Using errtol_s: 7.150934
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.784880e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.442949e+00
+Vprtstp: contraction number = 4.442949e+00
+Vprtstp: iteration = 16
+Vprtstp: relative residual = 9.058441e-06
+Vprtstp: contraction number = 5.591792e-01
+Vnewton: Using errtol_s: 3.998654
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.789030e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.489103e+00
+Vprtstp: contraction number = 2.489103e+00
+Vprtstp: iteration = 17
+Vprtstp: relative residual = 5.074872e-06
+Vprtstp: contraction number = 5.602368e-01
+Vnewton: Using errtol_s: 2.240193
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.793290e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.396804e+00
+Vprtstp: contraction number = 1.396804e+00
+Vprtstp: iteration = 18
+Vprtstp: relative residual = 2.847854e-06
+Vprtstp: contraction number = 5.611675e-01
+Vnewton: Using errtol_s: 1.257124
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.797370e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.849999e-01
+Vprtstp: contraction number = 7.849999e-01
+Vprtstp: iteration = 19
+Vprtstp: relative residual = 1.600486e-06
+Vprtstp: contraction number = 5.619972e-01
+Vnewton: Using errtol_s: 0.616225
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.801390e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.417782e-01
+Vprtstp: contraction number = 4.417782e-01
+Vprtstp: iteration = 20
+Vprtstp: relative residual = 9.007130e-07
+Vprtstp: contraction number = 5.627748e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 8.511000e+00
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 9.019000e+00
+Vpmg_setPart:  lower corner = (-18.522, -36.1865, -11.8845)
+Vpmg_setPart:  upper corner = (127.868, 15.3315, 84.1825)
+Vpmg_setPart:  actual minima = (-18.522, -36.1865, -11.8845)
+Vpmg_setPart:  actual maxima = (127.868, 15.3315, 84.1825)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 5.232685401576E+02 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 1.000000e-02
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 0.000000e+00
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 52.8572
+Vpbe_ctor2:  solute dimensions = 86.112 x 30.6367 x 56.51
+Vpbe_ctor2:  solute charge = 0
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 61 x 75 table
+Vclist_ctor2:  Using 75 x 61 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 0.5 max radius
+Vclist_setupGrid:  Grid lengths = (89.132, 33.325, 59.53)
+Vclist_setupGrid:  Grid lower corner = (10.107, -27.09, 6.38399)
+Vclist_assignAtoms:  Have 17215 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 14.2099
+Vacc_storeParms:  Using 154-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_ctor2:  Filling boundary with old solution!
+VPMG::focusFillBound -- New mesh mins = 1.617, -35.58, -2.106
+VPMG::focusFillBound -- New mesh maxs = 107.729, 14.725, 74.404
+VPMG::focusFillBound -- Old mesh mins = -18.522, -36.1865, -11.8845
+VPMG::focusFillBound -- Old mesh maxs = 127.868, 15.3315, 84.1825
+VPMG::extEnergy:  energy flag = 1
+Vpmg_setPart:  lower corner = (1.617, -35.58, -2.106)
+Vpmg_setPart:  upper corner = (107.729, 14.725, 74.404)
+Vpmg_setPart:  actual minima = (-18.522, -36.1865, -11.8845)
+Vpmg_setPart:  actual maxima = (127.868, 15.3315, 84.1825)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+VPMG::extEnergy:   Finding extEnergy dimensions...
+VPMG::extEnergy    Disj part lower corner = (1.617, -35.58, -2.106)
+VPMG::extEnergy    Disj part upper corner = (107.729, 14.725, 74.404)
+VPMG::extEnergy    Old lower corner = (-18.522, -36.1865, -11.8845)
+VPMG::extEnergy    Old upper corner = (127.868, 15.3315, 84.1825)
+Vpmg_qmEnergy:  Zero energy for zero ionic strength!
+VPMG::extEnergy: extQmEnergy = 0 kT
+Vpmg_qfEnergyVolume:  Calculating energy
+VPMG::extEnergy: extQfEnergy = 0 kT
+VPMG::extEnergy: extDiEnergy = 0.00156867 kT
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.001000
+Vpmg_fillco:  done filling coefficient arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 6.100000e-01
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (161, 161, 161)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 1.020000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (081, 081, 081)
+Vbuildops: Galer: (041, 041, 041)
+Vbuildops: Galer: (021, 021, 021)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 3.820000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.817090e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 454613.336682
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.818200e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.588727e+04
+Vprtstp: contraction number = 8.588727e+04
+Vnewton: Attempting damping, relres = 0.170031
+Vnewton: Attempting damping, relres = 0.581229
+Vnewton: Damping accepted, relres = 0.170031
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.700314e-01
+Vprtstp: contraction number = 1.700314e-01
+Vnewton: Using errtol_s: 77298.545935
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.822890e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.149233e+04
+Vprtstp: contraction number = 2.149233e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.254847e-02
+Vprtstp: contraction number = 2.502389e-01
+Vnewton: Using errtol_s: 19343.100169
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.826830e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.844521e+03
+Vprtstp: contraction number = 6.844521e+03
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.355013e-02
+Vprtstp: contraction number = 3.184634e-01
+Vnewton: Using errtol_s: 6160.068840
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.830870e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.426173e+03
+Vprtstp: contraction number = 2.426173e+03
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 4.803106e-03
+Vprtstp: contraction number = 3.544694e-01
+Vnewton: Using errtol_s: 2183.555852
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.834890e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.048549e+02
+Vprtstp: contraction number = 9.048549e+02
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 1.791345e-03
+Vprtstp: contraction number = 3.729556e-01
+Vnewton: Using errtol_s: 814.369453
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.839890e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.470288e+02
+Vprtstp: contraction number = 3.470288e+02
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 6.870145e-04
+Vprtstp: contraction number = 3.835188e-01
+Vnewton: Using errtol_s: 312.325957
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.843760e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.354548e+02
+Vprtstp: contraction number = 1.354548e+02
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 2.681605e-04
+Vprtstp: contraction number = 3.903273e-01
+Vnewton: Using errtol_s: 121.909359
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.847850e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.349676e+01
+Vprtstp: contraction number = 5.349676e+01
+Vprtstp: iteration = 8
+Vprtstp: relative residual = 1.059078e-04
+Vprtstp: contraction number = 3.949416e-01
+Vnewton: Using errtol_s: 48.147083
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.852010e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.130706e+01
+Vprtstp: contraction number = 2.130706e+01
+Vprtstp: iteration = 9
+Vprtstp: relative residual = 4.218168e-05
+Vprtstp: contraction number = 3.982870e-01
+Vnewton: Using errtol_s: 19.176356
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.856310e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.540614e+00
+Vprtstp: contraction number = 8.540614e+00
+Vprtstp: iteration = 10
+Vprtstp: relative residual = 1.690789e-05
+Vprtstp: contraction number = 4.008349e-01
+Vnewton: Using errtol_s: 7.686552
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.860350e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.439960e+00
+Vprtstp: contraction number = 3.439960e+00
+Vprtstp: iteration = 11
+Vprtstp: relative residual = 6.810103e-06
+Vprtstp: contraction number = 4.027767e-01
+Vnewton: Using errtol_s: 3.095964
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.864540e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.391064e+00
+Vprtstp: contraction number = 1.391064e+00
+Vprtstp: iteration = 12
+Vprtstp: relative residual = 2.753896e-06
+Vprtstp: contraction number = 4.043839e-01
+Vnewton: Using errtol_s: 1.251958
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.868730e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.643005e-01
+Vprtstp: contraction number = 5.643005e-01
+Vprtstp: iteration = 13
+Vprtstp: relative residual = 1.117148e-06
+Vprtstp: contraction number = 4.056609e-01
+Vnewton: Using errtol_s: 0.318435
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.872730e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.294970e-01
+Vprtstp: contraction number = 2.294970e-01
+Vprtstp: iteration = 14
+Vprtstp: relative residual = 4.543362e-07
+Vprtstp: contraction number = 4.066929e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 5.924000e+00
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 6.449000e+00
+Vpmg_setPart:  lower corner = (1.617, -35.58, -2.106)
+Vpmg_setPart:  upper corner = (107.729, 14.725, 74.404)
+Vpmg_setPart:  actual minima = (1.617, -35.58, -2.106)
+Vpmg_setPart:  actual maxima = (107.729, 14.725, 74.404)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 1.076374037445E+03 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 1.000000e-02
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 0.000000e+00
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 52.8572
+Vpbe_ctor2:  solute dimensions = 86.112 x 30.6367 x 56.51
+Vpbe_ctor2:  solute charge = 0
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 61 x 75 table
+Vclist_ctor2:  Using 75 x 61 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 0.5 max radius
+Vclist_setupGrid:  Grid lengths = (89.132, 33.325, 59.53)
+Vclist_setupGrid:  Grid lower corner = (10.107, -27.09, 6.38399)
+Vclist_assignAtoms:  Have 17215 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 14.2099
+Vacc_storeParms:  Using 154-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.001000
+Vpmg_fillco:  done filling coefficient arrays
+Vpmg_fillco:  filling boundary arrays
+Vpmg_fillco:  done filling boundary arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 7.660000e-01
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (161, 161, 161)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 1.010000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (081, 081, 081)
+Vbuildops: Galer: (041, 041, 041)
+Vbuildops: Galer: (021, 021, 021)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 3.850000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.890080e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 441428.486269
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.891160e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.017871e+05
+Vprtstp: contraction number = 1.017871e+05
+Vnewton: Attempting damping, relres = 0.207527
+Vnewton: Attempting damping, relres = 0.597062
+Vnewton: Damping accepted, relres = 0.207527
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.075270e-01
+Vprtstp: contraction number = 2.075270e-01
+Vnewton: Using errtol_s: 91608.349908
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.895780e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.417138e+04
+Vprtstp: contraction number = 3.417138e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 6.966983e-02
+Vprtstp: contraction number = 3.357144e-01
+Vnewton: Using errtol_s: 30754.246034
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.900120e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.425301e+04
+Vprtstp: contraction number = 1.425301e+04
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 2.905955e-02
+Vprtstp: contraction number = 4.171038e-01
+Vnewton: Using errtol_s: 12827.712797
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.904060e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 6.610641e+03
+Vprtstp: contraction number = 6.610641e+03
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.347801e-02
+Vprtstp: contraction number = 4.638065e-01
+Vnewton: Using errtol_s: 5949.576729
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.908070e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.254912e+03
+Vprtstp: contraction number = 3.254912e+03
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 6.636230e-03
+Vprtstp: contraction number = 4.923746e-01
+Vnewton: Using errtol_s: 2929.420751
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.912180e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.662352e+03
+Vprtstp: contraction number = 1.662352e+03
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 3.389263e-03
+Vprtstp: contraction number = 5.107211e-01
+Vnewton: Using errtol_s: 1496.117070
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.917390e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.701154e+02
+Vprtstp: contraction number = 8.701154e+02
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 1.774022e-03
+Vprtstp: contraction number = 5.234242e-01
+Vnewton: Using errtol_s: 783.103824
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.921340e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.633423e+02
+Vprtstp: contraction number = 4.633423e+02
+Vprtstp: iteration = 8
+Vprtstp: relative residual = 9.446788e-04
+Vprtstp: contraction number = 5.325068e-01
+Vnewton: Using errtol_s: 417.008113
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.925640e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.498366e+02
+Vprtstp: contraction number = 2.498366e+02
+Vprtstp: iteration = 9
+Vprtstp: relative residual = 5.093757e-04
+Vprtstp: contraction number = 5.392052e-01
+Vnewton: Using errtol_s: 224.852963
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.929830e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.359994e+02
+Vprtstp: contraction number = 1.359994e+02
+Vprtstp: iteration = 10
+Vprtstp: relative residual = 2.772803e-04
+Vprtstp: contraction number = 5.443531e-01
+Vnewton: Using errtol_s: 122.399415
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.933940e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.457620e+01
+Vprtstp: contraction number = 7.457620e+01
+Vprtstp: iteration = 11
+Vprtstp: relative residual = 1.520486e-04
+Vprtstp: contraction number = 5.483570e-01
+Vnewton: Using errtol_s: 67.118577
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.938200e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.112397e+01
+Vprtstp: contraction number = 4.112397e+01
+Vprtstp: iteration = 12
+Vprtstp: relative residual = 8.384501e-05
+Vprtstp: contraction number = 5.514356e-01
+Vnewton: Using errtol_s: 37.011575
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.942330e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.278363e+01
+Vprtstp: contraction number = 2.278363e+01
+Vprtstp: iteration = 13
+Vprtstp: relative residual = 4.645206e-05
+Vprtstp: contraction number = 5.540230e-01
+Vnewton: Using errtol_s: 20.505263
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.946610e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.266990e+01
+Vprtstp: contraction number = 1.266990e+01
+Vprtstp: iteration = 14
+Vprtstp: relative residual = 2.583185e-05
+Vprtstp: contraction number = 5.560970e-01
+Vnewton: Using errtol_s: 11.402914
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.950850e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.068201e+00
+Vprtstp: contraction number = 7.068201e+00
+Vprtstp: iteration = 15
+Vprtstp: relative residual = 1.441090e-05
+Vprtstp: contraction number = 5.578733e-01
+Vnewton: Using errtol_s: 6.361381
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.954980e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.954048e+00
+Vprtstp: contraction number = 3.954048e+00
+Vprtstp: iteration = 16
+Vprtstp: relative residual = 8.061652e-06
+Vprtstp: contraction number = 5.594136e-01
+Vnewton: Using errtol_s: 3.558643
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.959340e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.216965e+00
+Vprtstp: contraction number = 2.216965e+00
+Vprtstp: iteration = 17
+Vprtstp: relative residual = 4.520026e-06
+Vprtstp: contraction number = 5.606823e-01
+Vnewton: Using errtol_s: 1.995268
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.963390e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.245535e+00
+Vprtstp: contraction number = 1.245535e+00
+Vprtstp: iteration = 18
+Vprtstp: relative residual = 2.539442e-06
+Vprtstp: contraction number = 5.618202e-01
+Vnewton: Using errtol_s: 1.120982
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.967420e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.010517e-01
+Vprtstp: contraction number = 7.010517e-01
+Vprtstp: iteration = 19
+Vprtstp: relative residual = 1.429329e-06
+Vprtstp: contraction number = 5.628517e-01
+Vnewton: Using errtol_s: 0.491473
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.971360e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.952219e-01
+Vprtstp: contraction number = 3.952219e-01
+Vprtstp: iteration = 20
+Vprtstp: relative residual = 8.057924e-07
+Vprtstp: contraction number = 5.637557e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 8.490000e+00
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 9.018000e+00
+Vpmg_setPart:  lower corner = (-18.522, -36.1865, -11.8845)
+Vpmg_setPart:  upper corner = (127.868, 15.3315, 84.1825)
+Vpmg_setPart:  actual minima = (-18.522, -36.1865, -11.8845)
+Vpmg_setPart:  actual maxima = (127.868, 15.3315, 84.1825)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 1.255575235558E+04 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 9.000000e-03
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 0.000000e+00
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 52.8572
+Vpbe_ctor2:  solute dimensions = 86.112 x 30.6367 x 56.51
+Vpbe_ctor2:  solute charge = 0
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 61 x 75 table
+Vclist_ctor2:  Using 75 x 61 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 0.5 max radius
+Vclist_setupGrid:  Grid lengths = (89.132, 33.325, 59.53)
+Vclist_setupGrid:  Grid lower corner = (10.107, -27.09, 6.38399)
+Vclist_assignAtoms:  Have 17215 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 14.2099
+Vacc_storeParms:  Using 154-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_ctor2:  Filling boundary with old solution!
+VPMG::focusFillBound -- New mesh mins = 1.617, -35.58, -2.106
+VPMG::focusFillBound -- New mesh maxs = 107.729, 14.725, 74.404
+VPMG::focusFillBound -- Old mesh mins = -18.522, -36.1865, -11.8845
+VPMG::focusFillBound -- Old mesh maxs = 127.868, 15.3315, 84.1825
+VPMG::extEnergy:  energy flag = 1
+Vpmg_setPart:  lower corner = (1.617, -35.58, -2.106)
+Vpmg_setPart:  upper corner = (107.729, 14.725, 74.404)
+Vpmg_setPart:  actual minima = (-18.522, -36.1865, -11.8845)
+Vpmg_setPart:  actual maxima = (127.868, 15.3315, 84.1825)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+VPMG::extEnergy:   Finding extEnergy dimensions...
+VPMG::extEnergy    Disj part lower corner = (1.617, -35.58, -2.106)
+VPMG::extEnergy    Disj part upper corner = (107.729, 14.725, 74.404)
+VPMG::extEnergy    Old lower corner = (-18.522, -36.1865, -11.8845)
+VPMG::extEnergy    Old upper corner = (127.868, 15.3315, 84.1825)
+Vpmg_qmEnergy:  Zero energy for zero ionic strength!
+VPMG::extEnergy: extQmEnergy = 0 kT
+Vpmg_qfEnergyVolume:  Calculating energy
+VPMG::extEnergy: extQfEnergy = 0 kT
+VPMG::extEnergy: extDiEnergy = 0.105337 kT
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.001000
+Vpmg_fillco:  done filling coefficient arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 6.010000e-01
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (161, 161, 161)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 1.080000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (081, 081, 081)
+Vbuildops: Galer: (041, 041, 041)
+Vbuildops: Galer: (021, 021, 021)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 3.730000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.986990e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 452970.271818
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.988070e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.327960e+04
+Vprtstp: contraction number = 9.327960e+04
+Vnewton: Attempting damping, relres = 0.185336
+Vnewton: Attempting damping, relres = 0.590001
+Vnewton: Damping accepted, relres = 0.185336
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.853359e-01
+Vprtstp: contraction number = 1.853359e-01
+Vnewton: Using errtol_s: 83951.635731
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.992590e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.312518e+04
+Vprtstp: contraction number = 2.312518e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 4.594707e-02
+Vprtstp: contraction number = 2.479125e-01
+Vnewton: Using errtol_s: 20812.658427
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.996540e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 7.246297e+03
+Vprtstp: contraction number = 7.246297e+03
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.439756e-02
+Vprtstp: contraction number = 3.133510e-01
+Vnewton: Using errtol_s: 6521.667107
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.000630e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.533413e+03
+Vprtstp: contraction number = 2.533413e+03
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 5.033601e-03
+Vprtstp: contraction number = 3.496148e-01
+Vnewton: Using errtol_s: 2280.071638
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.004950e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 9.340037e+02
+Vprtstp: contraction number = 9.340037e+02
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 1.855758e-03
+Vprtstp: contraction number = 3.686741e-01
+Vnewton: Using errtol_s: 840.603374
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.009340e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.544629e+02
+Vprtstp: contraction number = 3.544629e+02
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 7.042771e-04
+Vprtstp: contraction number = 3.795090e-01
+Vnewton: Using errtol_s: 319.016578
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.013750e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.369928e+02
+Vprtstp: contraction number = 1.369928e+02
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 2.721890e-04
+Vprtstp: contraction number = 3.864800e-01
+Vnewton: Using errtol_s: 123.293540
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.018270e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.362900e+01
+Vprtstp: contraction number = 5.362900e+01
+Vprtstp: iteration = 8
+Vprtstp: relative residual = 1.065547e-04
+Vprtstp: contraction number = 3.914730e-01
+Vnewton: Using errtol_s: 48.266096
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.022650e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.118412e+01
+Vprtstp: contraction number = 2.118412e+01
+Vprtstp: iteration = 9
+Vprtstp: relative residual = 4.209042e-05
+Vprtstp: contraction number = 3.950125e-01
+Vnewton: Using errtol_s: 19.065710
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.026870e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 8.425439e+00
+Vprtstp: contraction number = 8.425439e+00
+Vprtstp: iteration = 10
+Vprtstp: relative residual = 1.674038e-05
+Vprtstp: contraction number = 3.977243e-01
+Vnewton: Using errtol_s: 7.582895
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.030890e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.369188e+00
+Vprtstp: contraction number = 3.369188e+00
+Vprtstp: iteration = 11
+Vprtstp: relative residual = 6.694190e-06
+Vprtstp: contraction number = 3.998827e-01
+Vnewton: Using errtol_s: 3.032269
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.034870e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.353375e+00
+Vprtstp: contraction number = 1.353375e+00
+Vprtstp: iteration = 12
+Vprtstp: relative residual = 2.689001e-06
+Vprtstp: contraction number = 4.016917e-01
+Vnewton: Using errtol_s: 1.218037
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.038930e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 5.456423e-01
+Vprtstp: contraction number = 5.456423e-01
+Vprtstp: iteration = 13
+Vprtstp: relative residual = 1.084129e-06
+Vprtstp: contraction number = 4.031716e-01
+Vnewton: Using errtol_s: 0.297726
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.043150e+02
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.206363e-01
+Vprtstp: contraction number = 2.206363e-01
+Vprtstp: iteration = 14
+Vprtstp: relative residual = 4.383789e-07
+Vprtstp: contraction number = 4.043606e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 6.004000e+00
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 6.529000e+00
+Vpmg_setPart:  lower corner = (1.617, -35.58, -2.106)
+Vpmg_setPart:  upper corner = (107.729, 14.725, 74.404)
+Vpmg_setPart:  actual minima = (1.617, -35.58, -2.106)
+Vpmg_setPart:  actual maxima = (107.729, 14.725, 74.404)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 1.832406440548E+04 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 1.000000e-02
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 0.000000e+00
+printEnergy:  Performing global reduction (sum)
+Vcom_reduce:  Not compiled with MPI, doing simple copy.
+printEnergy:  Performing global reduction (sum)
+Vcom_reduce:  Not compiled with MPI, doing simple copy.
+printEnergy:  Performing global reduction (sum)
+Vcom_reduce:  Not compiled with MPI, doing simple copy.
+printEnergy:  Performing global reduction (sum)
+Vcom_reduce:  Not compiled with MPI, doing simple copy.
+Vnm_tstop: stopping timer 26 (APBS WALL CLOCK).  CPU TIME = 5.048020e+02
