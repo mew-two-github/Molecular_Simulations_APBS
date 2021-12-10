@@ -1,0 +1,2145 @@
+
+
+----------------------------------------------------------------------
+    APBS -- Adaptive Poisson-Boltzmann Solver
+    Version 3.0
+    
+    Nathan A. Baker (nathan.baker@pnnl.gov)
+    Pacific Northwest National Laboratory
+    
+    Additional contributing authors listed in the code documentation.
+    
+    Copyright (c) 2010-2020 Battelle Memorial Institute. Developed at the Pacific
+    Northwest National Laboratory, operated by Battelle Memorial Institute, Pacific
+    Northwest Division for the U.S. Department of Energy.
+    
+    Portions Copyright (c) 2002-2010, Washington University in St. Louis.
+    Portions Copyright (c) 2002-2020, Nathan A. Baker.
+    Portions Copyright (c) 1999-2002, The Regents of the University of California.
+    Portions Copyright (c) 1995, Michael Holst.
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    
+    * Redistributions of source code must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+    
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    
+    * Neither the name of the developer nor the names of its contributors may be
+      used to endorse or promote products derived from this software without
+      specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+    ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+    APBS uses FETK (the Finite Element ToolKit) to solve the
+    Poisson-Boltzmann equation numerically.  FETK is a portable collection
+    of finite element modeling class libraries developed by the Michael Holst
+    research group and written in an object-oriented form of C.  FEtk is
+    designed to solve general coupled systems of nonlinear partial differential
+    equations using adaptive finite element methods, inexact Newton methods,
+    and algebraic multilevel methods.  More information about FEtk may be found
+    at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+    APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+    Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+    which has been modified by Patrice Koehl
+    <http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+    memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+    Please cite your use of APBS as:
+
+    Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+    nanosystems: application to microtubules and the ribosome. Proc.
+    Natl. Acad. Sci. USA 98, 10037-10041 2001.
+    
+
+This executable compiled on May 28 2020 at 00:26:43
+
+Parsing input file conf0.in...
+rank 0 size 1...
+Parsed input file.
+Reading parameter data from all.dat.
+Got paths for 1 molecules
+Reading PDB-format atom data from conf0.pdb.
+  180 atoms
+  Centered at (3.991e+01, 3.991e+01, 3.992e+01)
+  Net charge 0.00e+00 e
+Preparing to run 4 PBE calculations.
+----------------------------------------
+CALCULATION #1: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  36.561 MB total, 36.561 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 33
+  Grid spacings: 0.598 x 0.517 x 0.712
+  Grid lengths: 38.250 x 33.099 x 22.780
+  Grid center: (39.915, 39.915, 39.915)
+  Multigrid levels: 4
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 8.040186127620E+02 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #2: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  36.561 MB total, 71.276 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 33
+  Grid spacings: 0.598 x 0.517 x 0.712
+  Grid lengths: 38.250 x 33.099 x 22.780
+  Grid center: (39.915, 39.915, 39.915)
+  Multigrid levels: 4
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Potential to be written to pot.dx
+  Total electrostatic energy = 8.040186127620E+02 kJ/mol
+  Calculating forces...
+  Writing potential to pot.dx
+----------------------------------------
+CALCULATION #3: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  35.686 MB total, 71.276 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 33
+  Grid spacings: 0.598 x 0.517 x 0.712
+  Grid lengths: 38.250 x 33.099 x 22.780
+  Grid center: (39.915, 39.915, 39.915)
+  Multigrid levels: 4
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.249219273771E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #4: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  35.686 MB total, 71.276 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 33
+  Grid spacings: 0.598 x 0.517 x 0.712
+  Grid lengths: 38.250 x 33.099 x 22.780
+  Grid center: (39.915, 39.915, 39.915)
+  Multigrid levels: 4
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.249219273771E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+PRINT STATEMENTS
+
+print energy 2 - 1 end
+  Local net energy (PE 0) = 1.168817412495E+04 kJ/mol
+  Global net ELEC energy = 1.168817412495E+04 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  0.001 MB total, 71.276 MB high water
+
+
+Thanks for using APBS!
+
+
+
+----------------------------------------------------------------------
+    APBS -- Adaptive Poisson-Boltzmann Solver
+    Version 3.0
+    
+    Nathan A. Baker (nathan.baker@pnnl.gov)
+    Pacific Northwest National Laboratory
+    
+    Additional contributing authors listed in the code documentation.
+    
+    Copyright (c) 2010-2020 Battelle Memorial Institute. Developed at the Pacific
+    Northwest National Laboratory, operated by Battelle Memorial Institute, Pacific
+    Northwest Division for the U.S. Department of Energy.
+    
+    Portions Copyright (c) 2002-2010, Washington University in St. Louis.
+    Portions Copyright (c) 2002-2020, Nathan A. Baker.
+    Portions Copyright (c) 1999-2002, The Regents of the University of California.
+    Portions Copyright (c) 1995, Michael Holst.
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    
+    * Redistributions of source code must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+    
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    
+    * Neither the name of the developer nor the names of its contributors may be
+      used to endorse or promote products derived from this software without
+      specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+    ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+    APBS uses FETK (the Finite Element ToolKit) to solve the
+    Poisson-Boltzmann equation numerically.  FETK is a portable collection
+    of finite element modeling class libraries developed by the Michael Holst
+    research group and written in an object-oriented form of C.  FEtk is
+    designed to solve general coupled systems of nonlinear partial differential
+    equations using adaptive finite element methods, inexact Newton methods,
+    and algebraic multilevel methods.  More information about FEtk may be found
+    at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+    APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+    Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+    which has been modified by Patrice Koehl
+    <http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+    memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+    Please cite your use of APBS as:
+
+    Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+    nanosystems: application to microtubules and the ribosome. Proc.
+    Natl. Acad. Sci. USA 98, 10037-10041 2001.
+    
+
+This executable compiled on May 28 2020 at 00:26:43
+
+Parsing input file conf1.in...
+rank 0 size 1...
+Parsed input file.
+Reading parameter data from all.dat.
+Got paths for 1 molecules
+Reading PDB-format atom data from conf1.pdb.
+  180 atoms
+  Centered at (3.986e+01, 3.986e+01, 3.986e+01)
+  Net charge 0.00e+00 e
+Preparing to run 4 PBE calculations.
+----------------------------------------
+CALCULATION #1: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.343 MB total, 68.343 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.496 x 0.582 x 0.410
+  Grid lengths: 31.739 x 37.247 x 26.228
+  Grid center: (39.864, 39.864, 39.864)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.430234052749E+03 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #2: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.343 MB total, 134.840 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.496 x 0.582 x 0.410
+  Grid lengths: 31.739 x 37.247 x 26.228
+  Grid center: (39.864, 39.864, 39.864)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Potential to be written to pot.dx
+  Total electrostatic energy = 1.430234052749E+03 kJ/mol
+  Calculating forces...
+  Writing potential to pot.dx
+----------------------------------------
+CALCULATION #3: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.424 MB total, 134.840 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.496 x 0.582 x 0.410
+  Grid lengths: 31.739 x 37.247 x 26.228
+  Grid center: (39.864, 39.864, 39.864)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.750011270034E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #4: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.424 MB total, 134.840 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.496 x 0.582 x 0.410
+  Grid lengths: 31.739 x 37.247 x 26.228
+  Grid center: (39.864, 39.864, 39.864)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.750011270034E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+PRINT STATEMENTS
+
+print energy 2 - 1 end
+  Local net energy (PE 0) = 1.606987864759E+04 kJ/mol
+  Global net ELEC energy = 1.606987864759E+04 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  0.001 MB total, 134.840 MB high water
+
+
+Thanks for using APBS!
+
+
+
+----------------------------------------------------------------------
+    APBS -- Adaptive Poisson-Boltzmann Solver
+    Version 3.0
+    
+    Nathan A. Baker (nathan.baker@pnnl.gov)
+    Pacific Northwest National Laboratory
+    
+    Additional contributing authors listed in the code documentation.
+    
+    Copyright (c) 2010-2020 Battelle Memorial Institute. Developed at the Pacific
+    Northwest National Laboratory, operated by Battelle Memorial Institute, Pacific
+    Northwest Division for the U.S. Department of Energy.
+    
+    Portions Copyright (c) 2002-2010, Washington University in St. Louis.
+    Portions Copyright (c) 2002-2020, Nathan A. Baker.
+    Portions Copyright (c) 1999-2002, The Regents of the University of California.
+    Portions Copyright (c) 1995, Michael Holst.
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    
+    * Redistributions of source code must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+    
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    
+    * Neither the name of the developer nor the names of its contributors may be
+      used to endorse or promote products derived from this software without
+      specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+    ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+    APBS uses FETK (the Finite Element ToolKit) to solve the
+    Poisson-Boltzmann equation numerically.  FETK is a portable collection
+    of finite element modeling class libraries developed by the Michael Holst
+    research group and written in an object-oriented form of C.  FEtk is
+    designed to solve general coupled systems of nonlinear partial differential
+    equations using adaptive finite element methods, inexact Newton methods,
+    and algebraic multilevel methods.  More information about FEtk may be found
+    at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+    APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+    Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+    which has been modified by Patrice Koehl
+    <http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+    memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+    Please cite your use of APBS as:
+
+    Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+    nanosystems: application to microtubules and the ribosome. Proc.
+    Natl. Acad. Sci. USA 98, 10037-10041 2001.
+    
+
+This executable compiled on May 28 2020 at 00:26:43
+
+Parsing input file conf2.in...
+rank 0 size 1...
+Parsed input file.
+Reading parameter data from all.dat.
+Got paths for 1 molecules
+Reading PDB-format atom data from conf2.pdb.
+  180 atoms
+  Centered at (3.992e+01, 3.992e+01, 3.992e+01)
+  Net charge 0.00e+00 e
+Preparing to run 4 PBE calculations.
+----------------------------------------
+CALCULATION #1: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.206 MB total, 68.206 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.387 x 0.478 x 0.559
+  Grid lengths: 24.786 x 30.617 x 35.797
+  Grid center: (39.924, 39.924, 39.923)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.644567506522E+03 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #2: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.206 MB total, 134.567 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.387 x 0.478 x 0.559
+  Grid lengths: 24.786 x 30.617 x 35.797
+  Grid center: (39.924, 39.924, 39.923)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Potential to be written to pot.dx
+  Total electrostatic energy = 1.644567506522E+03 kJ/mol
+  Calculating forces...
+  Writing potential to pot.dx
+----------------------------------------
+CALCULATION #3: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.318 MB total, 134.567 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.387 x 0.478 x 0.559
+  Grid lengths: 24.786 x 30.617 x 35.797
+  Grid center: (39.924, 39.924, 39.923)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.848545222954E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #4: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.318 MB total, 134.567 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.387 x 0.478 x 0.559
+  Grid lengths: 24.786 x 30.617 x 35.797
+  Grid center: (39.924, 39.924, 39.923)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.848545222954E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+PRINT STATEMENTS
+
+print energy 2 - 1 end
+  Local net energy (PE 0) = 1.684088472302E+04 kJ/mol
+  Global net ELEC energy = 1.684088472302E+04 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  0.001 MB total, 134.567 MB high water
+
+
+Thanks for using APBS!
+
+
+
+----------------------------------------------------------------------
+    APBS -- Adaptive Poisson-Boltzmann Solver
+    Version 3.0
+    
+    Nathan A. Baker (nathan.baker@pnnl.gov)
+    Pacific Northwest National Laboratory
+    
+    Additional contributing authors listed in the code documentation.
+    
+    Copyright (c) 2010-2020 Battelle Memorial Institute. Developed at the Pacific
+    Northwest National Laboratory, operated by Battelle Memorial Institute, Pacific
+    Northwest Division for the U.S. Department of Energy.
+    
+    Portions Copyright (c) 2002-2010, Washington University in St. Louis.
+    Portions Copyright (c) 2002-2020, Nathan A. Baker.
+    Portions Copyright (c) 1999-2002, The Regents of the University of California.
+    Portions Copyright (c) 1995, Michael Holst.
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    
+    * Redistributions of source code must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+    
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    
+    * Neither the name of the developer nor the names of its contributors may be
+      used to endorse or promote products derived from this software without
+      specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+    ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+    APBS uses FETK (the Finite Element ToolKit) to solve the
+    Poisson-Boltzmann equation numerically.  FETK is a portable collection
+    of finite element modeling class libraries developed by the Michael Holst
+    research group and written in an object-oriented form of C.  FEtk is
+    designed to solve general coupled systems of nonlinear partial differential
+    equations using adaptive finite element methods, inexact Newton methods,
+    and algebraic multilevel methods.  More information about FEtk may be found
+    at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+    APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+    Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+    which has been modified by Patrice Koehl
+    <http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+    memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+    Please cite your use of APBS as:
+
+    Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+    nanosystems: application to microtubules and the ribosome. Proc.
+    Natl. Acad. Sci. USA 98, 10037-10041 2001.
+    
+
+This executable compiled on May 28 2020 at 00:26:43
+
+Parsing input file conf3.in...
+rank 0 size 1...
+Parsed input file.
+Reading parameter data from all.dat.
+Got paths for 1 molecules
+Reading PDB-format atom data from conf3.pdb.
+  180 atoms
+  Centered at (3.989e+01, 3.989e+01, 3.989e+01)
+  Net charge 0.00e+00 e
+Preparing to run 4 PBE calculations.
+----------------------------------------
+CALCULATION #1: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.510 MB total, 68.510 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.500 x 0.547 x 0.535
+  Grid lengths: 32.028 x 35.020 x 34.238
+  Grid center: (39.890, 39.890, 39.890)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.227832840125E+03 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #2: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.510 MB total, 135.178 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.500 x 0.547 x 0.535
+  Grid lengths: 32.028 x 35.020 x 34.238
+  Grid center: (39.890, 39.890, 39.890)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Potential to be written to pot.dx
+  Total electrostatic energy = 1.227832840125E+03 kJ/mol
+  Calculating forces...
+  Writing potential to pot.dx
+----------------------------------------
+CALCULATION #3: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.578 MB total, 135.178 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.500 x 0.547 x 0.535
+  Grid lengths: 32.028 x 35.020 x 34.238
+  Grid center: (39.890, 39.890, 39.890)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.573024627988E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #4: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.578 MB total, 135.178 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.500 x 0.547 x 0.535
+  Grid lengths: 32.028 x 35.020 x 34.238
+  Grid center: (39.890, 39.890, 39.890)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.573024627988E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+PRINT STATEMENTS
+
+print energy 2 - 1 end
+  Local net energy (PE 0) = 1.450241343975E+04 kJ/mol
+  Global net ELEC energy = 1.450241343975E+04 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  0.001 MB total, 135.178 MB high water
+
+
+Thanks for using APBS!
+
+
+
+----------------------------------------------------------------------
+    APBS -- Adaptive Poisson-Boltzmann Solver
+    Version 3.0
+    
+    Nathan A. Baker (nathan.baker@pnnl.gov)
+    Pacific Northwest National Laboratory
+    
+    Additional contributing authors listed in the code documentation.
+    
+    Copyright (c) 2010-2020 Battelle Memorial Institute. Developed at the Pacific
+    Northwest National Laboratory, operated by Battelle Memorial Institute, Pacific
+    Northwest Division for the U.S. Department of Energy.
+    
+    Portions Copyright (c) 2002-2010, Washington University in St. Louis.
+    Portions Copyright (c) 2002-2020, Nathan A. Baker.
+    Portions Copyright (c) 1999-2002, The Regents of the University of California.
+    Portions Copyright (c) 1995, Michael Holst.
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    
+    * Redistributions of source code must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+    
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    
+    * Neither the name of the developer nor the names of its contributors may be
+      used to endorse or promote products derived from this software without
+      specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+    ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+    APBS uses FETK (the Finite Element ToolKit) to solve the
+    Poisson-Boltzmann equation numerically.  FETK is a portable collection
+    of finite element modeling class libraries developed by the Michael Holst
+    research group and written in an object-oriented form of C.  FEtk is
+    designed to solve general coupled systems of nonlinear partial differential
+    equations using adaptive finite element methods, inexact Newton methods,
+    and algebraic multilevel methods.  More information about FEtk may be found
+    at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+    APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+    Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+    which has been modified by Patrice Koehl
+    <http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+    memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+    Please cite your use of APBS as:
+
+    Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+    nanosystems: application to microtubules and the ribosome. Proc.
+    Natl. Acad. Sci. USA 98, 10037-10041 2001.
+    
+
+This executable compiled on May 28 2020 at 00:26:43
+
+Parsing input file conf4.in...
+rank 0 size 1...
+Parsed input file.
+Reading parameter data from all.dat.
+Got paths for 1 molecules
+Reading PDB-format atom data from conf4.pdb.
+  180 atoms
+  Centered at (3.991e+01, 3.991e+01, 3.991e+01)
+  Net charge 0.00e+00 e
+Preparing to run 4 PBE calculations.
+----------------------------------------
+CALCULATION #1: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.342 MB total, 68.342 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.452 x 0.551 x 0.496
+  Grid lengths: 28.951 x 35.280 x 31.773
+  Grid center: (39.906, 39.907, 39.906)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.470551789009E+03 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #2: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.342 MB total, 134.839 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.452 x 0.551 x 0.496
+  Grid lengths: 28.951 x 35.280 x 31.773
+  Grid center: (39.906, 39.907, 39.906)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Potential to be written to pot.dx
+  Total electrostatic energy = 1.470551789009E+03 kJ/mol
+  Calculating forces...
+  Writing potential to pot.dx
+----------------------------------------
+CALCULATION #3: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.440 MB total, 134.839 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.452 x 0.551 x 0.496
+  Grid lengths: 28.951 x 35.280 x 31.773
+  Grid center: (39.906, 39.907, 39.906)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.705994124493E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #4: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.440 MB total, 134.839 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.452 x 0.551 x 0.496
+  Grid lengths: 28.951 x 35.280 x 31.773
+  Grid center: (39.906, 39.907, 39.906)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.705994124493E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+PRINT STATEMENTS
+
+print energy 2 - 1 end
+  Local net energy (PE 0) = 1.558938945592E+04 kJ/mol
+  Global net ELEC energy = 1.558938945592E+04 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  0.001 MB total, 134.839 MB high water
+
+
+Thanks for using APBS!
+
+
+
+----------------------------------------------------------------------
+    APBS -- Adaptive Poisson-Boltzmann Solver
+    Version 3.0
+    
+    Nathan A. Baker (nathan.baker@pnnl.gov)
+    Pacific Northwest National Laboratory
+    
+    Additional contributing authors listed in the code documentation.
+    
+    Copyright (c) 2010-2020 Battelle Memorial Institute. Developed at the Pacific
+    Northwest National Laboratory, operated by Battelle Memorial Institute, Pacific
+    Northwest Division for the U.S. Department of Energy.
+    
+    Portions Copyright (c) 2002-2010, Washington University in St. Louis.
+    Portions Copyright (c) 2002-2020, Nathan A. Baker.
+    Portions Copyright (c) 1999-2002, The Regents of the University of California.
+    Portions Copyright (c) 1995, Michael Holst.
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    
+    * Redistributions of source code must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+    
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    
+    * Neither the name of the developer nor the names of its contributors may be
+      used to endorse or promote products derived from this software without
+      specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+    ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+    APBS uses FETK (the Finite Element ToolKit) to solve the
+    Poisson-Boltzmann equation numerically.  FETK is a portable collection
+    of finite element modeling class libraries developed by the Michael Holst
+    research group and written in an object-oriented form of C.  FEtk is
+    designed to solve general coupled systems of nonlinear partial differential
+    equations using adaptive finite element methods, inexact Newton methods,
+    and algebraic multilevel methods.  More information about FEtk may be found
+    at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+    APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+    Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+    which has been modified by Patrice Koehl
+    <http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+    memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+    Please cite your use of APBS as:
+
+    Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+    nanosystems: application to microtubules and the ribosome. Proc.
+    Natl. Acad. Sci. USA 98, 10037-10041 2001.
+    
+
+This executable compiled on May 28 2020 at 00:26:43
+
+Parsing input file conf5.in...
+rank 0 size 1...
+Parsed input file.
+Reading parameter data from all.dat.
+Got paths for 1 molecules
+Reading PDB-format atom data from conf5.pdb.
+  180 atoms
+  Centered at (3.990e+01, 3.990e+01, 3.990e+01)
+  Net charge 0.00e+00 e
+Preparing to run 4 PBE calculations.
+----------------------------------------
+CALCULATION #1: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.479 MB total, 68.479 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.440 x 0.574 x 0.549
+  Grid lengths: 28.169 x 36.712 x 35.105
+  Grid center: (39.902, 39.903, 39.902)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.197950435035E+03 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #2: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.479 MB total, 135.111 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.440 x 0.574 x 0.549
+  Grid lengths: 28.169 x 36.712 x 35.105
+  Grid center: (39.902, 39.903, 39.902)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Potential to be written to pot.dx
+  Total electrostatic energy = 1.197950435035E+03 kJ/mol
+  Calculating forces...
+  Writing potential to pot.dx
+----------------------------------------
+CALCULATION #3: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.539 MB total, 135.111 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.440 x 0.574 x 0.549
+  Grid lengths: 28.169 x 36.712 x 35.105
+  Grid center: (39.902, 39.903, 39.902)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.618070981144E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #4: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.539 MB total, 135.111 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.440 x 0.574 x 0.549
+  Grid lengths: 28.169 x 36.712 x 35.105
+  Grid center: (39.902, 39.903, 39.902)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.618070981144E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+PRINT STATEMENTS
+
+print energy 2 - 1 end
+  Local net energy (PE 0) = 1.498275937640E+04 kJ/mol
+  Global net ELEC energy = 1.498275937640E+04 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  0.001 MB total, 135.111 MB high water
+
+
+Thanks for using APBS!
+
+
+
+----------------------------------------------------------------------
+    APBS -- Adaptive Poisson-Boltzmann Solver
+    Version 3.0
+    
+    Nathan A. Baker (nathan.baker@pnnl.gov)
+    Pacific Northwest National Laboratory
+    
+    Additional contributing authors listed in the code documentation.
+    
+    Copyright (c) 2010-2020 Battelle Memorial Institute. Developed at the Pacific
+    Northwest National Laboratory, operated by Battelle Memorial Institute, Pacific
+    Northwest Division for the U.S. Department of Energy.
+    
+    Portions Copyright (c) 2002-2010, Washington University in St. Louis.
+    Portions Copyright (c) 2002-2020, Nathan A. Baker.
+    Portions Copyright (c) 1999-2002, The Regents of the University of California.
+    Portions Copyright (c) 1995, Michael Holst.
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    
+    * Redistributions of source code must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+    
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    
+    * Neither the name of the developer nor the names of its contributors may be
+      used to endorse or promote products derived from this software without
+      specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+    ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+    APBS uses FETK (the Finite Element ToolKit) to solve the
+    Poisson-Boltzmann equation numerically.  FETK is a portable collection
+    of finite element modeling class libraries developed by the Michael Holst
+    research group and written in an object-oriented form of C.  FEtk is
+    designed to solve general coupled systems of nonlinear partial differential
+    equations using adaptive finite element methods, inexact Newton methods,
+    and algebraic multilevel methods.  More information about FEtk may be found
+    at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+    APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+    Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+    which has been modified by Patrice Koehl
+    <http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+    memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+    Please cite your use of APBS as:
+
+    Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+    nanosystems: application to microtubules and the ribosome. Proc.
+    Natl. Acad. Sci. USA 98, 10037-10041 2001.
+    
+
+This executable compiled on May 28 2020 at 00:26:43
+
+Parsing input file conf6.in...
+rank 0 size 1...
+Parsed input file.
+Reading parameter data from all.dat.
+Got paths for 1 molecules
+Reading PDB-format atom data from conf6.pdb.
+  180 atoms
+  Centered at (3.987e+01, 3.987e+01, 3.987e+01)
+  Net charge 0.00e+00 e
+Preparing to run 4 PBE calculations.
+----------------------------------------
+CALCULATION #1: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.332 MB total, 68.332 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.483 x 0.553 x 0.452
+  Grid lengths: 30.889 x 35.401 x 28.934
+  Grid center: (39.872, 39.872, 39.872)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.523553337621E+03 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #2: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.332 MB total, 134.814 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.483 x 0.553 x 0.452
+  Grid lengths: 30.889 x 35.401 x 28.934
+  Grid center: (39.872, 39.872, 39.872)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Potential to be written to pot.dx
+  Total electrostatic energy = 1.523553337621E+03 kJ/mol
+  Calculating forces...
+  Writing potential to pot.dx
+----------------------------------------
+CALCULATION #3: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.416 MB total, 134.814 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.483 x 0.553 x 0.452
+  Grid lengths: 30.889 x 35.401 x 28.934
+  Grid center: (39.872, 39.872, 39.872)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.745889184776E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #4: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.416 MB total, 134.814 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.483 x 0.553 x 0.452
+  Grid lengths: 30.889 x 35.401 x 28.934
+  Grid center: (39.872, 39.872, 39.872)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.745889184776E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+PRINT STATEMENTS
+
+print energy 2 - 1 end
+  Local net energy (PE 0) = 1.593533851014E+04 kJ/mol
+  Global net ELEC energy = 1.593533851014E+04 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  0.001 MB total, 134.814 MB high water
+
+
+Thanks for using APBS!
+
+
+
+----------------------------------------------------------------------
+    APBS -- Adaptive Poisson-Boltzmann Solver
+    Version 3.0
+    
+    Nathan A. Baker (nathan.baker@pnnl.gov)
+    Pacific Northwest National Laboratory
+    
+    Additional contributing authors listed in the code documentation.
+    
+    Copyright (c) 2010-2020 Battelle Memorial Institute. Developed at the Pacific
+    Northwest National Laboratory, operated by Battelle Memorial Institute, Pacific
+    Northwest Division for the U.S. Department of Energy.
+    
+    Portions Copyright (c) 2002-2010, Washington University in St. Louis.
+    Portions Copyright (c) 2002-2020, Nathan A. Baker.
+    Portions Copyright (c) 1999-2002, The Regents of the University of California.
+    Portions Copyright (c) 1995, Michael Holst.
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    
+    * Redistributions of source code must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+    
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    
+    * Neither the name of the developer nor the names of its contributors may be
+      used to endorse or promote products derived from this software without
+      specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+    ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+    APBS uses FETK (the Finite Element ToolKit) to solve the
+    Poisson-Boltzmann equation numerically.  FETK is a portable collection
+    of finite element modeling class libraries developed by the Michael Holst
+    research group and written in an object-oriented form of C.  FEtk is
+    designed to solve general coupled systems of nonlinear partial differential
+    equations using adaptive finite element methods, inexact Newton methods,
+    and algebraic multilevel methods.  More information about FEtk may be found
+    at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+    APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+    Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+    which has been modified by Patrice Koehl
+    <http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+    memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+    Please cite your use of APBS as:
+
+    Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+    nanosystems: application to microtubules and the ribosome. Proc.
+    Natl. Acad. Sci. USA 98, 10037-10041 2001.
+    
+
+This executable compiled on May 28 2020 at 00:26:43
+
+Parsing input file conf7.in...
+rank 0 size 1...
+Parsed input file.
+Reading parameter data from all.dat.
+Got paths for 1 molecules
+Reading PDB-format atom data from conf7.pdb.
+  180 atoms
+  Centered at (3.991e+01, 3.991e+01, 3.991e+01)
+  Net charge 0.00e+00 e
+Preparing to run 4 PBE calculations.
+----------------------------------------
+CALCULATION #1: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  36.623 MB total, 36.623 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 33
+  Grid spacings: 0.539 x 0.590 x 0.692
+  Grid lengths: 34.476 x 37.779 x 22.134
+  Grid center: (39.906, 39.907, 39.906)
+  Multigrid levels: 4
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 8.220115749041E+02 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #2: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  36.623 MB total, 71.405 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 33
+  Grid spacings: 0.539 x 0.590 x 0.692
+  Grid lengths: 34.476 x 37.779 x 22.134
+  Grid center: (39.906, 39.907, 39.906)
+  Multigrid levels: 4
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Potential to be written to pot.dx
+  Total electrostatic energy = 8.220115749041E+02 kJ/mol
+  Calculating forces...
+  Writing potential to pot.dx
+----------------------------------------
+CALCULATION #3: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  35.727 MB total, 71.405 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 33
+  Grid spacings: 0.539 x 0.590 x 0.692
+  Grid lengths: 34.476 x 37.779 x 22.134
+  Grid center: (39.906, 39.907, 39.906)
+  Multigrid levels: 4
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.249004146986E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #4: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  35.727 MB total, 71.405 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 33
+  Grid spacings: 0.539 x 0.590 x 0.692
+  Grid lengths: 34.476 x 37.779 x 22.134
+  Grid center: (39.906, 39.907, 39.906)
+  Multigrid levels: 4
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.249004146986E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+PRINT STATEMENTS
+
+print energy 2 - 1 end
+  Local net energy (PE 0) = 1.166802989496E+04 kJ/mol
+  Global net ELEC energy = 1.166802989496E+04 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  0.001 MB total, 71.405 MB high water
+
+
+Thanks for using APBS!
+
+
+
+----------------------------------------------------------------------
+    APBS -- Adaptive Poisson-Boltzmann Solver
+    Version 3.0
+    
+    Nathan A. Baker (nathan.baker@pnnl.gov)
+    Pacific Northwest National Laboratory
+    
+    Additional contributing authors listed in the code documentation.
+    
+    Copyright (c) 2010-2020 Battelle Memorial Institute. Developed at the Pacific
+    Northwest National Laboratory, operated by Battelle Memorial Institute, Pacific
+    Northwest Division for the U.S. Department of Energy.
+    
+    Portions Copyright (c) 2002-2010, Washington University in St. Louis.
+    Portions Copyright (c) 2002-2020, Nathan A. Baker.
+    Portions Copyright (c) 1999-2002, The Regents of the University of California.
+    Portions Copyright (c) 1995, Michael Holst.
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    
+    * Redistributions of source code must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+    
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    
+    * Neither the name of the developer nor the names of its contributors may be
+      used to endorse or promote products derived from this software without
+      specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+    ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+    APBS uses FETK (the Finite Element ToolKit) to solve the
+    Poisson-Boltzmann equation numerically.  FETK is a portable collection
+    of finite element modeling class libraries developed by the Michael Holst
+    research group and written in an object-oriented form of C.  FEtk is
+    designed to solve general coupled systems of nonlinear partial differential
+    equations using adaptive finite element methods, inexact Newton methods,
+    and algebraic multilevel methods.  More information about FEtk may be found
+    at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+    APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+    Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+    which has been modified by Patrice Koehl
+    <http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+    memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+    Please cite your use of APBS as:
+
+    Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+    nanosystems: application to microtubules and the ribosome. Proc.
+    Natl. Acad. Sci. USA 98, 10037-10041 2001.
+    
+
+This executable compiled on May 28 2020 at 00:26:43
+
+Parsing input file conf8.in...
+rank 0 size 1...
+Parsed input file.
+Reading parameter data from all.dat.
+Got paths for 1 molecules
+Reading PDB-format atom data from conf8.pdb.
+  180 atoms
+  Centered at (3.993e+01, 3.993e+01, 3.993e+01)
+  Net charge 0.00e+00 e
+Preparing to run 4 PBE calculations.
+----------------------------------------
+CALCULATION #1: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.255 MB total, 68.255 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.444 x 0.391 x 0.612
+  Grid lengths: 28.441 x 25.021 x 39.148
+  Grid center: (39.929, 39.929, 39.929)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.550692367347E+03 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #2: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.255 MB total, 134.659 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.444 x 0.391 x 0.612
+  Grid lengths: 28.441 x 25.021 x 39.148
+  Grid center: (39.929, 39.929, 39.929)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Potential to be written to pot.dx
+  Total electrostatic energy = 1.550692367347E+03 kJ/mol
+  Calculating forces...
+  Writing potential to pot.dx
+----------------------------------------
+CALCULATION #3: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.341 MB total, 134.659 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.444 x 0.391 x 0.612
+  Grid lengths: 28.441 x 25.021 x 39.148
+  Grid center: (39.929, 39.929, 39.929)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.816471777825E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #4: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.341 MB total, 134.659 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.444 x 0.391 x 0.612
+  Grid lengths: 28.441 x 25.021 x 39.148
+  Grid center: (39.929, 39.929, 39.929)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.816471777825E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+PRINT STATEMENTS
+
+print energy 2 - 1 end
+  Local net energy (PE 0) = 1.661402541090E+04 kJ/mol
+  Global net ELEC energy = 1.661402541090E+04 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  0.001 MB total, 134.659 MB high water
+
+
+Thanks for using APBS!
+
+
+
+----------------------------------------------------------------------
+    APBS -- Adaptive Poisson-Boltzmann Solver
+    Version 3.0
+    
+    Nathan A. Baker (nathan.baker@pnnl.gov)
+    Pacific Northwest National Laboratory
+    
+    Additional contributing authors listed in the code documentation.
+    
+    Copyright (c) 2010-2020 Battelle Memorial Institute. Developed at the Pacific
+    Northwest National Laboratory, operated by Battelle Memorial Institute, Pacific
+    Northwest Division for the U.S. Department of Energy.
+    
+    Portions Copyright (c) 2002-2010, Washington University in St. Louis.
+    Portions Copyright (c) 2002-2020, Nathan A. Baker.
+    Portions Copyright (c) 1999-2002, The Regents of the University of California.
+    Portions Copyright (c) 1995, Michael Holst.
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    
+    * Redistributions of source code must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+    
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    
+    * Neither the name of the developer nor the names of its contributors may be
+      used to endorse or promote products derived from this software without
+      specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+    ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+    APBS uses FETK (the Finite Element ToolKit) to solve the
+    Poisson-Boltzmann equation numerically.  FETK is a portable collection
+    of finite element modeling class libraries developed by the Michael Holst
+    research group and written in an object-oriented form of C.  FEtk is
+    designed to solve general coupled systems of nonlinear partial differential
+    equations using adaptive finite element methods, inexact Newton methods,
+    and algebraic multilevel methods.  More information about FEtk may be found
+    at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+    APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+    Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+    which has been modified by Patrice Koehl
+    <http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+    memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+    Please cite your use of APBS as:
+
+    Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+    nanosystems: application to microtubules and the ribosome. Proc.
+    Natl. Acad. Sci. USA 98, 10037-10041 2001.
+    
+
+This executable compiled on May 28 2020 at 00:26:43
+
+Parsing input file conf9.in...
+rank 0 size 1...
+Parsed input file.
+Reading parameter data from all.dat.
+Got paths for 1 molecules
+Reading PDB-format atom data from conf9.pdb.
+  180 atoms
+  Centered at (3.993e+01, 3.993e+01, 3.993e+01)
+  Net charge 0.00e+00 e
+Preparing to run 4 PBE calculations.
+----------------------------------------
+CALCULATION #1: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.411 MB total, 68.411 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.581 x 0.419 x 0.542
+  Grid lengths: 37.179 x 26.833 x 34.685
+  Grid center: (39.932, 39.932, 39.931)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.310830701019E+03 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #2: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.411 MB total, 134.970 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.581 x 0.419 x 0.542
+  Grid lengths: 37.179 x 26.833 x 34.685
+  Grid center: (39.932, 39.932, 39.931)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Potential to be written to pot.dx
+  Total electrostatic energy = 1.310830701019E+03 kJ/mol
+  Calculating forces...
+  Writing potential to pot.dx
+----------------------------------------
+CALCULATION #3: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.487 MB total, 134.970 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.581 x 0.419 x 0.542
+  Grid lengths: 37.179 x 26.833 x 34.685
+  Grid center: (39.932, 39.932, 39.931)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.647586513142E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #4: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.487 MB total, 134.970 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.581 x 0.419 x 0.542
+  Grid lengths: 37.179 x 26.833 x 34.685
+  Grid center: (39.932, 39.932, 39.931)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.647586513142E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+PRINT STATEMENTS
+
+print energy 2 - 1 end
+  Local net energy (PE 0) = 1.516503443040E+04 kJ/mol
+  Global net ELEC energy = 1.516503443040E+04 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  0.001 MB total, 134.970 MB high water
+
+
+Thanks for using APBS!
+
+
+
+----------------------------------------------------------------------
+    APBS -- Adaptive Poisson-Boltzmann Solver
+    Version 3.0
+    
+    Nathan A. Baker (nathan.baker@pnnl.gov)
+    Pacific Northwest National Laboratory
+    
+    Additional contributing authors listed in the code documentation.
+    
+    Copyright (c) 2010-2020 Battelle Memorial Institute. Developed at the Pacific
+    Northwest National Laboratory, operated by Battelle Memorial Institute, Pacific
+    Northwest Division for the U.S. Department of Energy.
+    
+    Portions Copyright (c) 2002-2010, Washington University in St. Louis.
+    Portions Copyright (c) 2002-2020, Nathan A. Baker.
+    Portions Copyright (c) 1999-2002, The Regents of the University of California.
+    Portions Copyright (c) 1995, Michael Holst.
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    
+    * Redistributions of source code must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+    
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    
+    * Neither the name of the developer nor the names of its contributors may be
+      used to endorse or promote products derived from this software without
+      specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+    ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+    APBS uses FETK (the Finite Element ToolKit) to solve the
+    Poisson-Boltzmann equation numerically.  FETK is a portable collection
+    of finite element modeling class libraries developed by the Michael Holst
+    research group and written in an object-oriented form of C.  FEtk is
+    designed to solve general coupled systems of nonlinear partial differential
+    equations using adaptive finite element methods, inexact Newton methods,
+    and algebraic multilevel methods.  More information about FEtk may be found
+    at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+    APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+    Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+    which has been modified by Patrice Koehl
+    <http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+    memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+    Please cite your use of APBS as:
+
+    Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+    nanosystems: application to microtubules and the ribosome. Proc.
+    Natl. Acad. Sci. USA 98, 10037-10041 2001.
+    
+
+This executable compiled on May 28 2020 at 00:26:43
+
+Parsing input file conf10.in...
+rank 0 size 1...
+Parsed input file.
+Reading parameter data from all.dat.
+Got paths for 1 molecules
+Reading PDB-format atom data from conf10.pdb.
+  180 atoms
+  Centered at (3.990e+01, 3.990e+01, 3.990e+01)
+  Net charge 0.00e+00 e
+Preparing to run 4 PBE calculations.
+----------------------------------------
+CALCULATION #1: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.350 MB total, 68.350 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.565 x 0.401 x 0.539
+  Grid lengths: 36.145 x 25.656 x 34.476
+  Grid center: (39.901, 39.901, 39.901)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.414061961671E+03 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #2: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  68.350 MB total, 134.862 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.565 x 0.401 x 0.539
+  Grid lengths: 36.145 x 25.656 x 34.476
+  Grid center: (39.901, 39.901, 39.901)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Potential to be written to pot.dx
+  Total electrostatic energy = 1.414061961671E+03 kJ/mol
+  Calculating forces...
+  Writing potential to pot.dx
+----------------------------------------
+CALCULATION #3: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.440 MB total, 134.862 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.565 x 0.401 x 0.539
+  Grid lengths: 36.145 x 25.656 x 34.476
+  Grid center: (39.901, 39.901, 39.901)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Multiple Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.724973155879E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #4: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  67.440 MB total, 134.862 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 65 x 65
+  Grid spacings: 0.565 x 0.401 x 0.539
+  Grid lengths: 36.145 x 25.656 x 34.476
+  Grid center: (39.901, 39.901, 39.901)
+  Multigrid levels: 5
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 1.000
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 0.000 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Total electrostatic energy = 1.724973155879E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+PRINT STATEMENTS
+
+print energy 2 - 1 end
+  Local net energy (PE 0) = 1.583566959712E+04 kJ/mol
+  Global net ELEC energy = 1.583566959712E+04 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  0.001 MB total, 134.862 MB high water
+
+
+Thanks for using APBS!
+
