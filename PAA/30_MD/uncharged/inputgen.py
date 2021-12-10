@@ -73,8 +73,8 @@ class Elec:
         self.fgcent = "mol 1"
         self.gcent = "mol 1"
         self.mol = 1
-        self.lpbe = 1
-        self.npbe = 0
+        self.lpbe = 0
+        self.npbe = 1
         self.bcfl = "mdh"
         self.ion = [[-1, 1.815], [1, 1.875]] # Multiple ions possible
         self.pdie = 2.0
@@ -199,7 +199,7 @@ class Input:
             Return the text of the input file
         """
         text = "read\n"
-        text += "    mol pqr %s\n" % self.pqrname
+        text += "    mol pdb %s\n" % self.pqrname
         text += "    parm flat all.dat \n"
         text += "end\n"
         for elec in self.elecs:
