@@ -1,0 +1,48 @@
+read
+    mol pdb PAA30_0_edit.pdb
+    parm flat all_MD.dat 
+end
+elec 
+    mg-auto
+    dime 65 65 65
+    cglen 118.0276 121.3970 155.5296
+    fglen 89.4280 91.4100 111.4880
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    npbe
+    bcfl mdh
+    pdie 2.0000
+    sdie 78.5400
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+end
+elec 
+    mg-auto
+    dime 65 65 65
+    cglen 118.0276 121.3970 155.5296
+    fglen 89.4280 91.4100 111.4880
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    npbe
+    bcfl mdh
+    pdie 2.0000
+    sdie 1.0000
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 0.00
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+end
+print elecEnergy 1 - 2 end
+quit
