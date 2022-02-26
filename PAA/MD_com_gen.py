@@ -6,9 +6,9 @@ def main(mol,dim):
     f.write("\ngmx editconf -f " + mol +".pdb -o box-" + mol + ".gro -bt cubic -box " + dim)
     if mol[2] == 'H':
         f.write("\ngmx solvate -cp "+ mol+ ".gro -cs spc216.gro box-"+mol+"-o sys-"+mol+".gro -p top-"+mol+".top")
-    elif mol[3] == 'A':
+    elif mol[2] == 'A':
         f.write("\ngmx solvate -cp "+ mol+ ".gro -cs spc216.gro box-"+mol+"-o sol-"+mol+".gro -p top-"+mol+".top")
-        f.write("\ngmx grompp -f emin.mdp -c sol-"+mol+".gro -p top-"+mol+".top -o ion-"+mol.tpr)
+        f.write("\ngmx grompp -f emin.mdp -c sol-"+mol+".gro -p top-"+mol+".top -o ion-"+mol+".tpr")
         
         f.write("\ngmx genion -s ion-"+mol+".tpr -p top-"+mol+".top -pname NA -np "+mol[3:4])
 
