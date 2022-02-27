@@ -3,7 +3,7 @@ import argparse
 def main(mol,dim):
     f = open('commands'+mol+'.txt','w')
     f.write("\ngmx pdb2gmx -f " + mol +".pdb -o " + mol + ".gro -p top-"+ mol + ".top -water spce")
-    f.write("\ngmx editconf -f " + mol +".pdb -o box-" + mol + ".gro -bt cubic -box " + dim)
+    f.write("\ngmx editconf -f " + mol +".gro -o box-" + mol + ".gro -bt cubic -box " + dim)
     if mol[2] == 'H':
         f.write("\ngmx solvate -cp box-"+ mol+ ".gro -cs spc216.gro -o sys-"+mol+".gro -p top-"+mol+".top")
     elif mol[2] == 'A':
