@@ -1,0 +1,10 @@
+
+gmx pdb2gmx -f PAA30.pdb -oPAA30.gro -p top-PAA30.top -water spce
+gmx editconf -f PAA30.pdb -o box-PAA30.gro -bt cubic -box 7
+gmx make_ndx -f sys-PAA30.gro -o ind-PAA30.ndx
+gmx grompp -f emin.mdp -c sys-PAA30.gro -p top-PAA30.top -n ind-PAA30.ndx -o em-PAA30.tpr
+gmx mdrun -v -s em-PAA30.tpr -deffnm em-PAHf0
+gmx grompp -f nvt.mdp -c em-PAA30.gro -p top-PAA30.top -n ind-PAA30.ndx -o tc-PAA30.tpr
+gmx mdrun -v -s tc-PAA30.tpr -deffnm tc-PAHf0
+gmx grompp -f npt.mdp -c tc-PAA30.gro -t tc-PAA30.cpt -p top-PAA30.top -n ind-PAA30.ndx -o pc-PAA30.tpr
+gmx mdrun -v -s pc-PAA30.tpr -deffnm pc-PAHf0

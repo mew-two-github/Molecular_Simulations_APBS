@@ -5,23 +5,23 @@ def main(mol,dim):
     f.write("\ngmx pdb2gmx -f " + mol +".pdb -o " + mol + ".gro -p top-"+ mol + ".top -water spce")
     f.write("\ngmx editconf -f " + mol +".pdb -o box-" + mol + ".gro -bt cubic -box " + dim)
     if mol[2] == 'H':
-        f.write("\ngmx solvate -cp "+ mol+ ".gro -cs spc216.gro box-"+mol+"-o sys-"+mol+".gro -p top-"+mol+".top")
+        f.write("\ngmx solvate -cp box-"+ mol+ ".gro -cs spc216.gro -o sys-"+mol+".gro -p top-"+mol+".top")
     elif mol[2] == 'A':
-        f.write("\ngmx solvate -cp "+ mol+ ".gro -cs spc216.gro box-"+mol+"-o sol-"+mol+".gro -p top-"+mol+".top")
+        f.write("\ngmx solvate -cp box-"+ mol+ ".gro -cs spc216.gro -o sol-"+mol+".gro -p top-"+mol+".top")
         f.write("\ngmx grompp -f emin.mdp -c sol-"+mol+".gro -p top-"+mol+".top -o ion-"+mol+".tpr")
         
-        f.write("\ngmx genion -s ion-"+mol+".tpr -p top-"+mol+".top -pname NA -np "+mol[3:4])
+        f.write("\ngmx genion -s ion-"+mol+".tpr -p top-"+mol+".top -pname NA -np "+mol[3:5]+"-o sys-"+mol+".gro")
 
     f.write("\ngmx make_ndx -f sys-"+mol+".gro -o ind-"+mol+".ndx")
     
     f.write("\ngmx grompp -f emin.mdp -c sys-"+mol+".gro -p top-"+mol+".top -n ind-"+mol+".ndx -o em-"+mol+".tpr")
-    f.write("\ngmx mdrun -v -s em-"+mol+".tpr -deffnm em-PAHf0")
+    f.write("\ngmx mdrun -v -s em-"+mol+".tpr -deffnm em-"+mol)
     
     f.write("\ngmx grompp -f nvt.mdp -c em-"+mol+".gro -p top-"+mol+".top -n ind-"+mol+".ndx -o tc-"+mol+".tpr")
-    f.write("\ngmx mdrun -v -s tc-"+mol+".tpr -deffnm tc-PAHf0")
+    f.write("\ngmx mdrun -v -s tc-"+mol+".tpr -deffnm tc-"+mol)
 
     f.write("\ngmx grompp -f npt.mdp -c tc-"+mol+".gro -t tc-"+mol+ ".cpt -p top-"+mol+".top -n ind-"+mol+".ndx -o pc-"+mol+".tpr")
-    f.write("\ngmx mdrun -v -s pc-"+mol+".tpr -deffnm pc-PAHf0")
+    f.write("\ngmx mdrun -v -s pc-"+mol+".tpr -deffnm pc-"+mol)
     f.close()
 
 parser = argparse.ArgumentParser()

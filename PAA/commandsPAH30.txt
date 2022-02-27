@@ -1,0 +1,11 @@
+
+gmx pdb2gmx -f PAH30.pdb -oPAH30.gro -p top-PAH30.top -water spce
+gmx editconf -f PAH30.pdb -o box-PAH30.gro -bt cubic -box 7
+gmx solvate -cp PAH30.gro -cs spc216.gro box-PAH30-o sys-PAH30.gro -p top-PAH30.top
+gmx make_ndx -f sys-PAH30.gro -o ind-PAH30.ndx
+gmx grompp -f emin.mdp -c sys-PAH30.gro -p top-PAH30.top -n ind-PAH30.ndx -o em-PAH30.tpr
+gmx mdrun -v -s em-PAH30.tpr -deffnm em-PAHf0
+gmx grompp -f nvt.mdp -c em-PAH30.gro -p top-PAH30.top -n ind-PAH30.ndx -o tc-PAH30.tpr
+gmx mdrun -v -s tc-PAH30.tpr -deffnm tc-PAHf0
+gmx grompp -f npt.mdp -c tc-PAH30.gro -t tc-PAH30.cpt -p top-PAH30.top -n ind-PAH30.ndx -o pc-PAH30.tpr
+gmx mdrun -v -s pc-PAH30.tpr -deffnm pc-PAHf0
