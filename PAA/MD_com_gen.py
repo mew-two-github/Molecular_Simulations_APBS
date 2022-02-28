@@ -10,7 +10,7 @@ def main(mol,dim):
         f.write("\ngmx solvate -cp box-"+ mol+ ".gro -cs spc216.gro -o sol-"+mol+".gro -p top-"+mol+".top")
         f.write("\ngmx grompp -f emin.mdp -c sol-"+mol+".gro -p top-"+mol+".top -o ion-"+mol+".tpr")
         
-        f.write("\ngmx genion -s ion-"+mol+".tpr -p top-"+mol+".top -pname NA -np "+mol[3:5]+"-o sys-"+mol+".gro")
+        f.write("\ngmx genion -s ion-"+mol+".tpr -p top-"+mol+".top -pname NA -np "+mol[3:5]+" -o sys-"+mol+".gro")
 
     f.write("\ngmx make_ndx -f sys-"+mol+".gro -o ind-"+mol+".ndx")
     
