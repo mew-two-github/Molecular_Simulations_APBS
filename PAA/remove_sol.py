@@ -43,7 +43,7 @@ def main(n_conf,n_atoms, nRU, num_lines):
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-nc",dest="nc",help="Number of pdb files",default=None,required=True)
-parser.add_argument("-na",dest="na",help="Total number of atoms",default=None,required=True)
+parser.add_argument("-na",dest="na",help="Number of atoms/residue",default=None,required=True)
 parser.add_argument("-nRU",dest = "nRU",help = "Number of residual units",required=True)
 parser.add_argument("-nl",dest="nl",help="Number of lines in the file",required=True)
 if __name__ == "__main__":
