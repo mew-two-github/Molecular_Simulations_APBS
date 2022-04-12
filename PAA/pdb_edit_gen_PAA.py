@@ -69,7 +69,7 @@ def main(nRU,file_init, file_new,ion):
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-nRU",dest="nRU",help="Number of residual units",default=None,required=True)
-parser.add_argument("-init",dest="file_init",help="PDB file to be modifed",default=None,required=True)
+parser.add_argument("-init",dest="file_init",help="PDB file to be modified",default=None,required=True)
 parser.add_argument("-new",dest = "file_new",help = "Name of PDB file to be saved in",default="renamed.pdb")
 parser.add_argument("-ion",dest="ion",help="0 if not an ion, 1 if it is an ion")
 
