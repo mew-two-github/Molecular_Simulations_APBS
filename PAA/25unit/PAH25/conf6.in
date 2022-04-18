@@ -1,0 +1,48 @@
+read
+    mol pdb conf6.pdb
+    parm flat ../../all.dat 
+end
+elec 
+    mg-auto
+    dime 33 65 65
+    cglen 23.4260 30.6680 28.4410
+    fglen 23.4260 30.6680 28.4410
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    npbe
+    bcfl mdh
+    pdie 2.0000
+    sdie 78.5400
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+end
+elec 
+    mg-auto
+    dime 33 65 65
+    cglen 23.4260 30.6680 28.4410
+    fglen 23.4260 30.6680 28.4410
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    npbe
+    bcfl mdh
+    pdie 2.0000
+    sdie 1.0000
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 0.00
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+end
+print elecEnergy 2 - 1 end
+quit
