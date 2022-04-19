@@ -1,0 +1,7 @@
+  Global net ELEC energy = 1.043146529792E+05 kJ/mol
+  Global net ELEC energy = 1.005521261956E+05 kJ/mol
+  Global net ELEC energy = 1.020594491930E+05 kJ/mol
+  Global net ELEC energy = 1.162815899563E+05 kJ/mol
+  Global net ELEC energy = 1.078633160904E+05 kJ/mol
+  Global net ELEC energy = 1.032053000393E+05 kJ/mol
+  Global net ELEC energy = 9.547773304465E+04 kJ/mol
