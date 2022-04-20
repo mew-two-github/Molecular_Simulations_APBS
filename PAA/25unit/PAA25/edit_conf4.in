@@ -1,12 +1,12 @@
 read
-    mol pdb conf0.pdb
+    mol pdb edit_conf4.pdb
     parm flat ../../all.dat 
 end
 elec 
     mg-auto
-    dime 33 97 33
-    cglen 21.4710 45.1316 16.5920
-    fglen 21.4710 45.1316 16.5920
+    dime 193 193 193
+    cglen 116.1746 117.7386 117.7896
+    fglen 88.3380 89.2580 89.2880
     cgcent mol 1
     fgcent mol 1
     mol 1
@@ -25,9 +25,9 @@ elec
 end
 elec 
     mg-auto
-    dime 33 97 33
-    cglen 21.4710 45.1316 16.5920
-    fglen 21.4710 45.1316 16.5920
+    dime 193 193 193
+    cglen 116.1746 117.7386 117.7896
+    fglen 88.3380 89.2580 89.2880
     cgcent mol 1
     fgcent mol 1
     mol 1
