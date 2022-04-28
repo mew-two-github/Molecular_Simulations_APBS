@@ -1,0 +1,34 @@
+clear; close all;
+%% Read Data
+T = readtable('solvation_energies.xlsx');
+wts = T.Size;
+uc = T.Uncharged;
+c = T.Charged;
+diff = T.Difference;
+%% Uncharged hydration
+p = polyfit(wts,uc,1);
+figure;
+plot(wts,uc,'x',wts,polyval(p,wts));
+xlabel('Number of units'); ylabel('Hydration energy in kJ/mol');
+title('Uncharged molecule solvation energies');
+% log plot
+p = polyfit(wts,log(uc),1);
+figure;
+plot(wts,log(uc),'x',wts,polyval(p,wts));
+legend('Data',s,'Location','Best');
+xlabel('Number of units'); ylabel('Hydration energy in kJ/mol');
+title('Uncharged molecule solvation energies - log plot');
+%% Charged
+p = polyfit(wts,uc,1);
+figure;
+plot(wts,uc,'x',wts,polyval(p,wts));
+legend('Data',s,'Location','Best');
+xlabel('Number of units'); ylabel('Hydration energy in kJ/mol');
+title('Uncharged molecule solvation energies');
+%% Difference
+p = polyfit(wts,uc,1);
+figure;
+plot(wts,uc,'x',wts,polyval(p,wts));
+legend('Data',s,'Location','Best');
+xlabel('Number of units'); ylabel('Hydration energy in kJ/mol');
+title('Uncharged molecule solvation energies');
