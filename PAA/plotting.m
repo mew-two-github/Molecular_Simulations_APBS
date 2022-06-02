@@ -1,10 +1,10 @@
 clear; close all;
 %% Read Data
 T = readtable('solvation_energies.xlsx');
-wts = T.Size;
-uc = T.Uncharged;
-c = T.Charged;
-diff = T.Difference;
+wts = T.units(1:7);
+uc = T.Uncharged(1:7);
+c = T.Charged(1:7);
+diff = T.Difference(1:7);
 %% Uncharged hydration
 p = polyfit(wts,uc,1);
 figure;
