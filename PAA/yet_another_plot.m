@@ -1,6 +1,7 @@
 clear; close all;
 % Load data
 load('solv_data.mat')
+n = (25:5:50)'-20;
 % charged
 [params1,Rsq1] = plotter(charged(:,1),-1*charged(:,3),charged(:,4),'Fully Ionised Polymer Solvation Free Energy');
 % uncharged
@@ -15,9 +16,10 @@ function [params,Rsq] = plotter(units, deltaG, stddev,title_string)
     y = deltaG;
     params = X\y;
     ypred = X*params;
-    plot(units,ypred,'-.');
+    plot(units,ypred,'-.','linewidth',2);
     xlabel('Number of units'); ylabel('\DeltaG in kJ/mol');
     title(title_string);
+    set(gca, "fontweight","bold");
     % Goodness measured by R^2
     ymean = mean(y);
     Rsq = 1 - sum((y-ypred).^2)/sum((y-ymean).^2);

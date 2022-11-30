@@ -1,0 +1,38 @@
+read
+    mol pdb PAA30_1_edit.pdb
+    parm flat ../../../all.dat 
+end
+
+APOLAR name 1
+	grid 0.1 0.1 0.1
+	mol 1
+	srfm sacc
+	swin 0.3
+	srad 1.4
+	press 0.008
+	gamma 0.0001
+	bconc 0.03346
+	sdens 10.0
+	dpos 0.2
+	temp 298.15
+	calcenergy total
+END
+
+APOLAR name 2
+	grid 0.1 0.1 0.1
+	mol 1
+	srfm sacc
+	swin 0.3
+	srad 0.0
+	press 0.0
+	gamma 0.0
+	bconc 0.0
+	sdens 10.0
+	dpos 0.2
+	temp 298.15
+	calcenergy total
+END
+
+print apolenergy 1 - 2 end
+
+quit

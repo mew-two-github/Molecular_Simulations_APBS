@@ -5032,3 +5032,1348 @@ Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 0.000000e+00
 printEnergy:  Performing global reduction (sum)
 Vcom_reduce:  Not compiled with MPI, doing simple copy.
 Vnm_tstop: stopping timer 26 (APBS WALL CLOCK).  CPU TIME = 5.733000e+01
+##############################################################################
+# MC-shell I/O capture file.
+# Creation Date and Time:  Sun Oct 30 16:52:49 2022
+
+##############################################################################
+Hello world from PE 0
+Vnm_tstart: starting timer 26 (APBS WALL CLOCK)..
+NOsh_parseInput:  Starting file parsing...
+NOsh: Parsing READ section
+NOsh: Storing molecule 0 path edit_conf0.pdb
+NOsh: Done parsing READ section
+NOsh: Done parsing READ section (nmol=1, ndiel=0, nkappa=0, ncharge=0, npot=0)
+NOsh: Parsing ELEC section
+NOsh_parseMG: Parsing parameters for MG calculation
+NOsh_parseMG:  Parsing dime...
+PBEparm_parseToken:  trying dime...
+MGparm_parseToken:  trying dime...
+NOsh_parseMG:  Parsing cglen...
+PBEparm_parseToken:  trying cglen...
+MGparm_parseToken:  trying cglen...
+NOsh_parseMG:  Parsing fglen...
+PBEparm_parseToken:  trying fglen...
+MGparm_parseToken:  trying fglen...
+NOsh_parseMG:  Parsing cgcent...
+PBEparm_parseToken:  trying cgcent...
+MGparm_parseToken:  trying cgcent...
+NOsh_parseMG:  Parsing fgcent...
+PBEparm_parseToken:  trying fgcent...
+MGparm_parseToken:  trying fgcent...
+NOsh_parseMG:  Parsing mol...
+PBEparm_parseToken:  trying mol...
+NOsh_parseMG:  Parsing npbe...
+PBEparm_parseToken:  trying npbe...
+NOsh: parsed npbe
+NOsh_parseMG:  Parsing bcfl...
+PBEparm_parseToken:  trying bcfl...
+NOsh_parseMG:  Parsing pdie...
+PBEparm_parseToken:  trying pdie...
+NOsh_parseMG:  Parsing sdie...
+PBEparm_parseToken:  trying sdie...
+NOsh_parseMG:  Parsing srfm...
+PBEparm_parseToken:  trying srfm...
+NOsh_parseMG:  Parsing chgm...
+PBEparm_parseToken:  trying chgm...
+MGparm_parseToken:  trying chgm...
+NOsh_parseMG:  Parsing sdens...
+PBEparm_parseToken:  trying sdens...
+NOsh_parseMG:  Parsing srad...
+PBEparm_parseToken:  trying srad...
+NOsh_parseMG:  Parsing swin...
+PBEparm_parseToken:  trying swin...
+NOsh_parseMG:  Parsing temp...
+PBEparm_parseToken:  trying temp...
+NOsh_parseMG:  Parsing calcenergy...
+PBEparm_parseToken:  trying calcenergy...
+NOsh_parseMG:  Parsing calcforce...
+PBEparm_parseToken:  trying calcforce...
+NOsh_parseMG:  Parsing end...
+MGparm_check:  checking MGparm object of type 1.
+NOsh:  nlev = 4, dime = (225, 193, 193)
+NOsh: Done parsing ELEC section (nelec = 1)
+NOsh: Parsing ELEC section
+NOsh_parseMG: Parsing parameters for MG calculation
+NOsh_parseMG:  Parsing dime...
+PBEparm_parseToken:  trying dime...
+MGparm_parseToken:  trying dime...
+NOsh_parseMG:  Parsing cglen...
+PBEparm_parseToken:  trying cglen...
+MGparm_parseToken:  trying cglen...
+NOsh_parseMG:  Parsing fglen...
+PBEparm_parseToken:  trying fglen...
+MGparm_parseToken:  trying fglen...
+NOsh_parseMG:  Parsing cgcent...
+PBEparm_parseToken:  trying cgcent...
+MGparm_parseToken:  trying cgcent...
+NOsh_parseMG:  Parsing fgcent...
+PBEparm_parseToken:  trying fgcent...
+MGparm_parseToken:  trying fgcent...
+NOsh_parseMG:  Parsing mol...
+PBEparm_parseToken:  trying mol...
+NOsh_parseMG:  Parsing npbe...
+PBEparm_parseToken:  trying npbe...
+NOsh: parsed npbe
+NOsh_parseMG:  Parsing bcfl...
+PBEparm_parseToken:  trying bcfl...
+NOsh_parseMG:  Parsing pdie...
+PBEparm_parseToken:  trying pdie...
+NOsh_parseMG:  Parsing sdie...
+PBEparm_parseToken:  trying sdie...
+NOsh_parseMG:  Parsing srfm...
+PBEparm_parseToken:  trying srfm...
+NOsh_parseMG:  Parsing chgm...
+PBEparm_parseToken:  trying chgm...
+MGparm_parseToken:  trying chgm...
+NOsh_parseMG:  Parsing sdens...
+PBEparm_parseToken:  trying sdens...
+NOsh_parseMG:  Parsing srad...
+PBEparm_parseToken:  trying srad...
+NOsh_parseMG:  Parsing swin...
+PBEparm_parseToken:  trying swin...
+NOsh_parseMG:  Parsing temp...
+PBEparm_parseToken:  trying temp...
+NOsh_parseMG:  Parsing calcenergy...
+PBEparm_parseToken:  trying calcenergy...
+NOsh_parseMG:  Parsing calcforce...
+PBEparm_parseToken:  trying calcforce...
+NOsh_parseMG:  Parsing end...
+MGparm_check:  checking MGparm object of type 1.
+NOsh:  nlev = 4, dime = (225, 193, 193)
+NOsh: Done parsing ELEC section (nelec = 2)
+NOsh: Parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing file (got QUIT)
+Valist_readPDB: Counted 270 atoms
+Valist_getStatistics:  Max atom coordinate:  (88.936, 80.396, 72.531)
+Valist_getStatistics:  Min atom coordinate:  (4.534, 11.126, 0.079)
+Valist_getStatistics:  Molecule center:  (46.735, 45.761, 36.305)
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1855):  coarse grid center = 46.735 45.761 36.305
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1860):  fine grid center = 46.735 45.761 36.305
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1872):  Coarse grid spacing = 0.640551, 0.613328, 0.641502
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1874):  Fine grid spacing = 0.46608, 0.464948, 0.481521
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1876):  Displacement between fine and coarse grids = 0, 0, 0
+NOsh:  2 levels of focusing with 0.727624, 0.758074, 0.750615 reductions
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1970):  starting mesh repositioning.
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1972):  coarse mesh center = 46.735 45.761 36.305
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1977):  coarse mesh upper corner = 118.477 104.641 97.8892
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1982):  coarse mesh lower corner = -25.0067 -13.1185 -25.2792
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1987):  initial fine mesh upper corner = 98.936 90.396 82.531
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1992):  initial fine mesh lower corner = -5.466 1.126 -9.921
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2053):  final fine mesh upper corner = 98.936 90.396 82.531
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2058):  final fine mesh lower corner = -5.466 1.126 -9.921
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalc:  Mapping ELEC statement 0 (1) to calculation 1 (2)
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1855):  coarse grid center = 46.735 45.761 36.305
+NOsh_setupCalcMGAUTO(C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1860):  fine grid center = 46.735 45.761 36.305
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1872):  Coarse grid spacing = 0.640551, 0.613328, 0.641502
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1874):  Fine grid spacing = 0.46608, 0.464948, 0.481521
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1876):  Displacement between fine and coarse grids = 0, 0, 0
+NOsh:  2 levels of focusing with 0.727624, 0.758074, 0.750615 reductions
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1970):  starting mesh repositioning.
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1972):  coarse mesh center = 46.735 45.761 36.305
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1977):  coarse mesh upper corner = 118.477 104.641 97.8892
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1982):  coarse mesh lower corner = -25.0067 -13.1185 -25.2792
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1987):  initial fine mesh upper corner = 98.936 90.396 82.531
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 1992):  initial fine mesh lower corner = -5.466 1.126 -9.921
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2053):  final fine mesh upper corner = 98.936 90.396 82.531
+NOsh_setupCalcMGAUTO (C:\Users\intendo\source\repos\apbs-pdb2pqr\apbs\src\generic\nosh.c, 2058):  final fine mesh lower corner = -5.466 1.126 -9.921
+NOsh_setupMGAUTO:  Resetting boundary flags
+NOsh_setupCalc:  Mapping ELEC statement 1 (2) to calculation 3 (4)
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 56.576
+Vpbe_ctor2:  solute dimensions = 84.9801 x 69.8481 x 73.0301
+Vpbe_ctor2:  solute charge = 2.84217e-14
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 75 x 75 table
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.9 max radius
+Vclist_setupGrid:  Grid lengths = (91.398, 76.266, 79.448)
+Vclist_setupGrid:  Grid lower corner = (1.03599, 7.62799, -3.41901)
+Vclist_assignAtoms:  Have 61869 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 76.256
+Vacc_storeParms:  Using 730-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.021000
+Vpmg_fillco:  done filling coefficient arrays
+Vpmg_fillco:  filling boundary arrays
+Vpmg_fillco:  done filling boundary arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 1.825000e+00
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (225, 193, 193)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 2.100000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (113, 097, 097)
+Vbuildops: Galer: (057, 049, 049)
+Vbuildops: Galer: (029, 025, 025)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 1.378000e+00
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.609000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 1575223.906876
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.030000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.292243e+05
+Vprtstp: contraction number = 2.292243e+05
+Vnewton: Attempting damping, relres = 0.130967
+Vnewton: Attempting damping, relres = 0.565195
+Vnewton: Damping accepted, relres = 0.130967
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.309667e-01
+Vprtstp: contraction number = 1.309667e-01
+Vnewton: Using errtol_s: 206301.888493
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 5.228000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.201803e+04
+Vprtstp: contraction number = 2.201803e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.257994e-02
+Vprtstp: contraction number = 9.605452e-02
+Vnewton: Using errtol_s: 19816.229734
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 6.808000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.250805e+03
+Vprtstp: contraction number = 2.250805e+03
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.285991e-03
+Vprtstp: contraction number = 1.022255e-01
+Vnewton: Using errtol_s: 2025.724147
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 7.783000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.389820e+02
+Vprtstp: contraction number = 2.389820e+02
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.365417e-04
+Vprtstp: contraction number = 1.061763e-01
+Vnewton: Using errtol_s: 215.083822
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 8.996000e+00
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.596652e+01
+Vprtstp: contraction number = 2.596652e+01
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 1.483590e-05
+Vprtstp: contraction number = 1.086547e-01
+Vnewton: Using errtol_s: 23.369865
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.057100e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.857707e+00
+Vprtstp: contraction number = 2.857707e+00
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 1.632743e-06
+Vprtstp: contraction number = 1.100535e-01
+Vnewton: Using errtol_s: 2.571936
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.153100e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.185357e-01
+Vprtstp: contraction number = 3.185357e-01
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 1.819946e-07
+Vprtstp: contraction number = 1.114655e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 9.481000e+00
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 1.114900e+01
+Vpmg_setPart:  lower corner = (-25.0067, -13.1185, -25.2792)
+Vpmg_setPart:  upper corner = (118.477, 104.641, 97.8892)
+Vpmg_setPart:  actual minima = (-25.0067, -13.1185, -25.2792)
+Vpmg_setPart:  actual maxima = (118.477, 104.641, 97.8892)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 2.463416004496E+03 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 1.500000e-02
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 0.000000e+00
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 56.576
+Vpbe_ctor2:  solute dimensions = 84.9801 x 69.8481 x 73.0301
+Vpbe_ctor2:  solute charge = 2.84217e-14
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 75 x 75 table
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.9 max radius
+Vclist_setupGrid:  Grid lengths = (91.398, 76.266, 79.448)
+Vclist_setupGrid:  Grid lower corner = (1.03599, 7.62799, -3.41901)
+Vclist_assignAtoms:  Have 61869 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 76.256
+Vacc_storeParms:  Using 730-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_ctor2:  Filling boundary with old solution!
+VPMG::focusFillBound -- New mesh mins = -5.466, 1.126, -9.921
+VPMG::focusFillBound -- New mesh maxs = 98.936, 90.396, 82.531
+VPMG::focusFillBound -- Old mesh mins = -25.0067, -13.1185, -25.2792
+VPMG::focusFillBound -- Old mesh maxs = 118.477, 104.641, 97.8892
+VPMG::extEnergy:  energy flag = 1
+Vpmg_setPart:  lower corner = (-5.466, 1.126, -9.921)
+Vpmg_setPart:  upper corner = (98.936, 90.396, 82.531)
+Vpmg_setPart:  actual minima = (-25.0067, -13.1185, -25.2792)
+Vpmg_setPart:  actual maxima = (118.477, 104.641, 97.8892)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+VPMG::extEnergy:   Finding extEnergy dimensions...
+VPMG::extEnergy    Disj part lower corner = (-5.466, 1.126, -9.921)
+VPMG::extEnergy    Disj part upper corner = (98.936, 90.396, 82.531)
+VPMG::extEnergy    Old lower corner = (-25.0067, -13.1185, -25.2792)
+VPMG::extEnergy    Old upper corner = (118.477, 104.641, 97.8892)
+Vpmg_qmEnergy:  Zero energy for zero ionic strength!
+VPMG::extEnergy: extQmEnergy = 0 kT
+Vpmg_qfEnergyVolume:  Calculating energy
+VPMG::extEnergy: extQfEnergy = 0 kT
+VPMG::extEnergy: extDiEnergy = 0.667111 kT
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.009000
+Vpmg_fillco:  done filling coefficient arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 1.464000e+00
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (225, 193, 193)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 4.000000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (113, 097, 097)
+Vbuildops: Galer: (057, 049, 049)
+Vbuildops: Galer: (029, 025, 025)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 1.226000e+00
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.634600e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 2130330.140834
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.657600e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.127441e+05
+Vprtstp: contraction number = 3.127441e+05
+Vnewton: Attempting damping, relres = 0.132125
+Vnewton: Attempting damping, relres = 0.566015
+Vnewton: Damping accepted, relres = 0.132125
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.321249e-01
+Vprtstp: contraction number = 1.321249e-01
+Vnewton: Using errtol_s: 281469.674215
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.763600e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.073630e+04
+Vprtstp: contraction number = 3.073630e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.298516e-02
+Vprtstp: contraction number = 9.827939e-02
+Vnewton: Using errtol_s: 27662.669274
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 1.915600e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.186400e+03
+Vprtstp: contraction number = 3.186400e+03
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.346157e-03
+Vprtstp: contraction number = 1.036689e-01
+Vnewton: Using errtol_s: 2867.759669
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.006300e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.398524e+02
+Vprtstp: contraction number = 3.398524e+02
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.435774e-04
+Vprtstp: contraction number = 1.066572e-01
+Vnewton: Using errtol_s: 305.867190
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.137800e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.678242e+01
+Vprtstp: contraction number = 3.678242e+01
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 1.553946e-05
+Vprtstp: contraction number = 1.082306e-01
+Vnewton: Using errtol_s: 33.104182
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.256200e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.022132e+00
+Vprtstp: contraction number = 4.022132e+00
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 1.699229e-06
+Vprtstp: contraction number = 1.093493e-01
+Vnewton: Using errtol_s: 3.619919
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.346500e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.436467e-01
+Vprtstp: contraction number = 4.436467e-01
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 1.874273e-07
+Vprtstp: contraction number = 1.103014e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 8.614000e+00
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 1.035800e+01
+Vpmg_setPart:  lower corner = (-5.466, 1.126, -9.921)
+Vpmg_setPart:  upper corner = (98.936, 90.396, 82.531)
+Vpmg_setPart:  actual minima = (-5.466, 1.126, -9.921)
+Vpmg_setPart:  actual maxima = (98.936, 90.396, 82.531)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 5.750442008384E+03 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 1.500000e-02
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 0.000000e+00
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 56.576
+Vpbe_ctor2:  solute dimensions = 84.9801 x 69.8481 x 73.0301
+Vpbe_ctor2:  solute charge = 2.84217e-14
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 75 x 75 table
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 0.5 max radius
+Vclist_setupGrid:  Grid lengths = (87.422, 72.29, 75.472)
+Vclist_setupGrid:  Grid lower corner = (3.02399, 9.61599, -1.43101)
+Vclist_assignAtoms:  Have 13624 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 14.2099
+Vacc_storeParms:  Using 154-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.002000
+Vpmg_fillco:  done filling coefficient arrays
+Vpmg_fillco:  filling boundary arrays
+Vpmg_fillco:  done filling boundary arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 1.498000e+00
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (225, 193, 193)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 4.180000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (113, 097, 097)
+Vbuildops: Galer: (057, 049, 049)
+Vbuildops: Galer: (029, 025, 025)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 1.260000e+00
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.833400e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 1575223.906876
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.856200e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.361943e+05
+Vprtstp: contraction number = 2.361943e+05
+Vnewton: Attempting damping, relres = 0.134949
+Vnewton: Attempting damping, relres = 0.566800
+Vnewton: Damping accepted, relres = 0.134949
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.349490e-01
+Vprtstp: contraction number = 1.349490e-01
+Vnewton: Using errtol_s: 212574.830624
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 2.968900e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.299849e+04
+Vprtstp: contraction number = 2.299849e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.314013e-02
+Vprtstp: contraction number = 9.737108e-02
+Vnewton: Using errtol_s: 20698.640351
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.120800e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.344743e+03
+Vprtstp: contraction number = 2.344743e+03
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.339663e-03
+Vprtstp: contraction number = 1.019520e-01
+Vnewton: Using errtol_s: 2110.268563
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.209100e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.468552e+02
+Vprtstp: contraction number = 2.468552e+02
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.410401e-04
+Vprtstp: contraction number = 1.052803e-01
+Vnewton: Using errtol_s: 222.169723
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.327000e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.653057e+01
+Vprtstp: contraction number = 2.653057e+01
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 1.515817e-05
+Vprtstp: contraction number = 1.074742e-01
+Vnewton: Using errtol_s: 23.877517
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.459900e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 2.885421e+00
+Vprtstp: contraction number = 2.885421e+00
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 1.648577e-06
+Vprtstp: contraction number = 1.087583e-01
+Vnewton: Using errtol_s: 2.596879
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 3.550500e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.165277e-01
+Vprtstp: contraction number = 3.165277e-01
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 1.808473e-07
+Vprtstp: contraction number = 1.096990e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 8.600000e+00
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 1.039600e+01
+Vpmg_setPart:  lower corner = (-25.0067, -13.1185, -25.2792)
+Vpmg_setPart:  upper corner = (118.477, 104.641, 97.8892)
+Vpmg_setPart:  actual minima = (-25.0067, -13.1185, -25.2792)
+Vpmg_setPart:  actual maxima = (118.477, 104.641, 97.8892)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 8.413426881064E+04 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 2.300000e-02
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 0.000000e+00
+Vnm_tstart: starting timer 27 (Setup timer)..
+Setting up PBE object...
+Vpbe_ctor2:  solute radius = 56.576
+Vpbe_ctor2:  solute dimensions = 84.9801 x 69.8481 x 73.0301
+Vpbe_ctor2:  solute charge = 2.84217e-14
+Vpbe_ctor2:  bulk ionic strength = 0
+Vpbe_ctor2:  xkappa = 0
+Vpbe_ctor2:  Debye length = 0
+Vpbe_ctor2:  zkappa2 = 0
+Vpbe_ctor2:  zmagic = 7042.98
+Vpbe_ctor2:  Constructing Vclist with 75 x 75 x 75 table
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 0.5 max radius
+Vclist_setupGrid:  Grid lengths = (87.422, 72.29, 75.472)
+Vclist_setupGrid:  Grid lower corner = (3.02399, 9.61599, -1.43101)
+Vclist_assignAtoms:  Have 13624 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 14.2099
+Vacc_storeParms:  Using 154-point reference sphere
+Setting up PDE object...
+Vpmp_ctor2:  Using meth = 1, mgsolv = 0
+Setting PDE center to local center...
+Vpmg_ctor2:  Filling boundary with old solution!
+VPMG::focusFillBound -- New mesh mins = -5.466, 1.126, -9.921
+VPMG::focusFillBound -- New mesh maxs = 98.936, 90.396, 82.531
+VPMG::focusFillBound -- Old mesh mins = -25.0067, -13.1185, -25.2792
+VPMG::focusFillBound -- Old mesh maxs = 118.477, 104.641, 97.8892
+VPMG::extEnergy:  energy flag = 1
+Vpmg_setPart:  lower corner = (-5.466, 1.126, -9.921)
+Vpmg_setPart:  upper corner = (98.936, 90.396, 82.531)
+Vpmg_setPart:  actual minima = (-25.0067, -13.1185, -25.2792)
+Vpmg_setPart:  actual maxima = (118.477, 104.641, 97.8892)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+VPMG::extEnergy:   Finding extEnergy dimensions...
+VPMG::extEnergy    Disj part lower corner = (-5.466, 1.126, -9.921)
+VPMG::extEnergy    Disj part upper corner = (98.936, 90.396, 82.531)
+VPMG::extEnergy    Old lower corner = (-25.0067, -13.1185, -25.2792)
+VPMG::extEnergy    Old upper corner = (118.477, 104.641, 97.8892)
+Vpmg_qmEnergy:  Zero energy for zero ionic strength!
+VPMG::extEnergy: extQmEnergy = 0 kT
+Vpmg_qfEnergyVolume:  Calculating energy
+VPMG::extEnergy: extQfEnergy = 0 kT
+VPMG::extEnergy: extDiEnergy = 52.4854 kT
+Vpmg_fillco:  filling in source term.
+fillcoCharge:  Calling fillcoChargeSpline2...
+Vpmg_fillco:  filling in source term.
+Vpmg_fillco:  marking ion and solvent accessibility.
+fillcoCoef:  Calling fillcoCoefMol...
+Vacc_SASA: Time elapsed: 0.003000
+Vpmg_fillco:  done filling coefficient arrays
+Vnm_tstop: stopping timer 27 (Setup timer).  CPU TIME = 1.288000e+00
+Vnm_tstart: starting timer 28 (Solver timer)..
+Vnm_tstart: starting timer 30 (Vnewdrv2: fine problem setup)..
+Vbuildops: Fine: (225, 193, 193)
+Vbuildops: Operator stencil (lev, numdia) = (1, 4)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: fine problem setup).  CPU TIME = 2.730000e-01
+Vnm_tstart: starting timer 30 (Vnewdrv2: coarse problem setup)..
+Vbuildops: Galer: (113, 097, 097)
+Vbuildops: Galer: (057, 049, 049)
+Vbuildops: Galer: (029, 025, 025)
+Vnm_tstop: stopping timer 30 (Vnewdrv2: coarse problem setup).  CPU TIME = 1.484000e+00
+Vnm_tstart: starting timer 30 (Vnewdrv2: solve)..
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.014400e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vnewton: Damping enabled
+Vnewton: Using errtol_s: 2130896.089227
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.037900e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.258236e+05
+Vprtstp: contraction number = 3.258236e+05
+Vnewton: Attempting damping, relres = 0.137614
+Vnewton: Attempting damping, relres = 0.568693
+Vnewton: Damping accepted, relres = 0.137614
+Vnewton: Damping disabled
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 1.376141e-01
+Vprtstp: contraction number = 1.376141e-01
+Vnewton: Using errtol_s: 293241.272012
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.148000e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.271530e+04
+Vprtstp: contraction number = 3.271530e+04
+Vprtstp: iteration = 2
+Vprtstp: relative residual = 1.381755e-02
+Vprtstp: contraction number = 1.004080e-01
+Vnewton: Using errtol_s: 29443.771897
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.299300e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.394220e+03
+Vprtstp: contraction number = 3.394220e+03
+Vprtstp: iteration = 3
+Vprtstp: relative residual = 1.433574e-03
+Vprtstp: contraction number = 1.037502e-01
+Vnewton: Using errtol_s: 3054.797714
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.401500e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.597583e+02
+Vprtstp: contraction number = 3.597583e+02
+Vprtstp: iteration = 4
+Vprtstp: relative residual = 1.519466e-04
+Vprtstp: contraction number = 1.059915e-01
+Vnewton: Using errtol_s: 323.782442
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.516900e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 3.863940e+01
+Vprtstp: contraction number = 3.863940e+01
+Vprtstp: iteration = 5
+Vprtstp: relative residual = 1.631964e-05
+Vprtstp: contraction number = 1.074038e-01
+Vnewton: Using errtol_s: 34.775463
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.655300e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.197235e+00
+Vprtstp: contraction number = 4.197235e+00
+Vprtstp: iteration = 6
+Vprtstp: relative residual = 1.772734e-06
+Vprtstp: contraction number = 1.086258e-01
+Vnewton: Using errtol_s: 3.777511
+Vnm_tstop: stopping timer 40 (MG iteration).  CPU TIME = 4.748500e+01
+Vprtstp: iteration = 0
+Vprtstp: relative residual = 1.000000e+00
+Vprtstp: contraction number = 1.000000e+00
+Vprtstp: iteration = 1
+Vprtstp: relative residual = 4.619866e-01
+Vprtstp: contraction number = 4.619866e-01
+Vprtstp: iteration = 7
+Vprtstp: relative residual = 1.951235e-07
+Vprtstp: contraction number = 1.100693e-01
+Vnm_tstop: stopping timer 30 (Vnewdrv2: solve).  CPU TIME = 8.741000e+00
+Vnm_tstop: stopping timer 28 (Solver timer).  CPU TIME = 1.057500e+01
+Vpmg_setPart:  lower corner = (-5.466, 1.126, -9.921)
+Vpmg_setPart:  upper corner = (98.936, 90.396, 82.531)
+Vpmg_setPart:  actual minima = (-5.466, 1.126, -9.921)
+Vpmg_setPart:  actual maxima = (98.936, 90.396, 82.531)
+Vpmg_setPart:  bflag[FRONT] = 0
+Vpmg_setPart:  bflag[BACK] = 0
+Vpmg_setPart:  bflag[LEFT] = 0
+Vpmg_setPart:  bflag[RIGHT] = 0
+Vpmg_setPart:  bflag[UP] = 0
+Vpmg_setPart:  bflag[DOWN] = 0
+Vnm_tstart: starting timer 29 (Energy timer)..
+Vpmg_energy:  calculating only q-phi energy
+Vpmg_qfEnergyVolume:  Calculating energy
+Vpmg_energy:  qfEnergy = 1.133233173595E+05 kT
+Vnm_tstop: stopping timer 29 (Energy timer).  CPU TIME = 2.400000e-02
+Vnm_tstart: starting timer 30 (Force timer)..
+Vnm_tstop: stopping timer 30 (Force timer).  CPU TIME = 0.000000e+00
+printEnergy:  Performing global reduction (sum)
+Vcom_reduce:  Not compiled with MPI, doing simple copy.
+Vnm_tstop: stopping timer 26 (APBS WALL CLOCK).  CPU TIME = 4.916600e+01
+##############################################################################
+# MC-shell I/O capture file.
+# Creation Date and Time:  Sun Oct 30 18:43:51 2022
+
+##############################################################################
+Hello world from PE 0
+Vnm_tstart: starting timer 26 (APBS WALL CLOCK)..
+NOsh_parseInput:  Starting file parsing...
+NOsh: Parsing READ section
+NOsh: Storing molecule 0 path edit_conf0.pdb
+NOsh: Done parsing READ section
+NOsh: Done parsing READ section (nmol=1, ndiel=0, nkappa=0, ncharge=0, npot=0)
+NOsh: Parsing APOLAR section
+NOsh_parseAPOL: Parsing parameters for APOL calculation
+NOsh_parseAPOL:  Parsing grid...
+NOsh_parseAPOL:  Parsing mol...
+NOsh_parseAPOL:  Parsing srfm...
+NOsh_parseAPOL:  Parsing swin...
+NOsh_parseAPOL:  Parsing srad...
+NOsh_parseAPOL:  Parsing press...
+NOsh_parseAPOL:  Parsing gamma...
+NOsh_parseAPOL:  Parsing bconc...
+NOsh_parseAPOL:  Parsing sdens...
+NOsh_parseAPOL:  Parsing dpos...
+NOsh_parseAPOL:  Parsing temp...
+NOsh_parseAPOL:  Parsing calcenergy...
+NOsh_parseAPOL:  Parsing END...
+NOsh: Done parsing APOLAR section (nelec = 0)
+NOsh: Parsing APOLAR section
+NOsh_parseAPOL: Parsing parameters for APOL calculation
+NOsh_parseAPOL:  Parsing grid...
+NOsh_parseAPOL:  Parsing mol...
+NOsh_parseAPOL:  Parsing srfm...
+NOsh_parseAPOL:  Parsing swin...
+NOsh_parseAPOL:  Parsing srad...
+NOsh_parseAPOL:  Parsing press...
+NOsh_parseAPOL:  Parsing gamma...
+NOsh_parseAPOL:  Parsing bconc...
+NOsh_parseAPOL:  Parsing sdens...
+NOsh_parseAPOL:  Parsing dpos...
+NOsh_parseAPOL:  Parsing temp...
+NOsh_parseAPOL:  Parsing calcenergy...
+NOsh_parseAPOL:  Parsing END...
+NOsh: Done parsing APOLAR section (nelec = 0)
+NOsh: Parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing file (got QUIT)
+Valist_readPDB: Counted 270 atoms
+Valist_getStatistics:  Max atom coordinate:  (88.936, 80.396, 72.531)
+Valist_getStatistics:  Min atom coordinate:  (4.534, 11.126, 0.079)
+Valist_getStatistics:  Molecule center:  (46.735, 45.761, 36.305)
+NOsh_setupCalc:  Mapping APOL statement 0 (1) to calculation 0 (1)
+NOsh_setupCalc:  Mapping APOL statement 1 (2) to calculation 1 (2)
+APOL: Setting up hash table and accessibility object...
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.8 max radius
+Vclist_setupGrid:  Grid lengths = (91.114, 75.982, 79.164)
+Vclist_setupGrid:  Grid lower corner = (1.17799, 7.76999, -3.27701)
+Vclist_assignAtoms:  Have 56803 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 70.1905
+Vacc_storeParms:  Using 672-point reference sphere
+Vacc_SASA: Time elapsed: 0.010000
+##############################################################################
+# MC-shell I/O capture file.
+# Creation Date and Time:  Sun Oct 30 18:46:17 2022
+
+##############################################################################
+Hello world from PE 0
+Vnm_tstart: starting timer 26 (APBS WALL CLOCK)..
+NOsh_parseInput:  Starting file parsing...
+NOsh: Parsing READ section
+NOsh: Storing molecule 0 path edit_conf0.pdb
+NOsh: Done parsing READ section
+NOsh: Done parsing READ section (nmol=1, ndiel=0, nkappa=0, ncharge=0, npot=0)
+NOsh: Parsing APOLAR section
+NOsh_parseAPOL: Parsing parameters for APOL calculation
+NOsh_parseAPOL:  Parsing grid...
+NOsh_parseAPOL:  Parsing mol...
+NOsh_parseAPOL:  Parsing srfm...
+NOsh_parseAPOL:  Parsing swin...
+NOsh_parseAPOL:  Parsing srad...
+NOsh_parseAPOL:  Parsing press...
+NOsh_parseAPOL:  Parsing gamma...
+NOsh_parseAPOL:  Parsing bconc...
+NOsh_parseAPOL:  Parsing sdens...
+NOsh_parseAPOL:  Parsing dpos...
+NOsh_parseAPOL:  Parsing temp...
+NOsh_parseAPOL:  Parsing calcenergy...
+NOsh_parseAPOL:  Parsing END...
+NOsh: Done parsing APOLAR section (nelec = 0)
+NOsh: Parsing APOLAR section
+NOsh_parseAPOL: Parsing parameters for APOL calculation
+NOsh_parseAPOL:  Parsing grid...
+NOsh_parseAPOL:  Parsing mol...
+NOsh_parseAPOL:  Parsing srfm...
+NOsh_parseAPOL:  Parsing swin...
+NOsh_parseAPOL:  Parsing srad...
+NOsh_parseAPOL:  Parsing press...
+NOsh_parseAPOL:  Parsing gamma...
+NOsh_parseAPOL:  Parsing bconc...
+NOsh_parseAPOL:  Parsing sdens...
+NOsh_parseAPOL:  Parsing dpos...
+NOsh_parseAPOL:  Parsing temp...
+NOsh_parseAPOL:  Parsing calcenergy...
+NOsh_parseAPOL:  Parsing END...
+NOsh: Done parsing APOLAR section (nelec = 0)
+NOsh: Parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing file (got QUIT)
+Valist_readPDB: Counted 270 atoms
+Valist_getStatistics:  Max atom coordinate:  (88.936, 80.396, 72.531)
+Valist_getStatistics:  Min atom coordinate:  (4.534, 11.126, 0.079)
+Valist_getStatistics:  Molecule center:  (46.735, 45.761, 36.305)
+NOsh_setupCalc:  Mapping APOL statement 0 (1) to calculation 0 (1)
+NOsh_setupCalc:  Mapping APOL statement 1 (2) to calculation 1 (2)
+APOL: Setting up hash table and accessibility object...
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.8 max radius
+Vclist_setupGrid:  Grid lengths = (91.114, 75.982, 79.164)
+Vclist_setupGrid:  Grid lower corner = (1.17799, 7.76999, -3.27701)
+Vclist_assignAtoms:  Have 56803 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 70.1905
+Vacc_storeParms:  Using 672-point reference sphere
+Vacc_SASA: Time elapsed: 0.017000
+initAPOL: Time elapsed: 1325.141000
+APOL: Setting up hash table and accessibility object...
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 0.4 max radius
+Vclist_setupGrid:  Grid lengths = (87.138, 72.006, 75.188)
+Vclist_setupGrid:  Grid lower corner = (3.16599, 9.75799, -1.28901)
+Vclist_assignAtoms:  Have 11572 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 11.663
+Vacc_storeParms:  Using 126-point reference sphere
+initAPOL: Time elapsed: 0.012000
+Vnm_tstop: stopping timer 26 (APBS WALL CLOCK).  CPU TIME = 1.325195e+03
+initAPOL: Time elapsed: 1300.355000
+APOL: Setting up hash table and accessibility object...
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 0.4 max radius
+Vclist_setupGrid:  Grid lengths = (87.138, 72.006, 75.188)
+Vclist_setupGrid:  Grid lower corner = (3.16599, 9.75799, -1.28901)
+Vclist_assignAtoms:  Have 11572 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 11.663
+Vacc_storeParms:  Using 126-point reference sphere
+initAPOL: Time elapsed: 0.010000
+Vnm_tstop: stopping timer 26 (APBS WALL CLOCK).  CPU TIME = 1.300428e+03
+##############################################################################
+# MC-shell I/O capture file.
+# Creation Date and Time:  Sun Oct 30 19:07:58 2022
+
+##############################################################################
+Hello world from PE 0
+Vnm_tstart: starting timer 26 (APBS WALL CLOCK)..
+NOsh_parseInput:  Starting file parsing...
+NOsh: Parsing READ section
+NOsh: Storing molecule 0 path edit_conf1.pdb
+NOsh: Done parsing READ section
+NOsh: Done parsing READ section (nmol=1, ndiel=0, nkappa=0, ncharge=0, npot=0)
+NOsh: Parsing APOLAR section
+NOsh_parseAPOL: Parsing parameters for APOL calculation
+NOsh_parseAPOL:  Parsing grid...
+NOsh_parseAPOL:  Parsing mol...
+NOsh_parseAPOL:  Parsing srfm...
+NOsh_parseAPOL:  Parsing swin...
+NOsh_parseAPOL:  Parsing srad...
+NOsh_parseAPOL:  Parsing press...
+NOsh_parseAPOL:  Parsing gamma...
+NOsh_parseAPOL:  Parsing bconc...
+NOsh_parseAPOL:  Parsing sdens...
+NOsh_parseAPOL:  Parsing dpos...
+NOsh_parseAPOL:  Parsing temp...
+NOsh_parseAPOL:  Parsing calcenergy...
+NOsh_parseAPOL:  Parsing END...
+NOsh: Done parsing APOLAR section (nelec = 0)
+NOsh: Parsing APOLAR section
+NOsh_parseAPOL: Parsing parameters for APOL calculation
+NOsh_parseAPOL:  Parsing grid...
+NOsh_parseAPOL:  Parsing mol...
+NOsh_parseAPOL:  Parsing srfm...
+NOsh_parseAPOL:  Parsing swin...
+NOsh_parseAPOL:  Parsing srad...
+NOsh_parseAPOL:  Parsing press...
+NOsh_parseAPOL:  Parsing gamma...
+NOsh_parseAPOL:  Parsing bconc...
+NOsh_parseAPOL:  Parsing sdens...
+NOsh_parseAPOL:  Parsing dpos...
+NOsh_parseAPOL:  Parsing temp...
+NOsh_parseAPOL:  Parsing calcenergy...
+NOsh_parseAPOL:  Parsing END...
+NOsh: Done parsing APOLAR section (nelec = 0)
+NOsh: Parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing file (got QUIT)
+Valist_readPDB: Counted 270 atoms
+Valist_getStatistics:  Max atom coordinate:  (74.071, 85.966, 89.213)
+Valist_getStatistics:  Min atom coordinate:  (3.561, 12.324, 7.391)
+Valist_getStatistics:  Molecule center:  (38.816, 49.145, 48.302)
+NOsh_setupCalc:  Mapping APOL statement 0 (1) to calculation 0 (1)
+NOsh_setupCalc:  Mapping APOL statement 1 (2) to calculation 1 (2)
+APOL: Setting up hash table and accessibility object...
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.8 max radius
+Vclist_setupGrid:  Grid lengths = (77.222, 80.354, 88.534)
+Vclist_setupGrid:  Grid lower corner = (0.204995, 8.96799, 4.03499)
+Vclist_assignAtoms:  Have 56441 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 70.1905
+Vacc_storeParms:  Using 672-point reference sphere
+Vacc_SASA: Time elapsed: 0.016000
+initAPOL: Time elapsed: 1241.436000
+APOL: Setting up hash table and accessibility object...
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 0.4 max radius
+Vclist_setupGrid:  Grid lengths = (73.246, 76.378, 84.558)
+Vclist_setupGrid:  Grid lower corner = (2.19299, 10.956, 6.02299)
+Vclist_assignAtoms:  Have 11268 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 11.663
+Vacc_storeParms:  Using 126-point reference sphere
+initAPOL: Time elapsed: 0.012000
+Vnm_tstop: stopping timer 26 (APBS WALL CLOCK).  CPU TIME = 1.241493e+03
+##############################################################################
+# MC-shell I/O capture file.
+# Creation Date and Time:  Sun Oct 30 19:28:39 2022
+
+##############################################################################
+Hello world from PE 0
+Vnm_tstart: starting timer 26 (APBS WALL CLOCK)..
+NOsh_parseInput:  Starting file parsing...
+NOsh: Parsing READ section
+NOsh: Storing molecule 0 path edit_conf2.pdb
+NOsh: Done parsing READ section
+NOsh: Done parsing READ section (nmol=1, ndiel=0, nkappa=0, ncharge=0, npot=0)
+NOsh: Parsing APOLAR section
+NOsh_parseAPOL: Parsing parameters for APOL calculation
+NOsh_parseAPOL:  Parsing grid...
+NOsh_parseAPOL:  Parsing mol...
+NOsh_parseAPOL:  Parsing srfm...
+NOsh_parseAPOL:  Parsing swin...
+NOsh_parseAPOL:  Parsing srad...
+NOsh_parseAPOL:  Parsing press...
+NOsh_parseAPOL:  Parsing gamma...
+NOsh_parseAPOL:  Parsing bconc...
+NOsh_parseAPOL:  Parsing sdens...
+NOsh_parseAPOL:  Parsing dpos...
+NOsh_parseAPOL:  Parsing temp...
+NOsh_parseAPOL:  Parsing calcenergy...
+NOsh_parseAPOL:  Parsing END...
+NOsh: Done parsing APOLAR section (nelec = 0)
+NOsh: Parsing APOLAR section
+NOsh_parseAPOL: Parsing parameters for APOL calculation
+NOsh_parseAPOL:  Parsing grid...
+NOsh_parseAPOL:  Parsing mol...
+NOsh_parseAPOL:  Parsing srfm...
+NOsh_parseAPOL:  Parsing swin...
+NOsh_parseAPOL:  Parsing srad...
+NOsh_parseAPOL:  Parsing press...
+NOsh_parseAPOL:  Parsing gamma...
+NOsh_parseAPOL:  Parsing bconc...
+NOsh_parseAPOL:  Parsing sdens...
+NOsh_parseAPOL:  Parsing dpos...
+NOsh_parseAPOL:  Parsing temp...
+NOsh_parseAPOL:  Parsing calcenergy...
+NOsh_parseAPOL:  Parsing END...
+NOsh: Done parsing APOLAR section (nelec = 0)
+NOsh: Parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing file (got QUIT)
+Valist_readPDB: Counted 270 atoms
+Valist_getStatistics:  Max atom coordinate:  (88.944, 85.515, 82.71)
+Valist_getStatistics:  Min atom coordinate:  (5.315, 3.425, 3.39)
+Valist_getStatistics:  Molecule center:  (47.1295, 44.47, 43.05)
+NOsh_setupCalc:  Mapping APOL statement 0 (1) to calculation 0 (1)
+NOsh_setupCalc:  Mapping APOL statement 1 (2) to calculation 1 (2)
+APOL: Setting up hash table and accessibility object...
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.8 max radius
+Vclist_setupGrid:  Grid lengths = (90.341, 88.802, 86.032)
+Vclist_setupGrid:  Grid lower corner = (1.95899, 0.0689946, 0.0339946)
+Vclist_assignAtoms:  Have 48411 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 70.1905
+Vacc_storeParms:  Using 672-point reference sphere
+Vacc_SASA: Time elapsed: 0.016000
+initAPOL: Time elapsed: 1068.071000
+APOL: Setting up hash table and accessibility object...
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 0.4 max radius
+Vclist_setupGrid:  Grid lengths = (86.365, 84.826, 82.056)
+Vclist_setupGrid:  Grid lower corner = (3.94699, 2.05699, 2.02199)
+Vclist_assignAtoms:  Have 10416 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 11.663
+Vacc_storeParms:  Using 126-point reference sphere
+initAPOL: Time elapsed: 0.012000
+Vnm_tstop: stopping timer 26 (APBS WALL CLOCK).  CPU TIME = 1.068144e+03
+##############################################################################
+# MC-shell I/O capture file.
+# Creation Date and Time:  Sun Oct 30 19:46:27 2022
+
+##############################################################################
+Hello world from PE 0
+Vnm_tstart: starting timer 26 (APBS WALL CLOCK)..
+NOsh_parseInput:  Starting file parsing...
+NOsh: Parsing READ section
+NOsh: Storing molecule 0 path edit_conf3.pdb
+NOsh: Done parsing READ section
+NOsh: Done parsing READ section (nmol=1, ndiel=0, nkappa=0, ncharge=0, npot=0)
+NOsh: Parsing APOLAR section
+NOsh_parseAPOL: Parsing parameters for APOL calculation
+NOsh_parseAPOL:  Parsing grid...
+NOsh_parseAPOL:  Parsing mol...
+NOsh_parseAPOL:  Parsing srfm...
+NOsh_parseAPOL:  Parsing swin...
+NOsh_parseAPOL:  Parsing srad...
+NOsh_parseAPOL:  Parsing press...
+NOsh_parseAPOL:  Parsing gamma...
+NOsh_parseAPOL:  Parsing bconc...
+NOsh_parseAPOL:  Parsing sdens...
+NOsh_parseAPOL:  Parsing dpos...
+NOsh_parseAPOL:  Parsing temp...
+NOsh_parseAPOL:  Parsing calcenergy...
+NOsh_parseAPOL:  Parsing END...
+NOsh: Done parsing APOLAR section (nelec = 0)
+NOsh: Parsing APOLAR section
+NOsh_parseAPOL: Parsing parameters for APOL calculation
+NOsh_parseAPOL:  Parsing grid...
+NOsh_parseAPOL:  Parsing mol...
+NOsh_parseAPOL:  Parsing srfm...
+NOsh_parseAPOL:  Parsing swin...
+NOsh_parseAPOL:  Parsing srad...
+NOsh_parseAPOL:  Parsing press...
+NOsh_parseAPOL:  Parsing gamma...
+NOsh_parseAPOL:  Parsing bconc...
+NOsh_parseAPOL:  Parsing sdens...
+NOsh_parseAPOL:  Parsing dpos...
+NOsh_parseAPOL:  Parsing temp...
+NOsh_parseAPOL:  Parsing calcenergy...
+NOsh_parseAPOL:  Parsing END...
+NOsh: Done parsing APOLAR section (nelec = 0)
+NOsh: Parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing file (got QUIT)
+Valist_readPDB: Counted 270 atoms
+Valist_getStatistics:  Max atom coordinate:  (87.714, 87.376, 83.933)
+Valist_getStatistics:  Min atom coordinate:  (8.961, 0.694, 7.56)
+Valist_getStatistics:  Molecule center:  (48.3375, 44.035, 45.7465)
+NOsh_setupCalc:  Mapping APOL statement 0 (1) to calculation 0 (1)
+NOsh_setupCalc:  Mapping APOL statement 1 (2) to calculation 1 (2)
+APOL: Setting up hash table and accessibility object...
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.8 max radius
+Vclist_setupGrid:  Grid lengths = (85.465, 93.394, 83.085)
+Vclist_setupGrid:  Grid lower corner = (5.60499, -2.66201, 4.20399)
+Vclist_assignAtoms:  Have 50460 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 70.1905
+Vacc_storeParms:  Using 672-point reference sphere
+Vacc_SASA: Time elapsed: 0.016000
+initAPOL: Time elapsed: 891.792000
+APOL: Setting up hash table and accessibility object...
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 0.4 max radius
+Vclist_setupGrid:  Grid lengths = (81.489, 89.418, 79.109)
+Vclist_setupGrid:  Grid lower corner = (7.59299, -0.674005, 6.19199)
+Vclist_assignAtoms:  Have 10916 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 11.663
+Vacc_storeParms:  Using 126-point reference sphere
+initAPOL: Time elapsed: 0.007000
+Vnm_tstop: stopping timer 26 (APBS WALL CLOCK).  CPU TIME = 8.918560e+02
+##############################################################################
+# MC-shell I/O capture file.
+# Creation Date and Time:  Sun Oct 30 20:01:19 2022
+
+##############################################################################
+Hello world from PE 0
+Vnm_tstart: starting timer 26 (APBS WALL CLOCK)..
+NOsh_parseInput:  Starting file parsing...
+NOsh: Parsing READ section
+NOsh: Storing molecule 0 path edit_conf4.pdb
+NOsh: Done parsing READ section
+NOsh: Done parsing READ section (nmol=1, ndiel=0, nkappa=0, ncharge=0, npot=0)
+NOsh: Parsing APOLAR section
+NOsh_parseAPOL: Parsing parameters for APOL calculation
+NOsh_parseAPOL:  Parsing grid...
+NOsh_parseAPOL:  Parsing mol...
+NOsh_parseAPOL:  Parsing srfm...
+NOsh_parseAPOL:  Parsing swin...
+NOsh_parseAPOL:  Parsing srad...
+NOsh_parseAPOL:  Parsing press...
+NOsh_parseAPOL:  Parsing gamma...
+NOsh_parseAPOL:  Parsing bconc...
+NOsh_parseAPOL:  Parsing sdens...
+NOsh_parseAPOL:  Parsing dpos...
+NOsh_parseAPOL:  Parsing temp...
+NOsh_parseAPOL:  Parsing calcenergy...
+NOsh_parseAPOL:  Parsing END...
+NOsh: Done parsing APOLAR section (nelec = 0)
+NOsh: Parsing APOLAR section
+NOsh_parseAPOL: Parsing parameters for APOL calculation
+NOsh_parseAPOL:  Parsing grid...
+NOsh_parseAPOL:  Parsing mol...
+NOsh_parseAPOL:  Parsing srfm...
+NOsh_parseAPOL:  Parsing swin...
+NOsh_parseAPOL:  Parsing srad...
+NOsh_parseAPOL:  Parsing press...
+NOsh_parseAPOL:  Parsing gamma...
+NOsh_parseAPOL:  Parsing bconc...
+NOsh_parseAPOL:  Parsing sdens...
+NOsh_parseAPOL:  Parsing dpos...
+NOsh_parseAPOL:  Parsing temp...
+NOsh_parseAPOL:  Parsing calcenergy...
+NOsh_parseAPOL:  Parsing END...
+NOsh: Done parsing APOLAR section (nelec = 0)
+NOsh: Parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing file (got QUIT)
+Valist_readPDB: Counted 270 atoms
+Valist_getStatistics:  Max atom coordinate:  (77.484, 88.782, 87.827)
+Valist_getStatistics:  Min atom coordinate:  (9.994, 6.115, 0.26)
+Valist_getStatistics:  Molecule center:  (43.739, 47.4485, 44.0435)
+NOsh_setupCalc:  Mapping APOL statement 0 (1) to calculation 0 (1)
+NOsh_setupCalc:  Mapping APOL statement 1 (2) to calculation 1 (2)
+APOL: Setting up hash table and accessibility object...
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.8 max radius
+Vclist_setupGrid:  Grid lengths = (74.202, 89.379, 94.279)
+Vclist_setupGrid:  Grid lower corner = (6.63799, 2.75899, -3.09601)
+Vclist_assignAtoms:  Have 52839 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 70.1905
+Vacc_storeParms:  Using 672-point reference sphere
+Vacc_SASA: Time elapsed: 0.008000
+initAPOL: Time elapsed: 872.607000
+APOL: Setting up hash table and accessibility object...
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 0.4 max radius
+Vclist_setupGrid:  Grid lengths = (70.226, 85.403, 90.303)
+Vclist_setupGrid:  Grid lower corner = (8.62599, 4.74699, -1.10801)
+Vclist_assignAtoms:  Have 11015 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 11.663
+Vacc_storeParms:  Using 126-point reference sphere
+initAPOL: Time elapsed: 0.008000
+Vnm_tstop: stopping timer 26 (APBS WALL CLOCK).  CPU TIME = 8.726450e+02
+##############################################################################
+# MC-shell I/O capture file.
+# Creation Date and Time:  Sun Oct 30 20:15:52 2022
+
+##############################################################################
+Hello world from PE 0
+Vnm_tstart: starting timer 26 (APBS WALL CLOCK)..
+NOsh_parseInput:  Starting file parsing...
+NOsh: Parsing READ section
+NOsh: Storing molecule 0 path edit_conf5.pdb
+NOsh: Done parsing READ section
+NOsh: Done parsing READ section (nmol=1, ndiel=0, nkappa=0, ncharge=0, npot=0)
+NOsh: Parsing APOLAR section
+NOsh_parseAPOL: Parsing parameters for APOL calculation
+NOsh_parseAPOL:  Parsing grid...
+NOsh_parseAPOL:  Parsing mol...
+NOsh_parseAPOL:  Parsing srfm...
+NOsh_parseAPOL:  Parsing swin...
+NOsh_parseAPOL:  Parsing srad...
+NOsh_parseAPOL:  Parsing press...
+NOsh_parseAPOL:  Parsing gamma...
+NOsh_parseAPOL:  Parsing bconc...
+NOsh_parseAPOL:  Parsing sdens...
+NOsh_parseAPOL:  Parsing dpos...
+NOsh_parseAPOL:  Parsing temp...
+NOsh_parseAPOL:  Parsing calcenergy...
+NOsh_parseAPOL:  Parsing END...
+NOsh: Done parsing APOLAR section (nelec = 0)
+NOsh: Parsing APOLAR section
+NOsh_parseAPOL: Parsing parameters for APOL calculation
+NOsh_parseAPOL:  Parsing grid...
+NOsh_parseAPOL:  Parsing mol...
+NOsh_parseAPOL:  Parsing srfm...
+NOsh_parseAPOL:  Parsing swin...
+NOsh_parseAPOL:  Parsing srad...
+NOsh_parseAPOL:  Parsing press...
+NOsh_parseAPOL:  Parsing gamma...
+NOsh_parseAPOL:  Parsing bconc...
+NOsh_parseAPOL:  Parsing sdens...
+NOsh_parseAPOL:  Parsing dpos...
+NOsh_parseAPOL:  Parsing temp...
+NOsh_parseAPOL:  Parsing calcenergy...
+NOsh_parseAPOL:  Parsing END...
+NOsh: Done parsing APOLAR section (nelec = 0)
+NOsh: Parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing PRINT section
+NOsh: Done parsing file (got QUIT)
+Valist_readPDB: Counted 270 atoms
+Valist_getStatistics:  Max atom coordinate:  (88.946, 83.301, 82.626)
+Valist_getStatistics:  Min atom coordinate:  (3.875, 3.06, 6.855)
+Valist_getStatistics:  Molecule center:  (46.4105, 43.1805, 44.7405)
+NOsh_setupCalc:  Mapping APOL statement 0 (1) to calculation 0 (1)
+NOsh_setupCalc:  Mapping APOL statement 1 (2) to calculation 1 (2)
+APOL: Setting up hash table and accessibility object...
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 1.8 max radius
+Vclist_setupGrid:  Grid lengths = (91.783, 86.953, 82.483)
+Vclist_setupGrid:  Grid lower corner = (0.518995, -0.296005, 3.49899)
+Vclist_assignAtoms:  Have 50568 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 70.1905
+Vacc_storeParms:  Using 672-point reference sphere
+Vacc_SASA: Time elapsed: 0.009000
+initAPOL: Time elapsed: 962.608000
+APOL: Setting up hash table and accessibility object...
+Vclist_ctor2:  Using 75 x 75 x 75 hash table
+Vclist_ctor2:  automatic domain setup.
+Vclist_ctor2:  Using 0.4 max radius
+Vclist_setupGrid:  Grid lengths = (87.807, 82.977, 78.507)
+Vclist_setupGrid:  Grid lower corner = (2.50699, 1.69199, 5.48699)
+Vclist_assignAtoms:  Have 10382 atom entries
+Vacc_storeParms:  Surf. density = 10
+Vacc_storeParms:  Max area = 11.663
+Vacc_storeParms:  Using 126-point reference sphere
+initAPOL: Time elapsed: 0.008000
+Vnm_tstop: stopping timer 26 (APBS WALL CLOCK).  CPU TIME = 9.626460e+02

@@ -1,0 +1,38 @@
+read
+    parm flat all.dat
+    mol pdb conf0.pdb
+end
+elec 
+    name solvated
+    tabi
+    mac 0.8
+    mol 1
+    mesh ses
+    outdata 0
+    pdie 2.0
+    sdens 10.00
+    sdie 78.54
+    srad 1.40
+    temp 298.15
+    tree_n0 500
+    tree_order 3
+    calcenergy total
+end
+elec 
+    name vac
+    tabi
+    mac 0.8
+    mol 1
+    mesh ses
+    outdata 0
+    pdie 2.0
+    sdens 10.00
+    sdie 1.0
+    srad 0
+    temp 298.15
+    tree_n0 500
+    tree_order 3
+    calcenergy total  
+end
+print elecEnergy solvated - vac end
+quit

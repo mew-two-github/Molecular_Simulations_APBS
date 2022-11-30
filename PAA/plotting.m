@@ -1,4 +1,4 @@
-clear; close all;
+ clear; close all;
 %% Read Data
 T = readtable('solvation_energies.xlsx');
 wts = T.units(1:7);
