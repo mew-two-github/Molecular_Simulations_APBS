@@ -4278,3 +4278,1907 @@ Final memory usage:  0.001 MB total, 1.758 MB high water
 
 Thanks for using APBS!
 
+
+
+----------------------------------------------------------------------
+    APBS -- Adaptive Poisson-Boltzmann Solver
+    Version 3.0
+    
+    Nathan A. Baker (nathan.baker@pnnl.gov)
+    Pacific Northwest National Laboratory
+    
+    Additional contributing authors listed in the code documentation.
+    
+    Copyright (c) 2010-2020 Battelle Memorial Institute. Developed at the Pacific
+    Northwest National Laboratory, operated by Battelle Memorial Institute, Pacific
+    Northwest Division for the U.S. Department of Energy.
+    
+    Portions Copyright (c) 2002-2010, Washington University in St. Louis.
+    Portions Copyright (c) 2002-2020, Nathan A. Baker.
+    Portions Copyright (c) 1999-2002, The Regents of the University of California.
+    Portions Copyright (c) 1995, Michael Holst.
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    
+    * Redistributions of source code must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+    
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    
+    * Neither the name of the developer nor the names of its contributors may be
+      used to endorse or promote products derived from this software without
+      specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+    ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+    APBS uses FETK (the Finite Element ToolKit) to solve the
+    Poisson-Boltzmann equation numerically.  FETK is a portable collection
+    of finite element modeling class libraries developed by the Michael Holst
+    research group and written in an object-oriented form of C.  FEtk is
+    designed to solve general coupled systems of nonlinear partial differential
+    equations using adaptive finite element methods, inexact Newton methods,
+    and algebraic multilevel methods.  More information about FEtk may be found
+    at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+    APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+    Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+    which has been modified by Patrice Koehl
+    <http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+    memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+    Please cite your use of APBS as:
+
+    Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+    nanosystems: application to microtubules and the ribosome. Proc.
+    Natl. Acad. Sci. USA 98, 10037-10041 2001.
+    
+
+This executable compiled on May 28 2020 at 00:26:43
+
+Parsing input file apolar_conf0.in...
+rank 0 size 1...
+Parsed input file.
+Reading parameter data from ../../all.dat.
+Got paths for 1 molecules
+Reading PDB-format atom data from conf0.pdb.
+  120 atoms
+  Centered at (3.985e+01, 3.985e+01, 3.985e+01)
+  Net charge 0.00e+00 e
+Preparing to run 1 PBE calculations.
+----------------------------------------
+CALCULATION #1 (1): APOLAR
+
+Solvent Accessible Surface Area (SASA) for each atom:
+  SASA for atom 0: 2.591127041159E+01
+  SASA for atom 1: 1.016413079681E+01
+  SASA for atom 2: 4.857664474538E+00
+  SASA for atom 3: 2.181260850554E+01
+  SASA for atom 4: 1.715900790915E+01
+  SASA for atom 5: 0.000000000000E+00
+  SASA for atom 6: 1.360482604085E+01
+  SASA for atom 7: 7.641119606113E+00
+  SASA for atom 8: 4.675502056743E+00
+  SASA for atom 9: 1.962588083581E+01
+  SASA for atom 10: 1.743938385538E+01
+  SASA for atom 11: 0.000000000000E+00
+  SASA for atom 12: 1.347587034378E+01
+  SASA for atom 13: 5.838968755614E+00
+  SASA for atom 14: 3.825410773699E+00
+  SASA for atom 15: 2.066457647893E+01
+  SASA for atom 16: 1.581320336726E+01
+  SASA for atom 17: 0.000000000000E+00
+  SASA for atom 18: 1.347587034378E+01
+  SASA for atom 19: 6.776087197874E+00
+  SASA for atom 20: 3.339644326245E+00
+  SASA for atom 21: 2.164860393031E+01
+  SASA for atom 22: 1.659825601670E+01
+  SASA for atom 23: 0.000000000000E+00
+  SASA for atom 24: 1.386273743499E+01
+  SASA for atom 25: 8.938668218472E+00
+  SASA for atom 26: 3.400365132177E+00
+  SASA for atom 27: 1.951654445232E+01
+  SASA for atom 28: 1.480384996084E+01
+  SASA for atom 29: 0.000000000000E+00
+  SASA for atom 30: 1.128362349359E+01
+  SASA for atom 31: 9.082840286511E+00
+  SASA for atom 32: 2.610994655064E+00
+  SASA for atom 33: 2.104725382113E+01
+  SASA for atom 34: 1.480384996084E+01
+  SASA for atom 35: 0.000000000000E+00
+  SASA for atom 36: 1.437856022326E+01
+  SASA for atom 37: 6.776087197874E+00
+  SASA for atom 38: 4.189735609289E+00
+  SASA for atom 39: 2.230462223122E+01
+  SASA for atom 40: 1.418702287914E+01
+  SASA for atom 41: 0.000000000000E+00
+  SASA for atom 42: 1.096123425092E+01
+  SASA for atom 43: 9.731614592691E+00
+  SASA for atom 44: 3.582527549972E+00
+  SASA for atom 45: 1.968054902755E+01
+  SASA for atom 46: 1.626180488122E+01
+  SASA for atom 47: 0.000000000000E+00
+  SASA for atom 48: 1.012302221997E+01
+  SASA for atom 49: 7.496947538073E+00
+  SASA for atom 50: 4.129014803357E+00
+  SASA for atom 51: 2.235929042297E+01
+  SASA for atom 52: 1.609357931349E+01
+  SASA for atom 53: 0.000000000000E+00
+  SASA for atom 54: 1.321795894964E+01
+  SASA for atom 55: 5.911054789634E+00
+  SASA for atom 56: 4.675502056743E+00
+  SASA for atom 57: 2.126592658810E+01
+  SASA for atom 58: 1.547675223178E+01
+  SASA for atom 59: 0.000000000000E+00
+  SASA for atom 60: 1.296004755550E+01
+  SASA for atom 61: 8.434065980332E+00
+  SASA for atom 62: 4.554060444879E+00
+  SASA for atom 63: 2.082858105416E+01
+  SASA for atom 64: 1.721508309840E+01
+  SASA for atom 65: 0.000000000000E+00
+  SASA for atom 66: 1.141257919066E+01
+  SASA for atom 67: 7.424861504053E+00
+  SASA for atom 68: 5.343430921992E+00
+  SASA for atom 69: 2.132059477985E+01
+  SASA for atom 70: 1.300944390498E+01
+  SASA for atom 71: 0.000000000000E+00
+  SASA for atom 72: 1.328243679817E+01
+  SASA for atom 73: 8.434065980332E+00
+  SASA for atom 74: 4.189735609289E+00
+  SASA for atom 75: 2.164860393031E+01
+  SASA for atom 76: 1.373842136517E+01
+  SASA for atom 77: 0.000000000000E+00
+  SASA for atom 78: 1.366930388938E+01
+  SASA for atom 79: 5.983140823654E+00
+  SASA for atom 80: 3.096761102518E+00
+  SASA for atom 81: 2.028189913673E+01
+  SASA for atom 82: 1.654218082745E+01
+  SASA for atom 83: 0.000000000000E+00
+  SASA for atom 84: 1.431408237473E+01
+  SASA for atom 85: 7.352775470033E+00
+  SASA for atom 86: 3.886131579630E+00
+  SASA for atom 87: 2.181260850554E+01
+  SASA for atom 88: 1.278514314800E+01
+  SASA for atom 89: 0.000000000000E+00
+  SASA for atom 90: 1.379825958645E+01
+  SASA for atom 91: 7.064431333953E+00
+  SASA for atom 92: 3.643248355903E+00
+  SASA for atom 93: 1.842318061746E+01
+  SASA for atom 94: 1.749545904463E+01
+  SASA for atom 95: 0.000000000000E+00
+  SASA for atom 96: 1.437856022326E+01
+  SASA for atom 97: 7.280689436013E+00
+  SASA for atom 98: 4.796943668606E+00
+  SASA for atom 99: 2.088324924590E+01
+  SASA for atom 100: 1.143933860610E+01
+  SASA for atom 101: 0.000000000000E+00
+  SASA for atom 102: 1.360482604085E+01
+  SASA for atom 103: 5.838968755614E+00
+  SASA for atom 104: 4.736222862674E+00
+  SASA for atom 105: 2.203128127251E+01
+  SASA for atom 106: 1.654218082745E+01
+  SASA for atom 107: 0.000000000000E+00
+  SASA for atom 108: 1.424960452620E+01
+  SASA for atom 109: 7.569033572093E+00
+  SASA for atom 110: 4.189735609289E+00
+  SASA for atom 111: 2.137526297159E+01
+  SASA for atom 112: 1.368234617592E+01
+  SASA for atom 113: 0.000000000000E+00
+  SASA for atom 114: 1.450751592033E+01
+  SASA for atom 115: 1.644185137638E+01
+  SASA for atom 116: 5.282710116060E+00
+  SASA for atom 117: 2.246862680645E+01
+  SASA for atom 118: 1.497207552857E+01
+  SASA for atom 119: 0.000000000000E+00
+
+Total solvent accessible surface area: 1246.72 A^2
+
+Surface tension*area energies (gamma * SASA) for each atom:
+  Surface tension*area energy for atom 0: 2.202457984985E-01
+  Surface tension*area energy for atom 1: 8.639511177289E-02
+  Surface tension*area energy for atom 2: 4.129014803357E-02
+  Surface tension*area energy for atom 3: 1.854071722970E-01
+  Surface tension*area energy for atom 4: 1.458515672278E-01
+  Surface tension*area energy for atom 5: 0.000000000000E+00
+  Surface tension*area energy for atom 6: 1.156410213472E-01
+  Surface tension*area energy for atom 7: 6.494951665196E-02
+  Surface tension*area energy for atom 8: 3.974176748231E-02
+  Surface tension*area energy for atom 9: 1.668199871044E-01
+  Surface tension*area energy for atom 10: 1.482347627707E-01
+  Surface tension*area energy for atom 11: 0.000000000000E+00
+  Surface tension*area energy for atom 12: 1.145448979221E-01
+  Surface tension*area energy for atom 13: 4.963123442272E-02
+  Surface tension*area energy for atom 14: 3.251599157644E-02
+  Surface tension*area energy for atom 15: 1.756489000709E-01
+  Surface tension*area energy for atom 16: 1.344122286217E-01
+  Surface tension*area energy for atom 17: 0.000000000000E+00
+  Surface tension*area energy for atom 18: 1.145448979221E-01
+  Surface tension*area energy for atom 19: 5.759674118193E-02
+  Surface tension*area energy for atom 20: 2.838697677308E-02
+  Surface tension*area energy for atom 21: 1.840131334076E-01
+  Surface tension*area energy for atom 22: 1.410851761419E-01
+  Surface tension*area energy for atom 23: 0.000000000000E+00
+  Surface tension*area energy for atom 24: 1.178332681974E-01
+  Surface tension*area energy for atom 25: 7.597867985701E-02
+  Surface tension*area energy for atom 26: 2.890310362350E-02
+  Surface tension*area energy for atom 27: 1.658906278447E-01
+  Surface tension*area energy for atom 28: 1.258327246671E-01
+  Surface tension*area energy for atom 29: 0.000000000000E+00
+  Surface tension*area energy for atom 30: 9.591079969555E-02
+  Surface tension*area energy for atom 31: 7.720414243535E-02
+  Surface tension*area energy for atom 32: 2.219345456805E-02
+  Surface tension*area energy for atom 33: 1.789016574796E-01
+  Surface tension*area energy for atom 34: 1.258327246671E-01
+  Surface tension*area energy for atom 35: 0.000000000000E+00
+  Surface tension*area energy for atom 36: 1.222177618978E-01
+  Surface tension*area energy for atom 37: 5.759674118193E-02
+  Surface tension*area energy for atom 38: 3.561275267896E-02
+  Surface tension*area energy for atom 39: 1.895892889654E-01
+  Surface tension*area energy for atom 40: 1.205896944727E-01
+  Surface tension*area energy for atom 41: 0.000000000000E+00
+  Surface tension*area energy for atom 42: 9.317049113282E-02
+  Surface tension*area energy for atom 43: 8.271872403787E-02
+  Surface tension*area energy for atom 44: 3.045148417476E-02
+  Surface tension*area energy for atom 45: 1.672846667342E-01
+  Surface tension*area energy for atom 46: 1.382253414904E-01
+  Surface tension*area energy for atom 47: 0.000000000000E+00
+  Surface tension*area energy for atom 48: 8.604568886972E-02
+  Surface tension*area energy for atom 49: 6.372405407362E-02
+  Surface tension*area energy for atom 50: 3.509662582854E-02
+  Surface tension*area energy for atom 51: 1.900539685952E-01
+  Surface tension*area energy for atom 52: 1.367954241646E-01
+  Surface tension*area energy for atom 53: 0.000000000000E+00
+  Surface tension*area energy for atom 54: 1.123526510719E-01
+  Surface tension*area energy for atom 55: 5.024396571189E-02
+  Surface tension*area energy for atom 56: 3.974176748231E-02
+  Surface tension*area energy for atom 57: 1.807603759989E-01
+  Surface tension*area energy for atom 58: 1.315523939702E-01
+  Surface tension*area energy for atom 59: 0.000000000000E+00
+  Surface tension*area energy for atom 60: 1.101604042217E-01
+  Surface tension*area energy for atom 61: 7.168956083282E-02
+  Surface tension*area energy for atom 62: 3.870951378147E-02
+  Surface tension*area energy for atom 63: 1.770429389603E-01
+  Surface tension*area energy for atom 64: 1.463282063364E-01
+  Surface tension*area energy for atom 65: 0.000000000000E+00
+  Surface tension*area energy for atom 66: 9.700692312064E-02
+  Surface tension*area energy for atom 67: 6.311132278445E-02
+  Surface tension*area energy for atom 68: 4.541916283693E-02
+  Surface tension*area energy for atom 69: 1.812250556287E-01
+  Surface tension*area energy for atom 70: 1.105802731923E-01
+  Surface tension*area energy for atom 71: 0.000000000000E+00
+  Surface tension*area energy for atom 72: 1.129007127845E-01
+  Surface tension*area energy for atom 73: 7.168956083282E-02
+  Surface tension*area energy for atom 74: 3.561275267896E-02
+  Surface tension*area energy for atom 75: 1.840131334076E-01
+  Surface tension*area energy for atom 76: 1.167765816039E-01
+  Surface tension*area energy for atom 77: 0.000000000000E+00
+  Surface tension*area energy for atom 78: 1.161890830597E-01
+  Surface tension*area energy for atom 79: 5.085669700106E-02
+  Surface tension*area energy for atom 80: 2.632246937140E-02
+  Surface tension*area energy for atom 81: 1.723961426622E-01
+  Surface tension*area energy for atom 82: 1.406085370333E-01
+  Surface tension*area energy for atom 83: 0.000000000000E+00
+  Surface tension*area energy for atom 84: 1.216697001852E-01
+  Surface tension*area energy for atom 85: 6.249859149528E-02
+  Surface tension*area energy for atom 86: 3.303211842686E-02
+  Surface tension*area energy for atom 87: 1.854071722970E-01
+  Surface tension*area energy for atom 88: 1.086737167580E-01
+  Surface tension*area energy for atom 89: 0.000000000000E+00
+  Surface tension*area energy for atom 90: 1.172852064848E-01
+  Surface tension*area energy for atom 91: 6.004766633860E-02
+  Surface tension*area energy for atom 92: 3.096761102518E-02
+  Surface tension*area energy for atom 93: 1.565970352484E-01
+  Surface tension*area energy for atom 94: 1.487114018793E-01
+  Surface tension*area energy for atom 95: 0.000000000000E+00
+  Surface tension*area energy for atom 96: 1.222177618978E-01
+  Surface tension*area energy for atom 97: 6.188586020611E-02
+  Surface tension*area energy for atom 98: 4.077402118315E-02
+  Surface tension*area energy for atom 99: 1.775076185902E-01
+  Surface tension*area energy for atom 100: 9.723437815186E-02
+  Surface tension*area energy for atom 101: 0.000000000000E+00
+  Surface tension*area energy for atom 102: 1.156410213472E-01
+  Surface tension*area energy for atom 103: 4.963123442272E-02
+  Surface tension*area energy for atom 104: 4.025789433273E-02
+  Surface tension*area energy for atom 105: 1.872658908163E-01
+  Surface tension*area energy for atom 106: 1.406085370333E-01
+  Surface tension*area energy for atom 107: 0.000000000000E+00
+  Surface tension*area energy for atom 108: 1.211216384727E-01
+  Surface tension*area energy for atom 109: 6.433678536279E-02
+  Surface tension*area energy for atom 110: 3.561275267896E-02
+  Surface tension*area energy for atom 111: 1.816897352585E-01
+  Surface tension*area energy for atom 112: 1.162999424954E-01
+  Surface tension*area energy for atom 113: 0.000000000000E+00
+  Surface tension*area energy for atom 114: 1.233138853228E-01
+  Surface tension*area energy for atom 115: 1.397557366992E-01
+  Surface tension*area energy for atom 116: 4.490303598651E-02
+  Surface tension*area energy for atom 117: 1.909833278549E-01
+  Surface tension*area energy for atom 118: 1.272626419929E-01
+  Surface tension*area energy for atom 119: 0.000000000000E+00
+
+Total surface tension energy: 10.5971 kJ/mol
+
+Total solvent accessible volume: 1386.08 A^3
+
+Total pressure*volume energy: 331.828 kJ/mol
+
+WCA dispersion Energies for each atom:
+  WCA energy for atom 0: -3.190796436736E+00
+  WCA energy for atom 1: -9.926483130995E-01
+  WCA energy for atom 2: -1.389979818706E+00
+  WCA energy for atom 3: -3.472034295006E+00
+  WCA energy for atom 4: -2.751931772422E+00
+  WCA energy for atom 5: 0.000000000000E+00
+  WCA energy for atom 6: -1.671945697571E+00
+  WCA energy for atom 7: -8.163827498908E-01
+  WCA energy for atom 8: -1.178466281562E+00
+  WCA energy for atom 9: -2.961359620696E+00
+  WCA energy for atom 10: -2.575629773712E+00
+  WCA energy for atom 11: 0.000000000000E+00
+  WCA energy for atom 12: -1.581602359631E+00
+  WCA energy for atom 13: -7.135169229741E-01
+  WCA energy for atom 14: -1.142936022654E+00
+  WCA energy for atom 15: -3.032703775469E+00
+  WCA energy for atom 16: -2.338292829510E+00
+  WCA energy for atom 17: 0.000000000000E+00
+  WCA energy for atom 18: -1.466012611924E+00
+  WCA energy for atom 19: -7.086665447632E-01
+  WCA energy for atom 20: -1.041087514326E+00
+  WCA energy for atom 21: -2.929724089451E+00
+  WCA energy for atom 22: -2.109484038938E+00
+  WCA energy for atom 23: 0.000000000000E+00
+  WCA energy for atom 24: -1.572048303248E+00
+  WCA energy for atom 25: -7.678692866494E-01
+  WCA energy for atom 26: -1.113357727763E+00
+  WCA energy for atom 27: -2.867551313857E+00
+  WCA energy for atom 28: -2.403239190790E+00
+  WCA energy for atom 29: 0.000000000000E+00
+  WCA energy for atom 30: -1.269561224494E+00
+  WCA energy for atom 31: -6.919488142877E-01
+  WCA energy for atom 32: -9.568184570715E-01
+  WCA energy for atom 33: -2.762717908769E+00
+  WCA energy for atom 34: -2.085665093785E+00
+  WCA energy for atom 35: 0.000000000000E+00
+  WCA energy for atom 36: -1.289165635557E+00
+  WCA energy for atom 37: -6.632629927570E-01
+  WCA energy for atom 38: -1.113317876999E+00
+  WCA energy for atom 39: -3.132871902444E+00
+  WCA energy for atom 40: -2.024230753227E+00
+  WCA energy for atom 41: 0.000000000000E+00
+  WCA energy for atom 42: -1.084000001030E+00
+  WCA energy for atom 43: -6.256420945300E-01
+  WCA energy for atom 44: -9.351010331037E-01
+  WCA energy for atom 45: -2.604294690083E+00
+  WCA energy for atom 46: -2.028725589705E+00
+  WCA energy for atom 47: 0.000000000000E+00
+  WCA energy for atom 48: -1.047599889297E+00
+  WCA energy for atom 49: -6.940617210989E-01
+  WCA energy for atom 50: -1.147327669864E+00
+  WCA energy for atom 51: -3.182358373118E+00
+  WCA energy for atom 52: -2.453769948964E+00
+  WCA energy for atom 53: 0.000000000000E+00
+  WCA energy for atom 54: -1.369852439286E+00
+  WCA energy for atom 55: -6.459315288397E-01
+  WCA energy for atom 56: -1.097950502458E+00
+  WCA energy for atom 57: -3.143336011575E+00
+  WCA energy for atom 58: -2.147936244514E+00
+  WCA energy for atom 59: 0.000000000000E+00
+  WCA energy for atom 60: -1.393384516707E+00
+  WCA energy for atom 61: -7.173995678510E-01
+  WCA energy for atom 62: -1.129514076959E+00
+  WCA energy for atom 63: -2.971376135312E+00
+  WCA energy for atom 64: -2.643770642314E+00
+  WCA energy for atom 65: 0.000000000000E+00
+  WCA energy for atom 66: -1.110289906444E+00
+  WCA energy for atom 67: -6.693460000379E-01
+  WCA energy for atom 68: -1.062369217722E+00
+  WCA energy for atom 69: -3.002534253561E+00
+  WCA energy for atom 70: -1.654548525185E+00
+  WCA energy for atom 71: 0.000000000000E+00
+  WCA energy for atom 72: -1.211547570521E+00
+  WCA energy for atom 73: -7.022193782481E-01
+  WCA energy for atom 74: -1.019078958094E+00
+  WCA energy for atom 75: -2.969812553669E+00
+  WCA energy for atom 76: -2.126111558101E+00
+  WCA energy for atom 77: 0.000000000000E+00
+  WCA energy for atom 78: -1.336800742601E+00
+  WCA energy for atom 79: -7.164370925106E-01
+  WCA energy for atom 80: -1.138579015880E+00
+  WCA energy for atom 81: -3.020314833095E+00
+  WCA energy for atom 82: -2.499659244643E+00
+  WCA energy for atom 83: 0.000000000000E+00
+  WCA energy for atom 84: -1.543557497760E+00
+  WCA energy for atom 85: -6.785208447078E-01
+  WCA energy for atom 86: -1.084132820105E+00
+  WCA energy for atom 87: -3.141554602162E+00
+  WCA energy for atom 88: -2.129893396163E+00
+  WCA energy for atom 89: 0.000000000000E+00
+  WCA energy for atom 90: -1.430683922691E+00
+  WCA energy for atom 91: -7.127139007584E-01
+  WCA energy for atom 92: -1.036691936446E+00
+  WCA energy for atom 93: -2.563192109068E+00
+  WCA energy for atom 94: -2.613404442005E+00
+  WCA energy for atom 95: 0.000000000000E+00
+  WCA energy for atom 96: -1.156004848104E+00
+  WCA energy for atom 97: -6.489310854140E-01
+  WCA energy for atom 98: -1.032564398439E+00
+  WCA energy for atom 99: -2.925412597638E+00
+  WCA energy for atom 100: -1.805091748259E+00
+  WCA energy for atom 101: 0.000000000000E+00
+  WCA energy for atom 102: -1.147992637021E+00
+  WCA energy for atom 103: -6.469672672184E-01
+  WCA energy for atom 104: -1.140797263477E+00
+  WCA energy for atom 105: -2.829750307441E+00
+  WCA energy for atom 106: -2.576984703577E+00
+  WCA energy for atom 107: 0.000000000000E+00
+  WCA energy for atom 108: -1.266847879604E+00
+  WCA energy for atom 109: -6.939366736093E-01
+  WCA energy for atom 110: -1.091771449489E+00
+  WCA energy for atom 111: -2.992783495898E+00
+  WCA energy for atom 112: -1.839271713733E+00
+  WCA energy for atom 113: 0.000000000000E+00
+  WCA energy for atom 114: -1.523859628628E+00
+  WCA energy for atom 115: -1.655227180761E+00
+  WCA energy for atom 116: -1.369531867406E+00
+  WCA energy for atom 117: -3.446584532769E+00
+  WCA energy for atom 118: -2.194183647040E+00
+  WCA energy for atom 119: 0.000000000000E+00
+
+Total WCA energy: -171.001 kJ/mol
+
+Total non-polar energy = 1.714244759541E+02 kJ/mol
+----------------------------------------
+PRINT STATEMENTS
+
+print APOL energy 1 (1) end
+  Global net APOL energy = 1.714244759541E+02 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  0.001 MB total, 1.693 MB high water
+
+
+Thanks for using APBS!
+
+
+
+----------------------------------------------------------------------
+    APBS -- Adaptive Poisson-Boltzmann Solver
+    Version 3.0
+    
+    Nathan A. Baker (nathan.baker@pnnl.gov)
+    Pacific Northwest National Laboratory
+    
+    Additional contributing authors listed in the code documentation.
+    
+    Copyright (c) 2010-2020 Battelle Memorial Institute. Developed at the Pacific
+    Northwest National Laboratory, operated by Battelle Memorial Institute, Pacific
+    Northwest Division for the U.S. Department of Energy.
+    
+    Portions Copyright (c) 2002-2010, Washington University in St. Louis.
+    Portions Copyright (c) 2002-2020, Nathan A. Baker.
+    Portions Copyright (c) 1999-2002, The Regents of the University of California.
+    Portions Copyright (c) 1995, Michael Holst.
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    
+    * Redistributions of source code must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+    
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    
+    * Neither the name of the developer nor the names of its contributors may be
+      used to endorse or promote products derived from this software without
+      specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+    ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+    APBS uses FETK (the Finite Element ToolKit) to solve the
+    Poisson-Boltzmann equation numerically.  FETK is a portable collection
+    of finite element modeling class libraries developed by the Michael Holst
+    research group and written in an object-oriented form of C.  FEtk is
+    designed to solve general coupled systems of nonlinear partial differential
+    equations using adaptive finite element methods, inexact Newton methods,
+    and algebraic multilevel methods.  More information about FEtk may be found
+    at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+    APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+    Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+    which has been modified by Patrice Koehl
+    <http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+    memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+    Please cite your use of APBS as:
+
+    Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+    nanosystems: application to microtubules and the ribosome. Proc.
+    Natl. Acad. Sci. USA 98, 10037-10041 2001.
+    
+
+This executable compiled on May 28 2020 at 00:26:43
+
+Parsing input file apolar_conf1.in...
+rank 0 size 1...
+Parsed input file.
+Reading parameter data from ../../all.dat.
+Got paths for 1 molecules
+Reading PDB-format atom data from conf1.pdb.
+  120 atoms
+  Centered at (3.990e+01, 3.990e+01, 3.990e+01)
+  Net charge 0.00e+00 e
+Preparing to run 1 PBE calculations.
+----------------------------------------
+CALCULATION #1 (1): APOLAR
+
+Solvent Accessible Surface Area (SASA) for each atom:
+  SASA for atom 0: 2.609723646718E+01
+  SASA for atom 1: 7.857377708173E+00
+  SASA for atom 2: 5.039826892333E+00
+  SASA for atom 3: 2.088324924590E+01
+  SASA for atom 4: 1.783191018010E+01
+  SASA for atom 5: 0.000000000000E+00
+  SASA for atom 6: 1.392721528352E+01
+  SASA for atom 7: 8.145721844252E+00
+  SASA for atom 8: 4.250456415221E+00
+  SASA for atom 9: 2.181260850554E+01
+  SASA for atom 10: 1.637395525971E+01
+  SASA for atom 11: 0.000000000000E+00
+  SASA for atom 12: 1.379825958645E+01
+  SASA for atom 13: 6.343570993754E+00
+  SASA for atom 14: 4.432618833016E+00
+  SASA for atom 15: 2.148459935508E+01
+  SASA for atom 16: 1.732723347689E+01
+  SASA for atom 17: 0.000000000000E+00
+  SASA for atom 18: 1.096123425092E+01
+  SASA for atom 19: 7.785291674153E+00
+  SASA for atom 20: 4.189735609289E+00
+  SASA for atom 21: 2.186727669728E+01
+  SASA for atom 22: 1.435524844687E+01
+  SASA for atom 23: 0.000000000000E+00
+  SASA for atom 24: 1.179944628187E+01
+  SASA for atom 25: 7.424861504053E+00
+  SASA for atom 26: 3.521806744040E+00
+  SASA for atom 27: 2.148459935508E+01
+  SASA for atom 28: 1.609357931349E+01
+  SASA for atom 29: 0.000000000000E+00
+  SASA for atom 30: 1.360482604085E+01
+  SASA for atom 31: 6.271484959734E+00
+  SASA for atom 32: 4.675502056743E+00
+  SASA for atom 33: 2.148459935508E+01
+  SASA for atom 34: 1.620572969198E+01
+  SASA for atom 35: 0.000000000000E+00
+  SASA for atom 36: 1.534572795129E+01
+  SASA for atom 37: 8.361979946312E+00
+  SASA for atom 38: 4.432618833016E+00
+  SASA for atom 39: 2.121125839636E+01
+  SASA for atom 40: 1.704685753066E+01
+  SASA for atom 41: 0.000000000000E+00
+  SASA for atom 42: 1.315348110110E+01
+  SASA for atom 43: 4.685592211296E+00
+  SASA for atom 44: 3.886131579630E+00
+  SASA for atom 45: 2.203128127251E+01
+  SASA for atom 46: 1.127111303836E+01
+  SASA for atom 47: 0.000000000000E+00
+  SASA for atom 48: 1.192840197894E+01
+  SASA for atom 49: 7.569033572093E+00
+  SASA for atom 50: 4.007573191494E+00
+  SASA for atom 51: 2.142993116333E+01
+  SASA for atom 52: 1.284121833724E+01
+  SASA for atom 53: 0.000000000000E+00
+  SASA for atom 54: 1.173496843334E+01
+  SASA for atom 55: 6.271484959734E+00
+  SASA for atom 56: 4.614781250811E+00
+  SASA for atom 57: 2.197661308076E+01
+  SASA for atom 58: 1.312159428347E+01
+  SASA for atom 59: 0.000000000000E+00
+  SASA for atom 60: 1.482990516301E+01
+  SASA for atom 61: 8.145721844252E+00
+  SASA for atom 62: 3.886131579630E+00
+  SASA for atom 63: 1.935253987709E+01
+  SASA for atom 64: 1.340197022970E+01
+  SASA for atom 65: 0.000000000000E+00
+  SASA for atom 66: 1.192840197894E+01
+  SASA for atom 67: 6.631915129834E+00
+  SASA for atom 68: 5.404151727923E+00
+  SASA for atom 69: 2.088324924590E+01
+  SASA for atom 70: 1.457954920385E+01
+  SASA for atom 71: 0.000000000000E+00
+  SASA for atom 72: 1.147705703920E+01
+  SASA for atom 73: 7.641119606113E+00
+  SASA for atom 74: 3.036040296586E+00
+  SASA for atom 75: 2.099258562939E+01
+  SASA for atom 76: 1.413094768989E+01
+  SASA for atom 77: 0.000000000000E+00
+  SASA for atom 78: 1.225079122162E+01
+  SASA for atom 79: 6.343570993754E+00
+  SASA for atom 80: 5.343430921992E+00
+  SASA for atom 81: 2.197661308076E+01
+  SASA for atom 82: 1.586927855650E+01
+  SASA for atom 83: 0.000000000000E+00
+  SASA for atom 84: 1.470094946594E+01
+  SASA for atom 85: 6.848173231894E+00
+  SASA for atom 86: 4.857664474538E+00
+  SASA for atom 87: 2.115659020462E+01
+  SASA for atom 88: 1.631788007047E+01
+  SASA for atom 89: 0.000000000000E+00
+  SASA for atom 90: 1.328243679817E+01
+  SASA for atom 91: 9.227012354551E+00
+  SASA for atom 92: 4.250456415221E+00
+  SASA for atom 93: 2.039123552021E+01
+  SASA for atom 94: 1.783191018010E+01
+  SASA for atom 95: 0.000000000000E+00
+  SASA for atom 96: 1.147705703920E+01
+  SASA for atom 97: 6.776087197874E+00
+  SASA for atom 98: 4.736222862674E+00
+  SASA for atom 99: 2.164860393031E+01
+  SASA for atom 100: 1.334589504045E+01
+  SASA for atom 101: 0.000000000000E+00
+  SASA for atom 102: 1.431408237473E+01
+  SASA for atom 103: 7.064431333953E+00
+  SASA for atom 104: 3.521806744040E+00
+  SASA for atom 105: 2.121125839636E+01
+  SASA for atom 106: 1.777583499085E+01
+  SASA for atom 107: 0.000000000000E+00
+  SASA for atom 108: 1.463647161740E+01
+  SASA for atom 109: 8.289893912292E+00
+  SASA for atom 110: 4.736222862674E+00
+  SASA for atom 111: 2.263263138168E+01
+  SASA for atom 112: 1.570105298877E+01
+  SASA for atom 113: 0.000000000000E+00
+  SASA for atom 114: 1.328243679817E+01
+  SASA for atom 115: 1.786036404415E+01
+  SASA for atom 116: 6.132801399104E+00
+  SASA for atom 117: 2.203128127251E+01
+  SASA for atom 118: 1.379449655442E+01
+  SASA for atom 119: 0.000000000000E+00
+
+Total solvent accessible surface area: 1252.19 A^2
+
+Surface tension*area energies (gamma * SASA) for each atom:
+  Surface tension*area energy for atom 0: 2.218265099710E-01
+  Surface tension*area energy for atom 1: 6.678771051947E-02
+  Surface tension*area energy for atom 2: 4.283852858483E-02
+  Surface tension*area energy for atom 3: 1.775076185902E-01
+  Surface tension*area energy for atom 4: 1.515712365308E-01
+  Surface tension*area energy for atom 5: 0.000000000000E+00
+  Surface tension*area energy for atom 6: 1.183813299099E-01
+  Surface tension*area energy for atom 7: 6.923863567614E-02
+  Surface tension*area energy for atom 8: 3.612887952938E-02
+  Surface tension*area energy for atom 9: 1.854071722970E-01
+  Surface tension*area energy for atom 10: 1.391786197076E-01
+  Surface tension*area energy for atom 11: 0.000000000000E+00
+  Surface tension*area energy for atom 12: 1.172852064848E-01
+  Surface tension*area energy for atom 13: 5.392035344691E-02
+  Surface tension*area energy for atom 14: 3.767726008063E-02
+  Surface tension*area energy for atom 15: 1.826190945181E-01
+  Surface tension*area energy for atom 16: 1.472814845536E-01
+  Surface tension*area energy for atom 17: 0.000000000000E+00
+  Surface tension*area energy for atom 18: 9.317049113282E-02
+  Surface tension*area energy for atom 19: 6.617497923030E-02
+  Surface tension*area energy for atom 20: 3.561275267896E-02
+  Surface tension*area energy for atom 21: 1.858718519269E-01
+  Surface tension*area energy for atom 22: 1.220196117984E-01
+  Surface tension*area energy for atom 23: 0.000000000000E+00
+  Surface tension*area energy for atom 24: 1.002952933959E-01
+  Surface tension*area energy for atom 25: 6.311132278445E-02
+  Surface tension*area energy for atom 26: 2.993535732434E-02
+  Surface tension*area energy for atom 27: 1.826190945181E-01
+  Surface tension*area energy for atom 28: 1.367954241646E-01
+  Surface tension*area energy for atom 29: 0.000000000000E+00
+  Surface tension*area energy for atom 30: 1.156410213472E-01
+  Surface tension*area energy for atom 31: 5.330762215774E-02
+  Surface tension*area energy for atom 32: 3.974176748231E-02
+  Surface tension*area energy for atom 33: 1.826190945181E-01
+  Surface tension*area energy for atom 34: 1.377487023818E-01
+  Surface tension*area energy for atom 35: 0.000000000000E+00
+  Surface tension*area energy for atom 36: 1.304386875859E-01
+  Surface tension*area energy for atom 37: 7.107682954365E-02
+  Surface tension*area energy for atom 38: 3.767726008063E-02
+  Surface tension*area energy for atom 39: 1.802956963691E-01
+  Surface tension*area energy for atom 40: 1.448982890106E-01
+  Surface tension*area energy for atom 41: 0.000000000000E+00
+  Surface tension*area energy for atom 42: 1.118045893594E-01
+  Surface tension*area energy for atom 43: 3.982753379601E-02
+  Surface tension*area energy for atom 44: 3.303211842686E-02
+  Surface tension*area energy for atom 45: 1.872658908163E-01
+  Surface tension*area energy for atom 46: 9.580446082610E-02
+  Surface tension*area energy for atom 47: 0.000000000000E+00
+  Surface tension*area energy for atom 48: 1.013914168210E-01
+  Surface tension*area energy for atom 49: 6.433678536279E-02
+  Surface tension*area energy for atom 50: 3.406437212770E-02
+  Surface tension*area energy for atom 51: 1.821544148883E-01
+  Surface tension*area energy for atom 52: 1.091503558665E-01
+  Surface tension*area energy for atom 53: 0.000000000000E+00
+  Surface tension*area energy for atom 54: 9.974723168337E-02
+  Surface tension*area energy for atom 55: 5.330762215774E-02
+  Surface tension*area energy for atom 56: 3.922564063189E-02
+  Surface tension*area energy for atom 57: 1.868012111865E-01
+  Surface tension*area energy for atom 58: 1.115335514095E-01
+  Surface tension*area energy for atom 59: 0.000000000000E+00
+  Surface tension*area energy for atom 60: 1.260541938856E-01
+  Surface tension*area energy for atom 61: 6.923863567614E-02
+  Surface tension*area energy for atom 62: 3.303211842686E-02
+  Surface tension*area energy for atom 63: 1.644965889553E-01
+  Surface tension*area energy for atom 64: 1.139167469524E-01
+  Surface tension*area energy for atom 65: 0.000000000000E+00
+  Surface tension*area energy for atom 66: 1.013914168210E-01
+  Surface tension*area energy for atom 67: 5.637127860359E-02
+  Surface tension*area energy for atom 68: 4.593528968735E-02
+  Surface tension*area energy for atom 69: 1.775076185902E-01
+  Surface tension*area energy for atom 70: 1.239261682328E-01
+  Surface tension*area energy for atom 71: 0.000000000000E+00
+  Surface tension*area energy for atom 72: 9.755498483318E-02
+  Surface tension*area energy for atom 73: 6.494951665196E-02
+  Surface tension*area energy for atom 74: 2.580634252098E-02
+  Surface tension*area energy for atom 75: 1.784369778498E-01
+  Surface tension*area energy for atom 76: 1.201130553641E-01
+  Surface tension*area energy for atom 77: 0.000000000000E+00
+  Surface tension*area energy for atom 78: 1.041317253837E-01
+  Surface tension*area energy for atom 79: 5.392035344691E-02
+  Surface tension*area energy for atom 80: 4.541916283693E-02
+  Surface tension*area energy for atom 81: 1.868012111865E-01
+  Surface tension*area energy for atom 82: 1.348888677303E-01
+  Surface tension*area energy for atom 83: 0.000000000000E+00
+  Surface tension*area energy for atom 84: 1.249580704605E-01
+  Surface tension*area energy for atom 85: 5.820947247109E-02
+  Surface tension*area energy for atom 86: 4.129014803357E-02
+  Surface tension*area energy for atom 87: 1.798310167392E-01
+  Surface tension*area energy for atom 88: 1.387019805990E-01
+  Surface tension*area energy for atom 89: 0.000000000000E+00
+  Surface tension*area energy for atom 90: 1.129007127845E-01
+  Surface tension*area energy for atom 91: 7.842960501369E-02
+  Surface tension*area energy for atom 92: 3.612887952938E-02
+  Surface tension*area energy for atom 93: 1.733255019218E-01
+  Surface tension*area energy for atom 94: 1.515712365308E-01
+  Surface tension*area energy for atom 95: 0.000000000000E+00
+  Surface tension*area energy for atom 96: 9.755498483318E-02
+  Surface tension*area energy for atom 97: 5.759674118193E-02
+  Surface tension*area energy for atom 98: 4.025789433273E-02
+  Surface tension*area energy for atom 99: 1.840131334076E-01
+  Surface tension*area energy for atom 100: 1.134401078438E-01
+  Surface tension*area energy for atom 101: 0.000000000000E+00
+  Surface tension*area energy for atom 102: 1.216697001852E-01
+  Surface tension*area energy for atom 103: 6.004766633860E-02
+  Surface tension*area energy for atom 104: 2.993535732434E-02
+  Surface tension*area energy for atom 105: 1.802956963691E-01
+  Surface tension*area energy for atom 106: 1.510945974223E-01
+  Surface tension*area energy for atom 107: 0.000000000000E+00
+  Surface tension*area energy for atom 108: 1.244100087479E-01
+  Surface tension*area energy for atom 109: 7.046409825448E-02
+  Surface tension*area energy for atom 110: 4.025789433273E-02
+  Surface tension*area energy for atom 111: 1.923773667443E-01
+  Surface tension*area energy for atom 112: 1.334589504045E-01
+  Surface tension*area energy for atom 113: 0.000000000000E+00
+  Surface tension*area energy for atom 114: 1.129007127845E-01
+  Surface tension*area energy for atom 115: 1.518130943752E-01
+  Surface tension*area energy for atom 116: 5.212881189238E-02
+  Surface tension*area energy for atom 117: 1.872658908163E-01
+  Surface tension*area energy for atom 118: 1.172532207125E-01
+  Surface tension*area energy for atom 119: 0.000000000000E+00
+
+Total surface tension energy: 10.6436 kJ/mol
+
+Total solvent accessible volume: 1386.3 A^3
+
+Total pressure*volume energy: 331.88 kJ/mol
+
+WCA dispersion Energies for each atom:
+  WCA energy for atom 0: -3.083074517356E+00
+  WCA energy for atom 1: -8.394855173862E-01
+  WCA energy for atom 2: -1.209719312375E+00
+  WCA energy for atom 3: -3.044174607711E+00
+  WCA energy for atom 4: -2.387578947048E+00
+  WCA energy for atom 5: 0.000000000000E+00
+  WCA energy for atom 6: -1.156435415135E+00
+  WCA energy for atom 7: -7.454538137557E-01
+  WCA energy for atom 8: -1.189478675172E+00
+  WCA energy for atom 9: -3.203782134233E+00
+  WCA energy for atom 10: -2.326401296424E+00
+  WCA energy for atom 11: 0.000000000000E+00
+  WCA energy for atom 12: -1.324775284595E+00
+  WCA energy for atom 13: -6.569940682352E-01
+  WCA energy for atom 14: -1.179451406444E+00
+  WCA energy for atom 15: -3.246219326414E+00
+  WCA energy for atom 16: -2.461051232681E+00
+  WCA energy for atom 17: 0.000000000000E+00
+  WCA energy for atom 18: -8.887671056999E-01
+  WCA energy for atom 19: -6.525340403157E-01
+  WCA energy for atom 20: -1.125810973972E+00
+  WCA energy for atom 21: -3.209169499424E+00
+  WCA energy for atom 22: -2.100292974312E+00
+  WCA energy for atom 23: 0.000000000000E+00
+  WCA energy for atom 24: -1.284877733474E+00
+  WCA energy for atom 25: -6.057207759216E-01
+  WCA energy for atom 26: -1.064617431860E+00
+  WCA energy for atom 27: -3.117850167272E+00
+  WCA energy for atom 28: -2.244551595197E+00
+  WCA energy for atom 29: 0.000000000000E+00
+  WCA energy for atom 30: -1.376077643317E+00
+  WCA energy for atom 31: -7.125696208511E-01
+  WCA energy for atom 32: -1.135039500179E+00
+  WCA energy for atom 33: -3.111920904432E+00
+  WCA energy for atom 34: -2.130834774795E+00
+  WCA energy for atom 35: 0.000000000000E+00
+  WCA energy for atom 36: -1.627491601433E+00
+  WCA energy for atom 37: -7.355605139052E-01
+  WCA energy for atom 38: -1.187721389535E+00
+  WCA energy for atom 39: -3.223128088005E+00
+  WCA energy for atom 40: -2.514640011128E+00
+  WCA energy for atom 41: 0.000000000000E+00
+  WCA energy for atom 42: -1.310048492271E+00
+  WCA energy for atom 43: -6.156309384562E-01
+  WCA energy for atom 44: -1.013807458542E+00
+  WCA energy for atom 45: -2.849116319059E+00
+  WCA energy for atom 46: -2.040547640546E+00
+  WCA energy for atom 47: 0.000000000000E+00
+  WCA energy for atom 48: -1.076450297250E+00
+  WCA energy for atom 49: -5.016616395881E-01
+  WCA energy for atom 50: -8.580432438131E-01
+  WCA energy for atom 51: -2.505253728208E+00
+  WCA energy for atom 52: -1.659052971231E+00
+  WCA energy for atom 53: 0.000000000000E+00
+  WCA energy for atom 54: -8.800184697857E-01
+  WCA energy for atom 55: -5.642435875904E-01
+  WCA energy for atom 56: -9.623567024305E-01
+  WCA energy for atom 57: -2.678820077828E+00
+  WCA energy for atom 58: -1.563054443046E+00
+  WCA energy for atom 59: 0.000000000000E+00
+  WCA energy for atom 60: -1.180715304014E+00
+  WCA energy for atom 61: -5.664957545207E-01
+  WCA energy for atom 62: -9.131108907004E-01
+  WCA energy for atom 63: -2.538946815671E+00
+  WCA energy for atom 64: -1.953785043004E+00
+  WCA energy for atom 65: 0.000000000000E+00
+  WCA energy for atom 66: -9.599880873379E-01
+  WCA energy for atom 67: -6.130477960912E-01
+  WCA energy for atom 68: -1.132530311201E+00
+  WCA energy for atom 69: -2.864753344508E+00
+  WCA energy for atom 70: -2.000338420947E+00
+  WCA energy for atom 71: 0.000000000000E+00
+  WCA energy for atom 72: -1.069738684602E+00
+  WCA energy for atom 73: -6.514867702820E-01
+  WCA energy for atom 74: -9.478424049539E-01
+  WCA energy for atom 75: -2.953256087844E+00
+  WCA energy for atom 76: -1.614555997266E+00
+  WCA energy for atom 77: 0.000000000000E+00
+  WCA energy for atom 78: -1.256220316715E+00
+  WCA energy for atom 79: -7.248884247777E-01
+  WCA energy for atom 80: -1.249548133469E+00
+  WCA energy for atom 81: -3.329186649044E+00
+  WCA energy for atom 82: -2.441034304586E+00
+  WCA energy for atom 83: 0.000000000000E+00
+  WCA energy for atom 84: -1.511887024961E+00
+  WCA energy for atom 85: -6.860162057702E-01
+  WCA energy for atom 86: -1.143204455205E+00
+  WCA energy for atom 87: -3.146368503707E+00
+  WCA energy for atom 88: -2.126270418086E+00
+  WCA energy for atom 89: 0.000000000000E+00
+  WCA energy for atom 90: -1.472520835688E+00
+  WCA energy for atom 91: -7.612455178392E-01
+  WCA energy for atom 92: -1.195037072231E+00
+  WCA energy for atom 93: -2.873076291512E+00
+  WCA energy for atom 94: -2.786055133832E+00
+  WCA energy for atom 95: 0.000000000000E+00
+  WCA energy for atom 96: -1.148657072249E+00
+  WCA energy for atom 97: -6.892356510468E-01
+  WCA energy for atom 98: -1.117659697987E+00
+  WCA energy for atom 99: -3.174992911093E+00
+  WCA energy for atom 100: -1.979098927038E+00
+  WCA energy for atom 101: 0.000000000000E+00
+  WCA energy for atom 102: -1.367032097003E+00
+  WCA energy for atom 103: -6.629123803694E-01
+  WCA energy for atom 104: -1.096646787667E+00
+  WCA energy for atom 105: -3.052625898870E+00
+  WCA energy for atom 106: -2.345684070122E+00
+  WCA energy for atom 107: 0.000000000000E+00
+  WCA energy for atom 108: -1.278175318183E+00
+  WCA energy for atom 109: -7.536025845767E-01
+  WCA energy for atom 110: -1.187703255284E+00
+  WCA energy for atom 111: -3.348422786137E+00
+  WCA energy for atom 112: -2.065926468654E+00
+  WCA energy for atom 113: 0.000000000000E+00
+  WCA energy for atom 114: -1.276334564709E+00
+  WCA energy for atom 115: -1.793173283620E+00
+  WCA energy for atom 116: -1.276145263250E+00
+  WCA energy for atom 117: -3.399008366373E+00
+  WCA energy for atom 118: -1.973353898126E+00
+  WCA energy for atom 119: 0.000000000000E+00
+
+Total WCA energy: -166.831 kJ/mol
+
+Total non-polar energy = 1.756924637989E+02 kJ/mol
+----------------------------------------
+PRINT STATEMENTS
+
+print APOL energy 1 (1) end
+  Global net APOL energy = 1.756924637989E+02 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  0.001 MB total, 1.601 MB high water
+
+
+Thanks for using APBS!
+
+
+
+----------------------------------------------------------------------
+    APBS -- Adaptive Poisson-Boltzmann Solver
+    Version 3.0
+    
+    Nathan A. Baker (nathan.baker@pnnl.gov)
+    Pacific Northwest National Laboratory
+    
+    Additional contributing authors listed in the code documentation.
+    
+    Copyright (c) 2010-2020 Battelle Memorial Institute. Developed at the Pacific
+    Northwest National Laboratory, operated by Battelle Memorial Institute, Pacific
+    Northwest Division for the U.S. Department of Energy.
+    
+    Portions Copyright (c) 2002-2010, Washington University in St. Louis.
+    Portions Copyright (c) 2002-2020, Nathan A. Baker.
+    Portions Copyright (c) 1999-2002, The Regents of the University of California.
+    Portions Copyright (c) 1995, Michael Holst.
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    
+    * Redistributions of source code must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+    
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    
+    * Neither the name of the developer nor the names of its contributors may be
+      used to endorse or promote products derived from this software without
+      specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+    ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+    APBS uses FETK (the Finite Element ToolKit) to solve the
+    Poisson-Boltzmann equation numerically.  FETK is a portable collection
+    of finite element modeling class libraries developed by the Michael Holst
+    research group and written in an object-oriented form of C.  FEtk is
+    designed to solve general coupled systems of nonlinear partial differential
+    equations using adaptive finite element methods, inexact Newton methods,
+    and algebraic multilevel methods.  More information about FEtk may be found
+    at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+    APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+    Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+    which has been modified by Patrice Koehl
+    <http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+    memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+    Please cite your use of APBS as:
+
+    Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+    nanosystems: application to microtubules and the ribosome. Proc.
+    Natl. Acad. Sci. USA 98, 10037-10041 2001.
+    
+
+This executable compiled on May 28 2020 at 00:26:43
+
+Parsing input file apolar_conf2.in...
+rank 0 size 1...
+Parsed input file.
+Reading parameter data from ../../all.dat.
+Got paths for 1 molecules
+Reading PDB-format atom data from conf2.pdb.
+  120 atoms
+  Centered at (3.988e+01, 3.988e+01, 3.988e+01)
+  Net charge 0.00e+00 e
+Preparing to run 1 PBE calculations.
+----------------------------------------
+CALCULATION #1 (1): APOLAR
+
+Solvent Accessible Surface Area (SASA) for each atom:
+  SASA for atom 0: 2.442354196691E+01
+  SASA for atom 1: 9.587442524651E+00
+  SASA for atom 2: 4.736222862674E+00
+  SASA for atom 3: 1.995388998627E+01
+  SASA for atom 4: 1.693470715217E+01
+  SASA for atom 5: 0.000000000000E+00
+  SASA for atom 6: 1.482990516301E+01
+  SASA for atom 7: 5.478538585515E+00
+  SASA for atom 8: 4.250456415221E+00
+  SASA for atom 9: 1.995388998627E+01
+  SASA for atom 10: 1.648610563820E+01
+  SASA for atom 11: 0.000000000000E+00
+  SASA for atom 12: 1.437856022326E+01
+  SASA for atom 13: 7.496947538073E+00
+  SASA for atom 14: 3.643248355903E+00
+  SASA for atom 15: 2.132059477985E+01
+  SASA for atom 16: 1.631788007047E+01
+  SASA for atom 17: 0.000000000000E+00
+  SASA for atom 18: 1.424960452620E+01
+  SASA for atom 19: 5.046022381395E+00
+  SASA for atom 20: 3.582527549972E+00
+  SASA for atom 21: 2.110192201287E+01
+  SASA for atom 22: 1.676648158443E+01
+  SASA for atom 23: 0.000000000000E+00
+  SASA for atom 24: 1.489438301154E+01
+  SASA for atom 25: 7.713205640133E+00
+  SASA for atom 26: 3.703969161835E+00
+  SASA for atom 27: 2.164860393031E+01
+  SASA for atom 28: 1.648610563820E+01
+  SASA for atom 29: 0.000000000000E+00
+  SASA for atom 30: 1.341139249524E+01
+  SASA for atom 31: 8.650324082392E+00
+  SASA for atom 32: 4.250456415221E+00
+  SASA for atom 33: 2.132059477985E+01
+  SASA for atom 34: 1.626180488122E+01
+  SASA for atom 35: 0.000000000000E+00
+  SASA for atom 36: 1.283109185843E+01
+  SASA for atom 37: 6.055226857674E+00
+  SASA for atom 38: 4.129014803357E+00
+  SASA for atom 39: 2.208594946425E+01
+  SASA for atom 40: 1.671040639519E+01
+  SASA for atom 41: 0.000000000000E+00
+  SASA for atom 42: 1.424960452620E+01
+  SASA for atom 43: 6.487743061794E+00
+  SASA for atom 44: 4.736222862674E+00
+  SASA for atom 45: 1.175366122479E+01
+  SASA for atom 46: 1.743938385538E+01
+  SASA for atom 47: 0.000000000000E+00
+  SASA for atom 48: 1.321795894964E+01
+  SASA for atom 49: 7.857377708173E+00
+  SASA for atom 50: 4.736222862674E+00
+  SASA for atom 51: 2.186727669728E+01
+  SASA for atom 52: 1.626180488122E+01
+  SASA for atom 53: 0.000000000000E+00
+  SASA for atom 54: 1.386273743499E+01
+  SASA for atom 55: 5.190194449435E+00
+  SASA for atom 56: 2.428832237269E+00
+  SASA for atom 57: 2.192194488902E+01
+  SASA for atom 58: 1.626180488122E+01
+  SASA for atom 59: 0.000000000000E+00
+  SASA for atom 60: 1.328243679817E+01
+  SASA for atom 61: 7.352775470033E+00
+  SASA for atom 62: 3.521806744040E+00
+  SASA for atom 63: 2.115659020462E+01
+  SASA for atom 64: 1.755153423387E+01
+  SASA for atom 65: 0.000000000000E+00
+  SASA for atom 66: 1.405617098059E+01
+  SASA for atom 67: 4.757678245315E+00
+  SASA for atom 68: 4.250456415221E+00
+  SASA for atom 69: 2.181260850554E+01
+  SASA for atom 70: 1.547675223178E+01
+  SASA for atom 71: 0.000000000000E+00
+  SASA for atom 72: 1.534572795129E+01
+  SASA for atom 73: 6.848173231894E+00
+  SASA for atom 74: 4.857664474538E+00
+  SASA for atom 75: 2.110192201287E+01
+  SASA for atom 76: 1.592535374575E+01
+  SASA for atom 77: 0.000000000000E+00
+  SASA for atom 78: 1.302452540403E+01
+  SASA for atom 79: 7.785291674153E+00
+  SASA for atom 80: 5.221989310128E+00
+  SASA for atom 81: 2.044590371196E+01
+  SASA for atom 82: 1.715900790915E+01
+  SASA for atom 83: 0.000000000000E+00
+  SASA for atom 84: 1.424960452620E+01
+  SASA for atom 85: 7.208603401993E+00
+  SASA for atom 86: 3.218202714381E+00
+  SASA for atom 87: 2.153926754682E+01
+  SASA for atom 88: 1.687863196292E+01
+  SASA for atom 89: 0.000000000000E+00
+  SASA for atom 90: 1.328243679817E+01
+  SASA for atom 91: 6.848173231894E+00
+  SASA for atom 92: 4.493339638948E+00
+  SASA for atom 93: 2.170327212205E+01
+  SASA for atom 94: 1.519637628556E+01
+  SASA for atom 95: 0.000000000000E+00
+  SASA for atom 96: 1.405617098059E+01
+  SASA for atom 97: 8.001549776212E+00
+  SASA for atom 98: 3.036040296586E+00
+  SASA for atom 99: 2.153926754682E+01
+  SASA for atom 100: 1.463562439310E+01
+  SASA for atom 101: 0.000000000000E+00
+  SASA for atom 102: 1.283109185843E+01
+  SASA for atom 103: 5.766882721595E+00
+  SASA for atom 104: 4.857664474538E+00
+  SASA for atom 105: 1.924320349361E+01
+  SASA for atom 106: 1.183186493082E+01
+  SASA for atom 107: 0.000000000000E+00
+  SASA for atom 108: 1.457199376887E+01
+  SASA for atom 109: 6.199398925714E+00
+  SASA for atom 110: 4.554060444879E+00
+  SASA for atom 111: 2.214061765599E+01
+  SASA for atom 112: 1.676648158443E+01
+  SASA for atom 113: 0.000000000000E+00
+  SASA for atom 114: 1.689319631612E+01
+  SASA for atom 115: 1.669976277052E+01
+  SASA for atom 116: 5.707755757582E+00
+  SASA for atom 117: 1.738448497434E+01
+  SASA for atom 118: 1.822443650482E+01
+  SASA for atom 119: 0.000000000000E+00
+
+Total solvent accessible surface area: 1259.46 A^2
+
+Surface tension*area energies (gamma * SASA) for each atom:
+  Surface tension*area energy for atom 0: 2.076001067187E-01
+  Surface tension*area energy for atom 1: 8.149326145953E-02
+  Surface tension*area energy for atom 2: 4.025789433273E-02
+  Surface tension*area energy for atom 3: 1.696080648833E-01
+  Surface tension*area energy for atom 4: 1.439450107934E-01
+  Surface tension*area energy for atom 5: 0.000000000000E+00
+  Surface tension*area energy for atom 6: 1.260541938856E-01
+  Surface tension*area energy for atom 7: 4.656757797688E-02
+  Surface tension*area energy for atom 8: 3.612887952938E-02
+  Surface tension*area energy for atom 9: 1.696080648833E-01
+  Surface tension*area energy for atom 10: 1.401318979247E-01
+  Surface tension*area energy for atom 11: 0.000000000000E+00
+  Surface tension*area energy for atom 12: 1.222177618978E-01
+  Surface tension*area energy for atom 13: 6.372405407362E-02
+  Surface tension*area energy for atom 14: 3.096761102518E-02
+  Surface tension*area energy for atom 15: 1.812250556287E-01
+  Surface tension*area energy for atom 16: 1.387019805990E-01
+  Surface tension*area energy for atom 17: 0.000000000000E+00
+  Surface tension*area energy for atom 18: 1.211216384727E-01
+  Surface tension*area energy for atom 19: 4.289119024186E-02
+  Surface tension*area energy for atom 20: 3.045148417476E-02
+  Surface tension*area energy for atom 21: 1.793663371094E-01
+  Surface tension*area energy for atom 22: 1.425150934677E-01
+  Surface tension*area energy for atom 23: 0.000000000000E+00
+  Surface tension*area energy for atom 24: 1.266022555981E-01
+  Surface tension*area energy for atom 25: 6.556224794113E-02
+  Surface tension*area energy for atom 26: 3.148373787560E-02
+  Surface tension*area energy for atom 27: 1.840131334076E-01
+  Surface tension*area energy for atom 28: 1.401318979247E-01
+  Surface tension*area energy for atom 29: 0.000000000000E+00
+  Surface tension*area energy for atom 30: 1.139968362096E-01
+  Surface tension*area energy for atom 31: 7.352775470033E-02
+  Surface tension*area energy for atom 32: 3.612887952938E-02
+  Surface tension*area energy for atom 33: 1.812250556287E-01
+  Surface tension*area energy for atom 34: 1.382253414904E-01
+  Surface tension*area energy for atom 35: 0.000000000000E+00
+  Surface tension*area energy for atom 36: 1.090642807966E-01
+  Surface tension*area energy for atom 37: 5.146942829023E-02
+  Surface tension*area energy for atom 38: 3.509662582854E-02
+  Surface tension*area energy for atom 39: 1.877305704461E-01
+  Surface tension*area energy for atom 40: 1.420384543591E-01
+  Surface tension*area energy for atom 41: 0.000000000000E+00
+  Surface tension*area energy for atom 42: 1.211216384727E-01
+  Surface tension*area energy for atom 43: 5.514581602525E-02
+  Surface tension*area energy for atom 44: 4.025789433273E-02
+  Surface tension*area energy for atom 45: 9.990612041069E-02
+  Surface tension*area energy for atom 46: 1.482347627707E-01
+  Surface tension*area energy for atom 47: 0.000000000000E+00
+  Surface tension*area energy for atom 48: 1.123526510719E-01
+  Surface tension*area energy for atom 49: 6.678771051947E-02
+  Surface tension*area energy for atom 50: 4.025789433273E-02
+  Surface tension*area energy for atom 51: 1.858718519269E-01
+  Surface tension*area energy for atom 52: 1.382253414904E-01
+  Surface tension*area energy for atom 53: 0.000000000000E+00
+  Surface tension*area energy for atom 54: 1.178332681974E-01
+  Surface tension*area energy for atom 55: 4.411665282020E-02
+  Surface tension*area energy for atom 56: 2.064507401679E-02
+  Surface tension*area energy for atom 57: 1.863365315567E-01
+  Surface tension*area energy for atom 58: 1.382253414904E-01
+  Surface tension*area energy for atom 59: 0.000000000000E+00
+  Surface tension*area energy for atom 60: 1.129007127845E-01
+  Surface tension*area energy for atom 61: 6.249859149528E-02
+  Surface tension*area energy for atom 62: 2.993535732434E-02
+  Surface tension*area energy for atom 63: 1.798310167392E-01
+  Surface tension*area energy for atom 64: 1.491880409879E-01
+  Surface tension*area energy for atom 65: 0.000000000000E+00
+  Surface tension*area energy for atom 66: 1.194774533350E-01
+  Surface tension*area energy for atom 67: 4.044026508518E-02
+  Surface tension*area energy for atom 68: 3.612887952938E-02
+  Surface tension*area energy for atom 69: 1.854071722970E-01
+  Surface tension*area energy for atom 70: 1.315523939702E-01
+  Surface tension*area energy for atom 71: 0.000000000000E+00
+  Surface tension*area energy for atom 72: 1.304386875859E-01
+  Surface tension*area energy for atom 73: 5.820947247109E-02
+  Surface tension*area energy for atom 74: 4.129014803357E-02
+  Surface tension*area energy for atom 75: 1.793663371094E-01
+  Surface tension*area energy for atom 76: 1.353655068389E-01
+  Surface tension*area energy for atom 77: 0.000000000000E+00
+  Surface tension*area energy for atom 78: 1.107084659343E-01
+  Surface tension*area energy for atom 79: 6.617497923030E-02
+  Surface tension*area energy for atom 80: 4.438690913609E-02
+  Surface tension*area energy for atom 81: 1.737901815516E-01
+  Surface tension*area energy for atom 82: 1.458515672278E-01
+  Surface tension*area energy for atom 83: 0.000000000000E+00
+  Surface tension*area energy for atom 84: 1.211216384727E-01
+  Surface tension*area energy for atom 85: 6.127312891694E-02
+  Surface tension*area energy for atom 86: 2.735472307224E-02
+  Surface tension*area energy for atom 87: 1.830837741480E-01
+  Surface tension*area energy for atom 88: 1.434683716849E-01
+  Surface tension*area energy for atom 89: 0.000000000000E+00
+  Surface tension*area energy for atom 90: 1.129007127845E-01
+  Surface tension*area energy for atom 91: 5.820947247109E-02
+  Surface tension*area energy for atom 92: 3.819338693105E-02
+  Surface tension*area energy for atom 93: 1.844778130374E-01
+  Surface tension*area energy for atom 94: 1.291691984272E-01
+  Surface tension*area energy for atom 95: 0.000000000000E+00
+  Surface tension*area energy for atom 96: 1.194774533350E-01
+  Surface tension*area energy for atom 97: 6.801317309781E-02
+  Surface tension*area energy for atom 98: 2.580634252098E-02
+  Surface tension*area energy for atom 99: 1.830837741480E-01
+  Surface tension*area energy for atom 100: 1.244028073414E-01
+  Surface tension*area energy for atom 101: 0.000000000000E+00
+  Surface tension*area energy for atom 102: 1.090642807966E-01
+  Surface tension*area energy for atom 103: 4.901850313355E-02
+  Surface tension*area energy for atom 104: 4.129014803357E-02
+  Surface tension*area energy for atom 105: 1.635672296956E-01
+  Surface tension*area energy for atom 106: 1.005708519120E-01
+  Surface tension*area energy for atom 107: 0.000000000000E+00
+  Surface tension*area energy for atom 108: 1.238619470354E-01
+  Surface tension*area energy for atom 109: 5.269489086857E-02
+  Surface tension*area energy for atom 110: 3.870951378147E-02
+  Surface tension*area energy for atom 111: 1.881952500760E-01
+  Surface tension*area energy for atom 112: 1.425150934677E-01
+  Surface tension*area energy for atom 113: 0.000000000000E+00
+  Surface tension*area energy for atom 114: 1.435921686870E-01
+  Surface tension*area energy for atom 115: 1.419479835494E-01
+  Surface tension*area energy for atom 116: 4.851592393945E-02
+  Surface tension*area energy for atom 117: 1.477681222819E-01
+  Surface tension*area energy for atom 118: 1.549077102910E-01
+  Surface tension*area energy for atom 119: 0.000000000000E+00
+
+Total surface tension energy: 10.7054 kJ/mol
+
+Total solvent accessible volume: 1383.87 A^3
+
+Total pressure*volume energy: 331.298 kJ/mol
+
+WCA dispersion Energies for each atom:
+  WCA energy for atom 0: -2.783524932094E+00
+  WCA energy for atom 1: -9.353793634821E-01
+  WCA energy for atom 2: -1.238243605351E+00
+  WCA energy for atom 3: -2.877415092950E+00
+  WCA energy for atom 4: -2.717993580940E+00
+  WCA energy for atom 5: 0.000000000000E+00
+  WCA energy for atom 6: -1.633878305970E+00
+  WCA energy for atom 7: -7.067588287875E-01
+  WCA energy for atom 8: -9.837499725884E-01
+  WCA energy for atom 9: -2.700296274173E+00
+  WCA energy for atom 10: -2.029815152671E+00
+  WCA energy for atom 11: 0.000000000000E+00
+  WCA energy for atom 12: -1.455031254795E+00
+  WCA energy for atom 13: -7.310364095144E-01
+  WCA energy for atom 14: -1.165606202024E+00
+  WCA energy for atom 15: -3.003173794266E+00
+  WCA energy for atom 16: -2.570774844463E+00
+  WCA energy for atom 17: 0.000000000000E+00
+  WCA energy for atom 18: -1.381813699552E+00
+  WCA energy for atom 19: -7.109874683817E-01
+  WCA energy for atom 20: -1.134359222719E+00
+  WCA energy for atom 21: -3.048618240083E+00
+  WCA energy for atom 22: -2.553102658804E+00
+  WCA energy for atom 23: 0.000000000000E+00
+  WCA energy for atom 24: -1.617416052267E+00
+  WCA energy for atom 25: -7.468244658060E-01
+  WCA energy for atom 26: -1.052978846232E+00
+  WCA energy for atom 27: -3.056458871384E+00
+  WCA energy for atom 28: -2.083813378489E+00
+  WCA energy for atom 29: 0.000000000000E+00
+  WCA energy for atom 30: -1.568471961552E+00
+  WCA energy for atom 31: -7.396545013599E-01
+  WCA energy for atom 32: -1.120565341026E+00
+  WCA energy for atom 33: -2.964326782722E+00
+  WCA energy for atom 34: -2.421077795884E+00
+  WCA energy for atom 35: 0.000000000000E+00
+  WCA energy for atom 36: -1.123059601591E+00
+  WCA energy for atom 37: -5.997104238832E-01
+  WCA energy for atom 38: -1.054191089166E+00
+  WCA energy for atom 39: -2.878321479493E+00
+  WCA energy for atom 40: -2.156492107487E+00
+  WCA energy for atom 41: 0.000000000000E+00
+  WCA energy for atom 42: -1.172933754969E+00
+  WCA energy for atom 43: -6.336781977575E-01
+  WCA energy for atom 44: -1.012439798358E+00
+  WCA energy for atom 45: -2.023851487597E+00
+  WCA energy for atom 46: -2.346441505765E+00
+  WCA energy for atom 47: 0.000000000000E+00
+  WCA energy for atom 48: -1.196466242364E+00
+  WCA energy for atom 49: -7.144519848714E-01
+  WCA energy for atom 50: -1.209166632636E+00
+  WCA energy for atom 51: -3.252050730860E+00
+  WCA energy for atom 52: -2.277914357699E+00
+  WCA energy for atom 53: 0.000000000000E+00
+  WCA energy for atom 54: -1.454536417591E+00
+  WCA energy for atom 55: -6.512943797449E-01
+  WCA energy for atom 56: -1.017427405859E+00
+  WCA energy for atom 57: -2.924843018446E+00
+  WCA energy for atom 58: -2.109211454321E+00
+  WCA energy for atom 59: 0.000000000000E+00
+  WCA energy for atom 60: -1.372700232421E+00
+  WCA energy for atom 61: -6.406661855557E-01
+  WCA energy for atom 62: -1.076612642378E+00
+  WCA energy for atom 63: -2.794158226644E+00
+  WCA energy for atom 64: -2.513939396867E+00
+  WCA energy for atom 65: 0.000000000000E+00
+  WCA energy for atom 66: -1.055858344062E+00
+  WCA energy for atom 67: -6.237561304002E-01
+  WCA energy for atom 68: -9.963546652246E-01
+  WCA energy for atom 69: -2.846506350850E+00
+  WCA energy for atom 70: -1.747561214349E+00
+  WCA energy for atom 71: 0.000000000000E+00
+  WCA energy for atom 72: -1.426424059734E+00
+  WCA energy for atom 73: -7.016425955365E-01
+  WCA energy for atom 74: -1.053556245881E+00
+  WCA energy for atom 75: -2.962614692015E+00
+  WCA energy for atom 76: -2.284922707339E+00
+  WCA energy for atom 77: 0.000000000000E+00
+  WCA energy for atom 78: -1.406343985780E+00
+  WCA energy for atom 79: -7.899330087145E-01
+  WCA energy for atom 80: -1.249067812310E+00
+  WCA energy for atom 81: -2.961826669532E+00
+  WCA energy for atom 82: -2.747258112399E+00
+  WCA energy for atom 83: 0.000000000000E+00
+  WCA energy for atom 84: -1.569283777483E+00
+  WCA energy for atom 85: -7.356609679918E-01
+  WCA energy for atom 86: -1.142407409899E+00
+  WCA energy for atom 87: -3.076717578505E+00
+  WCA energy for atom 88: -2.524645254161E+00
+  WCA energy for atom 89: 0.000000000000E+00
+  WCA energy for atom 90: -1.459458546096E+00
+  WCA energy for atom 91: -6.940975127137E-01
+  WCA energy for atom 92: -1.017737994974E+00
+  WCA energy for atom 93: -3.081907995934E+00
+  WCA energy for atom 94: -1.930377570839E+00
+  WCA energy for atom 95: 0.000000000000E+00
+  WCA energy for atom 96: -1.548332696475E+00
+  WCA energy for atom 97: -7.118600452297E-01
+  WCA energy for atom 98: -1.133520669980E+00
+  WCA energy for atom 99: -3.072388058265E+00
+  WCA energy for atom 100: -2.474084390732E+00
+  WCA energy for atom 101: 0.000000000000E+00
+  WCA energy for atom 102: -1.158927437463E+00
+  WCA energy for atom 103: -6.108274198610E-01
+  WCA energy for atom 104: -9.677373000487E-01
+  WCA energy for atom 105: -2.689816125654E+00
+  WCA energy for atom 106: -1.703926719287E+00
+  WCA energy for atom 107: 0.000000000000E+00
+  WCA energy for atom 108: -1.250940844073E+00
+  WCA energy for atom 109: -6.840229524123E-01
+  WCA energy for atom 110: -1.162059473503E+00
+  WCA energy for atom 111: -2.877353512259E+00
+  WCA energy for atom 112: -2.544995075023E+00
+  WCA energy for atom 113: 0.000000000000E+00
+  WCA energy for atom 114: -1.610415644994E+00
+  WCA energy for atom 115: -1.557529658096E+00
+  WCA energy for atom 116: -1.181569786747E+00
+  WCA energy for atom 117: -2.341049032890E+00
+  WCA energy for atom 118: -2.423317784711E+00
+  WCA energy for atom 119: 0.000000000000E+00
+
+Total WCA energy: -169.73 kJ/mol
+
+Total non-polar energy = 1.722728480501E+02 kJ/mol
+----------------------------------------
+PRINT STATEMENTS
+
+print APOL energy 1 (1) end
+  Global net APOL energy = 1.722728480501E+02 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  0.001 MB total, 1.770 MB high water
+
+
+Thanks for using APBS!
+
+
+
+----------------------------------------------------------------------
+    APBS -- Adaptive Poisson-Boltzmann Solver
+    Version 3.0
+    
+    Nathan A. Baker (nathan.baker@pnnl.gov)
+    Pacific Northwest National Laboratory
+    
+    Additional contributing authors listed in the code documentation.
+    
+    Copyright (c) 2010-2020 Battelle Memorial Institute. Developed at the Pacific
+    Northwest National Laboratory, operated by Battelle Memorial Institute, Pacific
+    Northwest Division for the U.S. Department of Energy.
+    
+    Portions Copyright (c) 2002-2010, Washington University in St. Louis.
+    Portions Copyright (c) 2002-2020, Nathan A. Baker.
+    Portions Copyright (c) 1999-2002, The Regents of the University of California.
+    Portions Copyright (c) 1995, Michael Holst.
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    
+    * Redistributions of source code must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+    
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    
+    * Neither the name of the developer nor the names of its contributors may be
+      used to endorse or promote products derived from this software without
+      specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+    ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+    APBS uses FETK (the Finite Element ToolKit) to solve the
+    Poisson-Boltzmann equation numerically.  FETK is a portable collection
+    of finite element modeling class libraries developed by the Michael Holst
+    research group and written in an object-oriented form of C.  FEtk is
+    designed to solve general coupled systems of nonlinear partial differential
+    equations using adaptive finite element methods, inexact Newton methods,
+    and algebraic multilevel methods.  More information about FEtk may be found
+    at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+    APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+    Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+    which has been modified by Patrice Koehl
+    <http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+    memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+    Please cite your use of APBS as:
+
+    Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+    nanosystems: application to microtubules and the ribosome. Proc.
+    Natl. Acad. Sci. USA 98, 10037-10041 2001.
+    
+
+This executable compiled on May 28 2020 at 00:26:43
+
+Parsing input file apolar_conf3.in...
+rank 0 size 1...
+Parsed input file.
+Reading parameter data from ../../all.dat.
+Got paths for 1 molecules
+Reading PDB-format atom data from conf3.pdb.
+  120 atoms
+  Centered at (3.989e+01, 3.989e+01, 3.989e+01)
+  Net charge 0.00e+00 e
+Preparing to run 1 PBE calculations.
+----------------------------------------
+CALCULATION #1 (1): APOLAR
+
+Solvent Accessible Surface Area (SASA) for each atom:
+  SASA for atom 0: 2.553933830042E+01
+  SASA for atom 1: 8.722410116412E+00
+  SASA for atom 2: 4.250456415221E+00
+  SASA for atom 3: 2.060990828718E+01
+  SASA for atom 4: 1.699078234141E+01
+  SASA for atom 5: 0.000000000000E+00
+  SASA for atom 6: 1.386273743499E+01
+  SASA for atom 7: 7.208603401993E+00
+  SASA for atom 8: 4.979106086401E+00
+  SASA for atom 9: 2.203128127251E+01
+  SASA for atom 10: 1.256084239101E+01
+  SASA for atom 11: 0.000000000000E+00
+  SASA for atom 12: 1.141257919066E+01
+  SASA for atom 13: 8.145721844252E+00
+  SASA for atom 14: 3.339644326245E+00
+  SASA for atom 15: 2.121125839636E+01
+  SASA for atom 16: 1.637395525971E+01
+  SASA for atom 17: 0.000000000000E+00
+  SASA for atom 18: 1.360482604085E+01
+  SASA for atom 19: 8.001549776212E+00
+  SASA for atom 20: 4.129014803357E+00
+  SASA for atom 21: 2.110192201287E+01
+  SASA for atom 22: 1.643003044896E+01
+  SASA for atom 23: 0.000000000000E+00
+  SASA for atom 24: 1.379825958645E+01
+  SASA for atom 25: 7.496947538073E+00
+  SASA for atom 26: 5.039826892333E+00
+  SASA for atom 27: 2.142993116333E+01
+  SASA for atom 28: 1.693470715217E+01
+  SASA for atom 29: 0.000000000000E+00
+  SASA for atom 30: 1.237974691869E+01
+  SASA for atom 31: 8.794496150432E+00
+  SASA for atom 32: 4.979106086401E+00
+  SASA for atom 33: 2.115659020462E+01
+  SASA for atom 34: 1.401879731140E+01
+  SASA for atom 35: 0.000000000000E+00
+  SASA for atom 36: 1.257318046429E+01
+  SASA for atom 37: 8.001549776212E+00
+  SASA for atom 38: 5.100547698265E+00
+  SASA for atom 39: 2.197661308076E+01
+  SASA for atom 40: 1.732723347689E+01
+  SASA for atom 41: 0.000000000000E+00
+  SASA for atom 42: 1.302452540403E+01
+  SASA for atom 43: 7.496947538073E+00
+  SASA for atom 44: 4.493339638948E+00
+  SASA for atom 45: 1.896986253489E+01
+  SASA for atom 46: 1.693470715217E+01
+  SASA for atom 47: 0.000000000000E+00
+  SASA for atom 48: 1.302452540403E+01
+  SASA for atom 49: 5.694796687575E+00
+  SASA for atom 50: 3.582527549972E+00
+  SASA for atom 51: 2.082858105416E+01
+  SASA for atom 52: 1.300944390498E+01
+  SASA for atom 53: 0.000000000000E+00
+  SASA for atom 54: 1.373378173792E+01
+  SASA for atom 55: 6.127312891694E+00
+  SASA for atom 56: 4.918385280470E+00
+  SASA for atom 57: 2.235929042297E+01
+  SASA for atom 58: 1.390664693291E+01
+  SASA for atom 59: 0.000000000000E+00
+  SASA for atom 60: 1.450751592033E+01
+  SASA for atom 61: 6.487743061794E+00
+  SASA for atom 62: 4.736222862674E+00
+  SASA for atom 63: 2.115659020462E+01
+  SASA for atom 64: 1.407487250064E+01
+  SASA for atom 65: 0.000000000000E+00
+  SASA for atom 66: 1.360482604085E+01
+  SASA for atom 67: 7.713205640133E+00
+  SASA for atom 68: 4.432618833016E+00
+  SASA for atom 69: 2.186727669728E+01
+  SASA for atom 70: 1.699078234141E+01
+  SASA for atom 71: 0.000000000000E+00
+  SASA for atom 72: 1.405617098059E+01
+  SASA for atom 73: 7.352775470033E+00
+  SASA for atom 74: 5.161268504197E+00
+  SASA for atom 75: 2.164860393031E+01
+  SASA for atom 76: 1.738330866613E+01
+  SASA for atom 77: 0.000000000000E+00
+  SASA for atom 78: 1.218631337308E+01
+  SASA for atom 79: 7.352775470033E+00
+  SASA for atom 80: 4.675502056743E+00
+  SASA for atom 81: 2.148459935508E+01
+  SASA for atom 82: 1.771975980161E+01
+  SASA for atom 83: 0.000000000000E+00
+  SASA for atom 84: 1.470094946594E+01
+  SASA for atom 85: 7.641119606113E+00
+  SASA for atom 86: 4.311177221152E+00
+  SASA for atom 87: 2.159393573856E+01
+  SASA for atom 88: 1.721508309840E+01
+  SASA for atom 89: 0.000000000000E+00
+  SASA for atom 90: 1.308900325257E+01
+  SASA for atom 91: 8.506152014352E+00
+  SASA for atom 92: 3.886131579630E+00
+  SASA for atom 93: 2.153926754682E+01
+  SASA for atom 94: 1.620572969198E+01
+  SASA for atom 95: 0.000000000000E+00
+  SASA for atom 96: 1.237974691869E+01
+  SASA for atom 97: 7.569033572093E+00
+  SASA for atom 98: 3.400365132177E+00
+  SASA for atom 99: 2.235929042297E+01
+  SASA for atom 100: 1.508422590706E+01
+  SASA for atom 101: 0.000000000000E+00
+  SASA for atom 102: 1.250870261576E+01
+  SASA for atom 103: 7.569033572093E+00
+  SASA for atom 104: 4.796943668606E+00
+  SASA for atom 105: 2.132059477985E+01
+  SASA for atom 106: 1.749545904463E+01
+  SASA for atom 107: 0.000000000000E+00
+  SASA for atom 108: 1.495886086008E+01
+  SASA for atom 109: 7.785291674153E+00
+  SASA for atom 110: 4.250456415221E+00
+  SASA for atom 111: 2.055524009544E+01
+  SASA for atom 112: 1.115896265987E+01
+  SASA for atom 113: 0.000000000000E+00
+  SASA for atom 114: 1.328243679817E+01
+  SASA for atom 115: 1.773140834708E+01
+  SASA for atom 116: 4.554060444879E+00
+  SASA for atom 117: 2.263263138168E+01
+  SASA for atom 118: 1.603750412424E+01
+  SASA for atom 119: 0.000000000000E+00
+
+Total solvent accessible surface area: 1270.33 A^2
+
+Surface tension*area energies (gamma * SASA) for each atom:
+  Surface tension*area energy for atom 0: 2.170843755536E-01
+  Surface tension*area energy for atom 1: 7.414048598950E-02
+  Surface tension*area energy for atom 2: 3.612887952938E-02
+  Surface tension*area energy for atom 3: 1.751842204411E-01
+  Surface tension*area energy for atom 4: 1.444216499020E-01
+  Surface tension*area energy for atom 5: 0.000000000000E+00
+  Surface tension*area energy for atom 6: 1.178332681974E-01
+  Surface tension*area energy for atom 7: 6.127312891694E-02
+  Surface tension*area energy for atom 8: 4.232240173441E-02
+  Surface tension*area energy for atom 9: 1.872658908163E-01
+  Surface tension*area energy for atom 10: 1.067671603236E-01
+  Surface tension*area energy for atom 11: 0.000000000000E+00
+  Surface tension*area energy for atom 12: 9.700692312064E-02
+  Surface tension*area energy for atom 13: 6.923863567614E-02
+  Surface tension*area energy for atom 14: 2.838697677308E-02
+  Surface tension*area energy for atom 15: 1.802956963691E-01
+  Surface tension*area energy for atom 16: 1.391786197076E-01
+  Surface tension*area energy for atom 17: 0.000000000000E+00
+  Surface tension*area energy for atom 18: 1.156410213472E-01
+  Surface tension*area energy for atom 19: 6.801317309781E-02
+  Surface tension*area energy for atom 20: 3.509662582854E-02
+  Surface tension*area energy for atom 21: 1.793663371094E-01
+  Surface tension*area energy for atom 22: 1.396552588162E-01
+  Surface tension*area energy for atom 23: 0.000000000000E+00
+  Surface tension*area energy for atom 24: 1.172852064848E-01
+  Surface tension*area energy for atom 25: 6.372405407362E-02
+  Surface tension*area energy for atom 26: 4.283852858483E-02
+  Surface tension*area energy for atom 27: 1.821544148883E-01
+  Surface tension*area energy for atom 28: 1.439450107934E-01
+  Surface tension*area energy for atom 29: 0.000000000000E+00
+  Surface tension*area energy for atom 30: 1.052278488088E-01
+  Surface tension*area energy for atom 31: 7.475321727867E-02
+  Surface tension*area energy for atom 32: 4.232240173441E-02
+  Surface tension*area energy for atom 33: 1.798310167392E-01
+  Surface tension*area energy for atom 34: 1.191597771469E-01
+  Surface tension*area energy for atom 35: 0.000000000000E+00
+  Surface tension*area energy for atom 36: 1.068720339465E-01
+  Surface tension*area energy for atom 37: 6.801317309781E-02
+  Surface tension*area energy for atom 38: 4.335465543525E-02
+  Surface tension*area energy for atom 39: 1.868012111865E-01
+  Surface tension*area energy for atom 40: 1.472814845536E-01
+  Surface tension*area energy for atom 41: 0.000000000000E+00
+  Surface tension*area energy for atom 42: 1.107084659343E-01
+  Surface tension*area energy for atom 43: 6.372405407362E-02
+  Surface tension*area energy for atom 44: 3.819338693105E-02
+  Surface tension*area energy for atom 45: 1.612438315466E-01
+  Surface tension*area energy for atom 46: 1.439450107934E-01
+  Surface tension*area energy for atom 47: 0.000000000000E+00
+  Surface tension*area energy for atom 48: 1.107084659343E-01
+  Surface tension*area energy for atom 49: 4.840577184438E-02
+  Surface tension*area energy for atom 50: 3.045148417476E-02
+  Surface tension*area energy for atom 51: 1.770429389603E-01
+  Surface tension*area energy for atom 52: 1.105802731923E-01
+  Surface tension*area energy for atom 53: 0.000000000000E+00
+  Surface tension*area energy for atom 54: 1.167371447723E-01
+  Surface tension*area energy for atom 55: 5.208215957940E-02
+  Surface tension*area energy for atom 56: 4.180627488399E-02
+  Surface tension*area energy for atom 57: 1.900539685952E-01
+  Surface tension*area energy for atom 58: 1.182064989297E-01
+  Surface tension*area energy for atom 59: 0.000000000000E+00
+  Surface tension*area energy for atom 60: 1.233138853228E-01
+  Surface tension*area energy for atom 61: 5.514581602525E-02
+  Surface tension*area energy for atom 62: 4.025789433273E-02
+  Surface tension*area energy for atom 63: 1.798310167392E-01
+  Surface tension*area energy for atom 64: 1.196364162555E-01
+  Surface tension*area energy for atom 65: 0.000000000000E+00
+  Surface tension*area energy for atom 66: 1.156410213472E-01
+  Surface tension*area energy for atom 67: 6.556224794113E-02
+  Surface tension*area energy for atom 68: 3.767726008063E-02
+  Surface tension*area energy for atom 69: 1.858718519269E-01
+  Surface tension*area energy for atom 70: 1.444216499020E-01
+  Surface tension*area energy for atom 71: 0.000000000000E+00
+  Surface tension*area energy for atom 72: 1.194774533350E-01
+  Surface tension*area energy for atom 73: 6.249859149528E-02
+  Surface tension*area energy for atom 74: 4.387078228567E-02
+  Surface tension*area energy for atom 75: 1.840131334076E-01
+  Surface tension*area energy for atom 76: 1.477581236621E-01
+  Surface tension*area energy for atom 77: 0.000000000000E+00
+  Surface tension*area energy for atom 78: 1.035836636712E-01
+  Surface tension*area energy for atom 79: 6.249859149528E-02
+  Surface tension*area energy for atom 80: 3.974176748231E-02
+  Surface tension*area energy for atom 81: 1.826190945181E-01
+  Surface tension*area energy for atom 82: 1.506179583137E-01
+  Surface tension*area energy for atom 83: 0.000000000000E+00
+  Surface tension*area energy for atom 84: 1.249580704605E-01
+  Surface tension*area energy for atom 85: 6.494951665196E-02
+  Surface tension*area energy for atom 86: 3.664500637980E-02
+  Surface tension*area energy for atom 87: 1.835484537778E-01
+  Surface tension*area energy for atom 88: 1.463282063364E-01
+  Surface tension*area energy for atom 89: 0.000000000000E+00
+  Surface tension*area energy for atom 90: 1.112565276468E-01
+  Surface tension*area energy for atom 91: 7.230229212199E-02
+  Surface tension*area energy for atom 92: 3.303211842686E-02
+  Surface tension*area energy for atom 93: 1.830837741480E-01
+  Surface tension*area energy for atom 94: 1.377487023818E-01
+  Surface tension*area energy for atom 95: 0.000000000000E+00
+  Surface tension*area energy for atom 96: 1.052278488088E-01
+  Surface tension*area energy for atom 97: 6.433678536279E-02
+  Surface tension*area energy for atom 98: 2.890310362350E-02
+  Surface tension*area energy for atom 99: 1.900539685952E-01
+  Surface tension*area energy for atom 100: 1.282159202101E-01
+  Surface tension*area energy for atom 101: 0.000000000000E+00
+  Surface tension*area energy for atom 102: 1.063239722339E-01
+  Surface tension*area energy for atom 103: 6.433678536279E-02
+  Surface tension*area energy for atom 104: 4.077402118315E-02
+  Surface tension*area energy for atom 105: 1.812250556287E-01
+  Surface tension*area energy for atom 106: 1.487114018793E-01
+  Surface tension*area energy for atom 107: 0.000000000000E+00
+  Surface tension*area energy for atom 108: 1.271503173107E-01
+  Surface tension*area energy for atom 109: 6.617497923030E-02
+  Surface tension*area energy for atom 110: 3.612887952938E-02
+  Surface tension*area energy for atom 111: 1.747195408113E-01
+  Surface tension*area energy for atom 112: 9.485118260892E-02
+  Surface tension*area energy for atom 113: 0.000000000000E+00
+  Surface tension*area energy for atom 114: 1.129007127845E-01
+  Surface tension*area energy for atom 115: 1.507169709501E-01
+  Surface tension*area energy for atom 116: 3.870951378147E-02
+  Surface tension*area energy for atom 117: 1.923773667443E-01
+  Surface tension*area energy for atom 118: 1.363187850560E-01
+  Surface tension*area energy for atom 119: 0.000000000000E+00
+
+Total surface tension energy: 10.7978 kJ/mol
+
+Total solvent accessible volume: 1390.67 A^3
+
+Total pressure*volume energy: 332.926 kJ/mol
+
+WCA dispersion Energies for each atom:
+  WCA energy for atom 0: -2.967298645866E+00
+  WCA energy for atom 1: -8.617668823970E-01
+  WCA energy for atom 2: -1.175097508503E+00
+  WCA energy for atom 3: -2.931182275308E+00
+  WCA energy for atom 4: -2.454113895050E+00
+  WCA energy for atom 5: 0.000000000000E+00
+  WCA energy for atom 6: -1.234113843995E+00
+  WCA energy for atom 7: -7.012009955643E-01
+  WCA energy for atom 8: -1.170049156331E+00
+  WCA energy for atom 9: -3.330952514724E+00
+  WCA energy for atom 10: -1.874537821686E+00
+  WCA energy for atom 11: 0.000000000000E+00
+  WCA energy for atom 12: -1.278337481163E+00
+  WCA energy for atom 13: -7.122130413814E-01
+  WCA energy for atom 14: -1.025432150013E+00
+  WCA energy for atom 15: -2.843068684224E+00
+  WCA energy for atom 16: -2.445572623978E+00
+  WCA energy for atom 17: 0.000000000000E+00
+  WCA energy for atom 18: -1.277905527679E+00
+  WCA energy for atom 19: -7.476227687168E-01
+  WCA energy for atom 20: -1.190759415431E+00
+  WCA energy for atom 21: -3.140085030112E+00
+  WCA energy for atom 22: -2.551298380367E+00
+  WCA energy for atom 23: 0.000000000000E+00
+  WCA energy for atom 24: -1.477022583393E+00
+  WCA energy for atom 25: -7.540149257694E-01
+  WCA energy for atom 26: -1.227151138780E+00
+  WCA energy for atom 27: -3.194914418789E+00
+  WCA energy for atom 28: -2.601480654857E+00
+  WCA energy for atom 29: 0.000000000000E+00
+  WCA energy for atom 30: -1.368618341155E+00
+  WCA energy for atom 31: -6.802544426120E-01
+  WCA energy for atom 32: -1.123151290575E+00
+  WCA energy for atom 33: -3.161838286643E+00
+  WCA energy for atom 34: -2.090720338237E+00
+  WCA energy for atom 35: 0.000000000000E+00
+  WCA energy for atom 36: -1.422623318647E+00
+  WCA energy for atom 37: -7.663967911447E-01
+  WCA energy for atom 38: -1.221041944881E+00
+  WCA energy for atom 39: -3.303167085006E+00
+  WCA energy for atom 40: -2.367964384276E+00
+  WCA energy for atom 41: 0.000000000000E+00
+  WCA energy for atom 42: -1.164704771621E+00
+  WCA energy for atom 43: -6.513352944139E-01
+  WCA energy for atom 44: -1.085057159172E+00
+  WCA energy for atom 45: -2.519791174920E+00
+  WCA energy for atom 46: -2.575406897162E+00
+  WCA energy for atom 47: 0.000000000000E+00
+  WCA energy for atom 48: -1.107408641542E+00
+  WCA energy for atom 49: -5.777798547617E-01
+  WCA energy for atom 50: -9.270921803624E-01
+  WCA energy for atom 51: -2.720839265237E+00
+  WCA energy for atom 52: -1.536252894873E+00
+  WCA energy for atom 53: 0.000000000000E+00
+  WCA energy for atom 54: -1.084681836492E+00
+  WCA energy for atom 55: -5.470608199609E-01
+  WCA energy for atom 56: -9.706741204511E-01
+  WCA energy for atom 57: -2.590931676830E+00
+  WCA energy for atom 58: -1.934958965620E+00
+  WCA energy for atom 59: 0.000000000000E+00
+  WCA energy for atom 60: -1.185075511986E+00
+  WCA energy for atom 61: -6.149932908044E-01
+  WCA energy for atom 62: -1.028473486677E+00
+  WCA energy for atom 63: -2.995517954752E+00
+  WCA energy for atom 64: -1.850756731557E+00
+  WCA energy for atom 65: 0.000000000000E+00
+  WCA energy for atom 66: -1.147942303366E+00
+  WCA energy for atom 67: -7.112004158035E-01
+  WCA energy for atom 68: -1.139079623875E+00
+  WCA energy for atom 69: -2.671132323101E+00
+  WCA energy for atom 70: -2.618556605240E+00
+  WCA energy for atom 71: 0.000000000000E+00
+  WCA energy for atom 72: -1.387654678442E+00
+  WCA energy for atom 73: -7.419192624981E-01
+  WCA energy for atom 74: -1.197306162145E+00
+  WCA energy for atom 75: -2.974867984853E+00
+  WCA energy for atom 76: -2.711610337893E+00
+  WCA energy for atom 77: 0.000000000000E+00
+  WCA energy for atom 78: -1.268014659486E+00
+  WCA energy for atom 79: -7.454974381964E-01
+  WCA energy for atom 80: -1.215926360195E+00
+  WCA energy for atom 81: -3.190521714934E+00
+  WCA energy for atom 82: -2.629311462101E+00
+  WCA energy for atom 83: 0.000000000000E+00
+  WCA energy for atom 84: -1.514286982602E+00
+  WCA energy for atom 85: -7.241496066613E-01
+  WCA energy for atom 86: -1.199649454928E+00
+  WCA energy for atom 87: -3.174163588869E+00
+  WCA energy for atom 88: -2.499046428314E+00
+  WCA energy for atom 89: 0.000000000000E+00
+  WCA energy for atom 90: -1.385084833723E+00
+  WCA energy for atom 91: -7.240189775386E-01
+  WCA energy for atom 92: -1.133871063264E+00
+  WCA energy for atom 93: -3.209675752136E+00
+  WCA energy for atom 94: -2.219413374923E+00
+  WCA energy for atom 95: 0.000000000000E+00
+  WCA energy for atom 96: -1.104572862761E+00
+  WCA energy for atom 97: -6.870954529927E-01
+  WCA energy for atom 98: -1.036578582774E+00
+  WCA energy for atom 99: -3.028943767797E+00
+  WCA energy for atom 100: -1.785735458702E+00
+  WCA energy for atom 101: 0.000000000000E+00
+  WCA energy for atom 102: -1.255386861406E+00
+  WCA energy for atom 103: -7.163707089425E-01
+  WCA energy for atom 104: -1.219020487421E+00
+  WCA energy for atom 105: -3.151260312136E+00
+  WCA energy for atom 106: -2.616946024925E+00
+  WCA energy for atom 107: 0.000000000000E+00
+  WCA energy for atom 108: -1.463066927053E+00
+  WCA energy for atom 109: -6.889861414905E-01
+  WCA energy for atom 110: -9.454108519598E-01
+  WCA energy for atom 111: -2.862143117069E+00
+  WCA energy for atom 112: -1.458187342176E+00
+  WCA energy for atom 113: 0.000000000000E+00
+  WCA energy for atom 114: -1.477694039761E+00
+  WCA energy for atom 115: -1.623587411907E+00
+  WCA energy for atom 116: -1.365110332692E+00
+  WCA energy for atom 117: -3.442737081029E+00
+  WCA energy for atom 118: -2.291161441201E+00
+  WCA energy for atom 119: 0.000000000000E+00
+
+Total WCA energy: -170.696 kJ/mol
+
+Total non-polar energy = 1.730285427760E+02 kJ/mol
+----------------------------------------
+PRINT STATEMENTS
+
+print APOL energy 1 (1) end
+  Global net APOL energy = 1.730285427760E+02 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  0.001 MB total, 1.713 MB high water
+
+
+Thanks for using APBS!
+

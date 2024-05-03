@@ -9,3 +9,22 @@
   Global net APOL energy = -3.430074506118E+02 kJ/mol
   Global net APOL energy = -3.383805222922E+02 kJ/mol
   Global net APOL energy = -3.468159632211E+02 kJ/mol
+  Global net APOL energy = -3.430074506118E+02 kJ/mol
+  Global net APOL energy = -3.383805222922E+02 kJ/mol
+  Global net APOL energy = -3.468159632211E+02 kJ/mol
+
+
+  Global net APOL energy = -3.430074506118E+02 kJ/mol
+  Global net APOL energy = -3.383805222922E+02 kJ/mol
+  Global net APOL energy = -3.468159632211E+02 kJ/mol
+  Global net APOL energy = 2.674742610374E+02 kJ/mol
+  Global net APOL energy = 2.662705556310E+02 kJ/mol
+  Global net APOL energy = 2.676151536471E+02 kJ/mol
+  Global net APOL energy = 2.661156177882E+02 kJ/mol
+  Global net APOL energy = 2.689117611912E+02 kJ/mol
+  Global net APOL energy = 2.667390738032E+02 kJ/mol
+  Global net APOL energy = 2.664036881819E+02 kJ/mol
+  Global net APOL energy = 2.678146605834E+02 kJ/mol
+  Global net APOL energy = 2.698640684632E+02 kJ/mol
+  Global net APOL energy = 2.734449461192E+02 kJ/mol
+  Global net APOL energy = 2.669442336266E+02 kJ/mol

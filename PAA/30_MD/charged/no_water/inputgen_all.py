@@ -16,7 +16,7 @@ def run():
 def generate_apolar(num_confs):
     with open('apolar-tmpl.in','r') as og:
         og_lines = og.readlines()
-        for i in range(8,num_confs):
+        for i in range(num_confs):
             with open("apolar_conf"+str(i)+".in",'w') as file:
                 for line in og_lines:
                     key_string = "    mol pdb"
@@ -26,7 +26,7 @@ def generate_apolar(num_confs):
                         file.write(line)
 
 def run_apolar(num_confs):
-    for i in range(8,num_confs): 
+    for i in range(num_confs): 
         print( "Running conf %s", i+1)
         lol = subprocess.run(["apbs","apolar_conf"+str(i)+".in"],capture_output=True)
         with open('apolar_output.txt','a') as file:
